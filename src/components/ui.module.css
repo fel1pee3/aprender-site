@@ -1,0 +1,298 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 52px;
+  padding: 15px 23px;
+  background: var(--green);
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1px solid var(--green);
+  border-radius: 5px;
+  text-decoration: none;
+  transition:
+    background 0.2s,
+    transform 0.2s;
+  line-height: 1.5;
+}
+.button:hover {
+  background: var(--deep);
+  transform: translateY(-2px);
+}
+.button svg {
+  flex-shrink: 0;
+}
+.secondary {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--line);
+}
+.secondary:hover {
+  background: var(--soft);
+  color: var(--ink);
+}
+.textLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 44px;
+  color: var(--deep);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--green);
+  white-space: normal;
+}
+.textLink:hover {
+  gap: 20px;
+}
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0 0 20px;
+  color: var(--deep);
+}
+.eyebrow > span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  flex-shrink: 0;
+}
+.eyebrow.light {
+  color: #d3e9d8;
+}
+.eyebrow.light > span {
+  background: #e5b950;
+}
+.sectionHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+.sectionHeading h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: clamp(30px, 3vw, 43px);
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+}
+.description {
+  max-width: 600px;
+  color: var(--muted);
+  font-size: 16px;
+  margin: 20px 0 0;
+}
+.productCard {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--ink);
+  min-width: 0;
+}
+.cover {
+  position: relative;
+  background: var(--card-color, #e7ede0);
+  aspect-ratio: 1/1.04;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  overflow: hidden;
+}
+.cover img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(3px 12px 8px #20311b23);
+  transition: transform 0.3s;
+}
+.productCard:hover .cover img {
+  transform: translateY(-6px) rotate(-2deg);
+}
+.roundArrow {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  height: 36px;
+  width: 36px;
+  display: grid;
+  place-items: center;
+  background: #ffffffd9;
+  color: var(--ink);
+}
+.cardCopy {
+  padding: 21px 1px;
+}
+.stage {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.6;
+}
+.cardCopy h3 {
+  font-size: 21px;
+  line-height: 1.3;
+  font-family: var(--serif);
+  font-weight: 600;
+  margin: 10px 0;
+}
+.cardCopy p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--muted);
+  margin: 0;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 38px;
+}
+.breadcrumb > span {
+  display: contents;
+}
+.breadcrumb a {
+  text-decoration: none;
+  min-height: 28px;
+  display: inline-flex;
+  align-items: center;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+.pageIntro {
+  padding: 24px 0 64px;
+  background: var(--soft);
+  border-bottom: 1px solid var(--line);
+}
+.pageIntro h1 {
+  font-family: var(--serif);
+  font-size: clamp(38px, 5vw, 64px);
+  letter-spacing: -2px;
+  font-weight: 500;
+  line-height: 1.12;
+  margin: 0 0 24px;
+  max-width: 900px;
+}
+.pageIntro > .container > p,
+.pageIntro > div > p:last-child {
+  max-width: 690px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.8;
+}
+.cta {
+  background: var(--deep);
+  color: white;
+  padding: 70px 0;
+  position: relative;
+  overflow: hidden;
+}
+.cta > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+}
+.cta h2 {
+  font-family: var(--serif);
+  font-size: clamp(30px, 3.2vw, 42px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -1px;
+  margin: 0 0 20px;
+}
+.cta h2 em {
+  color: #dbdfb3;
+  font-weight: 400;
+}
+.cta p:not(.eyebrow) {
+  max-width: 550px;
+  color: #d3e2d7;
+  font-size: 15px;
+}
+.cta a {
+  background: #f5f7ec;
+  color: var(--deep);
+  border-color: #f5f7ec;
+  flex-shrink: 0;
+}
+.cta a:hover {
+  background: #e8eddb;
+}
+@media (max-width: 767px) {
+  .sectionHeading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 28px;
+  }
+  .cta > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .cta {
+    padding: 50px 0;
+  }
+  .cover {
+    padding: 26px;
+  }
+  .pageIntro {
+    padding-bottom: 35px;
+  }
+  .pageIntro h1 {
+    letter-spacing: -1.5px;
+  }
+  .pageIntro > div > p:last-child {
+    font-size: 16px;
+  }
+  .breadcrumb {
+    margin-bottom: 28px;
+  }
+  .button {
+    font-size: 13px;
+  }
+  .cardCopy h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cover {
+    padding: 18px;
+  }
+  .cardCopy h3 {
+    font-size: 19px;
+  }
+  .cardCopy p {
+    font-size: 15px;
+  }
+  .roundArrow {
+    width: 30px;
+    height: 30px;
+    right: 9px;
+    bottom: 9px;
+  }
+}

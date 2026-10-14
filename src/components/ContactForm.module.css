@@ -1,0 +1,264 @@
+.wrapper {
+  min-width: 0;
+}
+.form {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: clamp(24px, 4vw, 48px);
+  background: #fff;
+}
+.eyebrow {
+  color: var(--green);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.formHeading h2 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3vw, 35px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 14px 0;
+}
+.formHeading > p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--muted);
+  margin: 0;
+}
+.requiredNote {
+  font-size: 11px;
+  color: var(--muted);
+  margin: 28px 0 20px;
+}
+.requiredNote span {
+  color: var(--green);
+}
+.fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 20px;
+}
+.field {
+  min-width: 0;
+}
+.fullWidth {
+  grid-column: 1 / -1;
+}
+.field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.field label > span:not(.optional) {
+  color: var(--green);
+}
+.optional {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.field input,
+.field select,
+.field textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 13px 14px;
+  min-height: 50px;
+  background: #fff;
+  border: 1px solid #809584;
+  border-radius: 4px;
+  font: 15px/1.5 var(--sans);
+  color: var(--ink);
+}
+.field select {
+  padding-right: 28px;
+  text-overflow: ellipsis;
+}
+.field textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+.field input::placeholder,
+.field textarea::placeholder {
+  font-size: 13px;
+  color: var(--muted);
+  opacity: 1;
+}
+.field [aria-invalid="true"] {
+  border-color: #a43b2d;
+  background: #fffaf8;
+}
+.error {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 8px 0 0;
+  color: #a02e21;
+}
+.errorSummary {
+  color: #a02e21;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 20px 0 0;
+}
+.submitArea {
+  margin-top: 28px;
+}
+.primaryButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-height: 50px;
+  padding: 14px 22px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--green);
+  color: #fff;
+  font: 600 13px/1.4 var(--sans);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.primaryButton:hover {
+  background: var(--deep);
+}
+.submitArea > p {
+  margin: 16px 0 0;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 430px;
+}
+.result {
+  margin-top: 24px;
+  padding: clamp(24px, 4vw, 40px);
+  background: var(--soft);
+  border: 1px solid #b4cab6;
+  border-radius: 8px;
+  scroll-margin-top: 120px;
+}
+.resultIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--green);
+  color: #fff;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+.result h3 {
+  font: 500 27px/1.25 var(--serif);
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+.result > p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+  margin: 0 0 22px;
+}
+.result > label {
+  display: block;
+  font-size: 12px;
+  color: var(--ink);
+  font-weight: 700;
+  margin: 0 0 10px;
+  overflow-wrap: anywhere;
+}
+.result textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  min-height: 230px;
+  padding: 18px;
+  border: 1px solid #809584;
+  border-radius: 4px;
+  background: #fff;
+  font: 13px/1.7 var(--sans);
+  color: var(--ink);
+}
+.resultActions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 20px;
+}
+.resultActions .primaryButton {
+  gap: 10px;
+}
+.copyButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 15px;
+  border: 1px solid #668b6f;
+  border-radius: 4px;
+  color: var(--deep);
+  background: transparent;
+  font: 600 12px var(--sans);
+  cursor: pointer;
+}
+.copyButton:hover {
+  background: #d5e6d5;
+}
+.result .resultHint {
+  margin: 20px 0 0;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+.resultHint a {
+  color: var(--deep);
+  text-underline-offset: 3px;
+}
+.result .copyStatus {
+  color: var(--deep);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 15px 0 0;
+}
+.result .copyStatus:empty {
+  display: none;
+}
+@media (max-width: 550px) {
+  .fields {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .fullWidth {
+    grid-column: auto;
+  }
+  .field input,
+  .field select,
+  .field textarea,
+  .result textarea {
+    font-size: 16px;
+  }
+  .resultActions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .form {
+    padding: 26px 20px;
+  }
+  .primaryButton {
+    width: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .primaryButton {
+    transition: none;
+  }
+}
