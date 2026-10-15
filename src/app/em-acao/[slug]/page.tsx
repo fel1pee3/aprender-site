@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { articles, getArticle } from "@/data/editorial";
@@ -6,21 +7,18 @@ import { Breadcrumb, ContactCTA, Eyebrow, TextLink } from "@/components/ui";
 import s from "../../inner.module.css";
 type Props = { params: Promise<{ slug: string }> };
 export function generateStaticParams() {
-  return articles.map(({ slug }) => ({ slug }));
+  return articles.map((article) => ({ slug: article.slug }));
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = getArticle((await params).slug);
   return article
-    ? {
+    ? pageMetadata({
         title: article.title,
         description: article.excerpt,
-        openGraph: {
-          type: "article",
-          title: article.title,
-          description: article.excerpt,
-          images: [article.image],
-        },
-      }
+        path: `/em-acao/${article.slug}`,
+        image: article.image,
+        type: "article",
+      })
     : { title: "Registro não encontrado" };
 }
 export default async function ArticlePage({ params }: Props) {

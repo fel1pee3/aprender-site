@@ -2,33 +2,19 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import "./globals.css";
+import { pageMetadata, siteOrigin } from "@/lib/metadata";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
-  ),
-  title: {
-    default: "Aprender Editora — Compromisso com a Aprendizagem",
-    template: "%s | Aprender Editora",
-  },
-  description:
-    "Materiais didáticos, formação de educadores e acompanhamento pedagógico. Conheça a proposta independente de redesign da Aprender Editora por Felipe Maia.",
-  robots: { index: false, follow: false },
-  openGraph: {
-    locale: "pt_BR",
-    type: "website",
-    siteName: "Aprender Editora · Proposta de redesign",
-    title: "Aprender Editora — Compromisso com a Aprendizagem",
+  metadataBase: new URL(siteOrigin),
+  ...pageMetadata({
+    title: "Aprender Editora · Compromisso com a Aprendizagem",
     description:
-      "Educação que acolhe, conhecimento que transforma. Proposta independente de redesign.",
-    images: [
-      {
-        url: "/images/hero.webp",
-        width: 1200,
-        height: 800,
-        alt: "Registro educacional do catálogo Aprender Editora",
-      },
-    ],
+      "Materiais didáticos, alfabetização, formação contínua e acompanhamento pedagógico. Proposta independente de redesign por Felipe Maia.",
+    path: "/",
+  }),
+  title: {
+    default: "Aprender Editora · Compromisso com a Aprendizagem",
+    template: "%s | Aprender Editora",
   },
 };
 export default function RootLayout({

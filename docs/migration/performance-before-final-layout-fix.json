@@ -1,0 +1,176 @@
+{
+  "checkedAt": "2026-10-14T21:14:34.569Z",
+  "method": "Microsoft Edge headless, fresh context, browser cache disabled, local production server, 150 ms simulated latency, 1.6 Mbps download, 0.75 Mbps upload and 4× CPU slowdown. One navigation per route and viewport; lab snapshot, not Lighthouse or field data. LCP observed until 1.5 seconds after network idle.",
+  "measurements": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 988,
+      "cls": 0.0007615536085247009,
+      "fcp": 940,
+      "ttfb": 8.800000000745058,
+      "domContentLoaded": 900.6000000014901,
+      "load": 2265,
+      "transferBytes": 411861,
+      "requests": 23,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 736,
+      "cls": 0.26922303015747684,
+      "fcp": 736,
+      "ttfb": 15.699999999254942,
+      "domContentLoaded": 748.3000000007451,
+      "load": 2742.300000000745,
+      "transferBytes": 496889,
+      "requests": 26,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 860,
+      "cls": 0.00021068817135560917,
+      "fcp": 860,
+      "ttfb": 6,
+      "domContentLoaded": 863.1999999992549,
+      "load": 2270.10000000149,
+      "transferBytes": 419193,
+      "requests": 25,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 728,
+      "cls": 0.12734362469000512,
+      "fcp": 728,
+      "ttfb": 22.099999997764826,
+      "domContentLoaded": 718.6999999992549,
+      "load": 2288.7999999970198,
+      "transferBytes": 385356,
+      "requests": 18,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/acervo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 892,
+      "cls": 0.016372518551638553,
+      "fcp": 892,
+      "ttfb": 5.899999998509884,
+      "domContentLoaded": 899.3000000007451,
+      "load": 3606.89999999851,
+      "transferBytes": 644681,
+      "requests": 21,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1260,
+      "cls": 0.0005428863902150849,
+      "fcp": 928,
+      "ttfb": 5.700000002980232,
+      "domContentLoaded": 928.9000000022352,
+      "load": 2743.400000002235,
+      "transferBytes": 544273,
+      "requests": 39,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 724,
+      "cls": 0.19877839084201387,
+      "fcp": 724,
+      "ttfb": 15.399999998509884,
+      "domContentLoaded": 732.2999999970198,
+      "load": 3421.2999999970198,
+      "transferBytes": 701689,
+      "requests": 56,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 908,
+      "cls": 0.00020901685173128854,
+      "fcp": 892,
+      "ttfb": 7.399999998509884,
+      "domContentLoaded": 888.8000000007451,
+      "load": 2302.60000000149,
+      "transferBytes": 470386,
+      "requests": 37,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 728,
+      "cls": 0.08610466317635995,
+      "fcp": 728,
+      "ttfb": 21.899999998509884,
+      "domContentLoaded": 735.0999999977648,
+      "load": 2220.199999999255,
+      "transferBytes": 447824,
+      "requests": 36,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    },
+    {
+      "route": "/acervo",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 924,
+      "cls": 0.03286834366409867,
+      "fcp": 924,
+      "ttfb": 7,
+      "domContentLoaded": 952.1000000014901,
+      "load": 3654.2000000029802,
+      "transferBytes": 713842,
+      "requests": 43,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false
+    }
+  ]
+}

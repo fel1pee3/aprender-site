@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { contact } from "@/data/editorial";
+import { socialLinks } from "@/data/archive";
 import { Icon } from "./Icon";
 import s from "./Footer.module.css";
 export function Footer() {
@@ -29,18 +30,24 @@ export function Footer() {
             <Link href="/solucoes">Soluções educacionais</Link>
             <Link href="/formacao">Formação de educadores</Link>
             <Link href="/em-acao">Aprender em ação</Link>
+            <Link href="/acervo">Acervo e depoimentos</Link>
+            <Link href="/recursos">Amostras e documentos</Link>
+            <Link href="/recursos/tabela-precos">Tabela publicada · 2027</Link>
           </div>
           <div>
             <h2>Conecte-se</h2>
             <Link href="/plataformas">Plataformas digitais</Link>
-            <a
-              href={contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram <Icon name="arrow-up" size={13} />
-              <span className="sr-only"> (nova aba)</span>
-            </a>
+            {socialLinks.map((social) => (
+              <a
+                key={social.id}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {social.name} <Icon name="external" size={13} />
+                <span className="sr-only"> (nova aba)</span>
+              </a>
+            ))}
             <Link href="/contato">Fale com a Aprender</Link>
             <a href={contact.phoneHref}>{contact.phone}</a>
           </div>

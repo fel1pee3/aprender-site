@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-14T21:07:08.809Z",
+  "method": "Microsoft Edge headless, fresh context, browser cache disabled, local production server, 150 ms simulated latency, 1.6 Mbps download, 0.75 Mbps upload and 4× CPU slowdown. One navigation per route and viewport; lab snapshot, not Lighthouse or field data. LCP observed until 1.5 seconds after network idle.",
+  "measurements": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 980,
+      "cls": 0.0007615536085247009,
+      "fcp": 948,
+      "ttfb": 6.800000000745058,
+      "domContentLoaded": 895.5,
+      "load": 2272.400000002235,
+      "transferBytes": 428039,
+      "requests": 24,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/solucoes",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 724,
+      "cls": 0.26919050445223486,
+      "fcp": 724,
+      "ttfb": 3.800000000745058,
+      "domContentLoaded": 713.3000000007451,
+      "load": 2224.599999997765,
+      "transferBytes": 491628,
+      "requests": 26,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 868,
+      "cls": 0.00021068817135560917,
+      "fcp": 868,
+      "ttfb": 5.600000001490116,
+      "domContentLoaded": 857.5,
+      "load": 2259.800000000745,
+      "transferBytes": 435367,
+      "requests": 26,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 720,
+      "cls": 0.12734362469000512,
+      "fcp": 720,
+      "ttfb": 4.099999997764826,
+      "domContentLoaded": 702.0999999977648,
+      "load": 2367.699999999255,
+      "transferBytes": 1936123,
+      "requests": 20,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/acervo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 856,
+      "cls": 0.016372518551638553,
+      "fcp": 856,
+      "ttfb": 5.5,
+      "domContentLoaded": 893.0999999977648,
+      "load": 3572.099999997765,
+      "transferBytes": 644685,
+      "requests": 21,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1292,
+      "cls": 0.0005428863902150849,
+      "fcp": 956,
+      "ttfb": 4.599999997764826,
+      "domContentLoaded": 961.8999999985099,
+      "load": 2744.39999999851,
+      "transferBytes": 560467,
+      "requests": 40,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/solucoes",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 724,
+      "cls": 0.19877839084201387,
+      "fcp": 724,
+      "ttfb": 4.199999999254942,
+      "domContentLoaded": 730.5,
+      "load": 2242.7999999970198,
+      "transferBytes": 700532,
+      "requests": 58,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 912,
+      "cls": 0.00020901685173128854,
+      "fcp": 896,
+      "ttfb": 5.299999997019768,
+      "domContentLoaded": 885.0999999977648,
+      "load": 2303.699999999255,
+      "transferBytes": 486577,
+      "requests": 38,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 716,
+      "cls": 0.08936739917896412,
+      "fcp": 716,
+      "ttfb": 4.099999997764826,
+      "domContentLoaded": 726.1999999992549,
+      "load": 2248,
+      "transferBytes": 2014260,
+      "requests": 38,
+      "pdfOrVideoAutomaticallyRequested": []
+    },
+    {
+      "route": "/acervo",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 904,
+      "cls": 0.03286834366409867,
+      "fcp": 904,
+      "ttfb": 8.5,
+      "domContentLoaded": 917.1000000014901,
+      "load": 3748.400000002235,
+      "transferBytes": 730034,
+      "requests": 44,
+      "pdfOrVideoAutomaticallyRequested": []
+    }
+  ]
+}

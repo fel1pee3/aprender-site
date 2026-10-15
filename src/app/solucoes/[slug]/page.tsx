@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
+import { CollectionContent } from "@/components/CollectionContent";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
@@ -22,15 +24,12 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const solution = getSolution((await params).slug);
   if (!solution) return { title: "Solução não encontrada" };
-  return {
+  return pageMetadata({
     title: solution.name,
     description: solution.description,
-    openGraph: {
-      title: solution.name,
-      description: solution.description,
-      images: [solution.image],
-    },
-  };
+    path: `/solucoes/${solution.slug}`,
+    image: solution.image || undefined,
+  });
 }
 export default async function SolutionPage({ params }: Props) {
   const solution = getSolution((await params).slug);
@@ -57,16 +56,23 @@ export default async function SolutionPage({ params }: Props) {
               className={s.solutionArtwork}
               style={{ "--accent": solution.accent } as CSSProperties}
             >
-              <Image
-                src={solution.image}
-                alt={`Material da coleção ${solution.name}`}
-                width={600}
-                height={500}
-                priority
-                sizes="(max-width:767px) 90vw, 42vw"
-              />
+              {solution.image ? (
+                <Image
+                  src={solution.image}
+                  alt={`Material da coleção ${solution.name}`}
+                  width={600}
+                  height={500}
+                  priority
+                  sizes="(max-width:767px) 90vw, 42vw"
+                />
+              ) : (
+                <div>
+                  <Icon name="book" size={60} />
+                  <p>{solution.name}</p>
+                </div>
+              )}
               <span className={s.edition}>
-                Coleção Aprender · Catálogo 2025
+                {solution.sourceLabel || "Coleção Aprender · Catálogo 2025"}
               </span>
             </div>
             <div className={s.solutionCopy}>
@@ -82,9 +88,12 @@ export default async function SolutionPage({ params }: Props) {
                   Tenho interesse nesta solução
                 </Button>
                 <TextLink
-                  href={`${catalogueUrl}#page=${solution.sourcePages[0]}`}
+                  href={
+                    solution.sourceUrl ||
+                    `${catalogueUrl}#page=${solution.sourcePages[0]}`
+                  }
                 >
-                  Ver no catálogo (PDF)
+                  Consultar fonte da apresentação
                 </TextLink>
               </div>
             </div>
@@ -94,8 +103,23 @@ export default async function SolutionPage({ params }: Props) {
       <section className={s.whiteSection}>
         <div className={`container ${s.solutionInfo}`}>
           <div>
-            <Eyebrow>Intencionalidade pedagógica</Eyebrow>
-            <h2>O que a proposta desenvolve</h2>
+            <Eyebrow>
+              {solution.goals.length
+                ? "Intencionalidade pedagógica"
+                : "Apresentação documentada"}
+            </Eyebrow>
+            <h2>
+              {solution.goals.length
+                ? "O que a proposta desenvolve"
+                : "Materiais de Inglês para estudantes e professores"}
+            </h2>
+            {!solution.goals.length && (
+              <p>
+                A tabela de 2027 relaciona os títulos, níveis, destinatários e
+                preços. Consulte as variantes abaixo e converse com a editora
+                para conhecer a proposta pedagógica.
+              </p>
+            )}
             <ol className={s.detailList}>
               {solution.goals.map((goal, i) => (
                 <li key={goal}>
@@ -119,43 +143,48 @@ export default async function SolutionPage({ params }: Props) {
           </div>
         </div>
       </section>
-      <section className={s.softSection}>
-        <div className={`container ${s.supportGrid}`}>
-          <div>
-            <Eyebrow>Ao lado dos educadores</Eyebrow>
-            <h2>O material é parte de uma caminhada.</h2>
-            <p>
-              Conheça os apoios associados a esta coleção no catálogo de 2025. A
-              equipe da Aprender pode orientar a organização da proposta para
-              sua rede.
-            </p>
-            <TextLink href="/formacao">
-              Entenda a formação e o acompanhamento
-            </TextLink>
+      <CollectionContent slug={solution.slug} />
+      {solution.support.length > 0 && (
+        <section className={s.softSection}>
+          <div className={`container ${s.supportGrid}`}>
+            <div>
+              <Eyebrow>Ao lado dos educadores</Eyebrow>
+              <h2>Materiais e apoio à prática docente.</h2>
+              <p>
+                Conheça os apoios associados à apresentação desta coleção. A
+                equipe da Aprender pode orientar a organização da proposta para
+                sua rede.
+              </p>
+              <TextLink href="/formacao">
+                Entenda a formação e o acompanhamento
+              </TextLink>
+            </div>
+            <div>
+              <ul className={s.checkList}>
+                {solution.support.map((item) => (
+                  <li key={item}>
+                    <Icon name="check" size={18} />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+              <p className={s.sourceNote}>
+                Fonte:{" "}
+                {solution.sourceLabel ||
+                  `catálogo institucional de 2025, p. ${solution.sourcePages.join(", ")}`}
+                . Componentes e condições de atendimento devem ser confirmados
+                com a editora.
+              </p>
+            </div>
           </div>
-          <div>
-            <ul className={s.checkList}>
-              {solution.support.map((item) => (
-                <li key={item}>
-                  <Icon name="check" size={18} />
-                  {item}
-                </li>
-              ))}
-            </ul>
-            <p className={s.sourceNote}>
-              Fonte: catálogo institucional de 2025, p.{" "}
-              {solution.sourcePages.join(", ")}. Componentes e condições de
-              atendimento devem ser confirmados com a editora.
-            </p>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
       {related.length > 0 && (
         <section className={s.section}>
           <div className="container">
             <SectionHeading
               eyebrow="Continue explorando"
-              title="Outros caminhos para aprender."
+              title="Outras soluções para sua rede."
             >
               <TextLink href="/solucoes">Ver todas as soluções</TextLink>
             </SectionHeading>

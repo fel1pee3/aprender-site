@@ -170,7 +170,7 @@
 }
 .evidenceGrid {
   display: grid;
-  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(0,1fr));
   gap: 32px;
   padding-block: 27px;
   align-items: center;
@@ -200,6 +200,9 @@
   font-size: 11px !important;
   max-width: none !important;
 }
+.evidenceTitle{grid-column:1/-1;display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px}
+.evidenceTitle a{margin-left:auto;font-size:11px}
+.evidenceGrid > div:nth-child(2){border-left:0;padding-left:0}
 .evidenceTitle > strong {
   font-size: 17px !important;
   letter-spacing: 0 !important;
@@ -570,15 +573,7 @@
     border: 0;
     padding-left: 0;
   }
-  .evidenceGrid > div:last-child {
-    grid-column: 1/-1;
-    border-left: 0;
-    border-top: 1px solid var(--line);
-    padding: 20px 0 0;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
+  .evidenceGrid > div:nth-child(4){border-left:0;padding-left:0}
   .evidenceGrid > div > strong {
     font-size: 23px;
     white-space: normal;

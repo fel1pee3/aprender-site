@@ -35,10 +35,19 @@ export function TextLink({
   href: string;
   children: ReactNode;
 }) {
+  const external = /^https?:/.test(href);
+  const asset = /\.(?:pdf|jpe?g|png|webp|mp4|vtt)(?:[?#]|$)/i.test(href);
+  if (external || asset)
+    return (
+      <a href={href} className={styles.textLink}>
+        {children}
+        <Icon name={external ? "external" : "arrow"} size={19} />
+      </a>
+    );
   return (
     <Link href={href} className={styles.textLink}>
       {children}
-      <Icon name="arrow" size={19} />
+      <Icon name={/^https?:/.test(href) ? "external" : "arrow"} size={19} />
     </Link>
   );
 }
@@ -86,15 +95,23 @@ export function ProductCard({ solution }: { solution: Solution }) {
       style={{ "--card-color": solution.accent } as CSSProperties}
     >
       <div className={styles.cover}>
-        <Image
-          src={solution.image}
-          alt={`Capa da coleção ${solution.name}`}
-          width={320}
-          height={380}
-          sizes="(max-width: 600px) 78vw, (max-width: 1000px) 40vw, 280px"
-        />
+        {solution.image ? (
+          <Image
+            src={solution.image}
+            alt={`Materiais da coleção ${solution.name}`}
+            width={320}
+            height={380}
+            sizes="(max-width: 600px) 78vw, (max-width: 1000px) 40vw, 280px"
+          />
+        ) : (
+          <div className={styles.textCover}>
+            <Icon name="book" size={38} />
+            <strong>{solution.name}</strong>
+            <span>Materiais de estudantes e professores</span>
+          </div>
+        )}
         <span className={styles.roundArrow}>
-          <Icon name="arrow-up" size={21} />
+          <Icon name="arrow" size={21} />
         </span>
       </div>
       <div className={styles.cardCopy}>
@@ -160,8 +177,8 @@ export function ContactCTA() {
             <em>Vamos conhecer a sua?</em>
           </h2>
           <p>
-            Converse com a Aprender sobre os caminhos para a aprendizagem no seu
-            município.
+            Conheça os materiais, a formação e o acompanhamento adequados à sua
+            rede de ensino.
           </p>
         </div>
         <Button href="/contato">Conversar com a Aprender</Button>

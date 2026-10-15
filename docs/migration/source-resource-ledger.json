@@ -1,0 +1,1594 @@
+{
+  "checkedAt": "2026-10-14",
+  "sourcePages": 31,
+  "resourceCount": 184,
+  "resources": [
+    {
+      "url": "https://www.aprendereditora.com.br/v2/imgs/logo.png",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/",
+        "/quem-somos",
+        "/missao-principios-e-valores",
+        "/trajetoria",
+        "/trajetorias-prof-edgar",
+        "/trajetorias-lendo-voce-fica-sabendo",
+        "/paic",
+        "/produtos",
+        "/brincando-e-aprendendo",
+        "/brincando-e-aprendendo-novo",
+        "/lendo-e-escrevendo",
+        "/novo-lendo-voce-fica-sabendo",
+        "/escrever-comunicar-e-ser",
+        "/colecao-acerta-brasil",
+        "/colecao-a-cor-da-gente",
+        "/colecao-vida-e-linguagem",
+        "/colecao-vida-e-matematica",
+        "/projeto-tema",
+        "/projeto-transito-legal",
+        "/educacao-financeira",
+        "/colecao-fluir-das-emocoes",
+        "/sou-da-paz",
+        "/aprender-em-acao",
+        "/tabela-precos",
+        "/aprender-formar",
+        "/aprencer-avaliar",
+        "/fale-conosco",
+        "/video-1",
+        "/video-2",
+        "/video-3"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/banner-top2.jpg",
+      "alt": "Mais de 600 mil alunos alfabetizados com nosso material",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/banner-top.jpg",
+      "alt": "02",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/page/b7f252468b6217588cf492049caef1cd.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/page/ca5797e975dfa36d3eb0a489cbcbab11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/page/1f4e046675b846c8c5ee32e6e8c9a7d4.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-1.jpg",
+      "alt": "Prof. ALCIDES",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-3.jpg",
+      "alt": "Profa. CICERA",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-4.jpg",
+      "alt": "Profa. GERMANA",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-5.jpg",
+      "alt": "Prof. HERBERT",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-6.jpg",
+      "alt": "Prof. JOSE LEANDRO",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-7.jpg",
+      "alt": "Prof. JOSE MARCELO",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-8.jpg",
+      "alt": "Prof. JULIO",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-9.jpg",
+      "alt": "Profa. LUCINETE",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/banner/frase-10.jpg",
+      "alt": "Profa. VILMA",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/imgs/logo-branca.png",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/",
+        "/quem-somos",
+        "/missao-principios-e-valores",
+        "/trajetoria",
+        "/trajetorias-prof-edgar",
+        "/trajetorias-lendo-voce-fica-sabendo",
+        "/paic",
+        "/produtos",
+        "/brincando-e-aprendendo",
+        "/brincando-e-aprendendo-novo",
+        "/lendo-e-escrevendo",
+        "/novo-lendo-voce-fica-sabendo",
+        "/escrever-comunicar-e-ser",
+        "/colecao-acerta-brasil",
+        "/colecao-a-cor-da-gente",
+        "/colecao-vida-e-linguagem",
+        "/colecao-vida-e-matematica",
+        "/projeto-tema",
+        "/projeto-transito-legal",
+        "/educacao-financeira",
+        "/colecao-fluir-das-emocoes",
+        "/sou-da-paz",
+        "/aprender-em-acao",
+        "/tabela-precos",
+        "/aprender-formar",
+        "/aprencer-avaliar",
+        "/fale-conosco",
+        "/video-1",
+        "/video-2",
+        "/video-3"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/imgs/gototop.png",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/",
+        "/quem-somos",
+        "/missao-principios-e-valores",
+        "/trajetoria",
+        "/trajetorias-prof-edgar",
+        "/trajetorias-lendo-voce-fica-sabendo",
+        "/paic",
+        "/produtos",
+        "/brincando-e-aprendendo",
+        "/brincando-e-aprendendo-novo",
+        "/lendo-e-escrevendo",
+        "/novo-lendo-voce-fica-sabendo",
+        "/escrever-comunicar-e-ser",
+        "/colecao-acerta-brasil",
+        "/colecao-a-cor-da-gente",
+        "/colecao-vida-e-linguagem",
+        "/colecao-vida-e-matematica",
+        "/projeto-tema",
+        "/projeto-transito-legal",
+        "/educacao-financeira",
+        "/colecao-fluir-das-emocoes",
+        "/sou-da-paz",
+        "/aprender-em-acao",
+        "/tabela-precos",
+        "/aprender-formar",
+        "/aprencer-avaliar",
+        "/fale-conosco",
+        "/video-1",
+        "/video-2",
+        "/video-3"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/Site-Aprender_Tela-2-Quem-somos.png",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/quem-somos"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas/missao-valores.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/missao-principios-e-valores"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_12.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_13.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_14.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/trajetoria/trajetoria3_15.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetoria"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/Prof_Edgar-Link-do-trajetoria.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetorias-prof-edgar"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/Projeto-Lendo-link-do-trajetoria.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/trajetorias-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/paic/pagina-paic_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/paic"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/paic/pagina-paic_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/paic"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/paic/pagina-paic_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/paic"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/paic/pagina-paic_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/paic"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/paic/pagina-paic_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/paic"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/paic"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_12.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_13.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_14.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_15.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_16.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/brincando-e-aprendendo/brincando-e-aprendendo_17.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/brincando-e-aprendendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas/colecao_brincando_aprendendo.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/brincando-e-aprendendo-novo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_12.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/lendo/lendo_13.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/lendo-e-escrevendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/novo-lendo/novo-lendo_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/novo-lendo-voce-fica-sabendo"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_12.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/escrever/escrever_13.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/escrever-comunicar-e-ser"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/acerta-brasil/acerta-brasil_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-acerta-brasil"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas2/Site-Aprender_-PRODUTOS-Tela-9-Col_A-Cor-da-Gente.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-a-cor-da-gente"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/linguagem/linguagem_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-linguagem"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/matematica/matematica_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/colecao-vida-e-matematica"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_01.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_02.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_04.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_06.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_07.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_08.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_09.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_10.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_11.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_12.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/tema/tema_13.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf",
+      "tag": "a",
+      "title": "",
+      "category": "PDF",
+      "pages": [
+        "/projeto-tema"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas2/Site-Aprender_-PRODUTOS-Tela-10-Col_Transito.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/projeto-transito-legal"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas2/Site-Aprender_-PRODUTOS-Tela-11-Col_Ed_Finaceira.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/educacao-financeira"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas2/Site-Aprender_-PRODUTOS-Tela-12-Col_Fluir.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/colecao-fluir-das-emocoes"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/Site-Aprender_Tela-19-Aprender_ACAO-final.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/aprender-em-acao"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/tabela-precos"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas/aprender_formar.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/aprender-formar"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas/aprender_formar_botao.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/aprender-formar"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas/aprender_avaliar.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/aprencer-avaliar"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas/aprender_avaliar_pagina.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/aprencer-avaliar"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Banner%20Lateral%20Formulario/bnnr-lat_03.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/fale-conosco"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/m1.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/fale-conosco"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Banner%20Lateral%20Formulario/bnnr-lat_05.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/fale-conosco"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/m2.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/fale-conosco"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/m3.jpg",
+      "alt": "",
+      "category": "Imagem-fonte",
+      "pages": [
+        "/fale-conosco"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-1.mp4",
+      "tag": "video",
+      "category": "Vídeo",
+      "pages": [
+        "/video-1"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-2.mp4",
+      "tag": "video",
+      "category": "Vídeo",
+      "pages": [
+        "/video-2"
+      ]
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-3.mp4",
+      "tag": "video",
+      "category": "Vídeo",
+      "pages": [
+        "/video-3"
+      ]
+    }
+  ]
+}

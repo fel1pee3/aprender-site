@@ -1,15 +1,17 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { Suspense } from "react";
 import { ContactForm } from "@/components/ContactForm";
 import { PageIntro } from "@/components/ui";
 import { Icon } from "@/components/Icon";
 import { contact } from "@/data/editorial";
+import { socialLinks } from "@/data/archive";
 import s from "../inner.module.css";
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Vamos conversar",
   description:
     "Converse com a Aprender Editora sobre materiais, formação e acompanhamento para sua rede. Prepare sua mensagem ou use os canais institucionais.",
-};
+  path: "/contato",
+});
 export default function Contact() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function Contact() {
             com uma boa conversa.
           </>
         }
-        description="Conte sobre sua escola, seu município e os desafios de aprendizagem. Vamos encontrar juntos os próximos caminhos."
+        description="Informe sua instituição e os materiais ou a formação de que sua rede precisa. Prepare uma mensagem ou use os canais públicos da editora."
       />
       <section className={s.section}>
         <div className={`container ${s.contactGrid}`}>
@@ -58,14 +60,17 @@ export default function Contact() {
               <Icon name="external" />
               <div>
                 <h3>Outros canais</h3>
-                <a
-                  href={contact.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Instagram da Aprender (nova aba)
-                </a>
-                <br />
+                {socialLinks.map((social) => (
+                  <p key={social.id}>
+                    <a
+                      href={social.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {social.name} da Aprender (nova aba)
+                    </a>
+                  </p>
+                ))}
                 <a
                   href={contact.contactUrl}
                   target="_blank"
@@ -75,6 +80,10 @@ export default function Contact() {
                 </a>
               </div>
             </div>
+            <p>
+              Endereço da edição de 2025. Registros antigos citam Rua Marvin,
+              mantida como referência de acervo.
+            </p>
             <p>
               Esta é uma proposta independente de redesign. Os links de telefone
               e e-mail direcionam aos canais públicos da editora.

@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-14T21:12:12.400Z",
+  "results": [
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Banner%20Lateral%20Formulario/bnnr-lat_03.jpg",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "sizeBytes": 13440,
+      "returnedHtml": false,
+      "jpegSignature": false
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/images/Banner%20Lateral%20Formulario/bnnr-lat_03.jpg",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "sizeBytes": 13062,
+      "returnedHtml": true,
+      "jpegSignature": false
+    },
+    {
+      "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Banner%20Lateral%20Formulario/bnnr-lat_05.jpg",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "sizeBytes": 13062,
+      "returnedHtml": true,
+      "jpegSignature": false
+    },
+    {
+      "url": "https://aprendereditora.com.br/v2/midia/kcfinder/images/Banner%20Lateral%20Formulario/bnnr-lat_05.jpg",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "sizeBytes": 13062,
+      "returnedHtml": true,
+      "jpegSignature": false
+    }
+  ],
+  "note": "Limited recovery on both official hostnames. The broken sidebar images are distinct from the three verified video resources preserved in the archive; their unavailable graphic content was not invented."
+}

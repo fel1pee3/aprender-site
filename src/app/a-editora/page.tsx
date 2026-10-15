@@ -1,19 +1,20 @@
-import type { Metadata } from "next";
 import Image from "next/image";
-import { milestones, principles, catalogueUrl } from "@/data/editorial";
+import { pageMetadata } from "@/lib/metadata";
 import {
-  ContactCTA,
-  Eyebrow,
-  PageIntro,
-  SectionHeading,
-  TextLink,
-} from "@/components/ui";
-import s from "../inner.module.css";
-export const metadata: Metadata = {
+  missionVersions,
+  institutionalValues,
+  team,
+} from "@/data/institutional";
+import { ContactCTA, PageIntro, TextLink } from "@/components/ui";
+import { ReadingNav } from "@/components/ReadingNav";
+import s from "@/components/content.module.css";
+
+export const metadata = pageMetadata({
   title: "A editora",
   description:
-    "Conheça a Aprender Editora: sua origem em Fortaleza, a trajetória na alfabetização, os valores e o compromisso com a aprendizagem desde 2005.",
-};
+    "Missão, sete valores e equipe da Aprender Editora. Materiais, formação e acompanhamento da aprendizagem desde 2005.",
+  path: "/a-editora",
+});
 export default function About() {
   return (
     <>
@@ -21,125 +22,133 @@ export default function About() {
         eyebrow="A editora"
         title={
           <>
-            Uma história de encontros.
+            Compromisso com a aprendizagem.
             <br />
-            Um compromisso com o futuro.
+            Desde 2005.
           </>
         }
-        description="Nascemos em Fortaleza, em 2005, com uma convicção: o trabalho de quem educa merece apoio, conhecimento e companhia."
+        description="Materiais didáticos, formação de educadores e acompanhamento pedagógico, com raízes na experiência de alfabetização do Ceará."
       />
-      <section className={s.section}>
-        <div className={`container ${s.split}`}>
-          <div>
-            <Eyebrow>Prazer, somos a Aprender</Eyebrow>
-            <h2 className={s.editorialTitle}>
-              A aprendizagem está no centro de tudo.
+      <div className="container">
+        <ReadingNav current="/a-editora" />
+      </div>
+      <section id="equipe" className={s.section}>
+        <div className={`container ${s.twoColumns}`}>
+          <div className={s.prose}>
+            <h2 className={s.heading}>
+              Uma equipe dedicada a ensinar e aprender.
             </h2>
-            <div className={s.copy}>
-              <p>
-                A Aprender Editora produz materiais didáticos semiestruturados
-                para a Educação Infantil e o Ensino Fundamental. São propostas
-                que articulam livros, formação contínua, acompanhamento
-                pedagógico e avaliação.
-              </p>
-              <p>
-                Esse trabalho se constrói com os educadores e as redes de
-                ensino, valorizando a prática em sala de aula e as
-                possibilidades de desenvolvimento de cada estudante.
-              </p>
-            </div>
-            <p className={s.quote}>Compromisso com a Aprendizagem.</p>
+            <p>{team.intro}</p>
+            <p>Especializações: {team.specializations.join(", ")}.</p>
+            {team.approach.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+            <p className={s.source}>
+              <a href={team.sourceUrl}>Apresentação institucional da equipe</a>
+            </p>
           </div>
-          <figure className={s.figure}>
+          <figure className={s.photo}>
             <Image
-              src="/images/history.webp"
-              alt="Educadora acompanha a atividade de um estudante em sala de aula"
-              width={1366}
-              height={1816}
-              sizes="(max-width:767px) 90vw, 43vw"
+              src="/images/formation.webp"
+              alt="Educadores participam de uma atividade coletiva de formação"
+              width={1589}
+              height={1016}
+              sizes="(max-width:600px) 90vw, 45vw"
+              style={{ height: "auto" }}
             />
             <figcaption>
-              Acompanhamento em Palhano (CE), 2010. Catálogo institucional de
-              2025, p. 2.
+              Formação de educadores · acervo do catálogo institucional de 2025,
+              p. 61. Data do encontro não informada.
             </figcaption>
           </figure>
         </div>
       </section>
-      <section id="trajetoria" className={s.softSection}>
+      <section id="missao" className={`${s.section} ${s.soft}`}>
         <div className="container">
-          <SectionHeading
-            eyebrow="Nossa trajetória"
-            title="Raízes no Ceará. Olhar para o amanhã."
-          />
-          <div className={s.timeline}>
-            {milestones.map((item) => (
-              <article className={s.milestone} key={item.year}>
-                <span>{item.year}</span>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
+          <div className={s.prose}>
+            <h2 className={s.heading}>Nossa missão</h2>
+            <span className={s.editionBadge}>{missionVersions[0].edition}</span>
+            <p>{missionVersions[0].text}</p>
+            <p className={s.source}>
+              <a href={missionVersions[0].sourceUrl}>Consultar publicação</a>
+            </p>
+            <details id={missionVersions[1].id} className={s.accordion}>
+              <summary>{missionVersions[1].title}</summary>
+              <div>
+                <p>{missionVersions[1].text}</p>
+                <p>{missionVersions[1].note}</p>
+                <a href={missionVersions[1].sourceUrl}>
+                  Versão do site institucional
+                </a>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+      <section id="valores" className={s.section}>
+        <div className="container">
+          <h2 className={s.heading}>
+            Sete valores que orientam nosso trabalho.
+          </h2>
+          <p className={s.note}>
+            Declarações do catálogo de 2025. A apresentação anterior do site
+            permanece disponível em cada valor.
+          </p>
+          <div className={s.twoColumns}>
+            {institutionalValues.map((value) => (
+              <article id={value.id} key={value.id} className={s.prose}>
+                <h3 className={s.subheading}>{value.title}</h3>
+                <p>{value.description}</p>
+                <details className={s.accordion}>
+                  <summary>Contexto da versão anterior</summary>
+                  <div>
+                    <p>{value.historicalDescription}</p>
+                    <a href={value.historicalSourceUrl}>
+                      Apresentação institucional sem data de edição
+                    </a>
+                  </div>
+                </details>
               </article>
             ))}
           </div>
-          <p className={s.sourceNote}>
-            Marcos documentados no{" "}
-            <a href={`${catalogueUrl}#page=4`}>
-              catálogo institucional de 2025, p. 4–7
+          <p className={s.source}>
+            <a href={institutionalValues[0].sourceUrl}>
+              Fonte: catálogo de 2025, página 1
             </a>
-            . Os indicadores da página inicial são acumulados divulgados nessa
-            edição: mais de 2 milhões de estudantes que utilizaram os materiais,
-            mais de 100 mil educadores e coordenadores nas formações e mais de
-            300 municípios atendidos. São registros históricos da editora.
           </p>
         </div>
       </section>
-      <section className={s.section}>
-        <div className={`container ${s.split}`}>
-          <div>
-            <Eyebrow>Educação é uma construção coletiva</Eyebrow>
-            <h2 className={s.editorialTitle}>
-              Uma contribuição à história da alfabetização.
-            </h2>
-            <div className={s.copy}>
-              <p>
-                A trajetória que antecede a editora se relaciona ao trabalho da
-                equipe do professor Edgar Linhares na rede de Sobral. Formação
-                de professores, atividades de leitura e escrita e acompanhamento
-                da aprendizagem integraram essa experiência.
-              </p>
-              <p>
-                Entre 2008 e 2013, a Aprender participou do eixo de
-                alfabetização do Programa Alfabetização na Idade Certa, o PAIC,
-                com o projeto Lendo Você Fica Sabendo.
-              </p>
-            </div>
-          </div>
-          <div className={s.callout}>
-            <h3>Uma política pública, muitas contribuições</h3>
-            <p>
-              O PAIC é um programa do Governo do Estado do Ceará. A participação
-              da Aprender envolveu materiais, formação contínua, acompanhamento
-              em sala e avaliações. Os resultados da educação cearense integram
-              um esforço de redes, gestores, professores, estudantes e
-              diferentes instituições.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className={s.whiteSection}>
+      <section id="trajetoria" className={`${s.section} ${s.soft}`}>
         <div className="container">
-          <SectionHeading
-            eyebrow="O que orienta nosso trabalho"
-            title="Valores que se tornam prática."
-          />
-          <div className={s.values}>
-            {principles.map((value) => (
-              <article className={s.value} key={value.name}>
-                <h3>{value.name}</h3>
-                <p>{value.description}</p>
-              </article>
-            ))}
+          <h2 className={s.heading}>Conheça nossa história.</h2>
+          <div className={s.threeColumns}>
+            <article className={s.linkCard}>
+              <h3>De Sobral à Aprender</h3>
+              <p>
+                O diagnóstico de leitura, a equipe de educadoras e a origem da
+                editora em Fortaleza.
+              </p>
+              <TextLink href="/a-editora/trajetoria">Ler a trajetória</TextLink>
+            </article>
+            <article className={s.linkCard}>
+              <h3>Edgar Linhares</h3>
+              <p>
+                A contribuição do educador às políticas de alfabetização e à
+                formação de professores.
+              </p>
+              <TextLink href="/a-editora/edgar-linhares">
+                Conhecer o educador
+              </TextLink>
+            </article>
+            <article className={s.linkCard}>
+              <h3>PAIC e resultados</h3>
+              <p>
+                Participação da editora, mapas, séries históricas e resultados
+                das redes públicas.
+              </p>
+              <TextLink href="/a-editora/paic">Consultar o acervo</TextLink>
+            </article>
           </div>
-          <TextLink href="/solucoes">Conheça as soluções da Aprender</TextLink>
         </div>
       </section>
       <ContactCTA />

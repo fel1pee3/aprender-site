@@ -29,6 +29,9 @@ export interface Solution {
   support: string[];
   sourcePages: number[];
   featured?: boolean;
+  aliases?: string[];
+  sourceLabel?: string;
+  sourceUrl?: string;
 }
 
 export const stages: { id: StageId; label: string }[] = [
@@ -432,11 +435,11 @@ export const solutions: Solution[] = [
     subtitle: "Mais foco em cada aprendizagem.",
     description:
       "Atividades de Língua Portuguesa e Matemática organizadas por microhabilidades. A proposta permite acompanhar o progresso dos estudantes e trabalhar necessidades específicas no 9º ano.",
-    stage: "Anos finais · 9º ano",
+    stage: "Anos finais · 6º ao 9º ano",
     stageId: "anos-finais",
     stageIds: ["anos-finais"],
     objectiveId: "aprendizagem",
-    audience: "Estudantes e educadores do 9º ano do Ensino Fundamental.",
+    audience: "6º ao 9º ano na tabela de 2027; apresentação pedagógica do 9º ano no catálogo de 2025.",
     image: "/images/collections/avancando-juntos.webp",
     accent: "#F0DDCE",
     goals: [
@@ -658,6 +661,35 @@ export const solutions: Solution[] = [
       "Acompanhamento do programa por profissionais da psicologia",
     ],
     sourcePages: [58, 59],
+  },
+  {
+    slug: "lendo-e-escrevendo", name: "Lendo e Escrevendo", subtitle: "Volta e meia vamos dar, muitas histórias vamos contar.",
+    description: "Uma coleção própria de Educação Infantil, com propostas de participação, interação e diferentes linguagens para crianças de 3, 4 e 5 anos. Apresentação preservada do acervo do site institucional.",
+    stage: "Educação Infantil · 3 a 5 anos", stageId: "infantil", stageIds: ["infantil"], objectiveId: "desenvolvimento", audience: "Crianças de 3, 4 e 5 anos, seus professores e famílias.",
+    image: "/images/materials/lendo-e-escrevendo.webp", accent: "#E1ECCC",
+    goals: ["Valorizar o protagonismo infantil nas atividades sociais.", "Explorar a comunicação oral, corporal e escrita.", "Aproximar as experiências da criança e a parceria entre família e escola."],
+    components: ["Livro da criança 1; livros da criança 2 e 3 em dois volumes", "Livro da família e cards de alfabeto e algarismos", "Guias de orientações didáticas, encartes e CD de músicas e parlendas na apresentação do site"],
+    support: ["Guias com referências teóricas e propostas de planejamento docente"], sourcePages: [],
+    sourceLabel: "Site institucional · apresentação sem ano informado", sourceUrl: "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+    aliases: ["Lendo e Escrevendo Volta e Meia Vamos Dar Muitas Histórias Vamos Contar"],
+  },
+  {
+    slug: "acerta-brasil", name: "ACerta Brasil", subtitle: "#SuperaIDEB · leitura e resolução de problemas.",
+    description: "Materiais de Língua Portuguesa e Matemática para o 5º ano, com atividades, suplementos e provas relacionados às avaliações externas. Apresentação preservada do acervo institucional.",
+    stage: "Anos iniciais · 5º ano", stageId: "anos-iniciais", stageIds: ["anos-iniciais"], objectiveId: "aprendizagem", audience: "Estudantes e professores do 5º ano do Ensino Fundamental.",
+    image: "/images/materials/acerta-brasil.webp", accent: "#CFE6DE",
+    goals: ["Desenvolver leitura, compreensão e resolução de problemas.", "Familiarizar os estudantes com a linguagem das avaliações externas.", "Apoiar intervenções pedagógicas a partir dos resultados das provas."],
+    components: ["Livro de Língua Portuguesa e livro de Matemática, com 30 atividades cada", "Suplementos de questões bônus e três provas por componente", "Guias do professor"],
+    support: ["Orientações de aplicação e leitura dos resultados", "Fichas de compilação e sugestões de atividades interventoras"], sourcePages: [],
+    sourceLabel: "Site institucional · apresentação #SuperaIDEB, sem ano informado", sourceUrl: "https://www.aprendereditora.com.br/colecao-acerta-brasil", aliases: ["Acerta Brasil", "SuperaIDEB"],
+  },
+  {
+    slug: "ingles", name: "Inglês", subtitle: "My Learning Companion e My Teaching Companion.",
+    description: "Materiais de Inglês relacionados na tabela de 2027: My Learning Companion para estudantes e My Teaching Companion para professores, em quatro níveis correspondentes ao 6º, 7º, 8º e 9º anos.",
+    stage: "Anos finais · 6º ao 9º ano", stageId: "anos-finais", stageIds: ["anos-finais"], objectiveId: "linguagens", audience: "Estudantes e professores do 6º ao 9º ano do Ensino Fundamental.",
+    image: "", accent: "#E2E7F0",
+    goals: [], components: ["My Learning Companion 1, 2, 3 e 4 — estudante", "My Teaching Companion 1, 2, 3 e 4 — professor"], support: [], sourcePages: [],
+    sourceLabel: "Tabela de preços publicada · edição 2027", sourceUrl: "https://www.aprendereditora.com.br/tabela-precos", aliases: ["My Learning Companion", "My Teaching Companion", "English"],
   },
 ];
 

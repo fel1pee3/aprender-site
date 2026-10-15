@@ -1,7 +1,12 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { solutions } from "@/data/solutions";
 import { catalogueUrl } from "@/data/editorial";
+import {
+  formationAxes,
+  formationPlan,
+  formationFoundation,
+} from "@/data/institutional";
 import {
   ContactCTA,
   Eyebrow,
@@ -11,11 +16,13 @@ import {
   TextLink,
 } from "@/components/ui";
 import s from "../inner.module.css";
-export const metadata: Metadata = {
+import content from "@/components/content.module.css";
+export const metadata = pageMetadata({
   title: "Formação e acompanhamento",
   description:
     "Formação contínua, encontros entre educadores e acompanhamento pedagógico conectados aos materiais didáticos da Aprender Editora.",
-};
+  path: "/formacao",
+});
 export default function Formation() {
   return (
     <>
@@ -29,9 +36,18 @@ export default function Formation() {
             de espaço para aprender.
           </>
         }
-        description="Escuta, estudo e troca de experiências para aproximar os materiais das práticas e dos desafios reais da escola."
+        description="Formação contínua, planejamento, avaliação e acompanhamento em sala: apoio ao professor para transformar os materiais em práticas de aprendizagem."
       />
-      <section className={s.section}>
+      <div className="container">
+        <nav className={content.index} aria-label="Seções de formação">
+          <a href="#proposta">A proposta</a>
+          <a href="#eixos">Cinco eixos</a>
+          <a href="#plano-de-acao">Plano de ação</a>
+          <a href="/acervo#formacoes">Galeria de formações</a>
+          <a href="#solucoes">Materiais e formação</a>
+        </nav>
+      </div>
+      <section id="proposta" className={s.section}>
         <div className={`container ${s.split}`}>
           <figure className={s.figure}>
             <Image
@@ -50,9 +66,9 @@ export default function Formation() {
           <div>
             <Eyebrow>Conhecimento compartilhado</Eyebrow>
             <h2 className={s.editorialTitle}>
-              Teoria e prática,
+              O estudo ganha sentido
               <br />
-              na mesma conversa.
+              na prática pedagógica.
             </h2>
             <div className={s.copy}>
               <p>
@@ -73,32 +89,79 @@ export default function Formation() {
           </div>
         </div>
       </section>
-      <section className={s.softSection}>
+      <section id="eixos" className={s.softSection}>
         <div className="container">
           <SectionHeading
-            eyebrow="Um trabalho em continuidade"
-            title="Estudar, experimentar, acompanhar."
+            eyebrow="A estrutura da formação"
+            title="Cinco eixos que se complementam."
+            description="A proposta articula conhecimentos científicos, experiências em sala e leitura crítica dos resultados. Os eixos orientam o estudo e o desenvolvimento da prática docente."
           />
-          <div className={s.process}>
-            {[
-              {
-                title: "Formação de educadores",
-                text: "Encontros de estudo e troca sobre o uso dos materiais, o planejamento e as práticas em sala. Há propostas presenciais, remotas e híbridas, conforme a coleção.",
-              },
-              {
-                title: "Acompanhamento pedagógico",
-                text: "Diálogo com gestores e educadores, visitas e observação da prática em sala por amostragem, nos projetos que incluem esses apoios.",
-              },
-              {
-                title: "Avaliação para orientar",
-                text: "Instrumentos de acompanhamento ajudam a compreender o que os estudantes já aprenderam e a planejar intervenções nos projetos que preveem avaliação.",
-              },
-            ].map((item, i) => (
-              <article key={item.title}>
-                <span className={s.processNumber}>0{i + 1}</span>
+          <div className={content.threeColumns}>
+            {formationAxes.map((item, i) => (
+              <article key={item.id} className={content.testimonial}>
+                <span className={content.editionBadge}>Eixo 0{i + 1}</span>
                 <h3>{item.title}</h3>
-                <p>{item.text}</p>
+                <p>{item.description}</p>
               </article>
+            ))}
+          </div>
+          <p className={content.source}>
+            Estrutura documentada na{" "}
+            <a href="https://www.aprendereditora.com.br/trajetorias-lendo-voce-fica-sabendo">
+              apresentação do Projeto Lendo Você Fica Sabendo
+            </a>{" "}
+            e no{" "}
+            <a href="https://www.aprendereditora.com.br/aprender-em-acao">
+              plano institucional de formação
+            </a>
+            .
+          </p>
+          <details id="fundamentacao-projeto" className={content.accordion}>
+            <summary>
+              A relação entre formação e materiais semiestruturados
+            </summary>
+            <div className={content.prose}>
+              {formationFoundation.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+              <p className={content.source}>
+                {formationFoundation.edition} ·{" "}
+                <a href={formationFoundation.sourceUrl}>
+                  Consultar apresentação original
+                </a>
+                .
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+      <section id="plano-de-acao" className={content.section}>
+        <div className="container">
+          <SectionHeading
+            eyebrow="Da formação ao acompanhamento"
+            title="Um plano de ação junto à escola."
+            description="O plano institucional organiza o atendimento em três frentes complementares. Conheça as atividades documentadas pela Aprender."
+          />
+          <div className={content.prose}>
+            {formationPlan.map((group, index) => (
+              <section
+                className={content.edition}
+                key={group.id}
+                aria-labelledby={`plan-${group.id}`}
+              >
+                <span className={content.editionBadge}>
+                  Frente 0{index + 1}
+                </span>
+                <h3 id={`plan-${group.id}`}>{group.title}</h3>
+                <p className={content.paragraph}>{group.description}</p>
+                <ul className={content.paragraph} style={{ paddingLeft: 22 }}>
+                  {group.items.map((item) => (
+                    <li key={item} style={{ marginBottom: 12 }}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </section>
             ))}
           </div>
           <p className={s.sourceNote}>
@@ -110,9 +173,12 @@ export default function Formation() {
             <a href={`${catalogueUrl}#page=60`}>catálogo de 2025, p. 60–61</a>.
             O planejamento de atendimento é definido com a editora.
           </p>
+          <TextLink href="/acervo#formacoes">
+            Ver nove fotografias de formação em sete municípios
+          </TextLink>
         </div>
       </section>
-      <section className={s.section}>
+      <section id="solucoes" className={s.section}>
         <div className="container">
           <SectionHeading
             eyebrow="Conexões que continuam"

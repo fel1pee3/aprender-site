@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { solutions } from "@/data/solutions";
 import { articles } from "@/data/editorial";
+import { institutionalIndicators } from "@/data/institutional";
+import { testimonials } from "@/data/archive";
+import content from "@/components/content.module.css";
 import { Icon } from "@/components/Icon";
 import {
   Button,
@@ -56,13 +59,13 @@ export default function Home() {
               Presente na vida de quem aprende.
             </p>
             <p className={s.heroDescription}>
-              Materiais didáticos, formação de educadores e acompanhamento
-              pedagógico para fazer a educação acontecer.
+              Alfabetização, materiais didáticos semiestruturados e formação
+              contínua, com acompanhamento pedagógico para as redes de ensino.
             </p>
             <div className={s.heroActions}>
               <Button href="/solucoes">Conhecer nossas soluções</Button>
               <Link href="/contato">
-                Conversar com a Aprender <Icon name="arrow-up" size={17} />
+                Conversar com a Aprender <Icon name="arrow" size={17} />
               </Link>
             </div>
             <div className={s.heroNote}>
@@ -73,16 +76,15 @@ export default function Home() {
           <div className={s.heroVisual}>
             <div className={s.photoFrame}>
               <Image
-                src="/images/hero.webp"
-                alt="Educadoras compartilhando uma atividade durante formação registrada no catálogo da Aprender"
-                width={1200}
-                height={1400}
+                src="/images/formacao-professores.webp"
+                alt="Educadoras estudam os livros e planejam atividades durante formação registrada no catálogo de 2025"
+                width={1279}
+                height={1340}
                 priority
                 sizes="(max-width: 767px) 90vw, 45vw"
               />
               <div className={s.photoLabel}>
-                <span>Educar é construir possibilidades.</span>
-                <Icon name="arrow-up" size={23} />
+                <span>Formação de educadores · acervo 2025</span>
               </div>
             </div>
             <div className={s.since}>
@@ -91,7 +93,7 @@ export default function Home() {
               <span>aprendendo juntos</span>
             </div>
             <span className={s.verticalText}>
-              ENCONTROS QUE TRANSFORMAM · ACERVO APRENDER
+              FORMAÇÃO DE EDUCADORES · CATÁLOGO 2025
             </span>
             <div className={s.heroDecoration} aria-hidden="true" />
           </div>
@@ -102,23 +104,17 @@ export default function Home() {
           <div className={s.evidenceTitle}>
             <span>Uma história construída</span>
             <strong>com muitas pessoas.</strong>
-            <a href="/a-editora#trajetoria">
+            <a href="/a-editora/trajetoria#indicadores">
               Dados divulgados pela editora · 2025{" "}
-              <Icon name="arrow-up" size={12} />
+              <Icon name="arrow" size={12} />
             </a>
           </div>
-          <div>
-            <strong>+ de 2 milhões</strong>
-            <span>de estudantes utilizaram os materiais</span>
-          </div>
-          <div>
-            <strong>+ de 100 mil</strong>
-            <span>educadores e coordenadores nas formações</span>
-          </div>
-          <div>
-            <strong>+ de 300</strong>
-            <span>municípios atendidos em todo o Brasil</span>
-          </div>
+          {institutionalIndicators.slice(0, 4).map((item) => (
+            <div key={item.id}>
+              <strong>{item.value}</strong>
+              <span>{item.label}</span>
+            </div>
+          ))}
         </div>
       </section>
       <section className={s.approach}>
@@ -132,7 +128,7 @@ export default function Home() {
                 Ao lado da aprendizagem.
               </>
             }
-            description="Uma proposta que conecta materiais, pessoas e práticas. Porque ensinar e aprender são caminhos que se constroem juntos."
+            description="Livros para organizar o ensino, formação para desenvolver a prática e acompanhamento para identificar as necessidades de cada turma."
           >
             <TextLink href="/a-editora">Conheça a Aprender</TextLink>
           </SectionHeading>
@@ -161,7 +157,7 @@ export default function Home() {
                 novas descobertas.
               </>
             }
-            description="Encontre propostas que conversam com o momento e as necessidades dos seus estudantes."
+            description="Consulte livros, públicos, materiais de apoio e amostras de cada coleção."
           >
             <TextLink href="/solucoes">Explorar todas as soluções</TextLink>
           </SectionHeading>
@@ -189,7 +185,7 @@ export default function Home() {
                   <strong>{stage.name}</strong>
                   <span>{stage.sub}</span>
                 </div>
-                <Icon name="arrow-up" size={22} />
+                <Icon name="arrow" size={22} />
               </Link>
             ))}
           </div>
@@ -246,8 +242,35 @@ export default function Home() {
               </li>
             </ul>
             <TextLink href="/formacao">
-              Conheça nossa forma de caminhar junto
+              Conheça o plano de formação e acompanhamento
             </TextLink>
+          </div>
+        </div>
+      </section>
+      <section className={`${content.section} ${content.soft}`}>
+        <div className="container">
+          <SectionHeading
+            eyebrow="Quem participa dessa história"
+            title="Vozes das redes de ensino."
+            description="Relatos preservados no acervo institucional. Cargos e experiências correspondem ao período de cada registro."
+          >
+            <TextLink href="/acervo#depoimentos">
+              Consultar os nove depoimentos
+            </TextLink>
+          </SectionHeading>
+          <div className={content.threeColumns}>
+            {[testimonials[0], testimonials[2], testimonials[7]].map((item) => (
+              <article key={item.id} className={content.testimonial}>
+                <h3>{item.name}</h3>
+                <p>
+                  {item.location} · {item.role}
+                </p>
+                <p>{item.paragraphs[0]}</p>
+                <TextLink href={`/acervo#${item.id}`}>
+                  Ler relato e consultar original
+                </TextLink>
+              </article>
+            ))}
           </div>
         </div>
       </section>

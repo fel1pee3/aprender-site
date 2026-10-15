@@ -28,7 +28,7 @@ export const platforms: Platform[] = [
       "Um ambiente virtual para educadores participantes dos projetos da Aprender. Apoia as formações e aproxima as pessoas dos materiais e conhecimentos trabalhados nos encontros.",
     url: "https://aprenderformar.com.br/",
     features: [
-      "Apoio às formações presenciais e on-line",
+      "Apoio às formações presenciais e on-line, com atividades síncronas e assíncronas",
       "Acesso aos materiais pedagógicos das formações",
       "Interação entre os participantes",
     ],

@@ -5,13 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState, type KeyboardEvent } from "react";
 import { Icon } from "@/components/Icon";
 import styles from "./Header.module.css";
-
-const navigation = [
-  { href: "/a-editora", label: "A editora" },
-  { href: "/solucoes", label: "Soluções" },
-  { href: "/formacao", label: "Formação" },
-  { href: "/em-acao", label: "Em ação" },
-];
+import { navigation } from "@/data/navigation";
 
 export function Header() {
   const pathname = usePathname();
@@ -54,7 +48,7 @@ export function Header() {
     if (!menuOpen) return;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
-    const desktop = window.matchMedia("(min-width: 1100px)");
+    const desktop = window.matchMedia("(min-width: 1280px)");
     const handleResize = () => {
       if (desktop.matches) dialogRef.current?.close();
     };
@@ -93,7 +87,7 @@ export function Header() {
             className={styles.platformLink}
             aria-current={isCurrent("/plataformas") ? "page" : undefined}
           >
-            Plataformas <Icon name="arrow-up" size={15} />
+            Plataformas <Icon name="arrow" size={15} />
           </Link>
           <Link
             href="/contato"

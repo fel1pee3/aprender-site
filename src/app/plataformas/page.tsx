@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import { platforms } from "@/data/editorial";
 import { Button, ContactCTA, PageIntro } from "@/components/ui";
 import { Icon } from "@/components/Icon";
 import s from "../inner.module.css";
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Plataformas digitais",
   description:
     "Conheça Aprender Formar e Aprender Avaliar: recursos digitais de apoio à formação dos educadores e à análise da aprendizagem.",
-};
+  path: "/plataformas",
+});
 export default function Platforms() {
   return (
     <>

@@ -38,7 +38,9 @@ export function ContactForm({ initialSolution, email }: ContactFormProps) {
 
   function handleChange(event: FormEvent<HTMLFormElement>) {
     const target = event.target as
-      HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
+      | HTMLInputElement
+      | HTMLTextAreaElement
+      | HTMLSelectElement;
     const name = target.name as Field;
     if (errors[name])
       setErrors((previous) => ({ ...previous, [name]: undefined }));

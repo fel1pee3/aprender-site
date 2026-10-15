@@ -44,7 +44,10 @@ export function CatalogExplorer() {
     const term = normalize(query.trim());
     return solutions.filter(
       (solution) =>
-        (!term || normalize(solution.name).includes(term)) &&
+        (!term ||
+          normalize(
+            [solution.name, ...(solution.aliases || [])].join(" "),
+          ).includes(term)) &&
         (!stage || solution.stageIds.some((id) => id === stage)) &&
         (!objective || solution.objectiveId === objective),
     );

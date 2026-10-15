@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "check:migration": "node scripts/check-migration.mjs",
+    "measure:performance": "node scripts/measure-performance.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",

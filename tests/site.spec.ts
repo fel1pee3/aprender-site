@@ -3,7 +3,7 @@ import AxeBuilder from "@axe-core/playwright";
 import { solutions } from "../src/data/solutions";
 import { articles } from "../src/data/editorial";
 
-test("todas as rotas públicas abrem diretamente; desconhecidas retornam 404", async ({
+test("rotas públicas, metadados de produção, mídias e tratamento de 404", async ({
   request,
 }) => {
   const paths = [
@@ -14,9 +14,17 @@ test("todas as rotas públicas abrem diretamente; desconhecidas retornam 404", a
     "/plataformas",
     "/em-acao",
     "/contato",
+    "/acervo",
+    "/recursos",
+    "/recursos/tabela-precos",
+    "/a-editora/trajetoria",
+    "/a-editora/paic",
+    "/a-editora/edgar-linhares",
     ...solutions.map((x) => `/solucoes/${x.slug}`),
     ...articles.map((x) => `/em-acao/${x.slug}`),
   ];
+  test.setTimeout(90000);
+  const socialImages = new Set<string>();
   for (const path of paths) {
     const response = await request.get(path);
     expect(response.status(), path).toBe(200);
@@ -24,6 +32,36 @@ test("todas as rotas públicas abrem diretamente; desconhecidas retornam 404", a
     expect(html).toContain("noindex");
     expect(html).toContain('lang="pt-BR"');
     expect(html.match(/<h1(?:\s|>)/g)?.length, path).toBe(1);
+    const metaTags = html.match(/<meta\s+[^>]*>/g) || [];
+    for (const name of ["og:image", "twitter:image", "og:url"]) {
+      const tag = metaTags.find((value) => value.includes(`="${name}"`));
+      expect(tag, `${path}: ${name}`).toBeDefined();
+      const content = tag?.match(/content="([^"]+)"/)?.[1];
+      expect(content, `${path}: ${name}`).toBeDefined();
+      expect(new URL(content!).origin, `${path}: ${name}`).toBe(
+        "https://aprender-site.vercel.app",
+      );
+      if (name === "og:url")
+        expect(new URL(content!).href, path).toBe(
+          new URL(path, "https://aprender-site.vercel.app").href,
+        );
+      expect(content, `${path}: ${name}`).not.toMatch(
+        /localhost|127\.0\.0\.1|0\.0\.0\.0/,
+      );
+      if (name.endsWith("image")) socialImages.add(new URL(content!).pathname);
+    }
+    const canonical = html.match(
+      /<link[^>]*rel="canonical"[^>]*href="([^"]+)"/,
+    )?.[1];
+    expect(canonical, `${path}: canonical`).toBeDefined();
+    expect(new URL(canonical!).href, `${path}: canonical`).toBe(
+      new URL(path, "https://aprender-site.vercel.app").href,
+    );
+  }
+  for (const path of socialImages) {
+    const image = await request.get(path);
+    expect(image.status(), `Imagem social ${path}`).toBe(200);
+    expect(image.headers()["content-type"], path).toMatch(/^image\//);
   }
   for (const path of [
     "/nao-existe",
@@ -32,9 +70,10 @@ test("todas as rotas públicas abrem diretamente; desconhecidas retornam 404", a
   ])
     expect((await request.get(path)).status(), path).toBe(404);
   for (const solution of solutions) {
+    if (!solution.image) continue;
     const image = await request.get(solution.image);
     expect(image.status(), solution.image).toBe(200);
-    expect(image.headers()["content-type"]).toContain("image/webp");
+    expect(image.headers()["content-type"]).toMatch(/^image\/(webp|jpeg|png)$/);
   }
 });
 
@@ -42,7 +81,7 @@ test("busca sem acentos, filtros combinados, estado vazio, URL e histórico", as
   page,
 }) => {
   await page.goto("/solucoes");
-  await expect(page.getByRole("status")).toContainText("20 soluções");
+  await expect(page.getByRole("status")).toContainText("23 soluções");
   await page.getByLabel("Etapa de ensino").selectOption("anos-iniciais");
   await page.getByLabel("Objetivo pedagógico").selectOption("matematica");
   await expect(page.getByRole("status")).toContainText("1 solução");
@@ -51,12 +90,20 @@ test("busca sem acentos, filtros combinados, estado vazio, URL e histórico", as
   ).toBeVisible();
   await page.reload();
   await expect(page.getByLabel("Etapa de ensino")).toHaveValue("anos-iniciais");
+  await page.getByLabel("Objetivo pedagógico").selectOption("aprendizagem");
+  await expect(page.getByRole("status")).toContainText("2 soluções");
+  await expect(
+    page.getByRole("heading", { name: "ACerta Brasil", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("heading", { name: "Superativar", exact: true }),
+  ).toBeVisible();
   await page.getByLabel("Qual solução você procura?").fill("inexistente");
   await expect(
     page.getByRole("heading", { name: "Vamos tentar outro caminho?" }),
   ).toBeVisible();
   await page.getByRole("button", { name: "Ver todas as soluções" }).click();
-  await expect(page.getByRole("status")).toContainText("20 soluções");
+  await expect(page.getByRole("status")).toContainText("23 soluções");
   await page.getByLabel("Qual solução você procura?").fill("emocoes");
   await expect(
     page.getByRole("heading", { name: "Fluir das Emoções", exact: true }),

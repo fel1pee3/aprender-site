@@ -1,0 +1,2003 @@
+{
+  "checkedAt": "2026-10-14T21:04:45.718Z",
+  "base": "http://localhost:3100",
+  "mode": "static",
+  "checks": [
+    {
+      "id": "independent-source-page-inventory",
+      "pass": true,
+      "detail": "Thirty official pages responded; /index is the additional legacy alias whose source returned a 303 loop."
+    },
+    {
+      "id": "legacy-map-source-coverage",
+      "pass": true,
+      "detail": "The independently crawled source paths must all have a specific preserved destination."
+    },
+    {
+      "id": "source-pdf-set",
+      "pass": true,
+      "detail": "Independent crawl: 27 samples + PAIC; exact URL set compared after www/encoding normalization."
+    },
+    {
+      "id": "samples-brincando-e-aprendendo",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-lendo-e-escrevendo",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-novo-lendo-voce-fica-sabendo",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-escrever-comunicar-e-ser",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-acerta-brasil",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-projeto-tema",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-vida-e-linguagem",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "samples-vida-e-matematica",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "pdf-validation-resource-acbr-matematica-5-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-acbr-portugues-5-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-brincando-e-aprendendo-vol-01",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-brincando-e-aprendendo-vol-02",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-brincando-e-aprendendo-vol-03",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-brincando-e-aprendendo-vol-04",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-ecs-1-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-ecs-2-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-ecs-3-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-ecs-4-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-ecs-5-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-educacao-infantil-laranja",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-educacao-infantil-verde-vol-02",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-educacao-infantil-vermelho-vol-01",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-livro-tema-1",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-livro-tema-2",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-livro-tema-3",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-nlvfs-1-ano-vol-01",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-nlvfs-2-ano-vol-01",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-paic",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-linguagem-6-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-linguagem-7-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-linguagem-8-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-linguagem-9-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-matematica-6-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-matematica-7-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-matematica-8-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-vida-e-matematica-9-ano",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-validation-resource-catalogo-2025-20-anos",
+      "pass": true,
+      "detail": "Recorded binary signature and parser validation; this run does not redownload large PDFs."
+    },
+    {
+      "id": "pdf-local-binary-acbr-matematica-5-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-acbr-portugues-5-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-brincando-e-aprendendo-vol-01",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf"
+    },
+    {
+      "id": "pdf-local-binary-brincando-e-aprendendo-vol-02",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf"
+    },
+    {
+      "id": "pdf-local-binary-brincando-e-aprendendo-vol-03",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf"
+    },
+    {
+      "id": "pdf-local-binary-brincando-e-aprendendo-vol-04",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf"
+    },
+    {
+      "id": "pdf-local-binary-ecs-1-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-ecs-2-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-ecs-3-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-ecs-4-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-ecs-5-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-educacao-infantil-laranja",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf"
+    },
+    {
+      "id": "pdf-local-binary-educacao-infantil-verde-vol-02",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf"
+    },
+    {
+      "id": "pdf-local-binary-educacao-infantil-vermelho-vol-01",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf"
+    },
+    {
+      "id": "pdf-local-binary-livro-tema-1",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf"
+    },
+    {
+      "id": "pdf-local-binary-livro-tema-2",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf"
+    },
+    {
+      "id": "pdf-local-binary-livro-tema-3",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf"
+    },
+    {
+      "id": "pdf-local-binary-nlvfs-1-ano-vol-01",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf"
+    },
+    {
+      "id": "pdf-local-binary-nlvfs-2-ano-vol-01",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf"
+    },
+    {
+      "id": "pdf-local-binary-paic",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-linguagem-6-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-linguagem-7-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-linguagem-8-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-linguagem-9-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-matematica-6-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-matematica-7-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-matematica-8-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf"
+    },
+    {
+      "id": "pdf-local-binary-vida-e-matematica-9-ano",
+      "pass": true,
+      "detail": "Local bytes, signature, size and SHA-256 compared with the downloaded source record; https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf"
+    },
+    {
+      "id": "resource-data-match-audit",
+      "pass": true,
+      "detail": "Presentation data matches reviewed resource inventory."
+    },
+    {
+      "id": "price-data-match-audit",
+      "pass": true,
+      "detail": "Every row, integer-cent value, recipient, year and kit matches the visually reviewed transcription."
+    },
+    {
+      "id": "price-source-row-sequence",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "prices-no-floating-cents",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "english-eight-variants",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "avancando-sixteen-variants",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "solutions-preserved-and-added",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "all-collections-have-details",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "mission-two-versions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "seven-values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "formation-five-axes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "formation-sixteen-actions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "formation-nine-photos-seven-municipalities",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "source-testimonial-set",
+      "pass": true,
+      "detail": "The nine source images, not only application record counts, determine coverage."
+    },
+    {
+      "id": "source-video-set",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "source-social-links",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "indicators-four-2025",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "historical-indicators-retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "paic-discrepancy-retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "inventory-identifiers-unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "collections-inventory-present",
+      "pass": true,
+      "detail": "Accepts the combined file or both independently authored collection inventory parts."
+    },
+    {
+      "id": "asset-/images/collections/brincando-e-aprendendo.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/miudezas-e-descobertas.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/cataventos.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/uni-duni-te.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/novo-lendo-voce-fica-sabendo.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/amma.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/projeto-tema.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/escrever-comunicar-e-ser.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/superativar.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/vida-e-linguagem.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/vida-e-matematica.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/vida-e-ciencias.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/avancando-juntos.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/sou-da-paz.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/educacao-financeira.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/a-cor-da-gente.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/transito-legal.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/ler-ouvir-e-contar.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/ideb-nota-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/collections/fluir-das-emocoes.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/lendo-e-escrevendo.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/acerta-brasil.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/formacao-professores.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/palhano-2010.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/novo-oriente-2011.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/edgar-linhares.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/mapas-paic-2007-2018.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/ioeb-2019.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/alfabetizacao-ceara-2007-2018.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/mapas-catalogo-2007-2013.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/mapas-catalogo-2014-2023.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-5.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-6.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-7.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-9.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/depoimento-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-5.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-6.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-7.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/formacao-9.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/media/comp-1.mp4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/video-1.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/media/comp-1-description.vtt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/media/comp-2.mp4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/video-2.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/media/comp-2-description.vtt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/media/comp-3.mp4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/archive/video-3.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/media/comp-3-description.vtt",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/acbr-matematica-5-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/acbr-matematica-5-ano-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/acbr-matematica-5-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/acbr-portugues-5-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/acbr-portugues-5-ano-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/acbr-portugues-5-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-01-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-01-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-01-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-02-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-02-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-02-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-03-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-03-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-03-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-04-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-04-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/brincando-e-aprendendo-vol-04-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-1-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-1-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-1-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-2-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-2-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-2-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-3-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-3-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-3-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-4-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-4-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-4-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-5-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-5-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/ecs-5-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-laranja-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-laranja-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-laranja-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-verde-vol-02-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-verde-vol-02-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-verde-vol-02-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-vermelho-vol-01-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-vermelho-vol-01-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/educacao-infantil-vermelho-vol-01-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-1-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-1-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-1-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-2-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-2-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-2-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-3-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-3-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/livro-tema-3-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/nlvfs-1-ano-vol-01-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/nlvfs-1-ano-vol-01-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/nlvfs-1-ano-vol-01-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/nlvfs-2-ano-vol-01-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/nlvfs-2-ano-vol-01-p3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/nlvfs-2-ano-vol-01-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/paic-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/paic-p6.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/paic-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-6-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-6-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-6-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-7-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-7-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-7-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-8-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-8-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-8-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-9-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-9-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-linguagem-9-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-6-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-6-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-6-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-7-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-7-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-7-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-8-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-8-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-8-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-9-ano-p1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-9-ano-p4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/samples/vida-e-matematica-9-ano-p8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/resources/tabela-precos-2027.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-historico-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-historico-professor.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-novo-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-novo-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-novo-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-novo-4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-novo-recursos-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-2025-kit-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-2025-kit-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-2025-kit-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-2025-kit-4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-brincando-2025-kit-5.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-novo-lendo-aluno-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-novo-lendo-professor-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-novo-lendo-aluno-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-novo-lendo-professor-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-tema-kit-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-tema-professor-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-tema-kit-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-tema-professor-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-tema-kit-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-tema-professor-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-lendo-kit-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-lendo-kit-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-lendo-kit-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-lendo-professor-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-escrever-alunos.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-escrever-professores.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-acerta-portugues.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-acerta-portugues-provas.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-acerta-portugues-professor.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-acerta-matematica.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-acerta-matematica-provas.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-acerta-matematica-professor.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-1.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-2.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-4.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-5.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-6.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-7.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-8.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/primary-cor-9.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/miudezas-e-descobertas-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/miudezas-e-descobertas-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/miudezas-e-descobertas-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/miudezas-e-descobertas-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/miudezas-e-descobertas-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/miudezas-e-descobertas-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/cataventos-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/cataventos-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/cataventos-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/cataventos-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/cataventos-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/cataventos-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/uni-duni-te-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/amma-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/amma-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/amma-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/amma-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/amma-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/amma-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-08.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-09.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-linguagem-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-08.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-09.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-matematica-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-08.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-09.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/vida-e-ciencias-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/avancando-juntos-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/avancando-juntos-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/avancando-juntos-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/avancando-juntos-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/sou-da-paz-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/sou-da-paz-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/sou-da-paz-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/sou-da-paz-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/educacao-financeira-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/educacao-financeira-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/educacao-financeira-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/educacao-financeira-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/transito-legal-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/transito-legal-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/transito-legal-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/transito-legal-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/transito-legal-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-08.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/fluir-das-emocoes-09.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-08.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-09.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-11.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-12.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-13.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-14.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-15.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-16.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ler-ouvir-e-contar-17.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-08.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-09.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-11.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-12.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-13.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-14.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-15.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/ideb-nota-10-16.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-01.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-02.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-03.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-04.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-05.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-06.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-07.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/materials/secondary/superativar-08.webp",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "pages": [],
+  "destinations": [],
+  "limitations": [],
+  "summary": {
+    "total": 397,
+    "passed": 397,
+    "failed": 0,
+    "assets": 308,
+    "pages": 0,
+    "sourcePages": 31
+  }
+}

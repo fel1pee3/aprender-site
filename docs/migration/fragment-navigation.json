@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-14T21:04:44.709Z",
+  "base": "http://localhost:3100",
+  "viewport": "390×844",
+  "browser": "Microsoft Edge headless",
+  "results": [
+    {
+      "route": "/solucoes/a-cor-da-gente#ere",
+      "book": "Eré, negra menina",
+      "hash": "ere",
+      "ancestorsOpen": [
+        true
+      ],
+      "targetTop": 123.828125,
+      "targetHeight": 302.765625,
+      "title": "Eré, negra menina",
+      "pass": true
+    },
+    {
+      "route": "/solucoes/brincando-e-aprendendo#brincar-historico-crianca-1",
+      "book": "Livro da Criança 1",
+      "hash": "brincar-historico-crianca-1",
+      "ancestorsOpen": [
+        true
+      ],
+      "targetTop": 312.1875,
+      "targetHeight": 389.15625,
+      "title": "Livro da Criança 1",
+      "pass": true
+    }
+  ]
+}

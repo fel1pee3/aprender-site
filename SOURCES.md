@@ -1,6 +1,6 @@
 # Fontes e ativos
 
-Conferência realizada em **13 de outubro de 2026**, no contexto desta proposta independente. A redação de interface e os resumos são originais. As declarações comerciais e históricas são atribuídas à editora, sem apresentá-las como avaliação independente.
+Conferência ampliada em **14 de outubro de 2026**, no contexto desta proposta independente. A redação de interface e os resumos são originais. As declarações comerciais e históricas são atribuídas à editora, sem apresentá-las como avaliação independente. A referência de inventário é o site oficial; o catálogo de 2025 e a tabela de 2027 são fontes complementares. A matriz detalhada está em `docs/matriz-migracao-conteudo.md`.
 
 ## Referência principal
 
@@ -12,7 +12,7 @@ Destino público do PDF: https://www.opovo.com.br/_midias/pdf/2025/11/07/revista
 | --- | --- |
 | Apresentação, missão e valores | 1 |
 | Origem, Sobral, 2005 e participação no PAIC | 4–7 |
-| Indicadores históricos: estudantes que utilizaram materiais, educadores/coordenadores nas formações, municípios atendidos | 5 |
+| Indicadores históricos: uso de materiais, educadores/coordenadores nas formações, municípios atendidos e estudantes alfabetizados | 5 |
 | Brincando e Aprendendo | 14–15 |
 | Miudezas e Descobertas | 16 |
 | Cataventos | 18 |
@@ -36,7 +36,17 @@ Destino público do PDF: https://www.opovo.com.br/_midias/pdf/2025/11/07/revista
 | Formação e registros institucionais | 60–61 |
 | Endereço em Papicu, Fortaleza | 64 |
 
-Os dados em `src/data/solutions.ts` distinguem público, etapas, objetivo, componentes e suporte por coleção, com referências específicas. As seis coleções destacáveis e a seleção de quatro na página inicial são decisões editoriais da proposta. Foram identificados 20 produtos; a divulgação de 24 coleções não foi usada para criar itens artificiais. Fluir das Emoções se destina a profissionais da educação e áreas afins; Avançando Juntos, ao 9º ano.
+Os dados em `src/data/solutions.ts` distinguem público, etapas, objetivo, componentes e suporte por coleção. Os módulos `collection-details-*` preservam os livros e apresentações por edição. Aos 20 produtos da primeira fase foram acrescentados Lendo e Escrevendo, ACerta Brasil e o agrupamento dos oito materiais de Inglês. Fluir das Emoções se destina a profissionais da educação e áreas afins. Avançando Juntos é apresentado para o 9º ano no catálogo de 2025 e para o 6º ao 9º na tabela de 2027; os escopos não foram combinados.
+
+## Inventário oficial e recursos recuperados
+
+`docs/migration/official-manifest.json` documenta a pesquisa dos 30 caminhos da auditoria mais `/index`, incluindo links em imagens e mapas de imagem. As imagens com informação foram examinadas visualmente e seu conteúdo reconstruído em HTML. O inventário por item, suas edições, destinos e limites está na matriz de migração.
+
+`src/data/resources.ts` vincula as 27 amostras individuais, o documento do PAIC e o catálogo. A conferência inclui assinatura PDF, leitura por parser, páginas, tamanho e identidade do conteúdo. Prévias locais preservam capas e páginas das amostras; o ano escolar e o volume não são apresentados como ano de edição.
+
+`src/data/prices.ts` transcreve as 152 linhas da imagem `https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg`. Nome, ano, destinatário, kit e preço em centavos foram conferidos visualmente. A identificação 2027 é mantida como edição publicada, com confirmação comercial encaminhada à editora.
+
+O acervo preserva nove depoimentos em redação própria com acesso aos originais integrais, nove fotografias em sete municípios e três vinhetas verificadas. As vinhetas não têm áudio e anunciam uma apresentação futura; controles, posters e descrições correspondem ao conteúdo existente. Missão e sete valores de 2025 usam o documento fornecido pelo usuário; a versão anterior do site é contextualizada.
 
 ## Fontes públicas complementares
 
@@ -67,7 +77,7 @@ O e-mail **aprendereditora@aprendereditora.com.br** está documentado em materia
 
 ## Origem dos ativos locais
 
-Todos os livros e fotografias abaixo foram extraídos do PDF fornecido. São materiais institucionais usados nesta demonstração para apresentação. Não se presume licença aberta nem autorização geral para redistribuição ou publicação comercial.
+Os livros e fotografias da primeira fase listados abaixo foram extraídos do PDF fornecido. A recuperação também acrescenta fotografias, capas, kits, mapas e retratos do acervo oficial, prévias das amostras e cópias otimizadas das vinhetas. A origem de cada recurso consta dos manifestos de migração. São materiais institucionais usados nesta demonstração para apresentação. Não se presume licença aberta nem autorização geral para redistribuição ou publicação comercial.
 
 | Arquivo em `public/images/` | Origem |
 | --- | --- |
@@ -88,5 +98,6 @@ Todos os livros e fotografias abaixo foram extraídos do PDF fornecido. São mat
 - Lora: https://github.com/google/fonts/tree/main/ofl/lora — arquivo variável local e `public/fonts/OFL-Lora.txt`.
 - Ambas sob **SIL Open Font License 1.1**, com suporte aos caracteres usados em português. O uso no site não exige chamadas a Google Fonts.
 - Next.js: https://nextjs.org/docs/app/getting-started/installation — requisitos e instalação estável conferidos; versões finais registradas no lockfile.
+- Renderização inicial dos filtros: https://nextjs.org/docs/app/api-reference/functions/use-search-params — comportamento em páginas estáticas e renderizadas no servidor, com `connection()` antes da leitura da URL. Consulta em 14/10/2026; a implementação foi compilada e verificada na versão instalada.
 
 O catálogo e o site institucional são fontes primárias da editora, não evidência independente de impacto causal. Os indicadores históricos não representam a base atual de clientes. A proposta não atribui à empresa, isoladamente, os resultados da educação do Ceará e não inclui depoimentos, clientes, prêmios, agenda ou resultados inventados.

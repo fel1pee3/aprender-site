@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import Link from "next/link";
 import { articles } from "@/data/editorial";
 import { ContactCTA, PageIntro } from "@/components/ui";
 import { Icon } from "@/components/Icon";
 import s from "../inner.module.css";
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
   title: "Aprender em ação",
   description:
     "Histórias, registros e memórias documentadas da trajetória da Aprender Editora na formação de educadores e na aprendizagem.",
-};
+  path: "/em-acao",
+});
 export default function Journal() {
   return (
     <>
