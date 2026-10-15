@@ -1,12 +1,14 @@
 # Fontes e ativos
 
+Refinamento de autonomia em 15/10/2026: os recursos entregues são locais. Veja o [relatório atual](docs/relatorio-refinamento-final.md) e os mapas em `docs/refinement/`. As URLs externas abaixo registram a pesquisa e a procedência.
+
 Conferência ampliada em **14 de outubro de 2026**, no contexto desta proposta independente. A redação de interface e os resumos são originais. As declarações comerciais e históricas são atribuídas à editora, sem apresentá-las como avaliação independente. A referência de inventário é o site oficial; o catálogo de 2025 e a tabela de 2027 são fontes complementares. A matriz detalhada está em `docs/matriz-migracao-conteudo.md`.
 
 ## Referência principal
 
 **Catálogo Aprender Editora 2025 — 20 anos**, 64 páginas, fornecido pelo usuário em `C:/Users/VAIOFE16-Felipe/Downloads/Catalogo_Aprender_Editora_2025_20_Anos.pdf`. A numeração nas referências corresponde à página do PDF, iniciada em 1. Extração disponível em `docs/referencias/catalogo-2025.txt`.
 
-Destino público do PDF: https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf. Usado como link externo, sem carregar os 70 MB na renderização do site. O original local não foi alterado.
+Origem de pesquisa do PDF: https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf. A cópia servida está em `/documents/catalogo-2025-20-anos.pdf`, com 70.269.887 bytes idênticos ao original e acesso sob demanda.
 
 | Conteúdo | Páginas |
 | --- | --- |

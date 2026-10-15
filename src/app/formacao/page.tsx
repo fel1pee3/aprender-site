@@ -1,7 +1,6 @@
 import { pageMetadata } from "@/lib/metadata";
 import Image from "next/image";
 import { solutions } from "@/data/solutions";
-import { catalogueUrl } from "@/data/editorial";
 import {
   formationAxes,
   formationPlan,
@@ -79,8 +78,8 @@ export default function Formation() {
               </p>
               <p>
                 As modalidades e cargas horárias variam conforme a coleção. As
-                páginas das soluções apresentam o que está documentado no
-                catálogo, para ajudar sua equipe a iniciar essa conversa.
+                páginas das soluções apresentam as atividades e os apoios de
+                cada proposta, para orientar o planejamento com sua equipe.
               </p>
             </div>
             <TextLink href="/contato">
@@ -105,17 +104,6 @@ export default function Formation() {
               </article>
             ))}
           </div>
-          <p className={content.source}>
-            Estrutura documentada na{" "}
-            <a href="https://www.aprendereditora.com.br/trajetorias-lendo-voce-fica-sabendo">
-              apresentação do Projeto Lendo Você Fica Sabendo
-            </a>{" "}
-            e no{" "}
-            <a href="https://www.aprendereditora.com.br/aprender-em-acao">
-              plano institucional de formação
-            </a>
-            .
-          </p>
           <details id="fundamentacao-projeto" className={content.accordion}>
             <summary>
               A relação entre formação e materiais semiestruturados
@@ -125,12 +113,11 @@ export default function Formation() {
                 <p key={paragraph}>{paragraph}</p>
               ))}
               <p className={content.source}>
-                {formationFoundation.edition} ·{" "}
-                <a href={formationFoundation.sourceUrl}>
-                  Consultar apresentação original
-                </a>
-                .
+                {formationFoundation.edition}.
               </p>
+              <TextLink href="/solucoes/novo-lendo-voce-fica-sabendo">
+                Conhecer os materiais do projeto
+              </TextLink>
             </div>
           </details>
         </div>
@@ -140,7 +127,7 @@ export default function Formation() {
           <SectionHeading
             eyebrow="Da formação ao acompanhamento"
             title="Um plano de ação junto à escola."
-            description="O plano institucional organiza o atendimento em três frentes complementares. Conheça as atividades documentadas pela Aprender."
+            description="Professores, coordenadores e gestores participam de três frentes complementares de estudo, acompanhamento e avaliação."
           />
           <div className={content.prose}>
             {formationPlan.map((group, index) => (
@@ -165,16 +152,11 @@ export default function Formation() {
             ))}
           </div>
           <p className={s.sourceNote}>
-            Referências:{" "}
-            <a href="https://www.aprendereditora.com.br/aprender-em-acao">
-              Aprender em Ação, apresentação institucional
-            </a>
-            , e{" "}
-            <a href={`${catalogueUrl}#page=60`}>catálogo de 2025, p. 60–61</a>.
-            O planejamento de atendimento é definido com a editora.
+            Proposta de formação da Aprender, apresentada também no catálogo
+            de 2025. O planejamento de atendimento é definido com a editora.
           </p>
           <TextLink href="/acervo#formacoes">
-            Ver nove fotografias de formação em sete municípios
+            Ver registros de formação nos municípios
           </TextLink>
         </div>
       </section>

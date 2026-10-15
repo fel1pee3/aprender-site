@@ -2,7 +2,6 @@ import { pageMetadata } from "@/lib/metadata";
 import { connection } from "next/server";
 import { CatalogExplorer } from "@/components/CatalogExplorer";
 import { ContactCTA, PageIntro, TextLink } from "@/components/ui";
-import { catalogueUrl } from "@/data/editorial";
 import s from "../inner.module.css";
 export const metadata = pageMetadata({
   title: "Soluções educacionais",
@@ -31,12 +30,12 @@ export default async function Solutions() {
           <CatalogExplorer />
           <div className={s.catalogueNote}>
             <p>
-              As páginas identificam as apresentações do acervo oficial, do
-              catálogo de 2025 e da tabela de 2027. Consulte a fonte de cada
-              edição e confirme a oferta para sua rede com a editora.
+              As coleções reúnem apresentações pedagógicas e composições por público.
+              Cada edição mantém suas características; confirme com a editora
+              os materiais adequados à sua rede.
             </p>
-            <TextLink href={catalogueUrl}>
-              Consultar catálogo 2025 (PDF · 70,3 MB)
+            <TextLink href="/recursos#catalogo-2025-20-anos">
+              Amostras e catálogo completo
             </TextLink>
           </div>
         </div>

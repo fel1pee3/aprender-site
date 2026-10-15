@@ -3,7 +3,7 @@ import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'no
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { chromium } from '@playwright/test';
-import { inventories, itemDestination, loadData, normalize, officialDestinations, publicRoutes, readJson, resourceKey } from './migration-data.mjs';
+import { inventories, itemDestination, loadData, normalize, officialDestinations, publicOrigin, publicRoutes, readJson, resourceKey } from './migration-data.mjs';
 
 const base = process.env.QA_BASE_URL || 'http://localhost:3100';
 const staticOnly = process.argv.includes('--static');
@@ -12,6 +12,8 @@ const check = (id, pass, detail = '') => { report.checks.push({ id, pass: Boolea
 const data = loadData();
 const manifest = readJson('docs/migration/official-manifest.json');
 const resourcesAudit = readJson('docs/migration/resources.json');
+const ownedDocuments = readJson('docs/refinement/document-migration.json');
+const ownedContent = readJson('docs/refinement/content-link-migration.json');
 const pricesAudit = readJson('docs/migration/prices.json');
 const resources = data.resources.documentResources || [];
 const archive = data.archive;
@@ -23,7 +25,7 @@ const sourceLinks = manifest.pages.flatMap(page => page.links || []);
 check('independent-source-page-inventory', manifest.pages.length === 31 && manifest.pages.filter(page => page.status === 200).length === 30, 'Thirty official pages responded; /index is the additional legacy alias whose source returned a 303 loop.');
 check('legacy-map-source-coverage', manifest.pages.every(page => page.path in officialDestinations && (page.path === '/' || page.path in data['legacy-routes'].legacyRoutes)), 'The independently crawled source paths must all have a specific preserved destination.');
 const originalPdfs = new Set(sourceLinks.filter(link => /\.pdf(?:$|[?#])/i.test(link.url)).map(link => resourceKey(link.url)));
-const preservedPdfs = new Set(resources.filter(row => row.kind !== 'catalog').map(row => resourceKey(row.url)));
+const preservedPdfs = new Set(ownedDocuments.documents.filter(row => row.kind !== 'catalog').map(row => resourceKey(row.sourceUrl)));
 check('source-pdf-set', originalPdfs.size === 28 && [...originalPdfs].every(url => preservedPdfs.has(url)) && preservedPdfs.size === 28, 'Independent crawl: 27 samples + PAIC; exact URL set compared after www/encoding normalization.');
 const expectedCounts = { 'brincando-e-aprendendo': 4, 'lendo-e-escrevendo': 3, 'novo-lendo-voce-fica-sabendo': 2, 'escrever-comunicar-e-ser': 5, 'acerta-brasil': 2, 'projeto-tema': 3, 'vida-e-linguagem': 4, 'vida-e-matematica': 4 };
 for (const [slug, count] of Object.entries(expectedCounts)) check(`samples-${slug}`, resources.filter(row => row.kind === 'sample' && row.collectionSlug === slug).length === count);
@@ -36,7 +38,11 @@ for (const row of binaryRecords) {
   const hash = bytes ? createHash('sha256').update(bytes).digest('hex') : '';
   check(`pdf-local-binary-${row.id}`, bytes?.subarray(0, 5).toString() === '%PDF-' && bytes.length === row.sizeBytes && hash === row.sha256, `Local bytes, signature, size and SHA-256 compared with the downloaded source record; ${row.url}`);
 }
-check('resource-data-match-audit', JSON.stringify(resources) === JSON.stringify(resourcesAudit.resources), 'Presentation data matches reviewed resource inventory.');
+check('resource-data-match-audit', resourcesAudit.resources.every(original => {
+  const present = resources.find(row => row.id === original.id);
+  const record = ownedDocuments.documents.find(row => row.id === original.id);
+  return present && record && ['id', 'title', 'kind', 'collectionSlug', 'sizeBytes', 'pageCount', 'schoolYear', 'volume'].every(key => present[key] === original[key]) && present.url === record.localUrl && record.sourceUrl === original.url;
+}), 'Original identity, audience, pages, bytes and source-to-local mapping are preserved; public editorial notes may change.');
 check('price-data-match-audit', JSON.stringify(data.prices.priceRows) === JSON.stringify(pricesAudit.rows), 'Every row, integer-cent value, recipient, year and kit matches the visually reviewed transcription.');
 check('price-source-row-sequence', pricesAudit.rows.length === 152 && pricesAudit.rows.every((row, i) => row.sourceRow === i + 1));
 check('prices-no-floating-cents', pricesAudit.rows.every(row => Number.isInteger(row.priceCents) && row.priceCents > 0));
@@ -50,9 +56,9 @@ check('formation-five-axes', institution.formationAxes.length === 5);
 check('formation-sixteen-actions', institution.formationPlan.flatMap(group => group.items).length === 16);
 check('formation-nine-photos-seven-municipalities', archive.formationGallery.length === 9 && new Set(archive.formationGallery.map(row => row.location)).size === 7);
 const originalTestimonials = new Set(manifest.pages.find(row => row.path === '/').images.filter(row => /\/frase-\d+\.jpg$/.test(row.url)).map(row => row.url));
-check('source-testimonial-set', originalTestimonials.size === 9 && archive.testimonials.length === 9 && archive.testimonials.every(row => originalTestimonials.has(row.sourceUrl)), 'The nine source images, not only application record counts, determine coverage.');
+check('source-testimonial-set', originalTestimonials.size === 9 && archive.testimonials.length === 9 && archive.testimonials.every(row => ownedDocuments.testimonials.some(record => record.id === row.id && record.localUrl === row.originalImage && originalTestimonials.has(record.sourceUrl))), 'Independent source image set mapped to nine byte-identical local originals.');
 const originalVideos = new Set(manifest.pages.flatMap(page => page.media || []).map(row => row.url).filter(url => /comp-[123]\.mp4$/.test(url)));
-check('source-video-set', originalVideos.size === 3 && archive.videos.length === 3 && archive.videos.every(row => originalVideos.has(row.originalSrc)));
+check('source-video-set', originalVideos.size === 3 && archive.videos.length === 3 && archive.videos.every(row => ownedContent.changes.some(record => record.id === `${row.id}-media` && record.destination === row.src && record.origin.some(url => originalVideos.has(url)))));
 check('source-social-links', archive.socialLinks.length === 4 && archive.socialLinks.every(row => sourceLinks.some(link => link.url === row.url)));
 check('indicators-four-2025', institution.institutionalIndicators.filter(row => row.edition.startsWith('Catálogo 2025')).length === 4);
 check('historical-indicators-retained', institution.institutionalIndicators.filter(row => row.id.endsWith('-site')).length === 4);
@@ -104,10 +110,10 @@ if (!staticOnly) {
         routeResults.set(route, snapshot);
         check(`route-${route}`, response.status === 200);
         const meta = snapshot.metadata;
-        const expectedCanonical = new URL('https://aprender-site.vercel.app' + route).href;
+        const expectedCanonical = new URL(route, publicOrigin).href;
         const canonical = snapshot.canonical ? new URL(snapshot.canonical).href : '';
         const ogUrl = meta['og:url'] ? new URL(meta['og:url']).href : '';
-        check(`metadata-${route}`, canonical === expectedCanonical && ogUrl === canonical && /^https:\/\/aprender-site\.vercel\.app\//.test(meta['og:image']) && /^https:\/\/aprender-site\.vercel\.app\//.test(meta['twitter:image']) && /noindex/.test(meta.robots) && !Object.values(meta).some(value => /localhost|127\.0\.0\.1|0\.0\.0\.0/.test(value)), JSON.stringify({ canonical: snapshot.canonical, og: meta['og:image'], twitter: meta['twitter:image'], robots: meta.robots }));
+        check(`metadata-${route}`, canonical === expectedCanonical && ogUrl === canonical && new URL(meta['og:image']).origin === publicOrigin && new URL(meta['twitter:image']).origin === publicOrigin && /noindex/.test(meta.robots) && !Object.values(meta).some(value => /localhost|127\.0\.0\.1|0\.0\.0\.0/.test(value)), JSON.stringify({ canonical: snapshot.canonical, og: meta['og:image'], twitter: meta['twitter:image'], robots: meta.robots }));
         check(`unique-ids-${route}`, new Set(snapshot.ids).size === snapshot.ids.length);
         report.pages.push({ route, status: response.status, title: snapshot.title, canonical: snapshot.canonical, openGraph: meta['og:image'], twitter: meta['twitter:image'], ids: snapshot.ids, links: snapshot.links });
       } catch (error) { check(`route-${route}`, false, String(error)); }
@@ -126,7 +132,7 @@ if (!staticOnly) {
     for (const row of archive.testimonials) {
       for (const key of ['name', 'role', 'location', 'period']) textAt('/acervo', row[key], `rendered-testimonial-${row.id}-${key}`);
       for (const [i, text] of row.paragraphs.entries()) textAt('/acervo', text, `rendered-testimonial-${row.id}-${i}`);
-      linkAt('/acervo', row.sourceUrl, `testimonial-original-${row.id}`);
+      textAt('/acervo', `Ver registro integral de ${row.name}`, `testimonial-original-${row.id}`);
     }
     for (const row of archive.formationGallery) textAt('/acervo', row.location, `rendered-photo-location-${row.id}`);
     for (const row of archive.formationGallery) {
@@ -241,7 +247,7 @@ if (!staticOnly) {
     check('robots-noindex-policy', /Disallow:\s*\//i.test(robots));
     const sitemapResponse = await fetch(base + '/sitemap.xml');
     const sitemap = await sitemapResponse.text();
-    check('sitemap-public-origin', sitemapResponse.status === 200 && !/localhost|127\.0\.0\.1/.test(sitemap) && publicRoutes(data).every(route => sitemap.includes(`<loc>https://aprender-site.vercel.app${route}</loc>`)));
+    check('sitemap-public-origin', sitemapResponse.status === 200 && !/localhost|127\.0\.0\.1/.test(sitemap) && publicRoutes(data).every(route => sitemap.includes(`<loc>${publicOrigin}${route}</loc>`)));
   } finally { await browser.close(); }
 }
 report.summary = { total: report.checks.length, passed: report.checks.filter(row => row.pass).length, failed: report.checks.filter(row => !row.pass).length, assets: localAssets.size, pages: report.pages.length, sourcePages: manifest.pages.length };

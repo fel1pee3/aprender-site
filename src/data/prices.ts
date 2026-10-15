@@ -6,7 +6,7 @@ export type PriceRow = {
 };
 
 export const priceSource = {
-  "url": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+  "url": "/images/resources/tabela-precos-2027.jpg",
   "pageUrl": "https://www.aprendereditora.com.br/tabela-precos",
   "image": "/images/resources/tabela-precos-2027.jpg",
   "edition": "2027",

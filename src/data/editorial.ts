@@ -1,5 +1,5 @@
 export const catalogueUrl =
-  "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf";
+  "/documents/catalogo-2025-20-anos.pdf";
 
 export const contact = {
   email: "aprendereditora@aprendereditora.com.br",
@@ -9,8 +9,8 @@ export const contact = {
   city: "Fortaleza · Ceará",
   postalCode: "60175-705",
   instagram: "https://www.instagram.com/aprendereditora",
-  website: "https://www.aprendereditora.com.br/",
-  contactUrl: "https://www.aprendereditora.com.br/fale-conosco",
+  website: "/",
+  contactUrl: "/contato",
   checkedAt: "2026-10-13",
 };
 
@@ -117,7 +117,7 @@ export interface Article {
   imageAlt: string;
   imageCaption: string;
   paragraphs: string[];
-  sourceUrl: string;
+  sourceUrl?: string;
   sourceLabel: string;
   sourcePages?: number[];
 }
@@ -165,7 +165,6 @@ export const articles: Article[] = [
       "O registro pertence ao período de 2008 a 2013, quando a Aprender atuou no eixo de alfabetização do Programa Alfabetização na Idade Certa (PAIC), do Governo do Ceará. Segundo o catálogo, essa participação reuniu ações com estudantes, formação de professores e coordenadores, acompanhamento em sala e avaliações.",
       "A fotografia integra o arquivo institucional republicado na edição comemorativa. A fonte informa o ano do registro, sem especificar dia ou mês.",
     ],
-    sourceUrl: `${catalogueUrl}#page=2`,
     sourceLabel: "Catálogo Aprender Editora 2025 · páginas 2 e 6",
     sourcePages: [2, 6],
   },
@@ -187,7 +186,6 @@ export const articles: Article[] = [
       "A imagem faz parte do conjunto de memórias de sala de aula reunidas pela editora em 2025. Ela documenta o uso de um material do projeto naquele período; a apresentação atual da coleção Novo Lendo Você Fica Sabendo está nas páginas 24 e 25 do mesmo catálogo.",
       "O registro é histórico. Sua legenda original identifica a atividade, o município e o ano, sem informar dia ou mês.",
     ],
-    sourceUrl: `${catalogueUrl}#page=22`,
     sourceLabel: "Catálogo Aprender Editora 2025 · páginas 22, 24 e 25",
     sourcePages: [22, 24, 25],
   },

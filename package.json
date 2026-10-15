@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "test:e2e": "playwright test",
     "check:migration": "node scripts/check-migration.mjs",
+    "check:refinement": "node scripts/check-refinement.mjs",
     "measure:performance": "node scripts/measure-performance.mjs"
   },
   "dependencies": {

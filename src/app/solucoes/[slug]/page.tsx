@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/metadata";
-import { CollectionContent } from "@/components/CollectionContent";
+import { CollectionContent, CollectionMaterials } from "@/components/CollectionContent";
 import type { CSSProperties } from "react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { solutions, getSolution } from "@/data/solutions";
-import { catalogueUrl } from "@/data/editorial";
 import {
   Breadcrumb,
   Button,
@@ -28,7 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: solution.name,
     description: solution.description,
     path: `/solucoes/${solution.slug}`,
-    image: solution.image || undefined,
   });
 }
 export default async function SolutionPage({ params }: Props) {
@@ -87,19 +85,13 @@ export default async function SolutionPage({ params }: Props) {
                 <Button href={`/contato?solucao=${solution.slug}`}>
                   Tenho interesse nesta solução
                 </Button>
-                <TextLink
-                  href={
-                    solution.sourceUrl ||
-                    `${catalogueUrl}#page=${solution.sourcePages[0]}`
-                  }
-                >
-                  Consultar fonte da apresentação
-                </TextLink>
+                <TextLink href={solution.slug === "ingles" ? "#edicoes" : "#galeria"}>Ver materiais da coleção</TextLink>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <CollectionMaterials slug={solution.slug} />
       <section className={s.whiteSection}>
         <div className={`container ${s.solutionInfo}`}>
           <div>

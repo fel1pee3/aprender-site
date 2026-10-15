@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ImageDialog } from "@/components/ImageDialog";
 import { pageMetadata } from "@/lib/metadata";
 import {
   ContactCTA,
@@ -21,7 +22,7 @@ import s from "@/components/content.module.css";
 export const metadata = pageMetadata({
   title: "Acervo de formações, depoimentos e vídeos",
   description:
-    "Nove relatos de educadores e gestores, nove fotografias de formação em sete municípios e os três vídeos históricos publicados pela Aprender Editora.",
+    "Relatos de educadores e gestores, registros de formação e vídeos históricos da Aprender Editora, com contexto de cada período.",
   path: "/acervo",
   image: "/images/formacao-professores.webp",
 });
@@ -33,13 +34,13 @@ export default function ArchivePage() {
         eyebrow="Memória institucional"
         breadcrumb="Acervo"
         title="Educadores, práticas e histórias."
-        description="Relatos, fotografias e materiais audiovisuais que documentam a atuação da Aprender. Um acervo com autoria, origem e contexto preservados."
+        description="Educadores e gestores compartilham experiências com os materiais e as formações. Fotografias e vinhetas registram momentos da história da Aprender."
       />
       <div className="container">
         <nav aria-label="Seções do acervo" className={s.index}>
-          <a href="#depoimentos">9 depoimentos</a>
-          <a href="#formacoes">9 fotografias de formação</a>
-          <a href="#videos">3 vídeos de acervo</a>
+          <a href="#depoimentos">Depoimentos</a>
+          <a href="#formacoes">Fotografias de formação</a>
+          <a href="#videos">Vídeos de acervo</a>
           <a href="#memoria-editorial">Memória editorial</a>
         </nav>
       </div>
@@ -111,20 +112,12 @@ export default function ArchivePage() {
                     </div>
                   </details>
                 )}
-                <p className={s.source}>
-                  <a
-                    href={item.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ler o depoimento original integral{" "}
-                    <span aria-hidden="true">↗</span>
-                    <span className="sr-only">
-                      {" "}
-                      (imagem do acervo oficial, abre em nova aba)
-                    </span>
-                  </a>
-                </p>
+                <ImageDialog
+                  src={item.originalImage}
+                  alt={`Registro integral do depoimento de ${item.name}, com retrato e texto. A síntese do relato está disponível nesta página.`}
+                  caption={`${item.name} · ${item.location}. ${item.period}.`}
+                  buttonLabel={`Ver registro integral de ${item.name}`}
+                />
               </article>
             ))}
           </div>
@@ -140,7 +133,7 @@ export default function ArchivePage() {
           <SectionHeading
             eyebrow="O trabalho em diferentes territórios"
             title={
-              <span id="gallery-title">Nove registros. Sete municípios.</span>
+              <span id="gallery-title">Estudo e prática em diferentes municípios.</span>
             }
             description={galleryContext}
           >
@@ -172,17 +165,6 @@ export default function ArchivePage() {
               </figure>
             ))}
           </div>
-          <p className={s.source}>
-            Origem das fotografias e legendas:{" "}
-            <a
-              href={formationGallery[0].sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              galeria oficial Aprender em Ação (abre em nova aba)
-            </a>
-            .
-          </p>
         </div>
       </section>
 
@@ -191,9 +173,9 @@ export default function ArchivePage() {
           <SectionHeading
             eyebrow="Acervo audiovisual"
             title={
-              <span id="videos-title">As vinhetas do site institucional.</span>
+              <span id="videos-title">Vinhetas da memória institucional.</span>
             }
-            description="Três recursos publicados pela editora, preservados com sua identificação e seu conteúdo real."
+            description="Animações curtas da marca e um registro visual de leitura, publicados no acervo institucional."
           />
           <p className={s.notice}>{videoContext}</p>
           <div className={s.twoColumns}>
@@ -236,22 +218,9 @@ export default function ArchivePage() {
                   </div>
                 </details>
                 <p className={s.source}>
-                  <a
-                    href={video.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Página original (nova aba)
-                  </a>{" "}
-                  ·{" "}
-                  <a
-                    href={video.originalSrc}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    MP4 original (nova aba)
-                  </a>{" "}
-                  · <a href={video.descriptionTrack}>Descrição em WebVTT</a>
+                  <a href={video.descriptionTrack} download>
+                    Baixar descrição visual em WebVTT
+                  </a>
                 </p>
               </article>
             ))}
@@ -268,9 +237,9 @@ export default function ArchivePage() {
           <SectionHeading
             eyebrow="Leituras do acervo"
             title={
-              <span id="editorial-title">Memória e síntese documental.</span>
+              <span id="editorial-title">Memória de sala de aula.</span>
             }
-            description="Os registros de 2010, 2011 e 2025 continuam disponíveis com suas fontes e sua classificação editorial."
+            description="Atividades pedagógicas de 2010 e 2011 e a celebração dos vinte anos da editora em 2025."
           />
           <div className={s.threeColumns}>
             {articles.map((article) => (

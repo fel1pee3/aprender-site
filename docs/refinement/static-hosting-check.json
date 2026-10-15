@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-15T03:30:42.737983+00:00",
+  "method": "Next production file-tracing manifests (*.nft.json), local build .next-review; independent of unverified external hosting plan",
+  "functionTraceManifests": 22,
+  "publicDocumentEntries": [],
+  "documents": 29,
+  "totalDocumentBytes": 371731572,
+  "largestDocumentBytes": 70269887
+}

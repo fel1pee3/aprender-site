@@ -7,47 +7,25 @@ import { TextLink } from "./ui";
 import s from "./content.module.css";
 export function CollectionContent({ slug }: { slug: string }) {
   const detail = getCollectionDetail(slug);
-  const resources = getCollectionResources(slug);
   const prices = priceRows.filter(
     (row) =>
       row.collectionSlug === slug || row.relatedCollectionSlugs?.includes(slug),
   );
-  const gallery: GalleryItem[] = [
-    ...(detail?.gallery || []).map((item) => ({
-      ...item,
-      group: item.group || item.caption,
-    })),
-    ...resources.flatMap((resource) =>
-      (resource.previews || []).map((preview) => ({
-        src: preview.src,
-        alt: preview.alt,
-        caption: `${resource.title} · página ${preview.page} da amostra · ${resource.edition}`,
-        group: resource.title,
-      })),
-    ),
-  ];
   return (
     <section className={s.section}>
       <div className="container">
-        <nav className={s.index} aria-label="Detalhes da coleção">
-          {detail?.editions.length ? (
-            <a href="#edicoes">Apresentações e materiais</a>
-          ) : null}
-          {gallery.length > 0 && <a href="#galeria">Galeria</a>}
-          {resources.length > 0 && <a href="#amostras">Amostras em PDF</a>}
-          {prices.length > 0 && (
-            <a href="#oferta-2027">Materiais na tabela 2027</a>
-          )}
-        </nav>
         {detail && (
           <div id="edicoes">
-            <h2 className={s.heading}>A proposta, em detalhe.</h2>
+            <h2 className={s.heading}>Composição e proposta pedagógica.</h2>
             <div className={s.prose}>
               {detail.intro.map((p, i) => (
                 <p key={i}>{p}</p>
               ))}
             </div>
-            {detail.editions.map((edition) => (
+            {detail.editions.length > 1 && <nav className={s.index} aria-label="Apresentações da coleção">
+              {[...detail.editions].sort((a, b) => Number(b.id === "catalogo-2025") - Number(a.id === "catalogo-2025")).map(edition => <a key={edition.id} href={`#${edition.id}`}>{edition.label}</a>)}
+            </nav>}
+            {[...detail.editions].sort((a, b) => Number(b.id === "catalogo-2025") - Number(a.id === "catalogo-2025")).map((edition, editionIndex) => (
               <section key={edition.id} id={edition.id} className={s.edition}>
                 <span className={s.editionBadge}>{edition.label}</span>
                 <h3>{edition.audience}</h3>
@@ -64,7 +42,7 @@ export function CollectionContent({ slug }: { slug: string }) {
                     </div>
                   </details>
                 )}
-                <details className={s.accordion}>
+                <details className={s.accordion} open={editionIndex === 0}>
                   <summary>
                     Livros, volumes e destinatários · {edition.books.length}{" "}
                     itens
@@ -120,44 +98,10 @@ export function CollectionContent({ slug }: { slug: string }) {
                     </div>
                   </details>
                 )}
-                <p className={s.source}>
-                  Referência desta apresentação:{" "}
-                  <a
-                    href={edition.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {edition.label}
-                    {edition.sourcePages?.length
-                      ? ` · p. ${edition.sourcePages.join(", ")}`
-                      : ""}{" "}
-                    (nova aba)
-                  </a>
-                  .
-                </p>
+
               </section>
             ))}
           </div>
-        )}
-        {gallery.length > 0 && (
-          <section id="galeria" className={s.section}>
-            <h2 className={s.heading}>Veja os materiais por dentro.</h2>
-            <p className={s.note}>
-              Selecione um material para ver capas, kits e páginas do acervo. As
-              legendas identificam a apresentação de origem.
-            </p>
-            <MaterialGallery items={gallery} />
-          </section>
-        )}
-        {resources.length > 0 && (
-          <section id="amostras" className={s.section}>
-            <h2 className={s.heading}>Amostras para consultar.</h2>
-            <ResourceLinks items={resources} />
-            <p className={s.note}>
-              Amostras públicas do acervo da editora. O ano escolar e o volume
-              não equivalem ao ano de edição.
-            </p>
-          </section>
         )}
         {prices.length > 0 && (
           <section id="oferta-2027" className={s.section}>
@@ -215,4 +159,59 @@ export function CollectionContent({ slug }: { slug: string }) {
       </div>
     </section>
   );
+}
+
+export function CollectionMaterials({ slug }: { slug: string }) {
+  const detail = getCollectionDetail(slug);
+  const resources = getCollectionResources(slug);
+  const prices = priceRows.filter(row => row.collectionSlug === slug || row.relatedCollectionSlugs?.includes(slug));
+  const gallery: GalleryItem[] = [
+    ...(detail?.gallery || []).map((item) => ({
+      ...item,
+      group: item.group || item.caption,
+    })),
+    ...resources.flatMap((resource) =>
+      (resource.previews || []).map((preview) => ({
+        src: preview.src,
+        alt: preview.alt,
+        caption: `${resource.title} · página ${preview.page} da amostra · ${resource.edition}`,
+        group: resource.title,
+      })),
+    ),
+  ];
+
+  gallery.sort((a, b) => Number(b.editionId === "catalogo-2025") - Number(a.editionId === "catalogo-2025"));
+  return <section className={s.materialOpening}><div className="container">
+        <nav className={s.index} aria-label="Detalhes da coleção">
+          {detail?.editions.length ? (
+            <a href="#edicoes">Apresentações e materiais</a>
+          ) : null}
+          {gallery.length > 0 && <a href="#galeria">Galeria</a>}
+          {resources.length > 0 && <a href="#amostras">Amostras em PDF</a>}
+          {prices.length > 0 && (
+            <a href="#oferta-2027">Materiais na tabela 2027</a>
+          )}
+        </nav>
+        {gallery.length > 0 && (
+          <section id="galeria" className={s.materialSection}>
+            <h2 className={s.heading}>Veja os materiais por dentro.</h2>
+            <p className={s.note}>
+              Explore kits, capas e páginas internas. Selecione um material e use
+              “Ampliar imagem” para observar os detalhes.
+            </p>
+            <MaterialGallery items={gallery} />
+          </section>
+        )}
+        {resources.length > 0 && (
+          <section id="amostras" className={s.materialSection}>
+            <h2 className={s.heading}>Amostras para consultar.</h2>
+            <ResourceLinks items={resources} />
+            <p className={s.note}>
+              Amostras públicas do acervo da editora. O ano escolar e o volume
+              não equivalem ao ano de edição.
+            </p>
+          </section>
+        )}
+
+  </div></section>;
 }

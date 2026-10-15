@@ -10,7 +10,9 @@ import { navigation } from "@/data/navigation";
 export function Header() {
   const pathname = usePathname();
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const isCurrent = (href: string) =>
     pathname === href || pathname.startsWith(`${href}/`);
 
@@ -19,7 +21,8 @@ export function Header() {
   }
 
   function openMenu() {
-    dialogRef.current?.showModal();
+    if (!dialogRef.current || dialogRef.current.open) return;
+    dialogRef.current.showModal();
     setMenuOpen(true);
   }
 
@@ -45,6 +48,23 @@ export function Header() {
   }, [pathname]);
 
   useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      setScrolled(window.scrollY > 16);
+      frame = 0;
+    };
+    const onScroll = () => {
+      if (!frame) frame = window.requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.cancelAnimationFrame(frame);
+    };
+  }, []);
+
+  useEffect(() => {
     if (!menuOpen) return;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
@@ -60,7 +80,7 @@ export function Header() {
   }, [menuOpen]);
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} data-scrolled={scrolled}>
       <div className={`container ${styles.inner}`}>
         <Link
           href="/"
@@ -98,6 +118,7 @@ export function Header() {
           </Link>
         </div>
         <button
+          ref={menuButtonRef}
           className={styles.menuButton}
           type="button"
           aria-label="Abrir menu de navegação"
@@ -117,7 +138,11 @@ export function Header() {
         className={styles.dialog}
         aria-labelledby="mobile-menu-title"
         onKeyDown={keepFocusInMenu}
-        onClose={() => setMenuOpen(false)}
+        onClose={() => {
+          setMenuOpen(false);
+          if (menuButtonRef.current?.getClientRects().length)
+            menuButtonRef.current.focus({ preventScroll: true });
+        }}
         onClick={(event) => {
           if (event.target === event.currentTarget) closeMenu();
         }}

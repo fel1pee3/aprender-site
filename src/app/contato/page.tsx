@@ -71,22 +71,10 @@ export default function Contact() {
                     </a>
                   </p>
                 ))}
-                <a
-                  href={contact.contactUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Contato no site institucional (nova aba)
-                </a>
               </div>
             </div>
             <p>
-              Endereço da edição de 2025. Registros antigos citam Rua Marvin,
-              mantida como referência de acervo.
-            </p>
-            <p>
-              Esta é uma proposta independente de redesign. Os links de telefone
-              e e-mail direcionam aos canais públicos da editora.
+              Endereço informado na edição institucional de 2025.
             </p>
           </aside>
           <Suspense fallback={<p role="status">Preparando o formulário…</p>}>

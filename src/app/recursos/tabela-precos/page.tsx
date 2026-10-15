@@ -2,12 +2,13 @@ import { connection } from "next/server";
 import { pageMetadata } from "@/lib/metadata";
 import { PriceExplorer } from "@/components/PriceExplorer";
 import { PageIntro, TextLink } from "@/components/ui";
+import { ImageDialog } from "@/components/ImageDialog";
 import { priceSource } from "@/data/prices";
 import s from "@/components/content.module.css";
 export const metadata = pageMetadata({
   title: "Tabela de preços publicada · 2027",
   description:
-    "Consulte materiais, destinatários, anos e preços de capa da tabela 2027 publicada pela Aprender Editora, com acesso à referência original.",
+    "Consulte materiais, destinatários, anos e preços de capa da tabela 2027 publicada pela Aprender Editora, com filtros por coleção, ano e destinatário.",
   path: "/recursos/tabela-precos",
 });
 export default async function Prices() {
@@ -29,15 +30,10 @@ export default async function Prices() {
           <PriceExplorer />
           <p className={s.source}>
             Fonte: tabela de preços identificada como 2027, consultada em
-            14/10/2026. Valores transcritos em reais, sem arredondamento.
+            14/10/2026. Valores de capa em reais.
           </p>
           <div className={s.index}>
-            <TextLink href={priceSource.image}>
-              Ver imagem original da tabela (JPG)
-            </TextLink>
-            <TextLink href={priceSource.pageUrl}>
-              Consultar publicação no site oficial
-            </TextLink>
+            <ImageDialog src={priceSource.image} alt="Tabela de preços de capa publicada pela Aprender Editora, identificada como 2027" caption="Tabela 2027. Os 152 materiais e preços estão disponíveis em texto nesta página." buttonLabel="Ampliar tabela publicada · 2027" />
             <TextLink href="/recursos">Todos os recursos</TextLink>
           </div>
         </div>

@@ -19,12 +19,12 @@ export default function Journal() {
         breadcrumb="Em ação"
         title={
           <>
-            A educação acontece
+            Materiais e formação
             <br />
-            no encontro.
+            na prática.
           </>
         }
-        description="Memórias de sala de aula, histórias da editora e registros de uma caminhada compartilhada. Um olhar para o acervo da Aprender."
+        description="Atividades de leitura, acompanhamento pedagógico e histórias da editora. Conheça os registros de sala de aula do acervo da Aprender."
       />
       <section className={s.section}>
         <div className="container">
@@ -55,9 +55,8 @@ export default function Journal() {
             ))}
           </div>
           <p className={s.sourceNote}>
-            Seleção editorial a partir do catálogo comemorativo de 2025 e de
-            fontes institucionais. As datas dos registros históricos são
-            preservadas conforme documentadas.
+            Registros de 2010 e 2011 publicados no catálogo comemorativo de
+            2025, ao lado da celebração dos vinte anos da editora.
           </p>
         </div>
       </section>

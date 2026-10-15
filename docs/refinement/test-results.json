@@ -1,0 +1,443 @@
+{
+  "command": "npm run test:e2e -- --reporter=list,json",
+  "stats": {
+    "startTime": "2026-10-15T03:17:35.586Z",
+    "duration": 62397.945999999996,
+    "expected": 39,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "file": "migration.spec.ts",
+      "title": "tabela 2027: 152 linhas, busca sem acento, combinação, URL, recarga e limpeza",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1457
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "consulta de preços e catálogo chegam completos no HTML inicial",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 114
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "tabela abre diretamente com coleção por slug e volta ao filtro pelo histórico",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 531
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "coleções recuperadas, aliases e contato de Inglês conservam contexto",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1360
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "galeria de materiais responde a seleção e controles por teclado",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 737
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "biblioteca mantém 27 amostras e documento PAIC com nomes e informação de arquivo",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1730
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acervo oferece nove relatos, nove fotos e três vinhetas sob demanda",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 832
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "migração: sem overflow, imagens quebradas ou erros observados em 360px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1794
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "migração: sem overflow, imagens quebradas ou erros observados em 390px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1680
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "migração: sem overflow, imagens quebradas ou erros observados em 768px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1774
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "migração: sem overflow, imagens quebradas ou erros observados em 1024px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1758
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "migração: sem overflow, imagens quebradas ou erros observados em 1440px",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1920
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /acervo",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1311
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /recursos",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1188
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /recursos/tabela-precos",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 2138
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /a-editora/trajetoria",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 962
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /a-editora/paic",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1179
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /a-editora/edgar-linhares",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 902
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /solucoes/lendo-e-escrevendo",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1258
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /solucoes/acerta-brasil",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1236
+        }
+      ]
+    },
+    {
+      "file": "migration.spec.ts",
+      "title": "acessibilidade automatizada da rota recuperada /solucoes/ingles",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1017
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "consulta institucional usa recursos próprios e não carrega PDFs automaticamente",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 2451
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "nove depoimentos integrais abrem localmente sob demanda e devolvem o foco",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 3773
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "galeria aparece cedo, mantém seleção no hover e funciona por teclado",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 873
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "header mantém altura ao rolar e âncoras ficam livres da navegação fixa",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 539
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "menu móvel mantém foco, fecha com Escape e destaca a rota atual",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1057
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "amostras e documento do PAIC indicam PDF, nova aba e origem local",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1074
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "baixar descrição oferece o arquivo WebVTT real",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 2061
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "preferência de movimento reduzido mantém foco e conteúdo imediatamente disponíveis",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 467
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "proposta e materiais iniciais permanecem visíveis sem JavaScript",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 539
+        }
+      ]
+    },
+    {
+      "file": "refinement.spec.ts",
+      "title": "busca sem acentos preserva URL e contato prepara contexto sem transmitir dados",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1065
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "rotas públicas, metadados de produção, mídias e tratamento de 404",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 707
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "busca sem acentos, filtros combinados, estado vazio, URL e histórico",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1131
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "contato mantém contexto, valida, prepara e copia sem transmitir",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 2133
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "menu de celular: foco, Escape, navegação e estado atual",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1599
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "cópia indisponível oferece seleção manual, sem falso sucesso",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 1009
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "páginas e imagens sem falhas, capturas e ausência de overflow",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 6437
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "acessibilidade automatizada nas rotas representativas",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 6265
+        }
+      ]
+    },
+    {
+      "file": "site.spec.ts",
+      "title": "zoom equivalente a 200% e preferência por movimento reduzido",
+      "status": "expected",
+      "results": [
+        {
+          "status": "passed",
+          "durationMs": 463
+        }
+      ]
+    }
+  ],
+  "additionalVerification": "Após parametrizar a origem pública dos testes, rotas/metadados/mídias/404 foram revalidados isoladamente: 1 teste passou; npm run typecheck passou."
+}

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Icon } from "./Icon";
+import { ImageDialog } from "./ImageDialog";
 import s from "./content.module.css";
 export type GalleryItem = {
   src: string;
@@ -50,6 +51,7 @@ export function MaterialGallery({
         </div>
       )}
       <figure className={s.galleryFigure}>
+        <ImageDialog src={item.src} alt={item.alt} caption={item.caption}>
         <Image
           src={item.src}
           alt={item.alt}
@@ -57,12 +59,14 @@ export function MaterialGallery({
           height={750}
           sizes="(max-width:767px) 90vw, 800px"
         />
+        </ImageDialog>
         <figcaption aria-live="polite">{item.caption}</figcaption>
       </figure>
       <div className={s.galleryControls}>
         <button
           type="button"
           aria-label="Imagem anterior"
+          disabled={visible.length < 2}
           onClick={() =>
             setSelected((index - 1 + visible.length) % visible.length)
           }
@@ -75,6 +79,7 @@ export function MaterialGallery({
         <button
           type="button"
           aria-label="Próxima imagem"
+          disabled={visible.length < 2}
           onClick={() => setSelected((index + 1) % visible.length)}
         >
           <Icon name="chevron" />

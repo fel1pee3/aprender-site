@@ -35,9 +35,6 @@ export default function Trajectory() {
                 {item.paragraphs.map((p) => (
                   <p key={p}>{p}</p>
                 ))}
-                <p className={s.source}>
-                  <a href={item.sourceUrl}>Fonte deste marco</a>
-                </p>
               </article>
             ))}
           </div>
@@ -58,9 +55,9 @@ export default function Trajectory() {
               <article id={item.id} key={item.id} className={s.metric}>
                 <strong>{item.value}</strong>
                 <p>{item.label}</p>
-                <a className={s.source} href={item.sourceUrl}>
+                <span className={s.source}>
                   {item.edition}
-                </a>
+                </span>
               </article>
             ))}
           </div>
@@ -72,9 +69,9 @@ export default function Trajectory() {
                 <article key={item.id} id={item.id} className={s.metric}>
                   <strong>{item.value}</strong>
                   <p>{item.label}</p>
-                  <a className={s.source} href={item.sourceUrl}>
+                  <span className={s.source}>
                     {item.edition}
-                  </a>
+                  </span>
                 </article>
               ))}
             </div>

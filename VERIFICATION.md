@@ -1,5 +1,7 @@
 # Verificação da revisão — 14/10/2026
 
+Para os resultados da rodada de refinamento de 15/10/2026, consulte [docs/relatorio-refinamento-final.md](docs/relatorio-refinamento-final.md). O registro abaixo corresponde à rodada anterior de recuperação do conteúdo.
+
 A revisão de conteúdo e interface foi conferida contra a compilação local de produção. O [relatório completo](docs/relatorio-correcao-aprender.md) contém o escopo, os métodos, as medições e as limitações de origem. A [matriz de migração](docs/matriz-migracao-conteudo.md) relaciona cada informação e recurso ao destino implementado.
 
 | Verificação | Resultado final |

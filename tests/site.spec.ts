@@ -1,5 +1,6 @@
 import { expect, test } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import { publicOrigin } from "../scripts/public-origin.cjs";
 import { solutions } from "../src/data/solutions";
 import { articles } from "../src/data/editorial";
 
@@ -39,11 +40,11 @@ test("rotas públicas, metadados de produção, mídias e tratamento de 404", as
       const content = tag?.match(/content="([^"]+)"/)?.[1];
       expect(content, `${path}: ${name}`).toBeDefined();
       expect(new URL(content!).origin, `${path}: ${name}`).toBe(
-        "https://aprender-site.vercel.app",
+        publicOrigin,
       );
       if (name === "og:url")
         expect(new URL(content!).href, path).toBe(
-          new URL(path, "https://aprender-site.vercel.app").href,
+          new URL(path, publicOrigin).href,
         );
       expect(content, `${path}: ${name}`).not.toMatch(
         /localhost|127\.0\.0\.1|0\.0\.0\.0/,
@@ -55,7 +56,7 @@ test("rotas públicas, metadados de produção, mídias e tratamento de 404", as
     )?.[1];
     expect(canonical, `${path}: canonical`).toBeDefined();
     expect(new URL(canonical!).href, `${path}: canonical`).toBe(
-      new URL(path, "https://aprender-site.vercel.app").href,
+      new URL(path, publicOrigin).href,
     );
   }
   for (const path of socialImages) {

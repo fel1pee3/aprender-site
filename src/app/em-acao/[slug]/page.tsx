@@ -58,13 +58,17 @@ export default async function ArticlePage({ params }: Props) {
           ))}
           <aside className={s.articleSource}>
             <strong>Fontes deste registro</strong>
-            <a
-              href={article.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {article.sourceLabel} (abre em nova aba)
-            </a>
+            {article.sourceUrl ? (
+              <a
+                href={article.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {article.sourceLabel} (site externo, nova aba)
+              </a>
+            ) : (
+              <span>{article.sourceLabel}</span>
+            )}
           </aside>
           <TextLink href="/em-acao">Explorar outros registros</TextLink>
         </article>

@@ -1,0 +1,1287 @@
+{
+  "checkedAt": "2026-10-15T03:07:53.451Z",
+  "baselineCommit": "2a4a4b3520274721c2b036d0a288bc5196d754c4",
+  "method": "Original source URLs and page references from git show HEAD, compared with current typed data and exact edition IDs. URLs below are internal provenance, never UI targets.",
+  "summary": {
+    "solutions": 23,
+    "editions": 36,
+    "books": 300,
+    "kitComponents": 408
+  },
+  "pdfPolicy": "As 27 amostras, o documento completo do PAIC e o catálogo integral permanecem em /documents/. Não há botão PDF por página editorial; amostras junto às coleções e catálogo secundário em /recursos.",
+  "solutions": [
+    {
+      "slug": "brincando-e-aprendendo",
+      "name": "Brincando e Aprendendo",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "destination": "/solucoes/brincando-e-aprendendo",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial-historico",
+          "label": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+          "sourcePages": [],
+          "destination": "/solucoes/brincando-e-aprendendo#oficial-historico",
+          "context": "Apresentação sem data de edição, mantida como acervo. Os quatro livros da criança têm 90 atividades. Essa quantidade não é aplicada às outras versões da coleção.",
+          "preservedContent": {
+            "books": 8,
+            "kitComponents": 26,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "oficial-novo",
+          "label": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/brincando-e-aprendendo-novo",
+          "sourcePages": [],
+          "destination": "/solucoes/brincando-e-aprendendo#oficial-novo",
+          "context": "A página publica números de páginas e quantidades específicas para quatro kits. Esses dados descrevem somente esta apresentação sem data de edição; o catálogo de 2025 mostra cinco variantes e um lançamento anunciado para 2026.",
+          "preservedContent": {
+            "books": 24,
+            "kitComponents": 24,
+            "foundationParagraphs": 2,
+            "supportItems": 4
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025 — cinco variantes e lançamento anunciado para 2026",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            14,
+            15
+          ],
+          "destination": "/solucoes/brincando-e-aprendendo#catalogo-2025",
+          "context": "Brincando e Aprendendo 1 aparece com o selo Lançamento 2026 no catálogo de 2025. A inclusão dessa variante reorganiza a numeração em relação às apresentações com quatro kits do site oficial. As faixas etárias e as extensões publicadas para os kits históricos não são transferidas automaticamente a esta edição.",
+          "preservedContent": {
+            "books": 15,
+            "kitComponents": 22,
+            "foundationParagraphs": 2,
+            "supportItems": 4
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/brincando-e-aprendendo-vol-01.pdf",
+        "/documents/brincando-e-aprendendo-vol-02.pdf",
+        "/documents/brincando-e-aprendendo-vol-03.pdf",
+        "/documents/brincando-e-aprendendo-vol-04.pdf"
+      ]
+    },
+    {
+      "slug": "miudezas-e-descobertas",
+      "name": "Miudezas e Descobertas",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        16
+      ],
+      "destination": "/solucoes/miudezas-e-descobertas",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            16
+          ],
+          "destination": "/solucoes/miudezas-e-descobertas#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 6,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 4
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "cataventos",
+      "name": "Cataventos",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        18
+      ],
+      "destination": "/solucoes/cataventos",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            18
+          ],
+          "destination": "/solucoes/cataventos#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 2,
+            "kitComponents": 8,
+            "foundationParagraphs": 2,
+            "supportItems": 4
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "uni-duni-te",
+      "name": "Uni Duni Tê",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        20
+      ],
+      "destination": "/solucoes/uni-duni-te",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            20
+          ],
+          "destination": "/solucoes/uni-duni-te#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 2,
+            "kitComponents": 8,
+            "foundationParagraphs": 1,
+            "supportItems": 4
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "novo-lendo-voce-fica-sabendo",
+      "name": "Novo Lendo Você Fica Sabendo",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        24,
+        25
+      ],
+      "destination": "/solucoes/novo-lendo-voce-fica-sabendo",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/novo-lendo-voce-fica-sabendo",
+          "sourcePages": [],
+          "destination": "/solucoes/novo-lendo-voce-fica-sabendo#oficial",
+          "context": "Apresentação de acervo para 1º e 2º anos, sem data de edição.",
+          "preservedContent": {
+            "books": 10,
+            "kitComponents": 18,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            24,
+            25
+          ],
+          "destination": "/solucoes/novo-lendo-voce-fica-sabendo#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 2,
+            "kitComponents": 14,
+            "foundationParagraphs": 2,
+            "supportItems": 7
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/nlvfs-1-ano-vol-01.pdf",
+        "/documents/nlvfs-2-ano-vol-01.pdf"
+      ]
+    },
+    {
+      "slug": "amma",
+      "name": "AMMA",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        26,
+        27
+      ],
+      "destination": "/solucoes/amma",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            26,
+            27
+          ],
+          "destination": "/solucoes/amma#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 2,
+            "kitComponents": 8,
+            "foundationParagraphs": 2,
+            "supportItems": 7
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "projeto-tema",
+      "name": "Projeto TEMA",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        28,
+        29
+      ],
+      "destination": "/solucoes/projeto-tema",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/projeto-tema",
+          "sourcePages": [],
+          "destination": "/solucoes/projeto-tema#oficial",
+          "context": null,
+          "preservedContent": {
+            "books": 9,
+            "kitComponents": 33,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            28,
+            29
+          ],
+          "destination": "/solucoes/projeto-tema#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 3,
+            "kitComponents": 18,
+            "foundationParagraphs": 2,
+            "supportItems": 7
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/livro-tema-1.pdf",
+        "/documents/livro-tema-2.pdf",
+        "/documents/livro-tema-3.pdf"
+      ]
+    },
+    {
+      "slug": "escrever-comunicar-e-ser",
+      "name": "Escrever, Comunicar e Ser",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        30
+      ],
+      "destination": "/solucoes/escrever-comunicar-e-ser",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+          "sourcePages": [],
+          "destination": "/solucoes/escrever-comunicar-e-ser#oficial",
+          "context": null,
+          "preservedContent": {
+            "books": 10,
+            "kitComponents": 10,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            30
+          ],
+          "destination": "/solucoes/escrever-comunicar-e-ser#catalogo-2025",
+          "context": "O catálogo de 2025 mostra os cinco livros de atividades. A apresentação de acervo inclui também cinco livros Sugestões e Orientações para o Professor.",
+          "preservedContent": {
+            "books": 5,
+            "kitComponents": 5,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/ecs-1-ano.pdf",
+        "/documents/ecs-2-ano.pdf",
+        "/documents/ecs-3-ano.pdf",
+        "/documents/ecs-4-ano.pdf",
+        "/documents/ecs-5-ano.pdf"
+      ]
+    },
+    {
+      "slug": "superativar",
+      "name": "Superativar",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        32,
+        33
+      ],
+      "destination": "/solucoes/superativar",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            32,
+            33
+          ],
+          "destination": "/solucoes/superativar#catalogo-2025",
+          "context": "Superativar 5 é apresentado como lançamento no catálogo de 2025; esse contexto não determina o ano das demais apresentações.",
+          "preservedContent": {
+            "books": 6,
+            "kitComponents": 30,
+            "foundationParagraphs": 3,
+            "supportItems": 6
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "vida-e-linguagem",
+      "name": "Vida & Linguagem",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        36,
+        37
+      ],
+      "destination": "/solucoes/vida-e-linguagem",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "site-sem-data",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+          "sourcePages": [],
+          "destination": "/solucoes/vida-e-linguagem#site-sem-data",
+          "context": null,
+          "preservedContent": {
+            "books": 16,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            36,
+            37
+          ],
+          "destination": "/solucoes/vida-e-linguagem#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 16,
+            "kitComponents": 8,
+            "foundationParagraphs": 2,
+            "supportItems": 6
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/vida-e-linguagem-6-ano.pdf",
+        "/documents/vida-e-linguagem-7-ano.pdf",
+        "/documents/vida-e-linguagem-8-ano.pdf",
+        "/documents/vida-e-linguagem-9-ano.pdf"
+      ]
+    },
+    {
+      "slug": "vida-e-matematica",
+      "name": "Vida & Matemática",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        38,
+        39
+      ],
+      "destination": "/solucoes/vida-e-matematica",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "site-sem-data",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+          "sourcePages": [],
+          "destination": "/solucoes/vida-e-matematica#site-sem-data",
+          "context": null,
+          "preservedContent": {
+            "books": 16,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            38,
+            39
+          ],
+          "destination": "/solucoes/vida-e-matematica#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 16,
+            "kitComponents": 8,
+            "foundationParagraphs": 2,
+            "supportItems": 6
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/vida-e-matematica-6-ano.pdf",
+        "/documents/vida-e-matematica-7-ano.pdf",
+        "/documents/vida-e-matematica-8-ano.pdf",
+        "/documents/vida-e-matematica-9-ano.pdf"
+      ]
+    },
+    {
+      "slug": "vida-e-ciencias",
+      "name": "Vida & Ciências",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        40,
+        41
+      ],
+      "destination": "/solucoes/vida-e-ciencias",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            40,
+            41
+          ],
+          "destination": "/solucoes/vida-e-ciencias#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 16,
+            "kitComponents": 8,
+            "foundationParagraphs": 2,
+            "supportItems": 6
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "avancando-juntos",
+      "name": "Avançando Juntos",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        42
+      ],
+      "destination": "/solucoes/avancando-juntos",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            42
+          ],
+          "destination": "/solucoes/avancando-juntos#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 4,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "tabela-2027",
+          "label": "Tabela publicada · edição 2027",
+          "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+          "sourcePages": [],
+          "destination": "/solucoes/avancando-juntos#tabela-2027",
+          "context": "A tabela documenta os nomes, anos, destinatários e preços. A ampliação da oferta não atribui aos materiais de 6º, 7º e 8º anos os componentes ou a fundamentação descritos apenas no catálogo de 2025.",
+          "preservedContent": {
+            "books": 16,
+            "kitComponents": 0,
+            "foundationParagraphs": 0,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "sou-da-paz",
+      "name": "Sou da Paz",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        44,
+        45
+      ],
+      "destination": "/solucoes/sou-da-paz",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            44,
+            45
+          ],
+          "destination": "/solucoes/sou-da-paz#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 4,
+            "kitComponents": 16,
+            "foundationParagraphs": 3,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "educacao-financeira",
+      "name": "Educação Financeira",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        46
+      ],
+      "destination": "/solucoes/educacao-financeira",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "site-sem-data",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/educacao-financeira",
+          "sourcePages": [],
+          "destination": "/solucoes/educacao-financeira#site-sem-data",
+          "context": null,
+          "preservedContent": {
+            "books": 5,
+            "kitComponents": 16,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            46
+          ],
+          "destination": "/solucoes/educacao-financeira#catalogo-2025",
+          "context": "A apresentação do site documenta os temas e o Livro do Professor. O catálogo de 2025 traz novas capas e subtítulos para os quatro livros, preservados nesta versão.",
+          "preservedContent": {
+            "books": 4,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "a-cor-da-gente",
+      "name": "A Cor da Gente",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        50
+      ],
+      "destination": "/solucoes/a-cor-da-gente",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/colecao-a-cor-da-gente",
+          "sourcePages": [],
+          "destination": "/solucoes/a-cor-da-gente#oficial",
+          "context": null,
+          "preservedContent": {
+            "books": 10,
+            "kitComponents": 18,
+            "foundationParagraphs": 3,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            50
+          ],
+          "destination": "/solucoes/a-cor-da-gente#catalogo-2025",
+          "context": "O catálogo mostra os livros numerados de 1 a 9. A apresentação de acervo reúne títulos individuais, sinopses e o Livro do Professor.",
+          "preservedContent": {
+            "books": 9,
+            "kitComponents": 18,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "transito-legal",
+      "name": "Trânsito Legal",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        52
+      ],
+      "destination": "/solucoes/transito-legal",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "site-sem-data",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/projeto-transito-legal",
+          "sourcePages": [],
+          "destination": "/solucoes/transito-legal#site-sem-data",
+          "context": null,
+          "preservedContent": {
+            "books": 5,
+            "kitComponents": 22,
+            "foundationParagraphs": 3,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            52
+          ],
+          "destination": "/solucoes/transito-legal#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 2,
+            "kitComponents": 6,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "ler-ouvir-e-contar",
+      "name": "Ler, Ouvir e Contar",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        54,
+        55
+      ],
+      "destination": "/solucoes/ler-ouvir-e-contar",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            54,
+            55
+          ],
+          "destination": "/solucoes/ler-ouvir-e-contar#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 17,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "ideb-nota-10",
+      "name": "IDEB Nota 10",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        56
+      ],
+      "destination": "/solucoes/ideb-nota-10",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            56
+          ],
+          "destination": "/solucoes/ideb-nota-10#catalogo-2025",
+          "context": null,
+          "preservedContent": {
+            "books": 5,
+            "kitComponents": 0,
+            "foundationParagraphs": 2,
+            "supportItems": 5
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "fluir-das-emocoes",
+      "name": "Fluir das Emoções",
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePages": [
+        58,
+        59
+      ],
+      "destination": "/solucoes/fluir-das-emocoes",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "site-sem-data",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/colecao-fluir-das-emocoes",
+          "sourcePages": [],
+          "destination": "/solucoes/fluir-das-emocoes#site-sem-data",
+          "context": null,
+          "preservedContent": {
+            "books": 4,
+            "kitComponents": 3,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "catalogo-2025",
+          "label": "Catálogo institucional de 2025",
+          "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+          "sourcePages": [
+            58,
+            59
+          ],
+          "destination": "/solucoes/fluir-das-emocoes#catalogo-2025",
+          "context": "O terceiro livro usa O Eu em Relação nesta apresentação, enquanto o site histórico o apresenta como Eu, Eu com o Outro, e Eu com o Grupo.",
+          "preservedContent": {
+            "books": 3,
+            "kitComponents": 9,
+            "foundationParagraphs": 2,
+            "supportItems": 3
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        },
+        {
+          "id": "tabela-2027",
+          "label": "Tabela publicada · edição 2027",
+          "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+          "sourcePages": [],
+          "destination": "/solucoes/fluir-das-emocoes#tabela-2027",
+          "context": "A tabela de 2027 apresenta o terceiro título como O Eu em Relação. A apresentação histórica do site usa Eu, Eu com o Outro, e Eu com o Grupo; os títulos são preservados em suas respectivas fontes.",
+          "preservedContent": {
+            "books": 3,
+            "kitComponents": 0,
+            "foundationParagraphs": 0,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    },
+    {
+      "slug": "lendo-e-escrevendo",
+      "name": "Lendo e Escrevendo",
+      "sourceUrl": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+      "sourcePages": [],
+      "destination": "/solucoes/lendo-e-escrevendo",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+          "sourcePages": [],
+          "destination": "/solucoes/lendo-e-escrevendo#oficial",
+          "context": "Três kits para crianças de 3, 4 e 5 anos. Apresentação de acervo sem data de edição.",
+          "preservedContent": {
+            "books": 9,
+            "kitComponents": 24,
+            "foundationParagraphs": 3,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/educacao-infantil-laranja.pdf",
+        "/documents/educacao-infantil-verde-vol-02.pdf",
+        "/documents/educacao-infantil-vermelho-vol-01.pdf"
+      ]
+    },
+    {
+      "slug": "acerta-brasil",
+      "name": "ACerta Brasil",
+      "sourceUrl": "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+      "sourcePages": [],
+      "destination": "/solucoes/acerta-brasil",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Abrir amostra em PDF · nova aba",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "oficial",
+          "label": "Apresentação de acervo · sem data de edição",
+          "sourceUrl": "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+          "sourcePages": [],
+          "destination": "/solucoes/acerta-brasil#oficial",
+          "context": "A apresentação institucional destaca o desempenho no SAEB, que compõe o IDEB. O foco em avaliações externas não estabelece promessa de resultado.",
+          "preservedContent": {
+            "books": 8,
+            "kitComponents": 28,
+            "foundationParagraphs": 2,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": [
+        "/documents/acbr-matematica-5-ano.pdf",
+        "/documents/acbr-portugues-5-ano.pdf"
+      ]
+    },
+    {
+      "slug": "ingles",
+      "name": "Inglês",
+      "sourceUrl": "https://www.aprendereditora.com.br/tabela-precos",
+      "sourcePages": [],
+      "destination": "/solucoes/ingles",
+      "preservedContent": [
+        "proposta",
+        "público e etapa",
+        "objetivos",
+        "componentes",
+        "apoio e formação",
+        "edições e materiais"
+      ],
+      "removedAction": "Botão de consulta à fonte da apresentação; origem preservada somente na documentação interna.",
+      "retainedActions": [
+        "Conhecer a coleção",
+        "Ver materiais",
+        "Conversar sobre esta solução"
+      ],
+      "editions": [
+        {
+          "id": "tabela-2027",
+          "label": "Tabela publicada · edição 2027",
+          "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+          "sourcePages": [],
+          "destination": "/solucoes/ingles#tabela-2027",
+          "context": "A fonte apresenta nome, ano, destinatário e preço. Não descreve metodologia, conteúdo pedagógico, componentes de kit ou formação; a consulta deve considerar esse escopo.",
+          "preservedContent": {
+            "books": 8,
+            "kitComponents": 0,
+            "foundationParagraphs": 0,
+            "supportItems": 0
+          },
+          "removedAction": "Link da apresentação para a fonte anterior ou para página específica do catálogo. A edição permanece consultável em HTML; as páginas da fonte são referências internas.",
+          "retainedAction": "Atalho para a apresentação dentro da coleção; expansão de fundamentação e composição dos materiais."
+        }
+      ],
+      "localSamples": []
+    }
+  ]
+}

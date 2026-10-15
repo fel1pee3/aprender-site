@@ -47,7 +47,7 @@ export default function Platforms() {
                   Acessar {platform.name}
                 </Button>
                 <p className={s.notice}>
-                  Você será direcionado ao ambiente externo da plataforma. O
+                  A plataforma abre em nova aba, em seu ambiente externo. O
                   acesso requer as credenciais fornecidas aos participantes.
                 </p>
               </div>

@@ -29,6 +29,10 @@
   color: var(--green);
   text-decoration: underline;
 }
+.main a:focus-visible {
+  color: var(--green);
+  text-decoration: underline;
+}
 .brand > a {
   margin-bottom: 17px;
 }

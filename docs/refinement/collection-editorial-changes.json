@@ -1,0 +1,133 @@
+{
+  "src/data/collection-details-primary.ts": [
+    {
+      "old": "Site oficial — apresentação dos quatro kits com 90 atividades",
+      "new": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Site oficial — apresentação em /brincando-e-aprendendo-novo",
+      "new": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Apresentação do site oficial — sem data de edição",
+      "new": "Apresentação de acervo · sem data de edição",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "publicada em /brincando-e-aprendendo-novo, sem data de edição.",
+      "new": "com quatro kits e quantidades de recursos · sem data de edição.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "versão publicada em /brincando-e-aprendendo-novo.",
+      "new": "apresentação com quatro kits e quantidades de recursos · sem data de edição.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "3 anos — faixa sugerida no site oficial",
+      "new": "3 anos — faixa sugerida na apresentação de acervo",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "4 anos — faixa sugerida no site oficial",
+      "new": "4 anos — faixa sugerida na apresentação de acervo",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "5 anos — faixa sugerida no site oficial",
+      "new": "5 anos — faixa sugerida na apresentação de acervo",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "O texto do guia no trecho do 2º ano repete 1º ano, enquanto a capa e a organização do kit identificam 2º ano. A identificação segue a capa e o kit. As apresentações documentadas nesta página não têm data de edição.",
+      "new": "Apresentação de acervo para 1º e 2º anos, sem data de edição.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "A página de origem repete o número 2 no cabeçalho da faixa de 5 anos. As capas, a descrição do livro e o guia identificam esse kit como 3. Essa apresentação não foi localizada no catálogo de 2025.",
+      "new": "Três kits para crianças de 3, 4 e 5 anos. Apresentação de acervo sem data de edição.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "conforme os materiais ilustrados no site oficial.",
+      "new": "conforme os materiais desta apresentação.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Os cinco livros Sugestões e Orientações para o Professor estão documentados na apresentação do site oficial acima.",
+      "new": "A apresentação de acervo inclui também cinco livros Sugestões e Orientações para o Professor.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Os títulos individuais e as sinopses estão preservados na apresentação do site oficial acima. O Livro do Professor também é documentado nessa apresentação.",
+      "new": "A apresentação de acervo reúne títulos individuais, sinopses e o Livro do Professor.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "A sinopse individual é documentada na apresentação do site oficial.",
+      "new": "Consulte a sinopse individual na apresentação de acervo.",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "A coleção não foi localizada no catálogo de 2025; a relação com avaliações não estabelece promessa de resultado.",
+      "new": "O foco em avaliações externas não estabelece promessa de resultado.",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    },
+    {
+      "old": "A sinopse está na apresentação do site oficial.",
+      "new": "Consulte a sinopse na composição e proposta pedagógica desta coleção.",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    },
+    {
+      "old": "Brincando e Aprendendo organiza atividades de creche e pré-escola. As duas apresentações do site oficial e o catálogo de 2025 documentam composições diferentes, preservadas abaixo com sua origem.",
+      "new": "Brincando e Aprendendo organiza atividades de creche e pré-escola. Conheça a composição de 2025 e duas apresentações de acervo, sem data de edição, com seus respectivos kits e públicos.",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    },
+    {
+      "old": "Lendo e Escrevendo, Volta e Meia Vamos Dar, Muitas Histórias Vamos Contar é uma proposta de Educação Infantil apresentada no site oficial em três kits, com materiais para a criança, a família e o professor.",
+      "new": "Lendo e Escrevendo, Volta e Meia Vamos Dar, Muitas Histórias Vamos Contar é uma proposta de Educação Infantil em três kits, com materiais para a criança, a família e o professor.",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    }
+  ],
+  "src/data/collection-details-secondary.ts": [
+    {
+      "old": "Site institucional · apresentação sem ano informado",
+      "new": "Apresentação de acervo · sem data de edição",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Título de Fernanda Noronha, conferido na capa reproduzida no catálogo de 2025.",
+      "new": "Livro de Fernanda Noronha · apresentação do catálogo de 2025.",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    },
+    {
+      "old": "Nome do nível conferido na capa reproduzida no catálogo de 2025.",
+      "new": "Livro do programa Fluir das Emoções · apresentação do catálogo de 2025.",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    }
+  ],
+  "src/data/solutions.ts": [
+    {
+      "old": "Site institucional · apresentação sem ano informado",
+      "new": "Apresentação de acervo · sem data de edição",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Site institucional · apresentação #SuperaIDEB, sem ano informado",
+      "new": "Apresentação #SuperaIDEB · sem data de edição",
+      "action": "Redação institucional; detalhe de conferência arquivado"
+    },
+    {
+      "old": "Apresentação preservada do acervo do site institucional.",
+      "new": "",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    },
+    {
+      "old": "Apresentação preservada do acervo institucional.",
+      "new": "",
+      "action": "Procedimento de conferência arquivado; autoria, edição e sinopses mantidas"
+    }
+  ]
+}

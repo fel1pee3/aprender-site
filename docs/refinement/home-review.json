@@ -1,0 +1,243 @@
+{
+  "method": "Microsoft Edge headless; local Next dev preview at 127.0.0.1:3200, five viewports. Layout and interaction verification, not a production performance measurement.",
+  "measurements": [
+    {
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "overflow": false,
+      "h1": {
+        "top": 144,
+        "bottom": 281.71875,
+        "width": 316,
+        "height": 137.71875
+      },
+      "actions": [
+        {
+          "text": "Explorar soluções",
+          "top": 441.90625,
+          "height": 51.5
+        },
+        {
+          "text": "Conhecer a formação",
+          "top": 503.40625,
+          "height": 51.5
+        }
+      ],
+      "header": {
+        "top": 0,
+        "bottom": 77,
+        "width": 360,
+        "height": 77
+      },
+      "scrolledHeader": {
+        "scrolled": "true",
+        "height": 77,
+        "background": "rgba(255, 255, 255, 0.97)"
+      },
+      "menuOpen": true,
+      "focusTrapBackward": true,
+      "focusTrapForward": true,
+      "focusReturned": true
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "h1": {
+        "top": 144,
+        "bottom": 281.71875,
+        "width": 346,
+        "height": 137.71875
+      },
+      "actions": [
+        {
+          "text": "Explorar soluções",
+          "top": 441.90625,
+          "height": 51.5
+        },
+        {
+          "text": "Conhecer a formação",
+          "top": 503.40625,
+          "height": 51.5
+        }
+      ],
+      "header": {
+        "top": 0,
+        "bottom": 77,
+        "width": 390,
+        "height": 77
+      },
+      "scrolledHeader": {
+        "scrolled": "true",
+        "height": 77,
+        "background": "rgba(255, 255, 255, 0.97)"
+      },
+      "menuOpen": true,
+      "focusTrapBackward": true,
+      "focusTrapForward": true,
+      "focusReturned": true
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 640
+      },
+      "overflow": false,
+      "h1": {
+        "top": 176,
+        "bottom": 310.390625,
+        "width": 347.359375,
+        "height": 134.390625
+      },
+      "actions": [
+        {
+          "text": "Explorar soluções",
+          "top": 489.140625,
+          "height": 52
+        },
+        {
+          "text": "Conhecer a formação",
+          "top": 551.140625,
+          "height": 52
+        }
+      ],
+      "header": {
+        "top": 0,
+        "bottom": 83,
+        "width": 768,
+        "height": 83
+      },
+      "scrolledHeader": {
+        "scrolled": "true",
+        "height": 83,
+        "background": "rgba(255, 255, 255, 0.97)"
+      },
+      "menuOpen": true,
+      "focusTrapBackward": true,
+      "focusTrapForward": true,
+      "focusReturned": true
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "overflow": false,
+      "h1": {
+        "top": 188.296875,
+        "bottom": 360.328125,
+        "width": 463.671875,
+        "height": 172.03125
+      },
+      "actions": [
+        {
+          "text": "Explorar soluções",
+          "top": 507.640625,
+          "height": 52
+        },
+        {
+          "text": "Conhecer a formação",
+          "top": 507.640625,
+          "height": 52
+        }
+      ],
+      "header": {
+        "top": 0,
+        "bottom": 83,
+        "width": 1024,
+        "height": 83
+      },
+      "scrolledHeader": {
+        "scrolled": "true",
+        "height": 83,
+        "background": "rgba(255, 255, 255, 0.97)"
+      },
+      "menuOpen": true,
+      "focusTrapBackward": true,
+      "focusTrapForward": true,
+      "focusReturned": true
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "h1": {
+        "top": 235.1875,
+        "bottom": 452.875,
+        "width": 560,
+        "height": 217.6875
+      },
+      "actions": [
+        {
+          "text": "Explorar soluções",
+          "top": 600.1875,
+          "height": 52
+        },
+        {
+          "text": "Conhecer a formação",
+          "top": 600.1875,
+          "height": 52
+        }
+      ],
+      "header": {
+        "top": 0,
+        "bottom": 99,
+        "width": 1440,
+        "height": 99
+      },
+      "scrolledHeader": {
+        "scrolled": "true",
+        "height": 99,
+        "background": "rgba(255, 255, 255, 0.97)"
+      }
+    },
+    {
+      "reducedMotion": {
+        "scrollBehavior": "auto",
+        "headerTransition": "0s",
+        "groups": [
+          {
+            "animation": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "animation": "none",
+            "opacity": "1",
+            "transform": "none"
+          },
+          {
+            "animation": "none",
+            "opacity": "1",
+            "transform": "none"
+          }
+        ]
+      }
+    },
+    {
+      "contentWithoutJavaScript": {
+        "heading": "Materiais e formação para aprender.",
+        "groups": [
+          {
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "opacity": "1",
+            "visibility": "visible"
+          },
+          {
+            "opacity": "1",
+            "visibility": "visible"
+          }
+        ]
+      }
+    }
+  ]
+}

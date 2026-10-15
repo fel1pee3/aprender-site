@@ -43,9 +43,6 @@ export default function About() {
             {team.approach.map((p) => (
               <p key={p}>{p}</p>
             ))}
-            <p className={s.source}>
-              <a href={team.sourceUrl}>Apresentação institucional da equipe</a>
-            </p>
           </div>
           <figure className={s.photo}>
             <Image
@@ -69,17 +66,11 @@ export default function About() {
             <h2 className={s.heading}>Nossa missão</h2>
             <span className={s.editionBadge}>{missionVersions[0].edition}</span>
             <p>{missionVersions[0].text}</p>
-            <p className={s.source}>
-              <a href={missionVersions[0].sourceUrl}>Consultar publicação</a>
-            </p>
             <details id={missionVersions[1].id} className={s.accordion}>
               <summary>{missionVersions[1].title}</summary>
               <div>
                 <p>{missionVersions[1].text}</p>
                 <p>{missionVersions[1].note}</p>
-                <a href={missionVersions[1].sourceUrl}>
-                  Versão do site institucional
-                </a>
               </div>
             </details>
           </div>
@@ -91,8 +82,8 @@ export default function About() {
             Sete valores que orientam nosso trabalho.
           </h2>
           <p className={s.note}>
-            Declarações do catálogo de 2025. A apresentação anterior do site
-            permanece disponível em cada valor.
+            Declarações do catálogo institucional de 2025. Cada valor também
+            reúne a abordagem da apresentação histórica da editora.
           </p>
           <div className={s.twoColumns}>
             {institutionalValues.map((value) => (
@@ -100,22 +91,15 @@ export default function About() {
                 <h3 className={s.subheading}>{value.title}</h3>
                 <p>{value.description}</p>
                 <details className={s.accordion}>
-                  <summary>Contexto da versão anterior</summary>
+                  <summary>Apresentação histórica deste valor</summary>
                   <div>
                     <p>{value.historicalDescription}</p>
-                    <a href={value.historicalSourceUrl}>
-                      Apresentação institucional sem data de edição
-                    </a>
+                    <p className={s.note}>Registro institucional sem data de edição.</p>
                   </div>
                 </details>
               </article>
             ))}
           </div>
-          <p className={s.source}>
-            <a href={institutionalValues[0].sourceUrl}>
-              Fonte: catálogo de 2025, página 1
-            </a>
-          </p>
         </div>
       </section>
       <section id="trajetoria" className={`${s.section} ${s.soft}`}>

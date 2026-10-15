@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T21:04:45.718Z",
+  "checkedAt": "2026-10-15T03:01:39.237Z",
   "base": "http://localhost:3100",
   "mode": "static",
   "checks": [
@@ -346,7 +346,7 @@
     {
       "id": "resource-data-match-audit",
       "pass": true,
-      "detail": "Presentation data matches reviewed resource inventory."
+      "detail": "Original identity, audience, pages, bytes and source-to-local mapping are preserved; public editorial notes may change."
     },
     {
       "id": "price-data-match-audit",
@@ -411,7 +411,7 @@
     {
       "id": "source-testimonial-set",
       "pass": true,
-      "detail": "The nine source images, not only application record counts, determine coverage."
+      "detail": "Independent source image set mapped to nine byte-identical local originals."
     },
     {
       "id": "source-video-set",
@@ -609,7 +609,17 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-alcides-leite.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-cicera-rejane.jpg",
       "pass": true,
       "detail": ""
     },
@@ -619,7 +629,17 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-germana-santos.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-5.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-herbert-lima.jpg",
       "pass": true,
       "detail": ""
     },
@@ -629,7 +649,17 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-jose-leandro.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-7.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-jose-marcelo.jpg",
       "pass": true,
       "detail": ""
     },
@@ -639,12 +669,27 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-julio-cesar.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-9.webp",
       "pass": true,
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-lucinete-alves.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-vilma-rodrigues.jpg",
       "pass": true,
       "detail": ""
     },
@@ -1993,10 +2038,10 @@
   "destinations": [],
   "limitations": [],
   "summary": {
-    "total": 397,
-    "passed": 397,
+    "total": 406,
+    "passed": 406,
     "failed": 0,
-    "assets": 308,
+    "assets": 317,
     "pages": 0,
     "sourcePages": 31
   }

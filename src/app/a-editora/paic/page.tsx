@@ -6,6 +6,7 @@ import { documentResources } from "@/data/resources";
 import { PageIntro } from "@/components/ui";
 import { ReadingNav } from "@/components/ReadingNav";
 import { ResourceLinks } from "@/components/ResourceLinks";
+import { ImageDialog } from "@/components/ImageDialog";
 import s from "@/components/content.module.css";
 export const metadata = pageMetadata({
   title: "PAIC e resultados",
@@ -106,7 +107,7 @@ export default function PaicPage() {
           <h2 className={s.heading}>Atendimentos registrados pela editora.</h2>
           <AttendanceTable
             rows={paic.statistics}
-            caption="Série publicada no site institucional · 2008–2018 · atendimentos da Aprender"
+            caption="Atendimentos da Aprender · série histórica de 2008 a 2018"
           />
           <p className={s.note}>{paic.notes[0]}</p>
           <p className={s.notice}>{paic.notes[1]}</p>
@@ -137,18 +138,21 @@ export default function PaicPage() {
               .filter((f) => f.id !== "ioeb-original-2019")
               .map((fig) => (
                 <figure id={fig.id} key={fig.id}>
-                  <a href={fig.image}>
-                    <Image
+                  <Image
                       src={fig.image}
                       alt={fig.alt}
                       width={dimensions[fig.image].width}
                       height={dimensions[fig.image].height}
                       sizes="(max-width:767px) 90vw, 1100px"
-                    />
-                  </a>
+                  />
                   <figcaption>
                     {fig.caption}{" "}
-                    <a href={fig.sourceUrl}>Fonte institucional</a>
+                    <ImageDialog
+                      src={fig.image}
+                      alt={fig.alt}
+                      caption={fig.caption}
+                      buttonLabel="Ampliar imagem"
+                    />
                   </figcaption>
                 </figure>
               ))}
@@ -209,8 +213,7 @@ export default function PaicPage() {
                 >
                   <table className={s.table}>
                     <caption>
-                      IDEB dos anos iniciais · quadro preservado no site
-                      institucional
+                      IDEB dos anos iniciais · quadro histórico de 2017
                     </caption>
                     <thead>
                       <tr>
@@ -267,11 +270,16 @@ export default function PaicPage() {
               </tbody>
             </table>
           </div>
-          <p className={s.source}>
-            <a id="ioeb-original-2019" href={paic.figures[1].image}>
-              Abrir o quadro original do IOEB 2019
-            </a>
-          </p>
+          <div className={s.source}>
+            <div id="ioeb-original-2019">
+              <ImageDialog
+                src={paic.figures[1].image}
+                alt={paic.figures[1].alt}
+                caption={paic.figures[1].caption}
+                buttonLabel="Ampliar quadro do IOEB 2019"
+              />
+            </div>
+          </div>
         </div>
       </section>
       <section id="documentos" className={`${s.section} ${s.soft}`}>
@@ -287,7 +295,9 @@ export default function PaicPage() {
               {paic.references.map((ref) => (
                 <li key={ref.url}>
                   <p>
-                    <a href={ref.url}>{ref.title}</a>
+                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
+                      {ref.title} (site externo, nova aba)
+                    </a>
                   </p>
                 </li>
               ))}

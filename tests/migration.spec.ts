@@ -132,7 +132,7 @@ test("galeria de materiais responde a seleção e controles por teclado", async 
   )!;
   expect(sample.previews).toHaveLength(3);
   await gallery.getByLabel("Material ou volume").selectOption(sample.title);
-  await expect(gallery.locator("button[aria-pressed]")).toHaveCount(3);
+  await expect(gallery.getByRole("button", { name: /^Ver imagem / })).toHaveCount(3);
   await expect(
     gallery.getByText("1 de 3 imagens", { exact: true }),
   ).toBeVisible();
@@ -162,8 +162,8 @@ test("galeria de materiais responde a seleção e controles por teclado", async 
     gallery.getByRole("button", { name: /^Ver imagem 3:/ }),
   ).toHaveAttribute("aria-pressed", "true");
   await gallery.getByLabel("Material ou volume").selectOption("");
-  await expect(gallery.locator('button[aria-pressed="true"]')).toHaveCount(1);
-  await expect(gallery.locator("button[aria-pressed]").first()).toHaveAttribute(
+  await expect(gallery.getByRole("button", { name: /^Ver imagem /, pressed: true })).toHaveCount(1);
+  await expect(gallery.getByRole("button", { name: /^Ver imagem / }).first()).toHaveAttribute(
     "aria-pressed",
     "true",
   );
@@ -209,7 +209,7 @@ test("acervo oferece nove relatos, nove fotos e três vinhetas sob demanda", asy
   });
   await page.goto("/acervo");
   await expect(page.locator("#depoimentos article")).toHaveCount(9);
-  await expect(page.locator('#depoimentos a[href*="/frase-"]')).toHaveCount(9);
+  await expect(page.locator('#depoimentos button[aria-haspopup="dialog"]')).toHaveCount(9);
   await expect(page.locator("#formacoes figure")).toHaveCount(9);
   await expect(page.locator("video")).toHaveCount(3);
   expect(mediaRequests).toEqual([]);

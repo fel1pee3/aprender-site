@@ -2,8 +2,11 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import path from 'node:path';
 import { createRequire } from 'node:module';
 import ts from 'typescript';
+import { publicOrigin } from './public-origin.cjs';
 
 export const root = process.cwd();
+// Production audits use the same public-origin policy as the application's metadata.
+export { publicOrigin };
 export const readJson = name => JSON.parse(readFileSync(path.join(root, name), 'utf8'));
 export const normalize = value => String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
 export const resourceKey = value => {

@@ -2,8 +2,18 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: #fff;
-  border-bottom: 1px solid var(--line);
+  background: #f7f8f2f5;
+  border-bottom: 1px solid #d7dfd380;
+  box-shadow: 0 1px 0 transparent;
+  transition: background-color var(--motion-panel) var(--ease-out), border-color var(--motion-panel) var(--ease-out), box-shadow var(--motion-panel) var(--ease-out);
+}
+.header[data-scrolled="true"] {
+  background: #fffffff7;
+  border-color: var(--line);
+  box-shadow: 0 5px 20px #17352a0b;
+}
+@supports (backdrop-filter: blur(12px)) {
+  .header { backdrop-filter: blur(12px); }
 }
 .inner {
   display: flex;
@@ -59,9 +69,10 @@
   background: var(--green);
   transform: scaleX(0);
   transform-origin: left;
-  transition: transform 0.2s ease;
+  transition: transform var(--motion-control) var(--ease-out);
 }
 .navLink:hover::after,
+.navLink:focus-visible::after,
 .navLink[aria-current="page"]::after {
   transform: scaleX(1);
 }
@@ -86,11 +97,30 @@
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
-  transition: background 0.2s ease;
+  transition: background-color var(--motion-control) var(--ease-out), box-shadow var(--motion-control) var(--ease-out);
 }
 .contactLink:hover,
-.mobileContact:hover {
+.contactLink:focus-visible,
+.mobileContact:hover,
+.mobileContact:focus-visible {
   background: var(--deep);
+  box-shadow: 0 3px 9px #17352a18;
+}
+.contactLink svg,
+.platformLink svg,
+.mobileContact svg,
+.mobileNav svg {
+  transition: transform var(--motion-control) var(--ease-out);
+}
+.contactLink:is(:hover,:focus-visible) svg,
+.platformLink:is(:hover,:focus-visible) svg,
+.mobileContact:is(:hover,:focus-visible) svg,
+.mobileNav a:is(:hover,:focus-visible) svg {
+  transform: translateX(4px);
+}
+.contactLink:active,
+.mobileContact:active {
+  box-shadow: none;
 }
 .menuButton,
 .closeButton {
@@ -104,7 +134,10 @@
   min-width: 44px;
   min-height: 44px;
   cursor: pointer;
+  border-radius: 4px;
 }
+.menuButton:is(:hover,:focus-visible),
+.closeButton:is(:hover,:focus-visible) { background: var(--soft); }
 .menuButton {
   display: none;
   font: 600 14px var(--sans);
@@ -125,9 +158,23 @@
   color: var(--ink);
   overflow-y: auto;
   box-shadow: 0 18px 60px #17352a26;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity var(--motion-panel) var(--ease-out), transform var(--motion-panel) var(--ease-out), display var(--motion-panel) allow-discrete, overlay var(--motion-panel) allow-discrete;
+}
+.dialog[open] {
+  opacity: 1;
+  transform: translateY(0);
 }
 .dialog::backdrop {
   background: #10261ed9;
+  opacity: 0;
+  transition: opacity var(--motion-panel) var(--ease-out), display var(--motion-panel) allow-discrete, overlay var(--motion-panel) allow-discrete;
+}
+.dialog[open]::backdrop { opacity: 1; }
+@starting-style {
+  .dialog[open] { opacity: 0; transform: translateY(-6px); }
+  .dialog[open]::backdrop { opacity: 0; }
 }
 .dialogContent {
   padding: 20px 28px 28px;
@@ -164,6 +211,7 @@
   color: var(--ink);
 }
 .mobileNav > a:hover,
+.mobileNav > a:focus-visible,
 .mobileNav > a[aria-current="page"] {
   color: var(--green);
 }

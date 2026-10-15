@@ -1,0 +1,175 @@
+{
+  "method": "Microsoft Edge headless; final local Next production build at http://127.0.0.1:3100. Initial gallery document position measured after network idle and font readiness. Hero and gallery visually inspected at 390 and 1440 px; gallery screenshots captured after clicking the real Ver materiais da cole??o anchor.",
+  "measurements": [
+    {
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "overflow": false,
+      "hero": {
+        "top": 194,
+        "bottom": 272.375,
+        "height": 78.375
+      },
+      "gallery": {
+        "top": 1219.921875,
+        "bottom": 2260.859375,
+        "height": 1040.9375
+      },
+      "galleryHeading": "Veja os materiais por dentro.",
+      "editionLinks": [
+        {
+          "label": "Catálogo institucional de 2025 — cinco variantes e lançamento anunciado para 2026",
+          "href": "#catalogo-2025"
+        },
+        {
+          "label": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+          "href": "#oficial-historico"
+        },
+        {
+          "label": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+          "href": "#oficial-novo"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "hero": {
+        "top": 194,
+        "bottom": 283.59375,
+        "height": 89.59375
+      },
+      "gallery": {
+        "top": 1291.140625,
+        "bottom": 2332.078125,
+        "height": 1040.9375
+      },
+      "galleryHeading": "Veja os materiais por dentro.",
+      "editionLinks": [
+        {
+          "label": "Catálogo institucional de 2025 — cinco variantes e lançamento anunciado para 2026",
+          "href": "#catalogo-2025"
+        },
+        {
+          "label": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+          "href": "#oficial-historico"
+        },
+        {
+          "label": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+          "href": "#oficial-novo"
+        }
+      ],
+      "anchorNavigation": {
+        "headingTop": 244.140625,
+        "headerBottom": 77,
+        "hash": "#galeria"
+      }
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 640
+      },
+      "overflow": false,
+      "hero": {
+        "top": 210,
+        "bottom": 290.625,
+        "height": 80.625
+      },
+      "gallery": {
+        "top": 905.703125,
+        "bottom": 1961.21875,
+        "height": 1055.515625
+      },
+      "galleryHeading": "Veja os materiais por dentro.",
+      "editionLinks": [
+        {
+          "label": "Catálogo institucional de 2025 — cinco variantes e lançamento anunciado para 2026",
+          "href": "#catalogo-2025"
+        },
+        {
+          "label": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+          "href": "#oficial-historico"
+        },
+        {
+          "label": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+          "href": "#oficial-novo"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "overflow": false,
+      "hero": {
+        "top": 218.578125,
+        "bottom": 264.4375,
+        "height": 45.859375
+      },
+      "gallery": {
+        "top": 832,
+        "bottom": 1866.265625,
+        "height": 1034.265625
+      },
+      "galleryHeading": "Veja os materiais por dentro.",
+      "editionLinks": [
+        {
+          "label": "Catálogo institucional de 2025 — cinco variantes e lançamento anunciado para 2026",
+          "href": "#catalogo-2025"
+        },
+        {
+          "label": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+          "href": "#oficial-historico"
+        },
+        {
+          "label": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+          "href": "#oficial-novo"
+        }
+      ]
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "overflow": false,
+      "hero": {
+        "top": 272.359375,
+        "bottom": 333.953125,
+        "height": 61.59375
+      },
+      "gallery": {
+        "top": 848,
+        "bottom": 1893.875,
+        "height": 1045.875
+      },
+      "galleryHeading": "Veja os materiais por dentro.",
+      "editionLinks": [
+        {
+          "label": "Catálogo institucional de 2025 — cinco variantes e lançamento anunciado para 2026",
+          "href": "#catalogo-2025"
+        },
+        {
+          "label": "Apresentação com quatro kits · 90 atividades · sem data de edição",
+          "href": "#oficial-historico"
+        },
+        {
+          "label": "Apresentação com quatro kits · páginas e recursos · sem data de edição",
+          "href": "#oficial-novo"
+        }
+      ],
+      "anchorNavigation": {
+        "headingTop": 244,
+        "headerBottom": 99,
+        "hash": "#galeria"
+      }
+    }
+  ]
+}

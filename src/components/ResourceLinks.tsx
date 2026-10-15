@@ -28,8 +28,7 @@ export function ResourceLinks({ items }: { items: DocumentResource[] }) {
             </span>
             {item.notes && <span>{item.notes}</span>}
             <span>
-              Abrir {item.kind === "sample" ? "amostra" : "documento"} em nova
-              aba <Icon name="external" size={12} />
+              Abrir {item.kind === "sample" ? "amostra" : item.kind === "catalog" ? "catálogo" : "documento"} em PDF (nova aba) <Icon name="external" size={12} />
             </span>
           </div>
         </a>

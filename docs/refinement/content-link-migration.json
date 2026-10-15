@@ -1,0 +1,1223 @@
+{
+  "checkedAt": "2026-10-15",
+  "scope": "Institutional, formation, archive, editorial and contact links. Historical source inventories remain in docs/migration; binary checks in document-migration.json.",
+  "changes": [
+    {
+      "id": "team-source",
+      "origin": [
+        "https://www.aprendereditora.com.br/quem-somos",
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora#equipe",
+      "action": "remove-repeated-source-link",
+      "context": "Team presentation stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "equipe-apresentacao",
+          "content": "Desde 2005, a Aprender Editora produz, edita e publica materiais didáticos associados à formação contínua de educadores. Sua equipe reúne profissionais especializados na Educação Infantil e no Ensino Fundamental.",
+          "edition": "Site sem data; catálogo 2025"
+        },
+        {
+          "id": "equipe-integracao-1",
+          "content": "A produção editorial se articula à formação, à avaliação e ao acompanhamento em sala. O material semiestruturado explicita objetivos de aprendizagem e oferece referências para organizar a rotina pedagógica.",
+          "edition": "Catálogo 2025, páginas 1 e 10"
+        },
+        {
+          "id": "equipe-integracao-2",
+          "content": "O trabalho integra planejar, ensinar, observar, intervir e avaliar. Os encontros formativos relacionam teoria e prática, enquanto o acompanhamento ajuda a interpretar as necessidades dos estudantes e a ajustar as intervenções.",
+          "edition": "Catálogo 2025, páginas 1 e 10"
+        },
+        {
+          "id": "equipe-integracao-3",
+          "content": "A apresentação institucional relaciona a atualização de produtos e metodologias às transformações educacionais e ao desenvolvimento profissional de educadores orientados por princípios humanistas, éticos e democráticos.",
+          "edition": "Catálogo 2025, páginas 1 e 10"
+        }
+      ]
+    },
+    {
+      "id": "missao-catalogo-2025",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora#missao",
+      "action": "remove-repeated-source-link",
+      "context": "Both mission versions stay in HTML, with edition context.",
+      "contentPreserved": [
+        {
+          "id": "missao-catalogo-2025",
+          "content": "Promover as aprendizagens através do acesso a materiais didáticos semiestruturados que impulsionam a educação de crianças e estudantes, aperfeiçoam as práticas pedagógicas, promovem a cultura e valorizam a formação contínua de educadores como estratégias capazes de garantir direitos, reduzir desigualdades e construir uma sociedade mais justa, democrática e inclusiva.",
+          "edition": "Catálogo institucional de 2025, página 1"
+        }
+      ]
+    },
+    {
+      "id": "missao-site",
+      "origin": [
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#missao",
+      "action": "remove-repeated-source-link",
+      "context": "Both mission versions stay in HTML, with edition context.",
+      "contentPreserved": [
+        {
+          "id": "missao-site",
+          "content": "Desenvolver e aperfeiçoar iniciativas educacionais em sintonia com as transformações sociais. Atuar de maneira proativa na formação de educadores orientados por valores humanistas, pela ética e pela democracia.",
+          "edition": "Página sem data de edição"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-etica",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-etica",
+          "content": "Trabalhar com integridade, tolerância, profissionalismo, bom-senso e transparência, apoiando nossas ações na honestidade e no respeito a políticas e procedimentos definidos pela empresa, regulamentados pela lei e pela sociedade.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-etica",
+          "content": "No site, a ética também é vinculada à justiça social e ao respeito aos valores morais.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-inovacao",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-inovacao",
+          "content": "Conquistar e manter em nossas equipes profissionais talentosos e criativos, estimulando a capacidade relacional e intelectual, liderando o uso de tecnologias de ponta e antecipando-se ao lançamento de pesquisas, produtos e serviços.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-inovacao",
+          "content": "A versão do site enfatiza pesquisas educacionais, novas tecnologias e o estímulo às capacidades criativa, intelectual e relacional.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-qualidade",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-qualidade",
+          "content": "Oferecer, continuamente, alto padrão de qualidade em produtos e serviços que superem as necessidades presentes e futuras dos nossos clientes, buscando persistentemente a excelência.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-qualidade",
+          "content": "O site destaca assertividade, atendimento às necessidades dos clientes e superação das expectativas do mercado.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-integracao",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-integracao",
+          "content": "Desenvolver visão sistêmica nas equipes, mantendo, com os parceiros e demais servidores da empresa, o espírito de colaboração indispensável à eficiência do processo social e educativo; e compartilhar ações e responsabilidades para o alcance de metas e objetivos comuns.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-integracao",
+          "content": "A apresentação do site mantém colaboração, visão sistêmica e divisão de responsabilidades para objetivos compartilhados.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-humanizacao",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-humanizacao",
+          "content": "Estimular o desenvolvimento inter-relacional dos nossos colaboradores internos e externos, praticando a justiça, construindo e mantendo relações dignas, leais e respeitosas no mercado de trabalho.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-humanizacao",
+          "content": "No site, aparecem ainda solidariedade, cidadania e igualdade nas relações sociais e profissionais.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-responsabilidade-social",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-responsabilidade-social",
+          "content": "Compromisso integral com a educação, contribuindo para o pleno exercício da cidadania e a melhoria da qualidade de vida da sociedade.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-responsabilidade-social",
+          "content": "A versão do site relaciona a educação ao exercício da cidadania e à qualidade de vida.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "valor-site-responsabilidade-profissional",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "https://www.aprendereditora.com.br/missao-principios-e-valores"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-repeated-source-link",
+      "context": "Complete 2025 wording and historical approach stay in HTML.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-responsabilidade-profissional",
+          "content": "Exercer, continuamente, excelência no desempenho das funções atribuídas, prezando as relações pessoais e as diretrizes traçadas pela empresa.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-site-responsabilidade-profissional",
+          "content": "O site acrescenta cuidado com o funcionamento da empresa e valorização das boas atitudes.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "values-catalogue-source",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora#valores",
+      "action": "remove-redundant-pdf-button",
+      "context": "Catalogue reference stays as text; catalogue available as secondary resource.",
+      "contentPreserved": [
+        {
+          "id": "valor-2025-etica",
+          "content": "Trabalhar com integridade, tolerância, profissionalismo, bom-senso e transparência, apoiando nossas ações na honestidade e no respeito a políticas e procedimentos definidos pela empresa, regulamentados pela lei e pela sociedade.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-2025-inovacao",
+          "content": "Conquistar e manter em nossas equipes profissionais talentosos e criativos, estimulando a capacidade relacional e intelectual, liderando o uso de tecnologias de ponta e antecipando-se ao lançamento de pesquisas, produtos e serviços.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-2025-qualidade",
+          "content": "Oferecer, continuamente, alto padrão de qualidade em produtos e serviços que superem as necessidades presentes e futuras dos nossos clientes, buscando persistentemente a excelência.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-2025-integracao",
+          "content": "Desenvolver visão sistêmica nas equipes, mantendo, com os parceiros e demais servidores da empresa, o espírito de colaboração indispensável à eficiência do processo social e educativo; e compartilhar ações e responsabilidades para o alcance de metas e objetivos comuns.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-2025-humanizacao",
+          "content": "Estimular o desenvolvimento inter-relacional dos nossos colaboradores internos e externos, praticando a justiça, construindo e mantendo relações dignas, leais e respeitosas no mercado de trabalho.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-2025-responsabilidade-social",
+          "content": "Compromisso integral com a educação, contribuindo para o pleno exercício da cidadania e a melhoria da qualidade de vida da sociedade.",
+          "edition": "Catálogo 2025, página 1"
+        },
+        {
+          "id": "valor-2025-responsabilidade-profissional",
+          "content": "Exercer, continuamente, excelência no desempenho das funções atribuídas, prezando as relações pessoais e as diretrizes traçadas pela empresa.",
+          "edition": "Catálogo 2025, página 1"
+        }
+      ]
+    },
+    {
+      "id": "sobral-2000",
+      "origin": [
+        "https://www.aprendereditora.com.br/trajetoria"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "sobral-2000",
+          "content": "O diagnóstico da leitura em Sobral: A trajetória publicada pela Aprender começa com uma avaliação de leitura em Sobral, no Ceará. O site informa que participaram 75% dos estudantes da então 2ª série; 48% das crianças avaliadas não dominavam as habilidades de leitura. Naquele ano, uma avaliação da Fundação Carlos Chagas, ligada ao Programa Acelera Brasil, do Instituto Ayrton Senna, reuniu estudantes de 1ª e 4ª séries de 52 municípios. Segundo a narrativa institucional, Sobral ficou na penúltima posição. Esses dados motivaram uma política municipal centrada na aprendizagem e na alfabetização inicial.",
+          "edition": "2000 · antes da fundação da editora"
+        }
+      ]
+    },
+    {
+      "id": "equipe-edgar",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "equipe-edgar",
+          "content": "Uma política pública e uma equipe de educadoras: A Secretaria da Educação de Sobral organizou um conjunto de ações sistêmicas. Uma equipe externa de educadoras, coordenada pelo professor Edgar Linhares, participou da mudança das práticas de alfabetização de crianças de seis e sete anos. O trabalho envolveu formação contínua dos professores alfabetizadores, novas rotinas de aula, elaboração de matrizes com tarefas de leitura e escrita e produção dos insumos necessários às atividades. A equipe desenvolveu instrumentos de avaliação, acompanhou indicadores das escolas e realizou visitas para observar a prática pedagógica. Essa experiência antecede a fundação da editora. Os resultados pertencem ao trabalho coletivo da rede municipal, de seus gestores, professores, estudantes e parceiros.",
+          "edition": "Início dos anos 2000 · experiência municipal"
+        }
+      ]
+    },
+    {
+      "id": "fundacao-2005",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "fundacao-2005",
+          "content": "Nasce a Aprender Editora: O interesse de outros municípios pela experiência de alfabetização deu origem à Aprender Editora e ao Projeto Lendo Você Fica Sabendo — Letramento e Alfabetização. A empresa nasceu em Fortaleza e passou a associar produção de materiais à formação e ao acompanhamento pedagógico. O INEP publicou, no mesmo ano, Vencendo o desafio da aprendizagem nas séries iniciais: a experiência de Sobral/CE, primeiro volume da série Projeto Boas Práticas na Educação. O livro documenta a política municipal; não é uma certificação comercial da editora.",
+          "edition": "2005"
+        }
+      ]
+    },
+    {
+      "id": "fecop-2006",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "fecop-2006",
+          "content": "Alfabetização em municípios de menor IDH: O catálogo de 2025 registra um projeto de alfabetização desenvolvido por meio do FECOP em 12 municípios cearenses com os menores índices de desenvolvimento humano do Estado.",
+          "edition": "2006"
+        }
+      ]
+    },
+    {
+      "id": "paic-2007",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "paic-2007",
+          "content": "O PAIC torna-se política pública estadual: O Governo do Ceará, por meio da Secretaria da Educação, assumiu a execução do Programa Alfabetização na Idade Certa, em parceria com UNDIME/CE, UFC e UNICEF. O programa é uma política pública, com participação de diferentes instituições e das redes municipais.",
+          "edition": "2007"
+        }
+      ]
+    },
+    {
+      "id": "paic-2008-2013",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "paic-2008-2013",
+          "content": "Participação da Aprender no eixo de alfabetização: Com o Projeto Lendo Você Fica Sabendo, a Aprender participou do eixo de alfabetização do PAIC. O catálogo descreve materiais para estudantes, formação de professores, coordenadores e equipes técnicas, acompanhamento em salas de aula e avaliações. A publicação de 2025 declara que a participação alcançou mais de 60% dos estudantes e professores de 2º ano dos municípios cearenses naquele contexto. A série de atendimentos da editora pode ser consultada separadamente dos indicadores gerais do Estado.",
+          "edition": "2008–2013"
+        }
+      ]
+    },
+    {
+      "id": "aquisicao-2014",
+      "origin": [
+        "https://www.aprendereditora.com.br/paic"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "aquisicao-2014",
+          "content": "Mudança na aquisição dos materiais: A página histórica do PAIC informa que os municípios passaram a comprar os materiais com recursos próprios, em vez de recebê-los por intermédio da SEDUC. O site preserva os atendimentos registrados até 2018; essa mudança deve ser considerada na leitura da série.",
+          "edition": "A partir de 2014"
+        }
+      ]
+    },
+    {
+      "id": "vinte-anos-2025",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria",
+      "action": "remove-repeated-source-link",
+      "context": "Full timeline event stays in HTML.",
+      "contentPreserved": [
+        {
+          "id": "vinte-anos-2025",
+          "content": "Vinte anos de atuação editorial: O catálogo comemorativo reúne a trajetória, as coleções e os indicadores acumulados declarados pela editora. Ele amplia o registro de soluções e de resultados históricos, sem substituir os materiais e as apresentações anteriores preservados no acervo.",
+          "edition": "2025"
+        }
+      ]
+    },
+    {
+      "id": "indicador-materiais-2025",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria#materiais-2025",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-materiais-2025",
+          "content": "Mais de 2 milhões de estudantes utilizaram os materiais",
+          "edition": "Catálogo 2025, página 5"
+        }
+      ]
+    },
+    {
+      "id": "indicador-formacao-2025",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria#formacao-2025",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-formacao-2025",
+          "content": "Mais de 100 mil educadores e coordenadores passaram pelas formações",
+          "edition": "Catálogo 2025, página 5"
+        }
+      ]
+    },
+    {
+      "id": "indicador-municipios-2025",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria#municipios-2025",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-municipios-2025",
+          "content": "Mais de 300 municípios historicamente atendidos no Brasil",
+          "edition": "Catálogo 2025, página 5"
+        }
+      ]
+    },
+    {
+      "id": "indicador-alfabetizacao-2025",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/trajetoria#alfabetizacao-2025",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-alfabetizacao-2025",
+          "content": "Mais de 1 milhão de estudantes alfabetizados, segundo a editora",
+          "edition": "Catálogo 2025, página 5"
+        }
+      ]
+    },
+    {
+      "id": "indicador-materiais-site",
+      "origin": [
+        "https://www.aprendereditora.com.br/"
+      ],
+      "destination": "/a-editora/trajetoria#materiais-site",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-materiais-site",
+          "content": "Mais de 1 milhão de estudantes utilizaram os materiais",
+          "edition": "Home institucional, sem data de edição"
+        }
+      ]
+    },
+    {
+      "id": "indicador-formacao-site",
+      "origin": [
+        "https://www.aprendereditora.com.br/"
+      ],
+      "destination": "/a-editora/trajetoria#formacao-site",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-formacao-site",
+          "content": "Mais de 45 mil professores participaram das formações",
+          "edition": "Home institucional, sem data de edição"
+        }
+      ]
+    },
+    {
+      "id": "indicador-municipios-site",
+      "origin": [
+        "https://www.aprendereditora.com.br/"
+      ],
+      "destination": "/a-editora/trajetoria#municipios-site",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-municipios-site",
+          "content": "Mais de 200 municípios atendidos",
+          "edition": "Home institucional, sem data de edição"
+        }
+      ]
+    },
+    {
+      "id": "indicador-alfabetizacao-site",
+      "origin": [
+        "https://www.aprendereditora.com.br/"
+      ],
+      "destination": "/a-editora/trajetoria#alfabetizacao-site",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-alfabetizacao-site",
+          "content": "Mais de 600 mil estudantes alfabetizados com os materiais, segundo a editora",
+          "edition": "Home institucional, sem data de edição"
+        }
+      ]
+    },
+    {
+      "id": "indicador-parceiros-publieditorial-2025",
+      "origin": [
+        "https://www.opovo.com.br/noticias/especialpublicitario/aprendereditora/2025/11/07/aprender-editora-duas-decadas-formando-leitores-professores-e-futuros.html"
+      ],
+      "destination": "/a-editora/trajetoria#parceiros-publieditorial-2025",
+      "action": "remove-repeated-source-link",
+      "context": "Number, definition, edition and period stay visible.",
+      "contentPreserved": [
+        {
+          "id": "indicador-parceiros-publieditorial-2025",
+          "content": "85 municípios parceiros mencionados no publieditorial",
+          "edition": "Publieditorial O POVO, 7 de novembro de 2025"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-alcides-leite",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-1.jpg"
+      ],
+      "destination": "/acervo#alcides-leite",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-alcides-leite.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-alcides-leite",
+          "content": "Alcides Leite; Professor e secretário municipal de Educação, conforme o registro; Pereiro · CE. Alcides destaca a parceria do município com a Aprender, articulando materiais didáticos semiestruturados e formação contínua. Relaciona esse trabalho à busca por qualidade educacional com equidade.",
+          "edition": "Depoimento sem data informada",
+          "image": "/images/archive/depoimento-1.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-cicera-rejane",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-3.jpg"
+      ],
+      "destination": "/acervo#cicera-rejane",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-cicera-rejane.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-cicera-rejane",
+          "content": "Cícera Rejane de Sousa Batista; Professora e secretária municipal de Educação, conforme o registro; Maranguape · CE. Cícera apresenta a aquisição de materiais para Educação Infantil e Ensino Fundamental como parte de um conjunto de investimentos municipais iniciado em 2017. Destaca a abordagem sociointeracionista da leitura e da escrita, a formação docente e a renovação das práticas pedagógicas. O relato também menciona melhorias na estrutura das escolas. A depoente associa o conjunto dessas ações aos resultados que o município vinha alcançando, qualificados por ela como os melhores de sua história educacional. Essa avaliação se refere ao momento do depoimento.",
+          "edition": "Relato sobre investimentos iniciados em 2017; data da publicação não informada",
+          "image": "/images/archive/depoimento-3.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-germana-santos",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-4.jpg"
+      ],
+      "destination": "/acervo#germana-santos",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-germana-santos.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-germana-santos",
+          "content": "Germana Santos; Professora, conforme o registro; Pacajus · CE. Germana relaciona as formações recebidas no município à ampliação de suas possibilidades de trabalho. Destaca propostas lúdicas para as crianças e sua contribuição à organização e à dinâmica das aulas.",
+          "edition": "Depoimento sem data informada",
+          "image": "/images/archive/depoimento-4.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-herbert-lima",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-5.jpg"
+      ],
+      "destination": "/acervo#herbert-lima",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-herbert-lima.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-herbert-lima",
+          "content": "Herbert Lima; Professor e secretário da Educação, conforme o registro; Sobral · CE. Herbert situa a Aprender entre os parceiros de Sobral e relaciona essa colaboração à trajetória de reorganização da política educacional municipal. Cita o IDEB 2017 da rede: 9,1 nos anos iniciais e 7,2 nos anos finais. Ao apresentar o uso de Novo Lendo Você Fica Sabendo, destaca a formação de leitores e escritores críticos e autônomos. Identifica atividades de linguagem oral, leitura, produção escrita e análise linguística. Os índices citados pertencem à rede municipal e não demonstram, isoladamente, o efeito de uma coleção.",
+          "edition": "Relato com referência ao IDEB 2017; data da publicação não informada",
+          "image": "/images/archive/depoimento-5.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-jose-leandro",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-6.jpg"
+      ],
+      "destination": "/acervo#jose-leandro",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-jose-leandro.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-jose-leandro",
+          "content": "José Leandro de Almeida Cavalcante; Professor da Escola Municipal Leonor de Castro Borges, conforme o registro; Maranguape · CE. José Leandro relata que as formações ampliaram seus conhecimentos pedagógicos. Associadas ao material semiestruturado, ajudaram-no a desenvolver estratégias de ensino que considerava mais significativas. O professor destaca o entusiasmo dos estudantes diante das atividades, o trabalho articulado com as famílias e os desafios propostos em aula. Apresenta essas experiências como possibilidades de desenvolvimento para a vida escolar e pessoal das crianças.",
+          "edition": "Depoimento sem data informada",
+          "image": "/images/archive/depoimento-6.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-jose-marcelo",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-7.jpg"
+      ],
+      "destination": "/acervo#jose-marcelo",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-jose-marcelo.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-jose-marcelo",
+          "content": "José Marcelo Farias Lima; Professor e secretário de Educação, conforme o registro; Maracanaú · CE. José Marcelo apresenta a garantia de uma Educação Básica de qualidade e de oportunidades mais iguais como compromisso municipal. Situa a compra de materiais e a formação de professores e coordenadores entre as ações da Secretaria da Educação realizadas desde 2015. Em sua avaliação, os investimentos contribuíram para avanços na alfabetização, na proficiência, no Índice de Desempenho Escolar e na quantidade de estudantes no nível desejável. O depoimento não oferece uma série numérica dessas medidas; sua atribuição permanece vinculada à perspectiva do autor.",
+          "edition": "Relato sobre ações desde 2015; data da publicação não informada",
+          "image": "/images/archive/depoimento-7.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-julio-cesar",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-8.jpg"
+      ],
+      "destination": "/acervo#julio-cesar",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-julio-cesar.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-julio-cesar",
+          "content": "Julio César da Costa Alexandre; Professor e secretário dos Direitos Humanos, Habitação e Assistência Social, conforme o registro; Sobral · CE. Julio César destaca o apoio ao professor alfabetizador e a complementaridade entre teoria e prática. Relaciona essa articulação aos livros dos estudantes, às orientações didáticas e à formação dos professores em serviço. O relato valoriza rotinas de aula que enriquecem o uso do tempo pedagógico. O autor caracteriza a integração dessas ações como um eixo pedagógico estruturado e a considera estratégica para melhorar a aprendizagem e valorizar o trabalho docente.",
+          "edition": "Depoimento sem data informada",
+          "image": "/images/archive/depoimento-8.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-lucinete-alves",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-9.jpg"
+      ],
+      "destination": "/acervo#lucinete-alves",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-lucinete-alves.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-lucinete-alves",
+          "content": "Lucinete Alves Silva; Professora e secretária municipal de Educação, conforme o registro; Juazeiro · BA. Lucinete aborda o uso do material semiestruturado pelas turmas de 1º e 2º anos da rede de Juazeiro. Associa a experiência ao avanço da alfabetização e à compreensão do que os estudantes leem e escrevem. Também destaca a possibilidade de os professores adotarem diferentes estratégias metodológicas, com situações comunicativas reais, interdisciplinares e significativas.",
+          "edition": "Depoimento sem data informada",
+          "image": "/images/archive/depoimento-9.webp"
+        }
+      ]
+    },
+    {
+      "id": "depoimento-vilma-rodrigues",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/frase-10.jpg"
+      ],
+      "destination": "/acervo#vilma-rodrigues",
+      "action": "move-to-owned-image-dialog",
+      "context": "Local HTML summary and full image /images/testimonials/original-vilma-rodrigues.jpg; keyboard, Escape and focus return. All original image bytes are unchanged.",
+      "contentPreserved": [
+        {
+          "id": "depoimento-vilma-rodrigues",
+          "content": "Vilma Rodrigues Lira de Souza; Professora e gerente municipal do MAIS PAIC, conforme o registro; Forquilha · CE. Vilma enfatiza a renovação das práticas pedagógicas e a criação de situações desafiadoras em que o estudante participa ativamente da construção do conhecimento. Relaciona essa proposta à formação do professor como mediador do ensino e da aprendizagem.",
+          "edition": "Depoimento sem data informada",
+          "image": "/images/archive/depoimento-10.webp"
+        }
+      ]
+    },
+    {
+      "id": "formation-gallery-source",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/Site-Aprender_Tela-19-Aprender_ACAO-final.jpg"
+      ],
+      "destination": "/acervo#formacoes",
+      "action": "remove-repeated-source-link",
+      "context": "All nine local photos retain alt, caption, location and historical date context.",
+      "contentPreserved": [
+        {
+          "id": "fotografia-pacajus-roda",
+          "content": "Encontro de formação para professores e coordenadores — Pacajus · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-1.webp"
+        },
+        {
+          "id": "fotografia-fortim-atividade",
+          "content": "Encontro de formação para professores — Fortim · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-2.webp"
+        },
+        {
+          "id": "fotografia-pacajus-grupo",
+          "content": "Encontro de formação para professores e coordenadores — Pacajus · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-3.webp"
+        },
+        {
+          "id": "fotografia-sobral-estudos",
+          "content": "Grupo de estudos — Sobral · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-4.webp"
+        },
+        {
+          "id": "fotografia-cuiaba-encontro",
+          "content": "Encontro de formação para professores e coordenadores — Cuiabá · MT",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-5.webp"
+        },
+        {
+          "id": "fotografia-juazeiro-professores",
+          "content": "Encontro de formação para professores — Juazeiro · BA",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-6.webp"
+        },
+        {
+          "id": "fotografia-alto-santo-professores",
+          "content": "Encontro de formação para professores — Alto Santo · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-7.webp"
+        },
+        {
+          "id": "fotografia-russas-roda",
+          "content": "Encontro de formação para professores e coordenadores — Russas · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-8.webp"
+        },
+        {
+          "id": "fotografia-russas-leitura",
+          "content": "Encontro de formação para professores e coordenadores — Russas · CE",
+          "edition": "Data não informada na fonte",
+          "image": "/images/archive/formacao-9.webp"
+        }
+      ]
+    },
+    {
+      "id": "video-1-page",
+      "origin": [
+        "https://www.aprendereditora.com.br/video-1"
+      ],
+      "destination": "/acervo#video-1",
+      "action": "remove-repeated-source-link",
+      "context": "Local player, description and historical context remain.",
+      "contentPreserved": [
+        {
+          "id": "video-1",
+          "content": "Conheça a Editora Aprender · vinheta de acervo",
+          "edition": "Sem data editorial; recurso acessado em 2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "video-1-media",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-1.mp4"
+      ],
+      "destination": "/media/comp-1.mp4",
+      "action": "move-to-owned-media",
+      "context": "Local MP4 is optimized with identical sequence; local poster and description track remain. No auto-play; preload=none.",
+      "contentPreserved": [
+        {
+          "id": "video-1-alternativa",
+          "content": "Vídeo sem áudio. Uma menina aparece com um livro aberto diante do rosto. A composição tem um leve movimento de aproximação. No alto, surge um pequeno ícone de reprodução e o texto: “Em breve vídeo apresentação / institucional”. A mesma imagem permanece até o fim.",
+          "edition": "Descrição produzida em 2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "video-2-page",
+      "origin": [
+        "https://www.aprendereditora.com.br/video-2"
+      ],
+      "destination": "/acervo#video-2",
+      "action": "remove-repeated-source-link",
+      "context": "Local player, description and historical context remain.",
+      "contentPreserved": [
+        {
+          "id": "video-2",
+          "content": "Nossas Formações · vinheta de acervo",
+          "edition": "Sem data editorial; recurso acessado em 2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "video-2-media",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-2.mp4"
+      ],
+      "destination": "/media/comp-2.mp4",
+      "action": "move-to-owned-media",
+      "context": "Local MP4 is optimized with identical sequence; local poster and description track remain. No auto-play; preload=none.",
+      "contentPreserved": [
+        {
+          "id": "video-2-alternativa",
+          "content": "Vídeo sem áudio. O logotipo serifado Aprender Editora aparece em uma placa branca inclinada, com elementos verdes, sobre um fundo verde texturizado. A marca se aproxima levemente. No alto surge um ícone de reprodução acompanhado do texto: “Em breve vídeo apresentação / institucional”.",
+          "edition": "Descrição produzida em 2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "video-3-page",
+      "origin": [
+        "https://www.aprendereditora.com.br/video-3"
+      ],
+      "destination": "/acervo#video-3",
+      "action": "remove-repeated-source-link",
+      "context": "Local player, description and historical context remain.",
+      "contentPreserved": [
+        {
+          "id": "video-3",
+          "content": "Depoimentos · vinheta de acervo",
+          "edition": "Sem data editorial; recurso acessado em 2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "video-3-media",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-3.mp4"
+      ],
+      "destination": "/media/comp-3.mp4",
+      "action": "move-to-owned-media",
+      "context": "Local MP4 is optimized with identical sequence; local poster and description track remain. No auto-play; preload=none.",
+      "contentPreserved": [
+        {
+          "id": "video-3-alternativa",
+          "content": "Vídeo sem áudio. Sobre um fundo verde liso, o logotipo serifado Aprender Editora aparece numa placa branca inclinada com elementos verdes, em leve aproximação. No alto, um ícone de reprodução acompanha o texto: “Em breve vídeo apresentação / institucional”. Não há pessoas falando.",
+          "edition": "Descrição produzida em 2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "figura-mapas-spaece-2007-2018",
+      "origin": [
+        "https://www.aprendereditora.com.br/paic"
+      ],
+      "destination": "/a-editora/paic#mapas",
+      "action": "remove-repeated-source-link",
+      "context": "Local image, original credit and caption retained; image can be enlarged.",
+      "contentPreserved": [
+        {
+          "id": "figura-mapas-spaece-2007-2018",
+          "content": "SPAECE-Alfa · 2007–2018. Mapas do Governo do Ceará reproduzidos no acervo institucional da Aprender. Legenda: desejável, suficiente, intermediário, alfabetização incompleta e não alfabetizado.",
+          "edition": "Conforme legenda",
+          "image": "/images/archive/mapas-paic-2007-2018.webp"
+        }
+      ]
+    },
+    {
+      "id": "figura-ioeb-original-2019",
+      "origin": [
+        "https://www.aprendereditora.com.br/paic"
+      ],
+      "destination": "/a-editora/paic#ioeb",
+      "action": "remove-repeated-source-link",
+      "context": "Local image, original credit and caption retained; image can be enlarged.",
+      "contentPreserved": [
+        {
+          "id": "figura-ioeb-original-2019",
+          "content": "IOEB 2019 · quadro histórico reproduzido pela editora.",
+          "edition": "Conforme legenda",
+          "image": "/images/archive/ioeb-2019.webp"
+        }
+      ]
+    },
+    {
+      "id": "figura-banner-alfabetizacao-2007-2018",
+      "origin": [
+        "https://www.aprendereditora.com.br/v2/midia/banner/banner-top2.jpg"
+      ],
+      "destination": "/a-editora/paic#mapas",
+      "action": "remove-repeated-source-link",
+      "context": "Local image, original credit and caption retained; image can be enlarged.",
+      "contentPreserved": [
+        {
+          "id": "figura-banner-alfabetizacao-2007-2018",
+          "content": "Home histórica · percentuais estaduais publicados no banner, preservados com sua definição original. Não equivalem aos números de atendimento da editora.",
+          "edition": "Conforme legenda",
+          "image": "/images/archive/alfabetizacao-ceara-2007-2018.webp"
+        }
+      ]
+    },
+    {
+      "id": "figura-mapas-catalogo-2007-2013",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/paic#mapas",
+      "action": "remove-repeated-source-link",
+      "context": "Local image, original credit and caption retained; image can be enlarged.",
+      "contentPreserved": [
+        {
+          "id": "figura-mapas-catalogo-2007-2013",
+          "content": "Catálogo 2025, página 6 · primeira parte da série de mapas, atribuída ao Governo do Ceará.",
+          "edition": "Conforme legenda",
+          "image": "/images/archive/mapas-catalogo-2007-2013.webp"
+        }
+      ]
+    },
+    {
+      "id": "figura-mapas-catalogo-2014-2023",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/paic#mapas",
+      "action": "remove-repeated-source-link",
+      "context": "Local image, original credit and caption retained; image can be enlarged.",
+      "contentPreserved": [
+        {
+          "id": "figura-mapas-catalogo-2014-2023",
+          "content": "Catálogo 2025, página 7 · continuação da série. A fonte não apresenta mapas de 2020 e 2021.",
+          "edition": "Conforme legenda",
+          "image": "/images/archive/mapas-catalogo-2014-2023.webp"
+        }
+      ]
+    },
+    {
+      "id": "formation-project",
+      "origin": [
+        "https://www.aprendereditora.com.br/trajetorias-lendo-voce-fica-sabendo"
+      ],
+      "destination": "/formacao#eixos",
+      "action": "remove-repeated-source-link",
+      "context": "All five axes and project foundation remain as HTML.",
+      "contentPreserved": [
+        {
+          "id": "formacao-eixo-pratica",
+          "content": "Prática: Vivenciar propostas dos materiais e examinar sua realização nas situações de ensino.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-eixo-teoria",
+          "content": "Teoria: Estudar os conceitos e fundamentos científicos que sustentam as escolhas pedagógicas.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-eixo-planejamento",
+          "content": "Planejamento: Organizar a rotina, os objetivos e as atividades de acordo com as aprendizagens esperadas.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-eixo-gestao-sala",
+          "content": "Gestão da sala de aula: Refletir sobre a organização do trabalho docente e sobre as necessidades observadas nas turmas.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-eixo-avaliacao",
+          "content": "Avaliação e acompanhamento da aprendizagem: Analisar instrumentos e resultados para planejar intervenções e acompanhar a leitura e a escrita.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-fundamentacao-1",
+          "content": "O Projeto Lendo Você Fica Sabendo associa a formação contínua de educadores à coleção Novo Lendo Você Fica Sabendo — Letramento e Alfabetização, destinada ao 1º e ao 2º ano. Integra Língua Portuguesa à alfabetização, com leitura, escrita, produção de textos, oralidade e análise linguística.",
+          "edition": "Apresentação institucional sem data de edição"
+        },
+        {
+          "id": "formacao-fundamentacao-2",
+          "content": "A apresentação explica o material semiestruturado como um conjunto diversificado de recursos para professores e estudantes. As atividades articulam o tempo pedagógico à rotina de sala e às tarefas de casa, com objetivos e conceitos explícitos para quem ensina e quem aprende.",
+          "edition": "Apresentação institucional sem data de edição"
+        },
+        {
+          "id": "formacao-fundamentacao-3",
+          "content": "A formação ocorre ao longo do ano de execução do projeto. Os educadores vivenciam atividades dos livros, estudam teorias e conceitos e discutem situações de ensino na sala, na escola e na comunidade. Leitura, escrita, oralidade, alfabetização, literatura infantil, avaliação, gestão e planejamento integram o estudo.",
+          "edition": "Apresentação institucional sem data de edição"
+        },
+        {
+          "id": "formacao-fundamentacao-4",
+          "content": "Os cinco eixos relacionam pesquisas científicas, relatos de sala, expectativas de aprendizagem e análise crítica de metas. O estudo combina conhecimento teórico e prática docente para aproximar a formação das necessidades observadas nas turmas.",
+          "edition": "Apresentação institucional sem data de edição"
+        },
+        {
+          "id": "formacao-fundamentacao-5",
+          "content": "Instrumentos de acompanhamento e avaliação apoiam a interpretação dos resultados e o planejamento de intervenções. A proposta busca desenvolver estudantes capazes de ler e escrever com autonomia e fortalecer a reflexão crítica dos educadores sobre seu trabalho.",
+          "edition": "Apresentação institucional sem data de edição"
+        }
+      ]
+    },
+    {
+      "id": "formation-plan",
+      "origin": [
+        "https://www.aprendereditora.com.br/aprender-em-acao"
+      ],
+      "destination": "/formacao#plano-de-acao",
+      "action": "remove-repeated-source-link",
+      "context": "All sixteen activities in three action groups remain as HTML.",
+      "contentPreserved": [
+        {
+          "id": "formacao-plano-formacao-continua-1",
+          "content": "Formação contínua: Encontros presenciais com professores e coordenadores.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-2",
+          "content": "Formação contínua: Práticas relacionadas aos materiais da coleção utilizada pela turma.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-3",
+          "content": "Formação contínua: Vivência e planejamento de atividades de sala.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-4",
+          "content": "Formação contínua: Orientações para monitorar aprendizagem e desenvolvimento.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-5",
+          "content": "Formação contínua: Estudo dos instrumentos externos de avaliação elaborados pela editora para o Ensino Fundamental.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-6",
+          "content": "Formação contínua: Coleta e interpretação dos resultados das avaliações.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-7",
+          "content": "Formação contínua: Sugestões de intervenção a partir dos resultados.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-formacao-continua-8",
+          "content": "Formação contínua: Compartilhamento de práticas educativas bem-sucedidas.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-equipe-gestora-1",
+          "content": "Reuniões com a equipe gestora: Construção e discussão de pautas de acompanhamento e monitoramento.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-equipe-gestora-2",
+          "content": "Reuniões com a equipe gestora: Análise das avaliações e definição de ações para melhorar a aprendizagem.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-equipe-gestora-3",
+          "content": "Reuniões com a equipe gestora: Fortalecimento da colaboração na gestão em rede.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-acompanhamento-sala-1",
+          "content": "Acompanhamento pedagógico em sala de aula: Visitas do formador educacional a uma amostra de salas.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-acompanhamento-sala-2",
+          "content": "Acompanhamento pedagógico em sala de aula: Observação da prática docente com livros e outros recursos.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-acompanhamento-sala-3",
+          "content": "Acompanhamento pedagógico em sala de aula: Atividades avaliativas de leitura e escrita realizadas com os estudantes.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-acompanhamento-sala-4",
+          "content": "Acompanhamento pedagógico em sala de aula: Análise dos resultados de leitura e escrita.",
+          "edition": "Site sem data"
+        },
+        {
+          "id": "formacao-plano-acompanhamento-sala-5",
+          "content": "Acompanhamento pedagógico em sala de aula: Devolutivas e propostas de atividades ajustadas às necessidades observadas, discutidas nos encontros formativos.",
+          "edition": "Site sem data"
+        }
+      ]
+    },
+    {
+      "id": "edgar-legacy-reference",
+      "origin": [
+        "https://www.aprendereditora.com.br/trajetorias-prof-edgar"
+      ],
+      "destination": "/a-editora/edgar-linhares",
+      "action": "remove-repeated-source-link",
+      "context": "Full biography remains on the local route.",
+      "contentPreserved": [
+        {
+          "id": "edgar-referencia-1",
+          "content": "Apresentação de Edgar Linhares no site da Aprender",
+          "edition": "Conforme a referência"
+        }
+      ]
+    },
+    {
+      "id": "contact-legacy-return",
+      "origin": [
+        "https://www.aprendereditora.com.br/fale-conosco"
+      ],
+      "destination": "/contato",
+      "action": "remove-legacy-return-link",
+      "contentPreserved": [
+        "Local form, phone, institutional e-mail, address, four social channels"
+      ],
+      "context": "The form prepares a message; telephone and legitimate e-mail stay active."
+    },
+    {
+      "id": "formation-catalogue",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=60"
+      ],
+      "destination": "/formacao#plano-de-acao",
+      "action": "remove-redundant-pdf-button",
+      "contentPreserved": [
+        "Full page text, image, date and catalogue edition citation"
+      ],
+      "context": "The useful content is already HTML; catalogue remains secondary on /recursos."
+    },
+    {
+      "id": "article-palhano",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=2"
+      ],
+      "destination": "/em-acao/acompanhamento-palhano-2010",
+      "action": "remove-redundant-pdf-button",
+      "contentPreserved": [
+        "Full page text, image, date and catalogue edition citation"
+      ],
+      "context": "The useful content is already HTML; catalogue remains secondary on /recursos."
+    },
+    {
+      "id": "article-novo-oriente",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=22"
+      ],
+      "destination": "/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "action": "remove-redundant-pdf-button",
+      "contentPreserved": [
+        "Full page text, image, date and catalogue edition citation"
+      ],
+      "context": "The useful content is already HTML; catalogue remains secondary on /recursos."
+    },
+    {
+      "id": "paic-reference-legacy-page",
+      "origin": [
+        "https://www.aprendereditora.com.br/paic"
+      ],
+      "destination": "/a-editora/paic",
+      "action": "remove-duplicate-legacy-source-link",
+      "contentPreserved": [
+        "PAIC participation, attendance series, maps, IDEB, IOEB, context and all historical editions"
+      ],
+      "context": "Reference to the old page is redundant because the full content is already local."
+    },
+    {
+      "id": "paic-reference-document",
+      "origin": [
+        "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf"
+      ],
+      "destination": "/a-editora/paic#documentos",
+      "action": "remove-duplicate-document-link",
+      "contentPreserved": [
+        "Full PAIC document remains local and appears once through ResourceLinks."
+      ],
+      "context": "The useful document action remains; duplicate source-reference list entry was removed."
+    },
+    {
+      "id": "paic-reference-catalogue",
+      "origin": [
+        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      ],
+      "destination": "/a-editora/paic",
+      "action": "remove-redundant-pdf-button",
+      "contentPreserved": [
+        "Catalogue 2025 context, both attendance series, maps and 2005-2023 IDEB table"
+      ],
+      "context": "Useful information stays in HTML. Full catalogue remains a secondary document on /recursos."
+    }
+  ],
+  "externalReferenceChecks": [
+    {
+      "origin": "https://download.inep.gov.br/publicacoes/diversas/boas_praticas_em_educacao/vencendo_o_desafio_da_aprendizagem_nas_series_iniciais_a_experiencia_de_sobral_ce.pdf",
+      "destination": "https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-diversas/boas-praticas-em-educacao/vencendo-o-desafio-da-aprendizagem-nas-series-inicias-a-experiencia-de-sobral-ce",
+      "action": "replace-unreliable-direct-pdf-with-official-record",
+      "status": 200,
+      "redirect": false,
+      "title": "Vencendo o desafio da aprendizagem nas series inicias: a experiencia de Sobral/CE",
+      "verifiedContent": "Official book page: author Inep, year 2005, description and publication download."
+    },
+    {
+      "origin": "https://www.ce.gov.br/cee/secretario/ana-maria-nogueira-moreira/",
+      "destination": "https://www.ce.gov.br/cee/secretario/ana-maria-nogueira-moreira/",
+      "action": "retain-verified-useful-external-reference",
+      "status": 200,
+      "redirect": false,
+      "title": "Edgar Linhares Lima - CEE",
+      "verifiedContent": "Body contains biography of Edgar Linhares, UECE/UFC qualifications, government positions and CEE presidency terms. Slug does not match the article title but content is correct."
+    },
+    {
+      "origin": "https://www.ce.gov.br/vicegov/2019/01/22/tempo-integral-vice-governadora-inaugura-escola-professor-edgar-linhares-em-sobral/",
+      "destination": "https://www.ce.gov.br/vicegov/2019/01/22/tempo-integral-vice-governadora-inaugura-escola-professor-edgar-linhares-em-sobral/",
+      "action": "retain-verified-useful-external-reference",
+      "status": 200,
+      "redirect": false,
+      "title": "Tempo Integral: Vice-governadora inaugura escola Professor Edgar Linhares, em Sobral - Vice-Governadoria",
+      "verifiedContent": "Body contains inauguration article dated 22 January 2019, school in Sobral and homage to Edgar Linhares. Live fetch retained exact URL and did not redirect to home."
+    }
+  ],
+  "checkMethod": "Live HTTP GET plus title and body checks; no final redirect for the two retained Ceara references. Institutional content rendered locally; migration provenance retained only in repository documentation."
+}

@@ -4,7 +4,6 @@ import { PageIntro, SectionHeading, TextLink } from "@/components/ui";
 import { ResourceLinks } from "@/components/ResourceLinks";
 import { documentResources } from "@/data/resources";
 import { solutions } from "@/data/solutions";
-import { catalogueUrl } from "@/data/editorial";
 import { Icon } from "@/components/Icon";
 import s from "@/components/content.module.css";
 export const metadata = pageMetadata({
@@ -24,7 +23,7 @@ export default function Resources() {
       />
       <section className={s.section}>
         <div className="container">
-          <div className={s.threeColumns}>
+          <div className={s.twoColumns}>
             <Link href="/recursos/tabela-precos" className={s.linkCard}>
               <h2>Tabela de preços 2027</h2>
               <p>
@@ -34,21 +33,6 @@ export default function Resources() {
                 Consultar tabela <Icon name="arrow" size={18} />
               </span>
             </Link>
-            <a
-              href={catalogueUrl}
-              className={s.linkCard}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h2>Catálogo institucional 2025</h2>
-              <p>
-                Edição de 20 anos, com coleções e trajetória. PDF · 70,3 MB · 64
-                páginas.
-              </p>
-              <span>
-                Abrir PDF em nova aba <Icon name="external" size={18} />
-              </span>
-            </a>
             <Link href="/a-editora/paic" className={s.linkCard}>
               <h2>PAIC e resultados</h2>
               <p>
@@ -100,6 +84,7 @@ export default function Resources() {
           })}
           <section id="institucionais" className={s.edition}>
             <h3>Documentos institucionais</h3>
+            <p className={s.note}>O documento completo do PAIC e o catálogo de 20 anos são opções para consulta integral ou uso offline. O catálogo tem 70,3 MB.</p>
             <ResourceLinks
               items={documentResources.filter((doc) => !doc.collectionSlug)}
             />

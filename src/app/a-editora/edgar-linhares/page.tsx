@@ -52,7 +52,9 @@ export default function EdgarPage() {
               {edgar.references.map((ref) => (
                 <li key={ref.url}>
                   <p>
-                    <a href={ref.url}>{ref.title}</a>
+                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
+                      {ref.title} (site externo, nova aba)
+                    </a>
                   </p>
                 </li>
               ))}

@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-14T21:19:17.259Z",
-  "base": "http://localhost:3100",
+  "checkedAt": "2026-10-15T03:23:17.306Z",
+  "base": "http://127.0.0.1:3100",
   "mode": "production-html",
   "checks": [
     {
@@ -346,7 +346,7 @@
     {
       "id": "resource-data-match-audit",
       "pass": true,
-      "detail": "Presentation data matches reviewed resource inventory."
+      "detail": "Original identity, audience, pages, bytes and source-to-local mapping are preserved; public editorial notes may change."
     },
     {
       "id": "price-data-match-audit",
@@ -411,7 +411,7 @@
     {
       "id": "source-testimonial-set",
       "pass": true,
-      "detail": "The nine source images, not only application record counts, determine coverage."
+      "detail": "Independent source image set mapped to nine byte-identical local originals."
     },
     {
       "id": "source-video-set",
@@ -609,7 +609,17 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-alcides-leite.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-3.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-cicera-rejane.jpg",
       "pass": true,
       "detail": ""
     },
@@ -619,7 +629,17 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-germana-santos.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-5.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-herbert-lima.jpg",
       "pass": true,
       "detail": ""
     },
@@ -629,7 +649,17 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-jose-leandro.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-7.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-jose-marcelo.jpg",
       "pass": true,
       "detail": ""
     },
@@ -639,12 +669,27 @@
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-julio-cesar.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-9.webp",
       "pass": true,
       "detail": ""
     },
     {
+      "id": "asset-/images/testimonials/original-lucinete-alves.jpg",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "asset-/images/archive/depoimento-10.webp",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "asset-/images/testimonials/original-vilma-rodrigues.jpg",
       "pass": true,
       "detail": ""
     },
@@ -1996,7 +2041,7 @@
     {
       "id": "metadata-/",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/",
@@ -2011,7 +2056,7 @@
     {
       "id": "metadata-/a-editora",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/a-editora\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/a-editora\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/a-editora",
@@ -2086,7 +2131,7 @@
     {
       "id": "metadata-/contato",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/contato\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/contato\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/contato",
@@ -2101,7 +2146,7 @@
     {
       "id": "metadata-/em-acao",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/em-acao\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/em-acao\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/em-acao",
@@ -2161,7 +2206,7 @@
     {
       "id": "metadata-/formacao",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/formacao\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/formacao\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/formacao",
@@ -2176,7 +2221,7 @@
     {
       "id": "metadata-/plataformas",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/plataformas\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/plataformas\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/plataformas",
@@ -2191,7 +2236,7 @@
     {
       "id": "metadata-/recursos",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/recursos\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/recursos\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/recursos",
@@ -2206,7 +2251,7 @@
     {
       "id": "metadata-/recursos/tabela-precos",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/recursos/tabela-precos\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/recursos/tabela-precos\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/recursos/tabela-precos",
@@ -2221,7 +2266,7 @@
     {
       "id": "metadata-/solucoes",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes",
@@ -2236,7 +2281,7 @@
     {
       "id": "metadata-/solucoes/a-cor-da-gente",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/a-cor-da-gente\",\"og\":\"https://aprender-site.vercel.app/images/collections/a-cor-da-gente.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/a-cor-da-gente.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/a-cor-da-gente\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/a-cor-da-gente",
@@ -2251,7 +2296,7 @@
     {
       "id": "metadata-/solucoes/acerta-brasil",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/acerta-brasil\",\"og\":\"https://aprender-site.vercel.app/images/materials/acerta-brasil.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/materials/acerta-brasil.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/acerta-brasil\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/acerta-brasil",
@@ -2266,7 +2311,7 @@
     {
       "id": "metadata-/solucoes/amma",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/amma\",\"og\":\"https://aprender-site.vercel.app/images/collections/amma.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/amma.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/amma\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/amma",
@@ -2281,7 +2326,7 @@
     {
       "id": "metadata-/solucoes/avancando-juntos",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/avancando-juntos\",\"og\":\"https://aprender-site.vercel.app/images/collections/avancando-juntos.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/avancando-juntos.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/avancando-juntos\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/avancando-juntos",
@@ -2296,7 +2341,7 @@
     {
       "id": "metadata-/solucoes/brincando-e-aprendendo",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo\",\"og\":\"https://aprender-site.vercel.app/images/collections/brincando-e-aprendendo.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/brincando-e-aprendendo.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/brincando-e-aprendendo",
@@ -2311,7 +2356,7 @@
     {
       "id": "metadata-/solucoes/cataventos",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/cataventos\",\"og\":\"https://aprender-site.vercel.app/images/collections/cataventos.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/cataventos.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/cataventos\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/cataventos",
@@ -2326,7 +2371,7 @@
     {
       "id": "metadata-/solucoes/educacao-financeira",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/educacao-financeira\",\"og\":\"https://aprender-site.vercel.app/images/collections/educacao-financeira.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/educacao-financeira.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/educacao-financeira\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/educacao-financeira",
@@ -2341,7 +2386,7 @@
     {
       "id": "metadata-/solucoes/escrever-comunicar-e-ser",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser\",\"og\":\"https://aprender-site.vercel.app/images/collections/escrever-comunicar-e-ser.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/escrever-comunicar-e-ser.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/escrever-comunicar-e-ser",
@@ -2356,7 +2401,7 @@
     {
       "id": "metadata-/solucoes/fluir-das-emocoes",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/fluir-das-emocoes\",\"og\":\"https://aprender-site.vercel.app/images/collections/fluir-das-emocoes.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/fluir-das-emocoes.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/fluir-das-emocoes\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/fluir-das-emocoes",
@@ -2371,7 +2416,7 @@
     {
       "id": "metadata-/solucoes/ideb-nota-10",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/ideb-nota-10\",\"og\":\"https://aprender-site.vercel.app/images/collections/ideb-nota-10.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/ideb-nota-10.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/ideb-nota-10\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/ideb-nota-10",
@@ -2386,7 +2431,7 @@
     {
       "id": "metadata-/solucoes/ingles",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/ingles\",\"og\":\"https://aprender-site.vercel.app/images/hero.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/hero.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/ingles\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/ingles",
@@ -2401,7 +2446,7 @@
     {
       "id": "metadata-/solucoes/lendo-e-escrevendo",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo\",\"og\":\"https://aprender-site.vercel.app/images/materials/lendo-e-escrevendo.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/materials/lendo-e-escrevendo.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/lendo-e-escrevendo",
@@ -2416,7 +2461,7 @@
     {
       "id": "metadata-/solucoes/ler-ouvir-e-contar",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar\",\"og\":\"https://aprender-site.vercel.app/images/collections/ler-ouvir-e-contar.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/ler-ouvir-e-contar.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/ler-ouvir-e-contar",
@@ -2431,7 +2476,7 @@
     {
       "id": "metadata-/solucoes/miudezas-e-descobertas",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas\",\"og\":\"https://aprender-site.vercel.app/images/collections/miudezas-e-descobertas.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/miudezas-e-descobertas.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/miudezas-e-descobertas",
@@ -2446,7 +2491,7 @@
     {
       "id": "metadata-/solucoes/novo-lendo-voce-fica-sabendo",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo\",\"og\":\"https://aprender-site.vercel.app/images/collections/novo-lendo-voce-fica-sabendo.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/novo-lendo-voce-fica-sabendo.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/novo-lendo-voce-fica-sabendo",
@@ -2461,7 +2506,7 @@
     {
       "id": "metadata-/solucoes/projeto-tema",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/projeto-tema\",\"og\":\"https://aprender-site.vercel.app/images/collections/projeto-tema.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/projeto-tema.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/projeto-tema\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/projeto-tema",
@@ -2476,7 +2521,7 @@
     {
       "id": "metadata-/solucoes/sou-da-paz",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/sou-da-paz\",\"og\":\"https://aprender-site.vercel.app/images/collections/sou-da-paz.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/sou-da-paz.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/sou-da-paz\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/sou-da-paz",
@@ -2491,7 +2536,7 @@
     {
       "id": "metadata-/solucoes/superativar",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/superativar\",\"og\":\"https://aprender-site.vercel.app/images/collections/superativar.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/superativar.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/superativar\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/superativar",
@@ -2506,7 +2551,7 @@
     {
       "id": "metadata-/solucoes/transito-legal",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/transito-legal\",\"og\":\"https://aprender-site.vercel.app/images/collections/transito-legal.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/transito-legal.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/transito-legal\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/transito-legal",
@@ -2521,7 +2566,7 @@
     {
       "id": "metadata-/solucoes/uni-duni-te",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/uni-duni-te\",\"og\":\"https://aprender-site.vercel.app/images/collections/uni-duni-te.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/uni-duni-te.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/uni-duni-te\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/uni-duni-te",
@@ -2536,7 +2581,7 @@
     {
       "id": "metadata-/solucoes/vida-e-ciencias",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/vida-e-ciencias\",\"og\":\"https://aprender-site.vercel.app/images/collections/vida-e-ciencias.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/vida-e-ciencias.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/vida-e-ciencias\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/vida-e-ciencias",
@@ -2551,7 +2596,7 @@
     {
       "id": "metadata-/solucoes/vida-e-linguagem",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/vida-e-linguagem\",\"og\":\"https://aprender-site.vercel.app/images/collections/vida-e-linguagem.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/vida-e-linguagem.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/vida-e-linguagem\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/vida-e-linguagem",
@@ -2566,7 +2611,7 @@
     {
       "id": "metadata-/solucoes/vida-e-matematica",
       "pass": true,
-      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/vida-e-matematica\",\"og\":\"https://aprender-site.vercel.app/images/collections/vida-e-matematica.webp\",\"twitter\":\"https://aprender-site.vercel.app/images/collections/vida-e-matematica.webp\",\"robots\":\"noindex, nofollow\"}"
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/solucoes/vida-e-matematica\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
     },
     {
       "id": "unique-ids-/solucoes/vida-e-matematica",
@@ -2596,7 +2641,7 @@
     {
       "id": "rendered-value-etica-historicalDescription",
       "pass": true,
-      "detail": "No site, a ética também é vinculada à justiça social e ao respeito aos valores morais."
+      "detail": "A apresentação histórica também vincula a ética à justiça social e ao respeito aos valores morais."
     },
     {
       "id": "rendered-value-inovacao-title",
@@ -2611,7 +2656,7 @@
     {
       "id": "rendered-value-inovacao-historicalDescription",
       "pass": true,
-      "detail": "A versão do site enfatiza pesquisas educacionais, novas tecnologias e o estímulo às capacidades criativa, intelectual e relacional."
+      "detail": "A apresentação histórica enfatiza pesquisas educacionais, novas tecnologias e o estímulo às capacidades criativa, intelectual e relacional."
     },
     {
       "id": "rendered-value-qualidade-title",
@@ -2626,7 +2671,7 @@
     {
       "id": "rendered-value-qualidade-historicalDescription",
       "pass": true,
-      "detail": "O site destaca assertividade, atendimento às necessidades dos clientes e superação das expectativas do mercado."
+      "detail": "A apresentação histórica destaca assertividade, atendimento às necessidades dos clientes e superação das expectativas do mercado."
     },
     {
       "id": "rendered-value-integracao-title",
@@ -2641,7 +2686,7 @@
     {
       "id": "rendered-value-integracao-historicalDescription",
       "pass": true,
-      "detail": "A apresentação do site mantém colaboração, visão sistêmica e divisão de responsabilidades para objetivos compartilhados."
+      "detail": "A apresentação histórica mantém colaboração, visão sistêmica e divisão de responsabilidades para objetivos compartilhados."
     },
     {
       "id": "rendered-value-humanizacao-title",
@@ -2656,7 +2701,7 @@
     {
       "id": "rendered-value-humanizacao-historicalDescription",
       "pass": true,
-      "detail": "No site, aparecem ainda solidariedade, cidadania e igualdade nas relações sociais e profissionais."
+      "detail": "A apresentação histórica inclui solidariedade, cidadania e igualdade nas relações sociais e profissionais."
     },
     {
       "id": "rendered-value-responsabilidade-social-title",
@@ -2671,7 +2716,7 @@
     {
       "id": "rendered-value-responsabilidade-social-historicalDescription",
       "pass": true,
-      "detail": "A versão do site relaciona a educação ao exercício da cidadania e à qualidade de vida."
+      "detail": "A apresentação histórica relaciona a educação ao exercício da cidadania e à qualidade de vida."
     },
     {
       "id": "rendered-value-responsabilidade-profissional-title",
@@ -2686,7 +2731,7 @@
     {
       "id": "rendered-value-responsabilidade-profissional-historicalDescription",
       "pass": true,
-      "detail": "O site acrescenta cuidado com o funcionamento da empresa e valorização das boas atitudes."
+      "detail": "A apresentação histórica acrescenta cuidado com o funcionamento da empresa e valorização das boas atitudes."
     },
     {
       "id": "rendered-team-desde 2005, a aprender editora prod",
@@ -2731,7 +2776,7 @@
     {
       "id": "rendered-history-sobral-2000-0",
       "pass": true,
-      "detail": "A trajetória publicada pela Aprender começa com uma avaliação de leitura em Sobral, no Ceará. O site informa que participaram 75% dos estudantes da então 2ª sér"
+      "detail": "A trajetória da Aprender começa com uma avaliação de leitura em Sobral, no Ceará. Segundo o registro institucional, participaram 75% dos estudantes da então 2ª "
     },
     {
       "id": "rendered-history-sobral-2000-1",
@@ -2786,12 +2831,12 @@
     {
       "id": "rendered-history-aquisicao-2014-0",
       "pass": true,
-      "detail": "A página histórica do PAIC informa que os municípios passaram a comprar os materiais com recursos próprios, em vez de recebê-los por intermédio da SEDUC. O site"
+      "detail": "A partir de 2014, os municípios passaram a comprar os materiais com recursos próprios, em vez de recebê-los por intermédio da SEDUC. Os atendimentos estão regis"
     },
     {
       "id": "rendered-history-vinte-anos-2025-0",
       "pass": true,
-      "detail": "O catálogo comemorativo reúne a trajetória, as coleções e os indicadores acumulados declarados pela editora. Ele amplia o registro de soluções e de resultados h"
+      "detail": "O catálogo comemorativo reúne a trajetória, as coleções e os indicadores acumulados declarados pela editora. A publicação apresenta vinte anos de produção de ma"
     },
     {
       "id": "rendered-edgar-0",
@@ -2976,7 +3021,7 @@
     {
       "id": "testimonial-original-alcides-leite",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-1.jpg"
+      "detail": "Ver registro integral de Alcides Leite"
     },
     {
       "id": "rendered-testimonial-cicera-rejane-name",
@@ -3011,7 +3056,7 @@
     {
       "id": "testimonial-original-cicera-rejane",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-3.jpg"
+      "detail": "Ver registro integral de Cícera Rejane de Sousa Batista"
     },
     {
       "id": "rendered-testimonial-germana-santos-name",
@@ -3041,7 +3086,7 @@
     {
       "id": "testimonial-original-germana-santos",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-4.jpg"
+      "detail": "Ver registro integral de Germana Santos"
     },
     {
       "id": "rendered-testimonial-herbert-lima-name",
@@ -3076,7 +3121,7 @@
     {
       "id": "testimonial-original-herbert-lima",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-5.jpg"
+      "detail": "Ver registro integral de Herbert Lima"
     },
     {
       "id": "rendered-testimonial-jose-leandro-name",
@@ -3111,7 +3156,7 @@
     {
       "id": "testimonial-original-jose-leandro",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-6.jpg"
+      "detail": "Ver registro integral de José Leandro de Almeida Cavalcante"
     },
     {
       "id": "rendered-testimonial-jose-marcelo-name",
@@ -3146,7 +3191,7 @@
     {
       "id": "testimonial-original-jose-marcelo",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-7.jpg"
+      "detail": "Ver registro integral de José Marcelo Farias Lima"
     },
     {
       "id": "rendered-testimonial-julio-cesar-name",
@@ -3181,7 +3226,7 @@
     {
       "id": "testimonial-original-julio-cesar",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-8.jpg"
+      "detail": "Ver registro integral de Julio César da Costa Alexandre"
     },
     {
       "id": "rendered-testimonial-lucinete-alves-name",
@@ -3216,7 +3261,7 @@
     {
       "id": "testimonial-original-lucinete-alves",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-9.jpg"
+      "detail": "Ver registro integral de Lucinete Alves Silva"
     },
     {
       "id": "rendered-testimonial-vilma-rodrigues-name",
@@ -3246,7 +3291,7 @@
     {
       "id": "testimonial-original-vilma-rodrigues",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/banner/frase-10.jpg"
+      "detail": "Ver registro integral de Vilma Rodrigues Lira de Souza"
     },
     {
       "id": "rendered-photo-location-pacajus-roda",
@@ -3391,7 +3436,7 @@
     {
       "id": "video-original-video-1",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-1.mp4"
+      "detail": "/media/comp-1.mp4"
     },
     {
       "id": "video-control-video-1",
@@ -3406,7 +3451,7 @@
     {
       "id": "video-original-video-2",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-2.mp4"
+      "detail": "/media/comp-2.mp4"
     },
     {
       "id": "video-control-video-2",
@@ -3421,7 +3466,7 @@
     {
       "id": "video-original-video-3",
       "pass": true,
-      "detail": "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-3.mp4"
+      "detail": "/media/comp-3.mp4"
     },
     {
       "id": "video-control-video-3",
@@ -3601,7 +3646,7 @@
     {
       "id": "rendered-paic-note-1",
       "pass": true,
-      "detail": "Em 2012, a imagem do site informa 5.326 educadores; o catálogo de 2025, página 7, informa 5.325. Ambas as versões são preservadas, sem inferir qual corresponde "
+      "detail": "Para 2012, o registro histórico informa 5.326 educadores, enquanto o catálogo de 2025, página 7, informa 5.325. A diferença entre as duas publicações está indic"
     },
     {
       "id": "rendered-paic-note-2",
@@ -3611,7 +3656,7 @@
     {
       "id": "rendered-paic-note-3",
       "pass": true,
-      "detail": "A série de IDEB de 2005–2023 é a transcrição do catálogo de 2025, página 9. O site histórico apresenta apenas anos iniciais até 2017. Os rankings e destaques de"
+      "detail": "A série de IDEB de 2005–2023 foi publicada no catálogo de 2025, página 9. A apresentação histórica reunia os anos iniciais até 2017. Os rankings e destaques de "
     },
     {
       "id": "rendered-paic-note-4",
@@ -3636,7 +3681,7 @@
     {
       "id": "rendered-paic-historical-highlight-3",
       "pass": true,
-      "detail": "O banner da home informa 35% de crianças alfabetizadas na idade certa no Ceará em 2007 e 89% em 2018. Ele não detalha metodologia. O catálogo de 2025 usa a defi"
+      "detail": "O registro de 2007–2018 informa 35% de crianças alfabetizadas na idade certa no Ceará em 2007 e 89% em 2018, sem detalhar metodologia. O catálogo de 2025 usa ou"
     },
     {
       "id": "rendered-ioeb-context-authorship",
@@ -3966,7 +4011,7 @@
     {
       "id": "rendered-resource-acbr-matematica-5-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf"
+      "detail": "/documents/acbr-matematica-5-ano.pdf"
     },
     {
       "id": "resource-label-acbr-matematica-5-ano",
@@ -3976,7 +4021,7 @@
     {
       "id": "rendered-resource-acbr-portugues-5-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf"
+      "detail": "/documents/acbr-portugues-5-ano.pdf"
     },
     {
       "id": "resource-label-acbr-portugues-5-ano",
@@ -3986,7 +4031,7 @@
     {
       "id": "rendered-resource-brincando-e-aprendendo-vol-01",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf"
+      "detail": "/documents/brincando-e-aprendendo-vol-01.pdf"
     },
     {
       "id": "resource-label-brincando-e-aprendendo-vol-01",
@@ -3996,7 +4041,7 @@
     {
       "id": "rendered-resource-brincando-e-aprendendo-vol-02",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf"
+      "detail": "/documents/brincando-e-aprendendo-vol-02.pdf"
     },
     {
       "id": "resource-label-brincando-e-aprendendo-vol-02",
@@ -4006,7 +4051,7 @@
     {
       "id": "rendered-resource-brincando-e-aprendendo-vol-03",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf"
+      "detail": "/documents/brincando-e-aprendendo-vol-03.pdf"
     },
     {
       "id": "resource-label-brincando-e-aprendendo-vol-03",
@@ -4016,7 +4061,7 @@
     {
       "id": "rendered-resource-brincando-e-aprendendo-vol-04",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf"
+      "detail": "/documents/brincando-e-aprendendo-vol-04.pdf"
     },
     {
       "id": "resource-label-brincando-e-aprendendo-vol-04",
@@ -4026,7 +4071,7 @@
     {
       "id": "rendered-resource-ecs-1-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf"
+      "detail": "/documents/ecs-1-ano.pdf"
     },
     {
       "id": "resource-label-ecs-1-ano",
@@ -4036,7 +4081,7 @@
     {
       "id": "rendered-resource-ecs-2-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf"
+      "detail": "/documents/ecs-2-ano.pdf"
     },
     {
       "id": "resource-label-ecs-2-ano",
@@ -4046,7 +4091,7 @@
     {
       "id": "rendered-resource-ecs-3-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf"
+      "detail": "/documents/ecs-3-ano.pdf"
     },
     {
       "id": "resource-label-ecs-3-ano",
@@ -4056,7 +4101,7 @@
     {
       "id": "rendered-resource-ecs-4-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf"
+      "detail": "/documents/ecs-4-ano.pdf"
     },
     {
       "id": "resource-label-ecs-4-ano",
@@ -4066,7 +4111,7 @@
     {
       "id": "rendered-resource-ecs-5-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf"
+      "detail": "/documents/ecs-5-ano.pdf"
     },
     {
       "id": "resource-label-ecs-5-ano",
@@ -4076,7 +4121,7 @@
     {
       "id": "rendered-resource-educacao-infantil-laranja",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf"
+      "detail": "/documents/educacao-infantil-laranja.pdf"
     },
     {
       "id": "resource-label-educacao-infantil-laranja",
@@ -4086,7 +4131,7 @@
     {
       "id": "rendered-resource-educacao-infantil-verde-vol-02",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf"
+      "detail": "/documents/educacao-infantil-verde-vol-02.pdf"
     },
     {
       "id": "resource-label-educacao-infantil-verde-vol-02",
@@ -4096,7 +4141,7 @@
     {
       "id": "rendered-resource-educacao-infantil-vermelho-vol-01",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf"
+      "detail": "/documents/educacao-infantil-vermelho-vol-01.pdf"
     },
     {
       "id": "resource-label-educacao-infantil-vermelho-vol-01",
@@ -4106,7 +4151,7 @@
     {
       "id": "rendered-resource-livro-tema-1",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf"
+      "detail": "/documents/livro-tema-1.pdf"
     },
     {
       "id": "resource-label-livro-tema-1",
@@ -4116,7 +4161,7 @@
     {
       "id": "rendered-resource-livro-tema-2",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf"
+      "detail": "/documents/livro-tema-2.pdf"
     },
     {
       "id": "resource-label-livro-tema-2",
@@ -4126,7 +4171,7 @@
     {
       "id": "rendered-resource-livro-tema-3",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf"
+      "detail": "/documents/livro-tema-3.pdf"
     },
     {
       "id": "resource-label-livro-tema-3",
@@ -4136,7 +4181,7 @@
     {
       "id": "rendered-resource-nlvfs-1-ano-vol-01",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf"
+      "detail": "/documents/nlvfs-1-ano-vol-01.pdf"
     },
     {
       "id": "resource-label-nlvfs-1-ano-vol-01",
@@ -4146,7 +4191,7 @@
     {
       "id": "rendered-resource-nlvfs-2-ano-vol-01",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf"
+      "detail": "/documents/nlvfs-2-ano-vol-01.pdf"
     },
     {
       "id": "resource-label-nlvfs-2-ano-vol-01",
@@ -4156,7 +4201,7 @@
     {
       "id": "rendered-resource-paic",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf"
+      "detail": "/documents/paic.pdf"
     },
     {
       "id": "resource-label-paic",
@@ -4166,7 +4211,7 @@
     {
       "id": "rendered-resource-vida-e-linguagem-6-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf"
+      "detail": "/documents/vida-e-linguagem-6-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-linguagem-6-ano",
@@ -4176,7 +4221,7 @@
     {
       "id": "rendered-resource-vida-e-linguagem-7-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf"
+      "detail": "/documents/vida-e-linguagem-7-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-linguagem-7-ano",
@@ -4186,7 +4231,7 @@
     {
       "id": "rendered-resource-vida-e-linguagem-8-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf"
+      "detail": "/documents/vida-e-linguagem-8-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-linguagem-8-ano",
@@ -4196,7 +4241,7 @@
     {
       "id": "rendered-resource-vida-e-linguagem-9-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf"
+      "detail": "/documents/vida-e-linguagem-9-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-linguagem-9-ano",
@@ -4206,7 +4251,7 @@
     {
       "id": "rendered-resource-vida-e-matematica-6-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf"
+      "detail": "/documents/vida-e-matematica-6-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-matematica-6-ano",
@@ -4216,7 +4261,7 @@
     {
       "id": "rendered-resource-vida-e-matematica-7-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf"
+      "detail": "/documents/vida-e-matematica-7-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-matematica-7-ano",
@@ -4226,7 +4271,7 @@
     {
       "id": "rendered-resource-vida-e-matematica-8-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf"
+      "detail": "/documents/vida-e-matematica-8-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-matematica-8-ano",
@@ -4236,7 +4281,7 @@
     {
       "id": "rendered-resource-vida-e-matematica-9-ano",
       "pass": true,
-      "detail": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf"
+      "detail": "/documents/vida-e-matematica-9-ano.pdf"
     },
     {
       "id": "resource-label-vida-e-matematica-9-ano",
@@ -4246,7 +4291,7 @@
     {
       "id": "rendered-resource-catalogo-2025-20-anos",
       "pass": true,
-      "detail": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf"
+      "detail": "/documents/catalogo-2025-20-anos.pdf"
     },
     {
       "id": "resource-label-catalogo-2025-20-anos",
@@ -4256,7 +4301,7 @@
     {
       "id": "collection-intro-brincando-e-aprendendo-0",
       "pass": true,
-      "detail": "Brincando e Aprendendo organiza atividades de creche e pré-escola. As duas apresentações do site oficial e o catálogo de 2025 documentam composições diferentes,"
+      "detail": "Brincando e Aprendendo organiza atividades de creche e pré-escola. Conheça a composição de 2025 e duas apresentações de acervo, sem data de edição, com seus res"
     },
     {
       "id": "edition-audience-brincando-e-aprendendo-oficial-historico",
@@ -5636,7 +5681,7 @@
     {
       "id": "edition-context-novo-lendo-voce-fica-sabendo-oficial",
       "pass": true,
-      "detail": "oficial: O texto do guia no trecho do 2º ano repete 1º ano, enquanto a capa e a organização do kit identificam 2º ano. A identificação segue a capa e"
+      "detail": "oficial: Apresentação de acervo para 1º e 2º anos, sem data de edição."
     },
     {
       "id": "foundation-oficial-0",
@@ -6651,7 +6696,7 @@
     {
       "id": "collection-intro-lendo-e-escrevendo-0",
       "pass": true,
-      "detail": "Lendo e Escrevendo, Volta e Meia Vamos Dar, Muitas Histórias Vamos Contar é uma proposta de Educação Infantil apresentada no site oficial em três kits, com mate"
+      "detail": "Lendo e Escrevendo, Volta e Meia Vamos Dar, Muitas Histórias Vamos Contar é uma proposta de Educação Infantil em três kits, com materiais para a criança, a famí"
     },
     {
       "id": "edition-audience-lendo-e-escrevendo-oficial",
@@ -6661,7 +6706,7 @@
     {
       "id": "edition-context-lendo-e-escrevendo-oficial",
       "pass": true,
-      "detail": "oficial: A página de origem repete o número 2 no cabeçalho da faixa de 5 anos. As capas, a descrição do livro e o guia identificam esse kit como 3. E"
+      "detail": "oficial: Três kits para crianças de 3, 4 e 5 anos. Apresentação de acervo sem data de edição."
     },
     {
       "id": "foundation-oficial-0",
@@ -6696,7 +6741,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-crianca-1-3",
       "pass": true,
-      "detail": "lendo-crianca-1: 3 anos — faixa sugerida no site oficial"
+      "detail": "lendo-crianca-1: 3 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-crianca-1-4",
@@ -6731,7 +6776,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-familia-1-3",
       "pass": true,
-      "detail": "lendo-familia-1: 3 anos — faixa sugerida no site oficial"
+      "detail": "lendo-familia-1: 3 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-familia-1-4",
@@ -6756,7 +6801,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-professor-1-3",
       "pass": true,
-      "detail": "lendo-professor-1: 3 anos — faixa sugerida no site oficial"
+      "detail": "lendo-professor-1: 3 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-professor-1-4",
@@ -6796,7 +6841,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-crianca-2-3",
       "pass": true,
-      "detail": "lendo-crianca-2: 4 anos — faixa sugerida no site oficial"
+      "detail": "lendo-crianca-2: 4 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-crianca-2-4",
@@ -6831,7 +6876,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-familia-2-3",
       "pass": true,
-      "detail": "lendo-familia-2: 4 anos — faixa sugerida no site oficial"
+      "detail": "lendo-familia-2: 4 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-familia-2-4",
@@ -6856,7 +6901,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-professor-2-3",
       "pass": true,
-      "detail": "lendo-professor-2: 4 anos — faixa sugerida no site oficial"
+      "detail": "lendo-professor-2: 4 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-professor-2-4",
@@ -6896,7 +6941,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-crianca-3-3",
       "pass": true,
-      "detail": "lendo-crianca-3: 5 anos — faixa sugerida no site oficial"
+      "detail": "lendo-crianca-3: 5 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-crianca-3-4",
@@ -6931,7 +6976,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-familia-3-3",
       "pass": true,
-      "detail": "lendo-familia-3: 5 anos — faixa sugerida no site oficial"
+      "detail": "lendo-familia-3: 5 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-familia-3-4",
@@ -6956,7 +7001,7 @@
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-professor-3-3",
       "pass": true,
-      "detail": "lendo-professor-3: 5 anos — faixa sugerida no site oficial"
+      "detail": "lendo-professor-3: 5 anos — faixa sugerida na apresentação de acervo"
     },
     {
       "id": "book-lendo-e-escrevendo-oficial-lendo-professor-3-4",
@@ -7256,7 +7301,7 @@
     {
       "id": "edition-context-escrever-comunicar-e-ser-catalogo-2025",
       "pass": true,
-      "detail": "catalogo-2025: O catálogo de 2025 mostra os cinco livros de atividades. Os cinco livros Sugestões e Orientações para o Professor estão documentados na apre"
+      "detail": "catalogo-2025: O catálogo de 2025 mostra os cinco livros de atividades. A apresentação de acervo inclui também cinco livros Sugestões e Orientações para o "
     },
     {
       "id": "foundation-catalogo-2025-0",
@@ -7416,12 +7461,12 @@
     {
       "id": "edition-audience-acerta-brasil-oficial",
       "pass": true,
-      "detail": "oficial: Estudantes e professores do 5º ano, conforme os materiais ilustrados no site oficial."
+      "detail": "oficial: Estudantes e professores do 5º ano, conforme os materiais desta apresentação."
     },
     {
       "id": "edition-context-acerta-brasil-oficial",
       "pass": true,
-      "detail": "oficial: A apresentação institucional destaca o desempenho no SAEB, que compõe o IDEB. A coleção não foi localizada no catálogo de 2025; a relação co"
+      "detail": "oficial: A apresentação institucional destaca o desempenho no SAEB, que compõe o IDEB. O foco em avaliações externas não estabelece promessa de resul"
     },
     {
       "id": "foundation-oficial-0",
@@ -8051,7 +8096,7 @@
     {
       "id": "edition-context-a-cor-da-gente-catalogo-2025",
       "pass": true,
-      "detail": "catalogo-2025: O catálogo mostra os livros numerados de 1 a 9. Os títulos individuais e as sinopses estão preservados na apresentação do site oficial acima"
+      "detail": "catalogo-2025: O catálogo mostra os livros numerados de 1 a 9. A apresentação de acervo reúne títulos individuais, sinopses e o Livro do Professor."
     },
     {
       "id": "foundation-catalogo-2025-0",
@@ -8086,7 +8131,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-1-1",
       "pass": true,
-      "detail": "cor-2025-1: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-1: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-1-2",
@@ -8116,7 +8161,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-2-1",
       "pass": true,
-      "detail": "cor-2025-2: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-2: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-2-2",
@@ -8146,7 +8191,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-3-1",
       "pass": true,
-      "detail": "cor-2025-3: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-3: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-3-2",
@@ -8176,7 +8221,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-4-1",
       "pass": true,
-      "detail": "cor-2025-4: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-4: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-4-2",
@@ -8206,7 +8251,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-5-1",
       "pass": true,
-      "detail": "cor-2025-5: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-5: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-5-2",
@@ -8236,7 +8281,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-6-1",
       "pass": true,
-      "detail": "cor-2025-6: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-6: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-6-2",
@@ -8266,7 +8311,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-7-1",
       "pass": true,
-      "detail": "cor-2025-7: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-7: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-7-2",
@@ -8296,7 +8341,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-8-1",
       "pass": true,
-      "detail": "cor-2025-8: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-8: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-8-2",
@@ -8326,7 +8371,7 @@
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-9-1",
       "pass": true,
-      "detail": "cor-2025-9: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. A sinopse individual é documentada na apresentação do site"
+      "detail": "cor-2025-9: Texto literário da coleção, com foco na Educação para as Relações Étnico-Raciais. Consulte a sinopse individual na apresentação de acervo."
     },
     {
       "id": "book-a-cor-da-gente-catalogo-2025-cor-2025-9-2",
@@ -11636,7 +11681,7 @@
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-1-1",
       "pass": true,
-      "detail": "catalogo-2025-financeira-2025-1: Título de Fernanda Noronha, conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-financeira-2025-1: Livro de Fernanda Noronha · apresentação do catálogo de 2025."
     },
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-1-2",
@@ -11651,7 +11696,7 @@
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-2-1",
       "pass": true,
-      "detail": "catalogo-2025-financeira-2025-2: Título de Fernanda Noronha, conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-financeira-2025-2: Livro de Fernanda Noronha · apresentação do catálogo de 2025."
     },
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-2-2",
@@ -11666,7 +11711,7 @@
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-3-1",
       "pass": true,
-      "detail": "catalogo-2025-financeira-2025-3: Título de Fernanda Noronha, conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-financeira-2025-3: Livro de Fernanda Noronha · apresentação do catálogo de 2025."
     },
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-3-2",
@@ -11681,7 +11726,7 @@
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-4-1",
       "pass": true,
-      "detail": "catalogo-2025-financeira-2025-4: Título de Fernanda Noronha, conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-financeira-2025-4: Livro de Fernanda Noronha · apresentação do catálogo de 2025."
     },
     {
       "id": "book-educacao-financeira-catalogo-2025-catalogo-2025-financeira-2025-4-2",
@@ -12156,7 +12201,7 @@
     {
       "id": "book-fluir-das-emocoes-catalogo-2025-catalogo-2025-fluir-2025-1-1",
       "pass": true,
-      "detail": "catalogo-2025-fluir-2025-1: Nome do nível conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-fluir-2025-1: Livro do programa Fluir das Emoções · apresentação do catálogo de 2025."
     },
     {
       "id": "book-fluir-das-emocoes-catalogo-2025-catalogo-2025-fluir-2025-1-2",
@@ -12186,7 +12231,7 @@
     {
       "id": "book-fluir-das-emocoes-catalogo-2025-catalogo-2025-fluir-2025-2-1",
       "pass": true,
-      "detail": "catalogo-2025-fluir-2025-2: Nome do nível conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-fluir-2025-2: Livro do programa Fluir das Emoções · apresentação do catálogo de 2025."
     },
     {
       "id": "book-fluir-das-emocoes-catalogo-2025-catalogo-2025-fluir-2025-2-2",
@@ -12216,7 +12261,7 @@
     {
       "id": "book-fluir-das-emocoes-catalogo-2025-catalogo-2025-fluir-2025-3-1",
       "pass": true,
-      "detail": "catalogo-2025-fluir-2025-3: Nome do nível conferido na capa reproduzida no catálogo de 2025."
+      "detail": "catalogo-2025-fluir-2025-3: Livro do programa Fluir das Emoções · apresentação do catálogo de 2025."
     },
     {
       "id": "book-fluir-das-emocoes-catalogo-2025-catalogo-2025-fluir-2025-3-2",
@@ -21554,6 +21599,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/-/solucoes/lendo-e-escrevendo",
+      "pass": true,
+      "detail": "/solucoes/lendo-e-escrevendo"
+    },
+    {
       "id": "internal-link-/-/a-editora/trajetoria#indicadores",
       "pass": true,
       "detail": "/a-editora/trajetoria#indicadores"
@@ -22399,14 +22449,14 @@
       "detail": "#solucoes"
     },
     {
-      "id": "internal-link-/formacao-/solucoes/brincando-e-aprendendo",
-      "pass": true,
-      "detail": "/solucoes/brincando-e-aprendendo"
-    },
-    {
       "id": "internal-link-/formacao-/solucoes/novo-lendo-voce-fica-sabendo",
       "pass": true,
       "detail": "/solucoes/novo-lendo-voce-fica-sabendo"
+    },
+    {
+      "id": "internal-link-/formacao-/solucoes/brincando-e-aprendendo",
+      "pass": true,
+      "detail": "/solucoes/brincando-e-aprendendo"
     },
     {
       "id": "internal-link-/formacao-/solucoes/fluir-das-emocoes",
@@ -22839,6 +22889,11 @@
       "detail": "/solucoes/ingles"
     },
     {
+      "id": "internal-link-/solucoes-/recursos#catalogo-2025-20-anos",
+      "pass": true,
+      "detail": "/recursos#catalogo-2025-20-anos"
+    },
+    {
       "id": "internal-link-/solucoes-/recursos/tabela-precos",
       "pass": true,
       "detail": "/recursos/tabela-precos"
@@ -22899,19 +22954,29 @@
       "detail": "/contato?solucao=a-cor-da-gente"
     },
     {
-      "id": "internal-link-/solucoes/a-cor-da-gente-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/a-cor-da-gente-#galeria",
       "pass": true,
       "detail": "#galeria"
     },
     {
+      "id": "internal-link-/solucoes/a-cor-da-gente-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
+    },
+    {
       "id": "internal-link-/solucoes/a-cor-da-gente-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/a-cor-da-gente-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/a-cor-da-gente-#oficial",
+      "pass": true,
+      "detail": "#oficial"
     },
     {
       "id": "internal-link-/solucoes/a-cor-da-gente-/recursos/tabela-precos?colecao=A%20Cor%20da%20Gente",
@@ -22994,14 +23059,14 @@
       "detail": "/contato?solucao=acerta-brasil"
     },
     {
-      "id": "internal-link-/solucoes/acerta-brasil-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/acerta-brasil-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/acerta-brasil-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/acerta-brasil-#amostras",
@@ -23084,14 +23149,14 @@
       "detail": "/contato?solucao=amma"
     },
     {
-      "id": "internal-link-/solucoes/amma-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/amma-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/amma-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/amma-#oferta-2027",
@@ -23179,19 +23244,29 @@
       "detail": "/contato?solucao=avancando-juntos"
     },
     {
-      "id": "internal-link-/solucoes/avancando-juntos-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/avancando-juntos-#galeria",
       "pass": true,
       "detail": "#galeria"
     },
     {
+      "id": "internal-link-/solucoes/avancando-juntos-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
+    },
+    {
       "id": "internal-link-/solucoes/avancando-juntos-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/avancando-juntos-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/avancando-juntos-#tabela-2027",
+      "pass": true,
+      "detail": "#tabela-2027"
     },
     {
       "id": "internal-link-/solucoes/avancando-juntos-/recursos/tabela-precos?colecao=Avan%C3%A7ando%20Juntos",
@@ -23274,14 +23349,14 @@
       "detail": "/contato?solucao=brincando-e-aprendendo"
     },
     {
-      "id": "internal-link-/solucoes/brincando-e-aprendendo-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/brincando-e-aprendendo-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/brincando-e-aprendendo-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/brincando-e-aprendendo-#amostras",
@@ -23292,6 +23367,21 @@
       "id": "internal-link-/solucoes/brincando-e-aprendendo-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/brincando-e-aprendendo-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/brincando-e-aprendendo-#oficial-historico",
+      "pass": true,
+      "detail": "#oficial-historico"
+    },
+    {
+      "id": "internal-link-/solucoes/brincando-e-aprendendo-#oficial-novo",
+      "pass": true,
+      "detail": "#oficial-novo"
     },
     {
       "id": "internal-link-/solucoes/brincando-e-aprendendo-/recursos/tabela-precos?colecao=Brincando%20e%20Aprendendo",
@@ -23374,14 +23464,14 @@
       "detail": "/contato?solucao=cataventos"
     },
     {
-      "id": "internal-link-/solucoes/cataventos-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/cataventos-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/cataventos-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/cataventos-#oferta-2027",
@@ -23469,19 +23559,29 @@
       "detail": "/contato?solucao=educacao-financeira"
     },
     {
-      "id": "internal-link-/solucoes/educacao-financeira-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/educacao-financeira-#galeria",
       "pass": true,
       "detail": "#galeria"
     },
     {
+      "id": "internal-link-/solucoes/educacao-financeira-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
+    },
+    {
       "id": "internal-link-/solucoes/educacao-financeira-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/educacao-financeira-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/educacao-financeira-#site-sem-data",
+      "pass": true,
+      "detail": "#site-sem-data"
     },
     {
       "id": "internal-link-/solucoes/educacao-financeira-/recursos/tabela-precos?colecao=Educa%C3%A7%C3%A3o%20Financeira",
@@ -23564,14 +23664,14 @@
       "detail": "/contato?solucao=escrever-comunicar-e-ser"
     },
     {
-      "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#amostras",
@@ -23582,6 +23682,16 @@
       "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/escrever-comunicar-e-ser-#oficial",
+      "pass": true,
+      "detail": "#oficial"
     },
     {
       "id": "internal-link-/solucoes/escrever-comunicar-e-ser-/recursos/tabela-precos?colecao=Escrever%2C%20Comunicar%20e%20Ser",
@@ -23664,19 +23774,34 @@
       "detail": "/contato?solucao=fluir-das-emocoes"
     },
     {
-      "id": "internal-link-/solucoes/fluir-das-emocoes-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/fluir-das-emocoes-#galeria",
       "pass": true,
       "detail": "#galeria"
     },
     {
+      "id": "internal-link-/solucoes/fluir-das-emocoes-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
+    },
+    {
       "id": "internal-link-/solucoes/fluir-das-emocoes-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/fluir-das-emocoes-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/fluir-das-emocoes-#site-sem-data",
+      "pass": true,
+      "detail": "#site-sem-data"
+    },
+    {
+      "id": "internal-link-/solucoes/fluir-das-emocoes-#tabela-2027",
+      "pass": true,
+      "detail": "#tabela-2027"
     },
     {
       "id": "internal-link-/solucoes/fluir-das-emocoes-/recursos/tabela-precos?colecao=Fluir%20das%20Emo%C3%A7%C3%B5es",
@@ -23749,14 +23874,14 @@
       "detail": "/contato?solucao=ideb-nota-10"
     },
     {
-      "id": "internal-link-/solucoes/ideb-nota-10-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/ideb-nota-10-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/ideb-nota-10-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/ideb-nota-10-#oferta-2027",
@@ -23924,14 +24049,14 @@
       "detail": "/contato?solucao=lendo-e-escrevendo"
     },
     {
-      "id": "internal-link-/solucoes/lendo-e-escrevendo-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/lendo-e-escrevendo-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/lendo-e-escrevendo-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/lendo-e-escrevendo-#amostras",
@@ -24014,14 +24139,14 @@
       "detail": "/contato?solucao=ler-ouvir-e-contar"
     },
     {
-      "id": "internal-link-/solucoes/ler-ouvir-e-contar-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/ler-ouvir-e-contar-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/ler-ouvir-e-contar-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/ler-ouvir-e-contar-#oferta-2027",
@@ -24109,14 +24234,14 @@
       "detail": "/contato?solucao=miudezas-e-descobertas"
     },
     {
-      "id": "internal-link-/solucoes/miudezas-e-descobertas-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/miudezas-e-descobertas-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/miudezas-e-descobertas-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/miudezas-e-descobertas-#oferta-2027",
@@ -24204,14 +24329,14 @@
       "detail": "/contato?solucao=novo-lendo-voce-fica-sabendo"
     },
     {
-      "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#amostras",
@@ -24222,6 +24347,16 @@
       "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-#oficial",
+      "pass": true,
+      "detail": "#oficial"
     },
     {
       "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-/recursos/tabela-precos?colecao=Novo%20Lendo%20Voc%C3%AA%20Fica%20Sabendo",
@@ -24304,14 +24439,14 @@
       "detail": "/contato?solucao=projeto-tema"
     },
     {
-      "id": "internal-link-/solucoes/projeto-tema-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/projeto-tema-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/projeto-tema-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/projeto-tema-#amostras",
@@ -24322,6 +24457,16 @@
       "id": "internal-link-/solucoes/projeto-tema-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/projeto-tema-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/projeto-tema-#oficial",
+      "pass": true,
+      "detail": "#oficial"
     },
     {
       "id": "internal-link-/solucoes/projeto-tema-/recursos/tabela-precos?colecao=Projeto%20TEMA",
@@ -24404,14 +24549,14 @@
       "detail": "/contato?solucao=sou-da-paz"
     },
     {
-      "id": "internal-link-/solucoes/sou-da-paz-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/sou-da-paz-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/sou-da-paz-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/sou-da-paz-#oferta-2027",
@@ -24499,14 +24644,14 @@
       "detail": "/contato?solucao=superativar"
     },
     {
-      "id": "internal-link-/solucoes/superativar-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/superativar-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/superativar-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/superativar-#oferta-2027",
@@ -24594,19 +24739,29 @@
       "detail": "/contato?solucao=transito-legal"
     },
     {
-      "id": "internal-link-/solucoes/transito-legal-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/transito-legal-#galeria",
       "pass": true,
       "detail": "#galeria"
     },
     {
+      "id": "internal-link-/solucoes/transito-legal-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
+    },
+    {
       "id": "internal-link-/solucoes/transito-legal-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/transito-legal-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/transito-legal-#site-sem-data",
+      "pass": true,
+      "detail": "#site-sem-data"
     },
     {
       "id": "internal-link-/solucoes/transito-legal-/recursos/tabela-precos?colecao=Tr%C3%A2nsito%20Legal",
@@ -24689,14 +24844,14 @@
       "detail": "/contato?solucao=uni-duni-te"
     },
     {
-      "id": "internal-link-/solucoes/uni-duni-te-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/uni-duni-te-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/uni-duni-te-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/uni-duni-te-#oferta-2027",
@@ -24784,14 +24939,14 @@
       "detail": "/contato?solucao=vida-e-ciencias"
     },
     {
-      "id": "internal-link-/solucoes/vida-e-ciencias-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/vida-e-ciencias-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-ciencias-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/vida-e-ciencias-#oferta-2027",
@@ -24879,14 +25034,14 @@
       "detail": "/contato?solucao=vida-e-linguagem"
     },
     {
-      "id": "internal-link-/solucoes/vida-e-linguagem-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/vida-e-linguagem-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-linguagem-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/vida-e-linguagem-#amostras",
@@ -24897,6 +25052,16 @@
       "id": "internal-link-/solucoes/vida-e-linguagem-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-linguagem-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-linguagem-#site-sem-data",
+      "pass": true,
+      "detail": "#site-sem-data"
     },
     {
       "id": "internal-link-/solucoes/vida-e-linguagem-/recursos/tabela-precos?colecao=Vida%20%26%20Linguagem",
@@ -24979,14 +25144,14 @@
       "detail": "/contato?solucao=vida-e-matematica"
     },
     {
-      "id": "internal-link-/solucoes/vida-e-matematica-#edicoes",
-      "pass": true,
-      "detail": "#edicoes"
-    },
-    {
       "id": "internal-link-/solucoes/vida-e-matematica-#galeria",
       "pass": true,
       "detail": "#galeria"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-matematica-#edicoes",
+      "pass": true,
+      "detail": "#edicoes"
     },
     {
       "id": "internal-link-/solucoes/vida-e-matematica-#amostras",
@@ -24997,6 +25162,16 @@
       "id": "internal-link-/solucoes/vida-e-matematica-#oferta-2027",
       "pass": true,
       "detail": "#oferta-2027"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-matematica-#catalogo-2025",
+      "pass": true,
+      "detail": "#catalogo-2025"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-matematica-#site-sem-data",
+      "pass": true,
+      "detail": "#site-sem-data"
     },
     {
       "id": "internal-link-/solucoes/vida-e-matematica-/recursos/tabela-precos?colecao=Vida%20%26%20Matem%C3%A1tica",
@@ -25195,12 +25370,13 @@
       "status": 200,
       "title": "Aprender Editora · Compromisso com a Aprendizagem",
       "canonical": "https://aprender-site.vercel.app",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
-        "conteudo"
+        "conteudo",
+        "home-title"
       ],
       "links": [
         "#conteudo",
@@ -25223,7 +25399,8 @@
         "/plataformas",
         "/contato",
         "/solucoes",
-        "/contato",
+        "/formacao",
+        "/solucoes/lendo-e-escrevendo",
         "/a-editora/trajetoria#indicadores",
         "/a-editora",
         "/solucoes",
@@ -25267,8 +25444,8 @@
       "status": 200,
       "title": "A editora | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/a-editora",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -25311,17 +25488,6 @@
         "/a-editora/trajetoria",
         "/a-editora/edgar-linhares",
         "/a-editora/paic",
-        "https://www.aprendereditora.com.br/quem-somos",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.aprendereditora.com.br/missao-principios-e-valores",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/a-editora/trajetoria",
         "/a-editora/edgar-linhares",
         "/a-editora/paic",
@@ -25382,10 +25548,9 @@
         "/a-editora/trajetoria",
         "/a-editora/edgar-linhares",
         "/a-editora/paic",
-        "https://www.aprendereditora.com.br/trajetorias-prof-edgar",
         "https://www.ce.gov.br/cee/secretario/ana-maria-nogueira-moreira/",
         "https://www.ce.gov.br/vicegov/2019/01/22/tempo-integral-vice-governadora-inaugura-escola-professor-edgar-linhares-em-sobral/",
-        "https://download.inep.gov.br/publicacoes/diversas/boas_praticas_em_educacao/vencendo_o_desafio_da_aprendizagem_nas_series_iniciais_a_experiencia_de_sobral_ce.pdf",
+        "https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-diversas/boas-praticas-em-educacao/vencendo-o-desafio-da-aprendizagem-nas-series-inicias-a-experiencia-de-sobral-ce",
         "/a-editora/trajetoria",
         "/",
         "/a-editora",
@@ -25421,14 +25586,19 @@
         "atendimentos-catalogo",
         "mapas",
         "mapas-spaece-2007-2018",
+        "_R_sbalubsnnb_",
         "banner-alfabetizacao-2007-2018",
+        "_R_sjalubsnnb_",
         "mapas-catalogo-2007-2013",
+        "_R_sralubsnnb_",
         "mapas-catalogo-2014-2023",
+        "_R_t3alubsnnb_",
         "indicadores",
         "ideb",
         "ranking-2017",
         "ioeb",
         "ioeb-original-2019",
+        "_R_5elubsnnb_",
         "documentos",
         "paic"
       ],
@@ -25463,20 +25633,8 @@
         "#ideb",
         "#ioeb",
         "#documentos",
-        "/images/archive/mapas-paic-2007-2018.webp",
-        "https://www.aprendereditora.com.br/paic",
-        "/images/archive/alfabetizacao-ceara-2007-2018.webp",
-        "https://www.aprendereditora.com.br/v2/midia/banner/banner-top2.jpg",
-        "/images/archive/mapas-catalogo-2007-2013.webp",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "/images/archive/mapas-catalogo-2014-2023.webp",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "/images/archive/ioeb-2019.webp",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf",
-        "https://www.aprendereditora.com.br/paic",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://download.inep.gov.br/publicacoes/diversas/boas_praticas_em_educacao/vencendo_o_desafio_da_aprendizagem_nas_series_iniciais_a_experiencia_de_sobral_ce.pdf",
+        "/documents/paic.pdf",
+        "https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-diversas/boas-praticas-em-educacao/vencendo-o-desafio-da-aprendizagem-nas-series-inicias-a-experiencia-de-sobral-ce",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25551,24 +25709,7 @@
         "/a-editora/trajetoria",
         "/a-editora/edgar-linhares",
         "/a-editora/paic",
-        "https://www.aprendereditora.com.br/trajetoria",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.aprendereditora.com.br/paic",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/a-editora/paic",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.aprendereditora.com.br/",
-        "https://www.aprendereditora.com.br/",
-        "https://www.aprendereditora.com.br/",
-        "https://www.aprendereditora.com.br/",
-        "https://www.opovo.com.br/noticias/especialpublicitario/aprendereditora/2025/11/07/aprender-editora-duas-decadas-formando-leitores-professores-e-futuros.html",
         "/contato",
         "/",
         "/a-editora",
@@ -25602,14 +25743,23 @@
         "depoimentos",
         "testimonials-title",
         "alcides-leite",
+        "_R_a7dbsnnb_",
         "cicera-rejane",
+        "_R_abdbsnnb_",
         "germana-santos",
+        "_R_afdbsnnb_",
         "herbert-lima",
+        "_R_ajdbsnnb_",
         "jose-leandro",
+        "_R_andbsnnb_",
         "jose-marcelo",
+        "_R_ardbsnnb_",
         "julio-cesar",
+        "_R_avdbsnnb_",
         "lucinete-alves",
+        "_R_b3dbsnnb_",
         "vilma-rodrigues",
+        "_R_b7dbsnnb_",
         "formacoes",
         "gallery-title",
         "pacajus-roda",
@@ -25658,28 +25808,12 @@
         "#formacoes",
         "#videos",
         "#memoria-editorial",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-1.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-3.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-4.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-5.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-6.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-7.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-8.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-9.jpg",
-        "https://www.aprendereditora.com.br/v2/midia/banner/frase-10.jpg",
         "/formacao",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/Paginas3/Site-Aprender_Tela-19-Aprender_ACAO-final.jpg",
         "/media/comp-1.mp4",
-        "https://www.aprendereditora.com.br/video-1",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-1.mp4",
         "/media/comp-1-description.vtt",
         "/media/comp-2.mp4",
-        "https://www.aprendereditora.com.br/video-2",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-2.mp4",
         "/media/comp-2-description.vtt",
         "/media/comp-3.mp4",
-        "https://www.aprendereditora.com.br/video-3",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/files/videos/comp-3.mp4",
         "/media/comp-3-description.vtt",
         "/em-acao/vinte-anos-compromisso-aprendizagem",
         "/em-acao/acompanhamento-palhano-2010",
@@ -25708,8 +25842,8 @@
       "status": 200,
       "title": "Vamos conversar | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/contato",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -25742,7 +25876,6 @@
         "https://www.facebook.com/AprenderEditora",
         "https://www.youtube.com/aprendereditora",
         "https://twitter.com/aprendereditora",
-        "https://www.aprendereditora.com.br/fale-conosco",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25766,8 +25899,8 @@
       "status": 200,
       "title": "Aprender em ação | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/em-acao",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -25850,7 +25983,6 @@
         "/contato",
         "/",
         "/em-acao",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=2",
         "/em-acao",
         "/contato",
         "/",
@@ -25905,7 +26037,6 @@
         "/contato",
         "/",
         "/em-acao",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=22",
         "/em-acao",
         "/contato",
         "/",
@@ -25986,8 +26117,8 @@
       "status": 200,
       "title": "Formação e acompanhamento | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/formacao",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -26028,11 +26159,7 @@
         "/acervo#formacoes",
         "#solucoes",
         "/contato",
-        "https://www.aprendereditora.com.br/trajetorias-lendo-voce-fica-sabendo",
-        "https://www.aprendereditora.com.br/aprender-em-acao",
-        "https://www.aprendereditora.com.br/trajetorias-lendo-voce-fica-sabendo",
-        "https://www.aprendereditora.com.br/aprender-em-acao",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=60",
+        "/solucoes/novo-lendo-voce-fica-sabendo",
         "/acervo#formacoes",
         "/plataformas",
         "/solucoes/brincando-e-aprendendo",
@@ -26062,8 +26189,8 @@
       "status": 200,
       "title": "Plataformas digitais | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/plataformas",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -26117,8 +26244,8 @@
       "status": 200,
       "title": "Recursos, amostras e documentos | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/recursos",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -26184,7 +26311,6 @@
         "/contato",
         "/",
         "/recursos/tabela-precos",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/a-editora/paic",
         "#brincando-e-aprendendo",
         "#novo-lendo-voce-fica-sabendo",
@@ -26195,43 +26321,43 @@
         "#lendo-e-escrevendo",
         "#acerta-brasil",
         "#institucionais",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf",
+        "/documents/brincando-e-aprendendo-vol-01.pdf",
+        "/documents/brincando-e-aprendendo-vol-02.pdf",
+        "/documents/brincando-e-aprendendo-vol-03.pdf",
+        "/documents/brincando-e-aprendendo-vol-04.pdf",
         "/solucoes/brincando-e-aprendendo",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf",
+        "/documents/nlvfs-1-ano-vol-01.pdf",
+        "/documents/nlvfs-2-ano-vol-01.pdf",
         "/solucoes/novo-lendo-voce-fica-sabendo",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf",
+        "/documents/livro-tema-1.pdf",
+        "/documents/livro-tema-2.pdf",
+        "/documents/livro-tema-3.pdf",
         "/solucoes/projeto-tema",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf",
+        "/documents/ecs-1-ano.pdf",
+        "/documents/ecs-2-ano.pdf",
+        "/documents/ecs-3-ano.pdf",
+        "/documents/ecs-4-ano.pdf",
+        "/documents/ecs-5-ano.pdf",
         "/solucoes/escrever-comunicar-e-ser",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf",
+        "/documents/vida-e-linguagem-6-ano.pdf",
+        "/documents/vida-e-linguagem-7-ano.pdf",
+        "/documents/vida-e-linguagem-8-ano.pdf",
+        "/documents/vida-e-linguagem-9-ano.pdf",
         "/solucoes/vida-e-linguagem",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf",
+        "/documents/vida-e-matematica-6-ano.pdf",
+        "/documents/vida-e-matematica-7-ano.pdf",
+        "/documents/vida-e-matematica-8-ano.pdf",
+        "/documents/vida-e-matematica-9-ano.pdf",
         "/solucoes/vida-e-matematica",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf",
+        "/documents/educacao-infantil-laranja.pdf",
+        "/documents/educacao-infantil-verde-vol-02.pdf",
+        "/documents/educacao-infantil-vermelho-vol-01.pdf",
         "/solucoes/lendo-e-escrevendo",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf",
+        "/documents/acbr-matematica-5-ano.pdf",
+        "/documents/acbr-portugues-5-ano.pdf",
         "/solucoes/acerta-brasil",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "/documents/paic.pdf",
+        "/documents/catalogo-2025-20-anos.pdf",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26255,15 +26381,16 @@
       "status": 200,
       "title": "Tabela de preços publicada · 2027 | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/recursos/tabela-precos",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
         "price-search",
         "price-collection",
-        "price-audience"
+        "price-audience",
+        "_R_34lubsnnb_"
       ],
       "links": [
         "#conteudo",
@@ -26287,8 +26414,6 @@
         "/contato",
         "/",
         "/contato",
-        "/images/resources/tabela-precos-2027.jpg",
-        "https://www.aprendereditora.com.br/tabela-precos",
         "/recursos",
         "/",
         "/a-editora",
@@ -26317,8 +26442,8 @@
       "status": 200,
       "title": "Soluções educacionais | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -26371,7 +26496,7 @@
         "/solucoes/lendo-e-escrevendo",
         "/solucoes/acerta-brasil",
         "/solucoes/ingles",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "/recursos#catalogo-2025-20-anos",
         "/contato",
         "/",
         "/a-editora",
@@ -26396,13 +26521,25 @@
       "status": 200,
       "title": "A Cor da Gente | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/a-cor-da-gente.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/a-cor-da-gente.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
+        "catalogo-2025",
+        "cor-2025-1",
+        "cor-2025-2",
+        "cor-2025-3",
+        "cor-2025-4",
+        "cor-2025-5",
+        "cor-2025-6",
+        "cor-2025-7",
+        "cor-2025-8",
+        "cor-2025-9",
         "oficial",
         "ere",
         "uana",
@@ -26414,17 +26551,6 @@
         "baoba",
         "cararu",
         "cor-professor",
-        "catalogo-2025",
-        "cor-2025-1",
-        "cor-2025-2",
-        "cor-2025-3",
-        "cor-2025-4",
-        "cor-2025-5",
-        "cor-2025-6",
-        "cor-2025-7",
-        "cor-2025-8",
-        "cor-2025-9",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -26450,12 +26576,12 @@
         "/",
         "/solucoes",
         "/contato?solucao=a-cor-da-gente",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=50",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/colecao-a-cor-da-gente",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "#catalogo-2025",
+        "#oficial",
         "/recursos/tabela-precos?colecao=A%20Cor%20da%20Gente",
         "/formacao",
         "/solucoes",
@@ -26486,12 +26612,17 @@
       "status": 200,
       "title": "ACerta Brasil | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/acerta-brasil",
-      "openGraph": "https://aprender-site.vercel.app/images/materials/acerta-brasil.webp",
-      "twitter": "https://aprender-site.vercel.app/images/materials/acerta-brasil.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "acbr-matematica-5-ano",
+        "acbr-portugues-5-ano",
         "edicoes",
         "oficial",
         "acerta-portugues-aluno",
@@ -26501,11 +26632,7 @@
         "acerta-matematica-aluno",
         "acerta-matematica-suplemento",
         "acerta-matematica-provas",
-        "acerta-matematica-professor",
-        "galeria",
-        "amostras",
-        "acbr-matematica-5-ano",
-        "acbr-portugues-5-ano"
+        "acerta-matematica-professor"
       ],
       "links": [
         "#conteudo",
@@ -26530,13 +26657,12 @@
         "/",
         "/solucoes",
         "/contato?solucao=acerta-brasil",
-        "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
-        "https://www.aprendereditora.com.br/colecao-acerta-brasil",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf",
+        "/documents/acbr-matematica-5-ano.pdf",
+        "/documents/acbr-portugues-5-ano.pdf",
         "/formacao",
         "/solucoes",
         "/solucoes/novo-lendo-voce-fica-sabendo",
@@ -26566,17 +26692,18 @@
       "status": 200,
       "title": "AMMA | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/amma",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/amma.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/amma.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-amma-1",
         "catalogo-2025-amma-2",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -26602,11 +26729,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=amma",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=26",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Aprender%20Mais%20Matem%C3%A1tica%20(AMMA)",
         "/formacao",
         "/solucoes",
@@ -26637,12 +26763,14 @@
       "status": 200,
       "title": "Avançando Juntos | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/avancando-juntos",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/avancando-juntos.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/avancando-juntos.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-avancando-portugues-aluno",
@@ -26666,7 +26794,6 @@
         "tabela-2027-avancando-2027-9-portugues-professor",
         "tabela-2027-avancando-2027-9-matematica-aluno",
         "tabela-2027-avancando-2027-9-matematica-professor",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -26692,12 +26819,12 @@
         "/",
         "/solucoes",
         "/contato?solucao=avancando-juntos",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=42",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+        "#catalogo-2025",
+        "#tabela-2027",
         "/recursos/tabela-precos?colecao=Avan%C3%A7ando%20Juntos",
         "/formacao",
         "/solucoes",
@@ -26728,13 +26855,36 @@
       "status": 200,
       "title": "Brincando e Aprendendo | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/brincando-e-aprendendo.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/brincando-e-aprendendo.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "brincando-e-aprendendo-vol-01",
+        "brincando-e-aprendendo-vol-02",
+        "brincando-e-aprendendo-vol-03",
+        "brincando-e-aprendendo-vol-04",
         "edicoes",
+        "catalogo-2025",
+        "brincar-2025-crianca-1",
+        "brincar-2025-familia-1",
+        "brincar-2025-professor-1",
+        "brincar-2025-crianca-2",
+        "brincar-2025-familia-2",
+        "brincar-2025-professor-2",
+        "brincar-2025-crianca-3",
+        "brincar-2025-familia-3",
+        "brincar-2025-professor-3",
+        "brincar-2025-crianca-4",
+        "brincar-2025-familia-4",
+        "brincar-2025-professor-4",
+        "brincar-2025-crianca-5",
+        "brincar-2025-familia-5",
+        "brincar-2025-professor-5",
         "oficial-historico",
         "brincar-historico-crianca-1",
         "brincar-historico-professor-1",
@@ -26769,28 +26919,6 @@
         "brincar-novo-guia-4",
         "brincar-novo-cartazes-4",
         "brincar-novo-cards-a3-4",
-        "catalogo-2025",
-        "brincar-2025-crianca-1",
-        "brincar-2025-familia-1",
-        "brincar-2025-professor-1",
-        "brincar-2025-crianca-2",
-        "brincar-2025-familia-2",
-        "brincar-2025-professor-2",
-        "brincar-2025-crianca-3",
-        "brincar-2025-familia-3",
-        "brincar-2025-professor-3",
-        "brincar-2025-crianca-4",
-        "brincar-2025-familia-4",
-        "brincar-2025-professor-4",
-        "brincar-2025-crianca-5",
-        "brincar-2025-familia-5",
-        "brincar-2025-professor-5",
-        "galeria",
-        "amostras",
-        "brincando-e-aprendendo-vol-01",
-        "brincando-e-aprendendo-vol-02",
-        "brincando-e-aprendendo-vol-03",
-        "brincando-e-aprendendo-vol-04",
         "oferta-2027"
       ],
       "links": [
@@ -26816,18 +26944,18 @@
         "/",
         "/solucoes",
         "/contato?solucao=brincando-e-aprendendo",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=14",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/brincando-e-aprendendo",
-        "https://www.aprendereditora.com.br/brincando-e-aprendendo-novo",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf",
+        "/documents/brincando-e-aprendendo-vol-01.pdf",
+        "/documents/brincando-e-aprendendo-vol-02.pdf",
+        "/documents/brincando-e-aprendendo-vol-03.pdf",
+        "/documents/brincando-e-aprendendo-vol-04.pdf",
+        "#catalogo-2025",
+        "#oficial-historico",
+        "#oficial-novo",
         "/recursos/tabela-precos?colecao=Brincando%20e%20Aprendendo",
         "/formacao",
         "/solucoes",
@@ -26858,17 +26986,18 @@
       "status": 200,
       "title": "Cataventos | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/cataventos",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/cataventos.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/cataventos.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-cataventos-1",
         "catalogo-2025-cataventos-2",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -26894,11 +27023,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=cataventos",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=18",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Cataventos",
         "/formacao",
         "/solucoes",
@@ -26929,25 +27057,26 @@
       "status": 200,
       "title": "Educação Financeira | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/educacao-financeira",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/educacao-financeira.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/educacao-financeira.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
+        "catalogo-2025",
+        "catalogo-2025-financeira-2025-1",
+        "catalogo-2025-financeira-2025-2",
+        "catalogo-2025-financeira-2025-3",
+        "catalogo-2025-financeira-2025-4",
         "site-sem-data",
         "site-sem-data-financeira-1",
         "site-sem-data-financeira-2",
         "site-sem-data-financeira-3",
         "site-sem-data-financeira-4",
         "site-sem-data-financeira-professor",
-        "catalogo-2025",
-        "catalogo-2025-financeira-2025-1",
-        "catalogo-2025-financeira-2025-2",
-        "catalogo-2025-financeira-2025-3",
-        "catalogo-2025-financeira-2025-4",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -26973,12 +27102,12 @@
         "/",
         "/solucoes",
         "/contato?solucao=educacao-financeira",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=46",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/educacao-financeira",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "#catalogo-2025",
+        "#site-sem-data",
         "/recursos/tabela-precos?colecao=Educa%C3%A7%C3%A3o%20Financeira",
         "/formacao",
         "/solucoes",
@@ -27009,13 +27138,27 @@
       "status": 200,
       "title": "Escrever, Comunicar e Ser | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/escrever-comunicar-e-ser.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/escrever-comunicar-e-ser.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "ecs-1-ano",
+        "ecs-2-ano",
+        "ecs-3-ano",
+        "ecs-4-ano",
+        "ecs-5-ano",
         "edicoes",
+        "catalogo-2025",
+        "escrever-2025-1",
+        "escrever-2025-2",
+        "escrever-2025-3",
+        "escrever-2025-4",
+        "escrever-2025-5",
         "oficial",
         "escrever-aluno-1",
         "escrever-professor-1",
@@ -27027,19 +27170,6 @@
         "escrever-professor-4",
         "escrever-aluno-5",
         "escrever-professor-5",
-        "catalogo-2025",
-        "escrever-2025-1",
-        "escrever-2025-2",
-        "escrever-2025-3",
-        "escrever-2025-4",
-        "escrever-2025-5",
-        "galeria",
-        "amostras",
-        "ecs-1-ano",
-        "ecs-2-ano",
-        "ecs-3-ano",
-        "ecs-4-ano",
-        "ecs-5-ano",
         "oferta-2027"
       ],
       "links": [
@@ -27065,18 +27195,18 @@
         "/",
         "/solucoes",
         "/contato?solucao=escrever-comunicar-e-ser",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=30",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf",
+        "/documents/ecs-1-ano.pdf",
+        "/documents/ecs-2-ano.pdf",
+        "/documents/ecs-3-ano.pdf",
+        "/documents/ecs-4-ano.pdf",
+        "/documents/ecs-5-ano.pdf",
+        "#catalogo-2025",
+        "#oficial",
         "/recursos/tabela-precos?colecao=Escrever%2C%20Comunicar%20e%20Ser",
         "/formacao",
         "/solucoes",
@@ -27107,27 +27237,28 @@
       "status": 200,
       "title": "Fluir das Emoções | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/fluir-das-emocoes.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/fluir-das-emocoes.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
+        "catalogo-2025",
+        "catalogo-2025-fluir-2025-1",
+        "catalogo-2025-fluir-2025-2",
+        "catalogo-2025-fluir-2025-3",
         "site-sem-data",
         "site-sem-data-fluir-cerebro",
         "site-sem-data-fluir-versao",
         "site-sem-data-fluir-grupo",
         "site-sem-data-fluir-agenda",
-        "catalogo-2025",
-        "catalogo-2025-fluir-2025-1",
-        "catalogo-2025-fluir-2025-2",
-        "catalogo-2025-fluir-2025-3",
         "tabela-2027",
         "tabela-2027-fluir-2027-1",
         "tabela-2027-fluir-2027-2",
         "tabela-2027-fluir-2027-3",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27153,13 +27284,13 @@
         "/",
         "/solucoes",
         "/contato?solucao=fluir-das-emocoes",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=58",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/colecao-fluir-das-emocoes",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
+        "#catalogo-2025",
+        "#site-sem-data",
+        "#tabela-2027",
         "/recursos/tabela-precos?colecao=Fluir%20das%20Emo%C3%A7%C3%B5es",
         "/formacao",
         "/solucoes",
@@ -27188,12 +27319,14 @@
       "status": 200,
       "title": "IDEB Nota 10 | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/ideb-nota-10",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/ideb-nota-10.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/ideb-nota-10.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-ideb-gestao",
@@ -27201,7 +27334,6 @@
         "catalogo-2025-ideb-caderno-professor",
         "catalogo-2025-ideb-avaliar-aluno",
         "catalogo-2025-ideb-avaliar-professor",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27227,11 +27359,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=ideb-nota-10",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=56",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=IDEB%20Nota%2010",
         "/formacao",
         "/solucoes",
@@ -27260,8 +27391,8 @@
       "status": 200,
       "title": "Inglês | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/ingles",
-      "openGraph": "https://aprender-site.vercel.app/images/hero.webp",
-      "twitter": "https://aprender-site.vercel.app/images/hero.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
@@ -27301,10 +27432,9 @@
         "/",
         "/solucoes",
         "/contato?solucao=ingles",
-        "https://www.aprendereditora.com.br/tabela-precos",
+        "#edicoes",
         "#edicoes",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/v2/midia/kcfinder/images/tabela_precos_2027.jpg",
         "/recursos/tabela-precos?colecao=Ingl%C3%AAs%20%E2%80%94%20My%20Learning%20%2F%20Teaching%20Companion",
         "/solucoes",
         "/solucoes/vida-e-linguagem",
@@ -27334,12 +27464,18 @@
       "status": 200,
       "title": "Lendo e Escrevendo | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo",
-      "openGraph": "https://aprender-site.vercel.app/images/materials/lendo-e-escrevendo.webp",
-      "twitter": "https://aprender-site.vercel.app/images/materials/lendo-e-escrevendo.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "educacao-infantil-laranja",
+        "educacao-infantil-verde-vol-02",
+        "educacao-infantil-vermelho-vol-01",
         "edicoes",
         "oficial",
         "lendo-crianca-1",
@@ -27350,12 +27486,7 @@
         "lendo-professor-2",
         "lendo-crianca-3",
         "lendo-familia-3",
-        "lendo-professor-3",
-        "galeria",
-        "amostras",
-        "educacao-infantil-laranja",
-        "educacao-infantil-verde-vol-02",
-        "educacao-infantil-vermelho-vol-01"
+        "lendo-professor-3"
       ],
       "links": [
         "#conteudo",
@@ -27380,14 +27511,13 @@
         "/",
         "/solucoes",
         "/contato?solucao=lendo-e-escrevendo",
-        "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
-        "https://www.aprendereditora.com.br/lendo-e-escrevendo",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf",
+        "/documents/educacao-infantil-laranja.pdf",
+        "/documents/educacao-infantil-verde-vol-02.pdf",
+        "/documents/educacao-infantil-vermelho-vol-01.pdf",
         "/formacao",
         "/solucoes",
         "/solucoes/brincando-e-aprendendo",
@@ -27417,12 +27547,14 @@
       "status": 200,
       "title": "Ler, Ouvir e Contar | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/ler-ouvir-e-contar.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/ler-ouvir-e-contar.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-ler-1-1",
@@ -27442,7 +27574,6 @@
         "catalogo-2025-ler-3-3",
         "catalogo-2025-ler-3-4",
         "catalogo-2025-ler-3-coletanea",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27468,11 +27599,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=ler-ouvir-e-contar",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=54",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Ler%2C%20Ouvir%20e%20Contar",
         "/formacao",
         "/solucoes",
@@ -27503,12 +27633,14 @@
       "status": 200,
       "title": "Miudezas e Descobertas | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/miudezas-e-descobertas.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/miudezas-e-descobertas.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-miudezas-caderno",
@@ -27517,7 +27649,6 @@
         "catalogo-2025-miudezas-guia",
         "catalogo-2025-miudezas-brincando",
         "catalogo-2025-miudezas-agenda",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27543,11 +27674,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=miudezas-e-descobertas",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=16",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Miudezas%20e%20Descobertas",
         "/formacao",
         "/solucoes",
@@ -27578,13 +27708,21 @@
       "status": 200,
       "title": "Novo Lendo Você Fica Sabendo | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/novo-lendo-voce-fica-sabendo.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/novo-lendo-voce-fica-sabendo.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "nlvfs-1-ano-vol-01",
+        "nlvfs-2-ano-vol-01",
         "edicoes",
+        "catalogo-2025",
+        "novo-2025-1",
+        "novo-2025-2",
         "oficial",
         "novo-aluno-1",
         "novo-casa-1",
@@ -27596,13 +27734,6 @@
         "novo-familia-2",
         "novo-guia-2",
         "novo-jogos-2",
-        "catalogo-2025",
-        "novo-2025-1",
-        "novo-2025-2",
-        "galeria",
-        "amostras",
-        "nlvfs-1-ano-vol-01",
-        "nlvfs-2-ano-vol-01",
         "oferta-2027"
       ],
       "links": [
@@ -27628,15 +27759,15 @@
         "/",
         "/solucoes",
         "/contato?solucao=novo-lendo-voce-fica-sabendo",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=24",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/novo-lendo-voce-fica-sabendo",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf",
+        "/documents/nlvfs-1-ano-vol-01.pdf",
+        "/documents/nlvfs-2-ano-vol-01.pdf",
+        "#catalogo-2025",
+        "#oficial",
         "/recursos/tabela-precos?colecao=Novo%20Lendo%20Voc%C3%AA%20Fica%20Sabendo",
         "/formacao",
         "/solucoes",
@@ -27667,13 +27798,23 @@
       "status": 200,
       "title": "Projeto TEMA | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/projeto-tema",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/projeto-tema.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/projeto-tema.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "livro-tema-1",
+        "livro-tema-2",
+        "livro-tema-3",
         "edicoes",
+        "catalogo-2025",
+        "tema-2025-1",
+        "tema-2025-2",
+        "tema-2025-3",
         "oficial",
         "tema-sala-1",
         "tema-casa-1",
@@ -27684,15 +27825,6 @@
         "tema-sala-3",
         "tema-casa-3",
         "tema-guia-3",
-        "catalogo-2025",
-        "tema-2025-1",
-        "tema-2025-2",
-        "tema-2025-3",
-        "galeria",
-        "amostras",
-        "livro-tema-1",
-        "livro-tema-2",
-        "livro-tema-3",
         "oferta-2027"
       ],
       "links": [
@@ -27718,16 +27850,16 @@
         "/",
         "/solucoes",
         "/contato?solucao=projeto-tema",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=28",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/projeto-tema",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf",
+        "/documents/livro-tema-1.pdf",
+        "/documents/livro-tema-2.pdf",
+        "/documents/livro-tema-3.pdf",
+        "#catalogo-2025",
+        "#oficial",
         "/recursos/tabela-precos?colecao=Projeto%20TEMA",
         "/formacao",
         "/solucoes",
@@ -27758,19 +27890,20 @@
       "status": 200,
       "title": "Sou da Paz | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/sou-da-paz",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/sou-da-paz.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/sou-da-paz.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-sou-da-paz-6",
         "catalogo-2025-sou-da-paz-7",
         "catalogo-2025-sou-da-paz-8",
         "catalogo-2025-sou-da-paz-9",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27796,11 +27929,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=sou-da-paz",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=44",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Sou%20da%20Paz",
         "/formacao",
         "/solucoes",
@@ -27831,12 +27963,14 @@
       "status": 200,
       "title": "Superativar | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/superativar",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/superativar.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/superativar.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-superativar-3-linguagens",
@@ -27845,7 +27979,6 @@
         "catalogo-2025-superativar-4-matematica",
         "catalogo-2025-superativar-5-linguagens",
         "catalogo-2025-superativar-5-matematica",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27871,11 +28004,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=superativar",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=32",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Superativar",
         "/formacao",
         "/solucoes",
@@ -27906,23 +28038,24 @@
       "status": 200,
       "title": "Trânsito Legal | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/transito-legal",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/transito-legal.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/transito-legal.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
+        "catalogo-2025",
+        "catalogo-2025-transito-2025-iniciais",
+        "catalogo-2025-transito-2025-finais",
         "site-sem-data",
         "site-sem-data-transito-patrulhinha",
         "site-sem-data-transito-estrada",
         "site-sem-data-transito-guia",
         "site-sem-data-transito-trilha",
         "site-sem-data-transito-placas",
-        "catalogo-2025",
-        "catalogo-2025-transito-2025-iniciais",
-        "catalogo-2025-transito-2025-finais",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -27948,12 +28081,12 @@
         "/",
         "/solucoes",
         "/contato?solucao=transito-legal",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=52",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/projeto-transito-legal",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "#catalogo-2025",
+        "#site-sem-data",
         "/recursos/tabela-precos?colecao=Tr%C3%A2nsito%20Legal",
         "/formacao",
         "/solucoes",
@@ -27984,17 +28117,18 @@
       "status": 200,
       "title": "Uni Duni Tê | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/uni-duni-te",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/uni-duni-te.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/uni-duni-te.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-uni-duni-1",
         "catalogo-2025-uni-duni-2",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -28020,11 +28154,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=uni-duni-te",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=20",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Uni%20Duni%20T%C3%AA",
         "/formacao",
         "/solucoes",
@@ -28055,12 +28188,14 @@
       "status": 200,
       "title": "Vida & Ciências | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/vida-e-ciencias.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/vida-e-ciencias.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-vida-e-ciencias-6-aluno",
@@ -28079,7 +28214,6 @@
         "catalogo-2025-vida-e-ciencias-9-suplemento-aluno",
         "catalogo-2025-vida-e-ciencias-9-professor",
         "catalogo-2025-vida-e-ciencias-9-suplemento-professor",
-        "galeria",
         "oferta-2027"
       ],
       "links": [
@@ -28105,11 +28239,10 @@
         "/",
         "/solucoes",
         "/contato?solucao=vida-e-ciencias",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=40",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#oferta-2027",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
         "/recursos/tabela-precos?colecao=Vida%20%26%20Ci%C3%AAncias",
         "/formacao",
         "/solucoes",
@@ -28140,30 +28273,20 @@
       "status": 200,
       "title": "Vida & Linguagem | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/vida-e-linguagem.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/vida-e-linguagem.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "vida-e-linguagem-6-ano",
+        "vida-e-linguagem-7-ano",
+        "vida-e-linguagem-8-ano",
+        "vida-e-linguagem-9-ano",
         "edicoes",
-        "site-sem-data",
-        "site-sem-data-vida-e-linguagem-6-aluno",
-        "site-sem-data-vida-e-linguagem-6-suplemento-aluno",
-        "site-sem-data-vida-e-linguagem-6-professor",
-        "site-sem-data-vida-e-linguagem-6-suplemento-professor",
-        "site-sem-data-vida-e-linguagem-7-aluno",
-        "site-sem-data-vida-e-linguagem-7-suplemento-aluno",
-        "site-sem-data-vida-e-linguagem-7-professor",
-        "site-sem-data-vida-e-linguagem-7-suplemento-professor",
-        "site-sem-data-vida-e-linguagem-8-aluno",
-        "site-sem-data-vida-e-linguagem-8-suplemento-aluno",
-        "site-sem-data-vida-e-linguagem-8-professor",
-        "site-sem-data-vida-e-linguagem-8-suplemento-professor",
-        "site-sem-data-vida-e-linguagem-9-aluno",
-        "site-sem-data-vida-e-linguagem-9-suplemento-aluno",
-        "site-sem-data-vida-e-linguagem-9-professor",
-        "site-sem-data-vida-e-linguagem-9-suplemento-professor",
         "catalogo-2025",
         "catalogo-2025-vida-e-linguagem-6-aluno",
         "catalogo-2025-vida-e-linguagem-6-suplemento-aluno",
@@ -28181,12 +28304,23 @@
         "catalogo-2025-vida-e-linguagem-9-suplemento-aluno",
         "catalogo-2025-vida-e-linguagem-9-professor",
         "catalogo-2025-vida-e-linguagem-9-suplemento-professor",
-        "galeria",
-        "amostras",
-        "vida-e-linguagem-6-ano",
-        "vida-e-linguagem-7-ano",
-        "vida-e-linguagem-8-ano",
-        "vida-e-linguagem-9-ano",
+        "site-sem-data",
+        "site-sem-data-vida-e-linguagem-6-aluno",
+        "site-sem-data-vida-e-linguagem-6-suplemento-aluno",
+        "site-sem-data-vida-e-linguagem-6-professor",
+        "site-sem-data-vida-e-linguagem-6-suplemento-professor",
+        "site-sem-data-vida-e-linguagem-7-aluno",
+        "site-sem-data-vida-e-linguagem-7-suplemento-aluno",
+        "site-sem-data-vida-e-linguagem-7-professor",
+        "site-sem-data-vida-e-linguagem-7-suplemento-professor",
+        "site-sem-data-vida-e-linguagem-8-aluno",
+        "site-sem-data-vida-e-linguagem-8-suplemento-aluno",
+        "site-sem-data-vida-e-linguagem-8-professor",
+        "site-sem-data-vida-e-linguagem-8-suplemento-professor",
+        "site-sem-data-vida-e-linguagem-9-aluno",
+        "site-sem-data-vida-e-linguagem-9-suplemento-aluno",
+        "site-sem-data-vida-e-linguagem-9-professor",
+        "site-sem-data-vida-e-linguagem-9-suplemento-professor",
         "oferta-2027"
       ],
       "links": [
@@ -28212,17 +28346,17 @@
         "/",
         "/solucoes",
         "/contato?solucao=vida-e-linguagem",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=36",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf",
+        "/documents/vida-e-linguagem-6-ano.pdf",
+        "/documents/vida-e-linguagem-7-ano.pdf",
+        "/documents/vida-e-linguagem-8-ano.pdf",
+        "/documents/vida-e-linguagem-9-ano.pdf",
+        "#catalogo-2025",
+        "#site-sem-data",
         "/recursos/tabela-precos?colecao=Vida%20%26%20Linguagem",
         "/formacao",
         "/solucoes",
@@ -28253,30 +28387,20 @@
       "status": 200,
       "title": "Vida & Matemática | Aprender Editora",
       "canonical": "https://aprender-site.vercel.app/solucoes/vida-e-matematica",
-      "openGraph": "https://aprender-site.vercel.app/images/collections/vida-e-matematica.webp",
-      "twitter": "https://aprender-site.vercel.app/images/collections/vida-e-matematica.webp",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
         "mobile-menu",
         "mobile-menu-title",
         "conteudo",
+        "galeria",
+        "_R_2n4lubsnnb_",
+        "amostras",
+        "vida-e-matematica-6-ano",
+        "vida-e-matematica-7-ano",
+        "vida-e-matematica-8-ano",
+        "vida-e-matematica-9-ano",
         "edicoes",
-        "site-sem-data",
-        "site-sem-data-vida-e-matematica-6-aluno",
-        "site-sem-data-vida-e-matematica-6-suplemento-aluno",
-        "site-sem-data-vida-e-matematica-6-professor",
-        "site-sem-data-vida-e-matematica-6-suplemento-professor",
-        "site-sem-data-vida-e-matematica-7-aluno",
-        "site-sem-data-vida-e-matematica-7-suplemento-aluno",
-        "site-sem-data-vida-e-matematica-7-professor",
-        "site-sem-data-vida-e-matematica-7-suplemento-professor",
-        "site-sem-data-vida-e-matematica-8-aluno",
-        "site-sem-data-vida-e-matematica-8-suplemento-aluno",
-        "site-sem-data-vida-e-matematica-8-professor",
-        "site-sem-data-vida-e-matematica-8-suplemento-professor",
-        "site-sem-data-vida-e-matematica-9-aluno",
-        "site-sem-data-vida-e-matematica-9-suplemento-aluno",
-        "site-sem-data-vida-e-matematica-9-professor",
-        "site-sem-data-vida-e-matematica-9-suplemento-professor",
         "catalogo-2025",
         "catalogo-2025-vida-e-matematica-6-aluno",
         "catalogo-2025-vida-e-matematica-6-suplemento-aluno",
@@ -28294,12 +28418,23 @@
         "catalogo-2025-vida-e-matematica-9-suplemento-aluno",
         "catalogo-2025-vida-e-matematica-9-professor",
         "catalogo-2025-vida-e-matematica-9-suplemento-professor",
-        "galeria",
-        "amostras",
-        "vida-e-matematica-6-ano",
-        "vida-e-matematica-7-ano",
-        "vida-e-matematica-8-ano",
-        "vida-e-matematica-9-ano",
+        "site-sem-data",
+        "site-sem-data-vida-e-matematica-6-aluno",
+        "site-sem-data-vida-e-matematica-6-suplemento-aluno",
+        "site-sem-data-vida-e-matematica-6-professor",
+        "site-sem-data-vida-e-matematica-6-suplemento-professor",
+        "site-sem-data-vida-e-matematica-7-aluno",
+        "site-sem-data-vida-e-matematica-7-suplemento-aluno",
+        "site-sem-data-vida-e-matematica-7-professor",
+        "site-sem-data-vida-e-matematica-7-suplemento-professor",
+        "site-sem-data-vida-e-matematica-8-aluno",
+        "site-sem-data-vida-e-matematica-8-suplemento-aluno",
+        "site-sem-data-vida-e-matematica-8-professor",
+        "site-sem-data-vida-e-matematica-8-suplemento-professor",
+        "site-sem-data-vida-e-matematica-9-aluno",
+        "site-sem-data-vida-e-matematica-9-suplemento-aluno",
+        "site-sem-data-vida-e-matematica-9-professor",
+        "site-sem-data-vida-e-matematica-9-suplemento-professor",
         "oferta-2027"
       ],
       "links": [
@@ -28325,17 +28460,17 @@
         "/",
         "/solucoes",
         "/contato?solucao=vida-e-matematica",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf#page=38",
+        "#galeria",
         "#edicoes",
         "#galeria",
         "#amostras",
         "#oferta-2027",
-        "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
-        "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf",
-        "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf",
+        "/documents/vida-e-matematica-6-ano.pdf",
+        "/documents/vida-e-matematica-7-ano.pdf",
+        "/documents/vida-e-matematica-8-ano.pdf",
+        "/documents/vida-e-matematica-9-ano.pdf",
+        "#catalogo-2025",
+        "#site-sem-data",
         "/recursos/tabela-precos?colecao=Vida%20%26%20Matem%C3%A1tica",
         "/formacao",
         "/solucoes",
@@ -35891,10 +36026,10 @@
   ],
   "limitations": [],
   "summary": {
-    "total": 5037,
-    "passed": 5037,
+    "total": 5072,
+    "passed": 5072,
     "failed": 0,
-    "assets": 308,
+    "assets": 317,
     "pages": 39,
     "sourcePages": 31
   }

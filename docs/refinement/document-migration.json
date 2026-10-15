@@ -1,0 +1,1767 @@
+{
+  "checkedAt": "2026-10-14",
+  "method": "Original binary copied without compression or content changes",
+  "summary": {
+    "samples": 27,
+    "institutional": 1,
+    "catalogues": 1,
+    "sampleCounts": {
+      "acerta-brasil": 2,
+      "brincando-e-aprendendo": 4,
+      "escrever-comunicar-e-ser": 5,
+      "lendo-e-escrevendo": 3,
+      "projeto-tema": 3,
+      "novo-lendo-voce-fica-sabendo": 2,
+      "vida-e-linguagem": 4,
+      "vida-e-matematica": 4
+    },
+    "totalDocumentBytes": 371731572,
+    "testimonialOriginals": 9
+  },
+  "documents": [
+    {
+      "id": "acbr-matematica-5-ano",
+      "title": "ACerta Brasil #SuperaIDEB — Matemática, 5º ano",
+      "kind": "sample",
+      "collectionSlug": "acerta-brasil",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+      "localUrl": "/documents/acbr-matematica-5-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "acbr-matematica-5-ano",
+        "collectionSlug": "acerta-brasil",
+        "title": "ACerta Brasil #SuperaIDEB — Matemática, 5º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Matematica%205%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 5784887,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/acbr-matematica-5-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/acbr-matematica-5-ano-p1.webp",
+            "page": 1,
+            "alt": "ACerta Brasil #SuperaIDEB — Matemática, 5º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/acbr-matematica-5-ano-p3.webp",
+            "page": 3,
+            "alt": "ACerta Brasil #SuperaIDEB — Matemática, 5º ano — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/acbr-matematica-5-ano-p8.webp",
+            "page": 8,
+            "alt": "ACerta Brasil #SuperaIDEB — Matemática, 5º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "5º ano"
+      },
+      "validation": {
+        "sizeBytes": 5784887,
+        "sha256": "6d75f6be75cceed2006f697808774ab5cbd9e3954c9d6263361002200ae6b75a",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Matemática5\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "acbr-portugues-5-ano",
+      "title": "ACerta Brasil #SuperaIDEB — Língua Portuguesa, 5º ano",
+      "kind": "sample",
+      "collectionSlug": "acerta-brasil",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+      "localUrl": "/documents/acbr-portugues-5-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "acbr-portugues-5-ano",
+        "collectionSlug": "acerta-brasil",
+        "title": "ACerta Brasil #SuperaIDEB — Língua Portuguesa, 5º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Acerta%20Brasil/AcBr%20-%20Portugues%205%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 6954215,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/acbr-portugues-5-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/acbr-portugues-5-ano-p1.webp",
+            "page": 1,
+            "alt": "ACerta Brasil #SuperaIDEB — Língua Portuguesa, 5º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/acbr-portugues-5-ano-p3.webp",
+            "page": 3,
+            "alt": "ACerta Brasil #SuperaIDEB — Língua Portuguesa, 5º ano — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/acbr-portugues-5-ano-p8.webp",
+            "page": 8,
+            "alt": "ACerta Brasil #SuperaIDEB — Língua Portuguesa, 5º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-acerta-brasil",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "5º ano"
+      },
+      "validation": {
+        "sizeBytes": 6954215,
+        "sha256": "057a38b43365c90c35def25d433e3327f3ea1497b1a02b8dc86e31e4e71d5348",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Língua Portuguesa5\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "brincando-e-aprendendo-vol-01",
+      "title": "Brincando e Aprendendo — Educação Infantil, livro 1",
+      "kind": "sample",
+      "collectionSlug": "brincando-e-aprendendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+      "localUrl": "/documents/brincando-e-aprendendo-vol-01.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "brincando-e-aprendendo-vol-01",
+        "collectionSlug": "brincando-e-aprendendo",
+        "title": "Brincando e Aprendendo — Educação Infantil, livro 1",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2001.pdf",
+        "format": "PDF",
+        "sizeBytes": 7972302,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/brincando-e-aprendendo-vol-01-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-01-p1.webp",
+            "page": 1,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 1 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-01-p3.webp",
+            "page": 3,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 1 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-01-p8.webp",
+            "page": 8,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 1 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "1",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 7972302,
+        "sha256": "d08e30e8dde36d8895ac58e064d08db938378eeb039a365f718286d5dd1ff527",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "brincando-e-aprendendo-vol-02",
+      "title": "Brincando e Aprendendo — Educação Infantil, livro 2",
+      "kind": "sample",
+      "collectionSlug": "brincando-e-aprendendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+      "localUrl": "/documents/brincando-e-aprendendo-vol-02.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "brincando-e-aprendendo-vol-02",
+        "collectionSlug": "brincando-e-aprendendo",
+        "title": "Brincando e Aprendendo — Educação Infantil, livro 2",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2002.pdf",
+        "format": "PDF",
+        "sizeBytes": 15959644,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/brincando-e-aprendendo-vol-02-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-02-p1.webp",
+            "page": 1,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 2 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-02-p3.webp",
+            "page": 3,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 2 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-02-p8.webp",
+            "page": 8,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 2 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "2",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 15959644,
+        "sha256": "93a753908dab65a51b04659769b39e7e8765401bf784fc12d265d7d201563004",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "brincando-e-aprendendo-vol-03",
+      "title": "Brincando e Aprendendo — Educação Infantil, livro 3",
+      "kind": "sample",
+      "collectionSlug": "brincando-e-aprendendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+      "localUrl": "/documents/brincando-e-aprendendo-vol-03.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "brincando-e-aprendendo-vol-03",
+        "collectionSlug": "brincando-e-aprendendo",
+        "title": "Brincando e Aprendendo — Educação Infantil, livro 3",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2003.pdf",
+        "format": "PDF",
+        "sizeBytes": 3695374,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/brincando-e-aprendendo-vol-03-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-03-p1.webp",
+            "page": 1,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 3 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-03-p3.webp",
+            "page": 3,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 3 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-03-p8.webp",
+            "page": 8,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 3 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "3",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 3695374,
+        "sha256": "652212e36ca92eb8e217d679710f4ccab0bb4e3754d5d69bd26e483baf80a81d",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "brincando-e-aprendendo-vol-04",
+      "title": "Brincando e Aprendendo — Educação Infantil, livro 4",
+      "kind": "sample",
+      "collectionSlug": "brincando-e-aprendendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+      "localUrl": "/documents/brincando-e-aprendendo-vol-04.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "brincando-e-aprendendo-vol-04",
+        "collectionSlug": "brincando-e-aprendendo",
+        "title": "Brincando e Aprendendo — Educação Infantil, livro 4",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Brincando%20e%20Aprendendo/Brincando%20e%20Aprendendo%20-%20Vol%2004.pdf",
+        "format": "PDF",
+        "sizeBytes": 6659269,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/brincando-e-aprendendo-vol-04-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-04-p1.webp",
+            "page": 1,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 4 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-04-p3.webp",
+            "page": 3,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 4 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/brincando-e-aprendendo-vol-04-p8.webp",
+            "page": 8,
+            "alt": "Brincando e Aprendendo — Educação Infantil, livro 4 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/brincando-e-aprendendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "4",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 6659269,
+        "sha256": "53877f2559d0b36987f406938b045100dda5f7f6c4a190280b93de0f970792e6",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "ecs-1-ano",
+      "title": "Escrever, Comunicar e Ser — 1º ano",
+      "kind": "sample",
+      "collectionSlug": "escrever-comunicar-e-ser",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+      "localUrl": "/documents/ecs-1-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "ecs-1-ano",
+        "collectionSlug": "escrever-comunicar-e-ser",
+        "title": "Escrever, Comunicar e Ser — 1º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%201%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 5077814,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/ecs-1-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/ecs-1-ano-p1.webp",
+            "page": 1,
+            "alt": "Escrever, Comunicar e Ser — 1º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-1-ano-p4.webp",
+            "page": 4,
+            "alt": "Escrever, Comunicar e Ser — 1º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-1-ano-p8.webp",
+            "page": 8,
+            "alt": "Escrever, Comunicar e Ser — 1º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "1º ano"
+      },
+      "validation": {
+        "sizeBytes": 5077814,
+        "sha256": "66d6b25970b82fe0575d037daa89346ef4dbbadfad7dc14fffad9867a571d799",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Daniela Macambira\nKaty Silva\n1\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "ecs-2-ano",
+      "title": "Escrever, Comunicar e Ser — 2º ano",
+      "kind": "sample",
+      "collectionSlug": "escrever-comunicar-e-ser",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+      "localUrl": "/documents/ecs-2-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "ecs-2-ano",
+        "collectionSlug": "escrever-comunicar-e-ser",
+        "title": "Escrever, Comunicar e Ser — 2º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%202%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 17274147,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/ecs-2-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/ecs-2-ano-p1.webp",
+            "page": 1,
+            "alt": "Escrever, Comunicar e Ser — 2º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-2-ano-p4.webp",
+            "page": 4,
+            "alt": "Escrever, Comunicar e Ser — 2º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-2-ano-p8.webp",
+            "page": 8,
+            "alt": "Escrever, Comunicar e Ser — 2º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "2º ano"
+      },
+      "validation": {
+        "sizeBytes": 17274147,
+        "sha256": "cae1b47c0c775fb70a638065969e9641d0dff6ac185ca9cf355b39a8296943b6",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Daniela Macambira\nKaty Silva\n2\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "ecs-3-ano",
+      "title": "Escrever, Comunicar e Ser — 3º ano",
+      "kind": "sample",
+      "collectionSlug": "escrever-comunicar-e-ser",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+      "localUrl": "/documents/ecs-3-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "ecs-3-ano",
+        "collectionSlug": "escrever-comunicar-e-ser",
+        "title": "Escrever, Comunicar e Ser — 3º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%203%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 12648318,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/ecs-3-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/ecs-3-ano-p1.webp",
+            "page": 1,
+            "alt": "Escrever, Comunicar e Ser — 3º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-3-ano-p4.webp",
+            "page": 4,
+            "alt": "Escrever, Comunicar e Ser — 3º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-3-ano-p8.webp",
+            "page": 8,
+            "alt": "Escrever, Comunicar e Ser — 3º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "3º ano"
+      },
+      "validation": {
+        "sizeBytes": 12648318,
+        "sha256": "639f0f1867c8b3d5fe2f0df37cd8f721ad16f7ae44aa178aa2135c39346a36ca",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Daniela Macambira\nKaty Silva\n3\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "ecs-4-ano",
+      "title": "Escrever, Comunicar e Ser — 4º ano",
+      "kind": "sample",
+      "collectionSlug": "escrever-comunicar-e-ser",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+      "localUrl": "/documents/ecs-4-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "ecs-4-ano",
+        "collectionSlug": "escrever-comunicar-e-ser",
+        "title": "Escrever, Comunicar e Ser — 4º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%204%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 15799087,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/ecs-4-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/ecs-4-ano-p1.webp",
+            "page": 1,
+            "alt": "Escrever, Comunicar e Ser — 4º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-4-ano-p4.webp",
+            "page": 4,
+            "alt": "Escrever, Comunicar e Ser — 4º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-4-ano-p8.webp",
+            "page": 8,
+            "alt": "Escrever, Comunicar e Ser — 4º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "4º ano"
+      },
+      "validation": {
+        "sizeBytes": 15799087,
+        "sha256": "201ea5dc2c6fa3ee41e223d7f28fbaccffe6259c728cc6a441183448aa6232a3",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Daniela Macambira\nKaty Silva\n4\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "ecs-5-ano",
+      "title": "Escrever, Comunicar e Ser — 5º ano",
+      "kind": "sample",
+      "collectionSlug": "escrever-comunicar-e-ser",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+      "localUrl": "/documents/ecs-5-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "ecs-5-ano",
+        "collectionSlug": "escrever-comunicar-e-ser",
+        "title": "Escrever, Comunicar e Ser — 5º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Escrever%20comunicar%20e%20ser/ECS%20-%205%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 7396338,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/ecs-5-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/ecs-5-ano-p1.webp",
+            "page": 1,
+            "alt": "Escrever, Comunicar e Ser — 5º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-5-ano-p4.webp",
+            "page": 4,
+            "alt": "Escrever, Comunicar e Ser — 5º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/ecs-5-ano-p8.webp",
+            "page": 8,
+            "alt": "Escrever, Comunicar e Ser — 5º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/escrever-comunicar-e-ser",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "5º ano"
+      },
+      "validation": {
+        "sizeBytes": 7396338,
+        "sha256": "a5bdc36a2b951233a9c656bee3a8deaa849dc8823a5fed9dfa29287c0b83bec3",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Daniela Macambira\nKaty Silva\n5\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "educacao-infantil-laranja",
+      "title": "Lendo e Escrevendo — Dia de Supermercado (amostra laranja)",
+      "kind": "sample",
+      "collectionSlug": "lendo-e-escrevendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+      "localUrl": "/documents/educacao-infantil-laranja.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "educacao-infantil-laranja",
+        "collectionSlug": "lendo-e-escrevendo",
+        "title": "Lendo e Escrevendo — Dia de Supermercado (amostra laranja)",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Laranja.pdf",
+        "format": "PDF",
+        "sizeBytes": 9784794,
+        "pageCount": 10,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/educacao-infantil-laranja-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/educacao-infantil-laranja-p1.webp",
+            "page": 1,
+            "alt": "Lendo e Escrevendo — Dia de Supermercado (amostra laranja) — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/educacao-infantil-laranja-p3.webp",
+            "page": 3,
+            "alt": "Lendo e Escrevendo — Dia de Supermercado (amostra laranja) — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/educacao-infantil-laranja-p8.webp",
+            "page": 8,
+            "alt": "Lendo e Escrevendo — Dia de Supermercado (amostra laranja) — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "O arquivo rotulado “Educação Infantil — Laranja” inicia com “Dia de Supermercado”. Não apresenta capa da coleção, número do livro nem volume: esses dados não foram inferidos.",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 9784794,
+        "sha256": "6e7803f1f1306dcd5b02de921bcb2ca1acabf9b82db73e30f4208af9f01b0410",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 10,
+        "repaired": false,
+        "firstPageText": "Dia de Supermercado\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "educacao-infantil-verde-vol-02",
+      "title": "Lendo e Escrevendo — Livro da Criança 2, volume II (verde)",
+      "kind": "sample",
+      "collectionSlug": "lendo-e-escrevendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+      "localUrl": "/documents/educacao-infantil-verde-vol-02.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "educacao-infantil-verde-vol-02",
+        "collectionSlug": "lendo-e-escrevendo",
+        "title": "Lendo e Escrevendo — Livro da Criança 2, volume II (verde)",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Verde%20-%20Vol%2002.pdf",
+        "format": "PDF",
+        "sizeBytes": 15147944,
+        "pageCount": 13,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/educacao-infantil-verde-vol-02-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/educacao-infantil-verde-vol-02-p1.webp",
+            "page": 1,
+            "alt": "Lendo e Escrevendo — Livro da Criança 2, volume II (verde) — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/educacao-infantil-verde-vol-02-p3.webp",
+            "page": 3,
+            "alt": "Lendo e Escrevendo — Livro da Criança 2, volume II (verde) — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/educacao-infantil-verde-vol-02-p8.webp",
+            "page": 8,
+            "alt": "Lendo e Escrevendo — Livro da Criança 2, volume II (verde) — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "Capa conferida: Livro da Criança 2, Vol. II. A amostra tem 13 páginas digitais e informa ISBN 978-85-8314-256-0. O endereço Rua Marvin é histórico, conforme expediente do arquivo.",
+        "volume": "II",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 15147944,
+        "sha256": "ff70e3dce5942d99fa6d297b73a19b0defda48e6f068de9319835aeb15a8a898",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 13,
+        "repaired": false,
+        "firstPageText": "Vol. II\nLIVRO DA CRIANCA\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "educacao-infantil-vermelho-vol-01",
+      "title": "Lendo e Escrevendo — Livro da Criança 3, volume I (vermelho)",
+      "kind": "sample",
+      "collectionSlug": "lendo-e-escrevendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+      "localUrl": "/documents/educacao-infantil-vermelho-vol-01.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "educacao-infantil-vermelho-vol-01",
+        "collectionSlug": "lendo-e-escrevendo",
+        "title": "Lendo e Escrevendo — Livro da Criança 3, volume I (vermelho)",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Lendo%20e%20escrevendo/Educacao%20Infantil%20-%20Vermelho%20-%20Vol%2001.pdf",
+        "format": "PDF",
+        "sizeBytes": 7888213,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/educacao-infantil-vermelho-vol-01-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/educacao-infantil-vermelho-vol-01-p1.webp",
+            "page": 1,
+            "alt": "Lendo e Escrevendo — Livro da Criança 3, volume I (vermelho) — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/educacao-infantil-vermelho-vol-01-p3.webp",
+            "page": 3,
+            "alt": "Lendo e Escrevendo — Livro da Criança 3, volume I (vermelho) — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/educacao-infantil-vermelho-vol-01-p8.webp",
+            "page": 8,
+            "alt": "Lendo e Escrevendo — Livro da Criança 3, volume I (vermelho) — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/lendo-e-escrevendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Criança",
+        "notes": "Capa conferida: Livro da Criança 3, Vol. I. O nome do arquivo identifica a cor e o volume, mas omite o número 3 do livro.",
+        "volume": "I",
+        "schoolYear": "Educação Infantil"
+      },
+      "validation": {
+        "sizeBytes": 7888213,
+        "sha256": "9c0738a3eb615d3a87d86f58524365d4e2ed7392dbb8c98712b3b93eadb25b5a",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "livro-tema-1",
+      "title": "Projeto TEMA 1 — Livro do Aluno, Sala, volume 1",
+      "kind": "sample",
+      "collectionSlug": "projeto-tema",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/projeto-tema",
+      "localUrl": "/documents/livro-tema-1.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "livro-tema-1",
+        "collectionSlug": "projeto-tema",
+        "title": "Projeto TEMA 1 — Livro do Aluno, Sala, volume 1",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%201.pdf",
+        "format": "PDF",
+        "sizeBytes": 3088061,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/livro-tema-1-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/livro-tema-1-p1.webp",
+            "page": 1,
+            "alt": "Projeto TEMA 1 — Livro do Aluno, Sala, volume 1 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/livro-tema-1-p3.webp",
+            "page": 3,
+            "alt": "Projeto TEMA 1 — Livro do Aluno, Sala, volume 1 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/livro-tema-1-p8.webp",
+            "page": 8,
+            "alt": "Projeto TEMA 1 — Livro do Aluno, Sala, volume 1 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/projeto-tema",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "1",
+        "schoolYear": "Livro 1"
+      },
+      "validation": {
+        "sizeBytes": 3088061,
+        "sha256": "d3404ad74f14904e4141d2bc14e80a7a8930827f536d32c2f1b4c189a1309fda",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "livro-tema-2",
+      "title": "Projeto TEMA 2 — Livro do Aluno, Sala, volume 1",
+      "kind": "sample",
+      "collectionSlug": "projeto-tema",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/projeto-tema",
+      "localUrl": "/documents/livro-tema-2.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "livro-tema-2",
+        "collectionSlug": "projeto-tema",
+        "title": "Projeto TEMA 2 — Livro do Aluno, Sala, volume 1",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%202.pdf",
+        "format": "PDF",
+        "sizeBytes": 5594872,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/livro-tema-2-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/livro-tema-2-p1.webp",
+            "page": 1,
+            "alt": "Projeto TEMA 2 — Livro do Aluno, Sala, volume 1 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/livro-tema-2-p3.webp",
+            "page": 3,
+            "alt": "Projeto TEMA 2 — Livro do Aluno, Sala, volume 1 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/livro-tema-2-p8.webp",
+            "page": 8,
+            "alt": "Projeto TEMA 2 — Livro do Aluno, Sala, volume 1 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/projeto-tema",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "1",
+        "schoolYear": "Livro 2"
+      },
+      "validation": {
+        "sizeBytes": 5594872,
+        "sha256": "df64d62a9aa37894b0171682b24e51e5cca21bbb6d42bc4d045caebb4cf840e0",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "livro-tema-3",
+      "title": "Projeto TEMA 3 — Livro do Aluno, Sala, volume 1",
+      "kind": "sample",
+      "collectionSlug": "projeto-tema",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/projeto-tema",
+      "localUrl": "/documents/livro-tema-3.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "livro-tema-3",
+        "collectionSlug": "projeto-tema",
+        "title": "Projeto TEMA 3 — Livro do Aluno, Sala, volume 1",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/TEMA/Livro%20Tema%203.pdf",
+        "format": "PDF",
+        "sizeBytes": 15009933,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/livro-tema-3-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/livro-tema-3-p1.webp",
+            "page": 1,
+            "alt": "Projeto TEMA 3 — Livro do Aluno, Sala, volume 1 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/livro-tema-3-p4.webp",
+            "page": 4,
+            "alt": "Projeto TEMA 3 — Livro do Aluno, Sala, volume 1 — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/livro-tema-3-p8.webp",
+            "page": 8,
+            "alt": "Projeto TEMA 3 — Livro do Aluno, Sala, volume 1 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/projeto-tema",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "volume": "1",
+        "schoolYear": "Livro 3"
+      },
+      "validation": {
+        "sizeBytes": 15009933,
+        "sha256": "f438e3144a89d14a786b7544408ae39bdd1cf5f9da97438b199f2b516bcaaf92",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "nlvfs-1-ano-vol-01",
+      "title": "Novo Lendo Você Fica Sabendo — 1º ano, volume 1",
+      "kind": "sample",
+      "collectionSlug": "novo-lendo-voce-fica-sabendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/novo-lendo-voce-fica-sabendo",
+      "localUrl": "/documents/nlvfs-1-ano-vol-01.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "nlvfs-1-ano-vol-01",
+        "collectionSlug": "novo-lendo-voce-fica-sabendo",
+        "title": "Novo Lendo Você Fica Sabendo — 1º ano, volume 1",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%201%20ANO%20-%20Vol%2001.pdf",
+        "format": "PDF",
+        "sizeBytes": 6258588,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/nlvfs-1-ano-vol-01-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/nlvfs-1-ano-vol-01-p1.webp",
+            "page": 1,
+            "alt": "Novo Lendo Você Fica Sabendo — 1º ano, volume 1 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/nlvfs-1-ano-vol-01-p3.webp",
+            "page": 3,
+            "alt": "Novo Lendo Você Fica Sabendo — 1º ano, volume 1 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/nlvfs-1-ano-vol-01-p8.webp",
+            "page": 8,
+            "alt": "Novo Lendo Você Fica Sabendo — 1º ano, volume 1 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/novo-lendo-voce-fica-sabendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "1º ano",
+        "volume": "1"
+      },
+      "validation": {
+        "sizeBytes": 6258588,
+        "sha256": "5e773e633f964024d0105a83fe0510b4bdd0a75eab284c0b42caf2f4b913b7c8",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "nlvfs-2-ano-vol-01",
+      "title": "Novo Lendo Você Fica Sabendo — 2º ano, volume 1",
+      "kind": "sample",
+      "collectionSlug": "novo-lendo-voce-fica-sabendo",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/novo-lendo-voce-fica-sabendo",
+      "localUrl": "/documents/nlvfs-2-ano-vol-01.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "nlvfs-2-ano-vol-01",
+        "collectionSlug": "novo-lendo-voce-fica-sabendo",
+        "title": "Novo Lendo Você Fica Sabendo — 2º ano, volume 1",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Novo%20Lendo%20Voce%20Fica%20Sabendo/NLVFS%20-%202%20ANO%20-%20Vol%2001.pdf",
+        "format": "PDF",
+        "sizeBytes": 4377125,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/nlvfs-2-ano-vol-01-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/nlvfs-2-ano-vol-01-p1.webp",
+            "page": 1,
+            "alt": "Novo Lendo Você Fica Sabendo — 2º ano, volume 1 — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/nlvfs-2-ano-vol-01-p3.webp",
+            "page": 3,
+            "alt": "Novo Lendo Você Fica Sabendo — 2º ano, volume 1 — página digital 3 da amostra"
+          },
+          {
+            "src": "/images/samples/nlvfs-2-ano-vol-01-p8.webp",
+            "page": 8,
+            "alt": "Novo Lendo Você Fica Sabendo — 2º ano, volume 1 — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/novo-lendo-voce-fica-sabendo",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "2º ano",
+        "volume": "1"
+      },
+      "validation": {
+        "sizeBytes": 4377125,
+        "sha256": "8f385feb1999eeb14691aa932c4969c9fcb6d3e431a03ebacb24fdd120ed3069",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": ""
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "paic",
+      "title": "Regime de colaboração para a garantia do direito à aprendizagem: o PAIC no Ceará",
+      "kind": "institutional",
+      "collectionSlug": null,
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/paic",
+      "localUrl": "/documents/paic.pdf",
+      "edition": "SEDUC / UNICEF, Fortaleza, 2012",
+      "originalRecord": {
+        "id": "paic",
+        "title": "Regime de colaboração para a garantia do direito à aprendizagem: o PAIC no Ceará",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/PAIC.pdf",
+        "format": "PDF",
+        "sizeBytes": 7621921,
+        "pageCount": 100,
+        "edition": "SEDUC / UNICEF, Fortaleza, 2012",
+        "preview": "/images/samples/paic-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/paic-p1.webp",
+            "page": 1,
+            "alt": "Regime de colaboração para a garantia do direito à aprendizagem: o PAIC no Ceará — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/paic-p6.webp",
+            "page": 6,
+            "alt": "Regime de colaboração para a garantia do direito à aprendizagem: o PAIC no Ceará — página digital 6 da amostra"
+          },
+          {
+            "src": "/images/samples/paic-p8.webp",
+            "page": 8,
+            "alt": "Regime de colaboração para a garantia do direito à aprendizagem: o PAIC no Ceará — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/paic",
+        "verifiedAt": "2026-10-14",
+        "kind": "institutional",
+        "audience": "Educadores, gestores e pesquisadores",
+        "notes": "Publicação da Secretaria da Educação do Ceará e do UNICEF, ISBN 978-85-8171-019-8. São 196 páginas editoriais organizadas em 100 páginas digitais, incluindo páginas duplas e capas. Registro histórico da política pública.",
+        "year": 2012
+      },
+      "validation": {
+        "sizeBytes": 7621921,
+        "sha256": "a41369badf0678b85c141e8dfceed454d33cc5b654975b48d804111423e7209e",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 100,
+        "repaired": false,
+        "firstPageText": "Regime de colaboração para   a garantia do direito à aprendizagem:  o Programa Alfabetização na Idade Certa (Paic) \nParceria\nRealização\nO Programa Alfabetização na Idade Certa (Paic) é uma política pública do \nGoverno do Ceará, coordenada pela Secretaria de Educação do Estado com o \napoio do Governo Federal e de parceiros governamentais e não governamentais, \nrealizada em regime de colaboração ent"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-linguagem-6-ano",
+      "title": "Vida & Linguagem — 6º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-linguagem",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+      "localUrl": "/documents/vida-e-linguagem-6-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-linguagem-6-ano",
+        "collectionSlug": "vida-e-linguagem",
+        "title": "Vida & Linguagem — 6º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%206%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 19376186,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-linguagem-6-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-linguagem-6-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Linguagem — 6º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-6-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Linguagem — 6º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-6-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Linguagem — 6º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "6º ano"
+      },
+      "validation": {
+        "sizeBytes": 19376186,
+        "sha256": "caa2272f37bc67a92ea7a0844a1007045cc96ed85c72ea19ede90d955509b29b",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "6\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-linguagem-7-ano",
+      "title": "Vida & Linguagem — 7º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-linguagem",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+      "localUrl": "/documents/vida-e-linguagem-7-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-linguagem-7-ano",
+        "collectionSlug": "vida-e-linguagem",
+        "title": "Vida & Linguagem — 7º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%207%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 21920203,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-linguagem-7-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-linguagem-7-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Linguagem — 7º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-7-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Linguagem — 7º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-7-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Linguagem — 7º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "7º ano"
+      },
+      "validation": {
+        "sizeBytes": 21920203,
+        "sha256": "c9a5ad28b38525c7495ffaf63d91c13c0c00d1b07c47a0272ca9dac3e5d06284",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "7\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-linguagem-8-ano",
+      "title": "Vida & Linguagem — 8º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-linguagem",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+      "localUrl": "/documents/vida-e-linguagem-8-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-linguagem-8-ano",
+        "collectionSlug": "vida-e-linguagem",
+        "title": "Vida & Linguagem — 8º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%208%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 21347820,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-linguagem-8-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-linguagem-8-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Linguagem — 8º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-8-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Linguagem — 8º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-8-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Linguagem — 8º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "8º ano"
+      },
+      "validation": {
+        "sizeBytes": 21347820,
+        "sha256": "675ec648226bf3d89d4b56983a2fb281e109395f51c85640573d55fa9fd6d749",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "8\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-linguagem-9-ano",
+      "title": "Vida & Linguagem — 9º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-linguagem",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+      "localUrl": "/documents/vida-e-linguagem-9-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-linguagem-9-ano",
+        "collectionSlug": "vida-e-linguagem",
+        "title": "Vida & Linguagem — 9º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Linguagem/Vida%20e%20Linguagem%209%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 19039025,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-linguagem-9-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-linguagem-9-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Linguagem — 9º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-9-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Linguagem — 9º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-linguagem-9-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Linguagem — 9º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-linguagem",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "9º ano"
+      },
+      "validation": {
+        "sizeBytes": 19039025,
+        "sha256": "678e478449af8b181d431f3d7c9ad1871dd0fce699a55aa9fdd206e3ef91b34d",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "9\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-matematica-6-ano",
+      "title": "Vida & Matemática — 6º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-matematica",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+      "localUrl": "/documents/vida-e-matematica-6-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-matematica-6-ano",
+        "collectionSlug": "vida-e-matematica",
+        "title": "Vida & Matemática — 6º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%206%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 12728417,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-matematica-6-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-matematica-6-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Matemática — 6º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-6-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Matemática — 6º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-6-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Matemática — 6º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "6º ano"
+      },
+      "validation": {
+        "sizeBytes": 12728417,
+        "sha256": "b7f5cea052348882c033bbbc3daaa5248c61ace019a0bcd7982073f0d3ed6a91",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Matemática\n6\na\nmática\ntiáti\nmátictictictititic\nmática\ntictictictitict caca\ntic\nát cact ca\nticactica\ntictiticacticticaca\n6\nMatem\ntem\natetem\nte\nM\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-matematica-7-ano",
+      "title": "Vida & Matemática — 7º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-matematica",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+      "localUrl": "/documents/vida-e-matematica-7-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-matematica-7-ano",
+        "collectionSlug": "vida-e-matematica",
+        "title": "Vida & Matemática — 7º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%207%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 9557593,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-matematica-7-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-matematica-7-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Matemática — 7º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-7-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Matemática — 7º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-7-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Matemática — 7º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "7º ano"
+      },
+      "validation": {
+        "sizeBytes": 9557593,
+        "sha256": "d4c6ccd1bf5b80af5a8bba9d34eb9761bf1c7076bef7ffd91c25fd80f2646841",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Matemática\náticaca\ntiátitictictictititictica\ntictictictitict caca\ntic\nát cact ca\nticticactica\ntictititicacticticaca\nMatem\ntem\natetem\ntetem\nM\n7\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-matematica-8-ano",
+      "title": "Vida & Matemática — 8º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-matematica",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+      "localUrl": "/documents/vida-e-matematica-8-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-matematica-8-ano",
+        "collectionSlug": "vida-e-matematica",
+        "title": "Vida & Matemática — 8º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%208%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 8857044,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-matematica-8-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-matematica-8-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Matemática — 8º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-8-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Matemática — 8º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-8-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Matemática — 8º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "8º ano"
+      },
+      "validation": {
+        "sizeBytes": 8857044,
+        "sha256": "47a4288336e66ad269e986b40faab3118c428ab8a467c4d5fd27d615677811e8",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Matemática\n8\nMatemáticaca\ntiáti\ntemátictic\nátitic\ntem tititic\nmá\nate\ntictictictictitictit ctic\nmá\ntem c\nte\nca\ntica\ntic\nát ctica\nát ctic\ntetem ct ctitict ca\nticticac\ntem ticti\nmá ca\ntictititic\nte\ntictictic\nM\n8\n"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "vida-e-matematica-9-ano",
+      "title": "Vida & Matemática — 9º ano",
+      "kind": "sample",
+      "collectionSlug": "vida-e-matematica",
+      "sourceUrl": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf",
+      "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+      "localUrl": "/documents/vida-e-matematica-9-ano.pdf",
+      "edition": "Amostra de acervo · ano de edição não informado",
+      "originalRecord": {
+        "id": "vida-e-matematica-9-ano",
+        "collectionSlug": "vida-e-matematica",
+        "title": "Vida & Matemática — 9º ano",
+        "url": "https://aprendereditora.com.br/v2/midia/kcfinder/files/Livros%20Final/Vida%20E%20Matematica/Vida%20e%20Matematica%209%20ano.pdf",
+        "format": "PDF",
+        "sizeBytes": 8642551,
+        "pageCount": 11,
+        "edition": "Acervo do site oficial — ano de edição não informado na amostra",
+        "preview": "/images/samples/vida-e-matematica-9-ano-p1.webp",
+        "previews": [
+          {
+            "src": "/images/samples/vida-e-matematica-9-ano-p1.webp",
+            "page": 1,
+            "alt": "Vida & Matemática — 9º ano — página digital 1 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-9-ano-p4.webp",
+            "page": 4,
+            "alt": "Vida & Matemática — 9º ano — página digital 4 da amostra"
+          },
+          {
+            "src": "/images/samples/vida-e-matematica-9-ano-p8.webp",
+            "page": 8,
+            "alt": "Vida & Matemática — 9º ano — página digital 8 da amostra"
+          }
+        ],
+        "sourcePage": "https://www.aprendereditora.com.br/colecao-vida-e-matematica",
+        "verifiedAt": "2026-10-14",
+        "kind": "sample",
+        "audience": "Aluno",
+        "notes": "Amostra pública vinculada pelo site oficial; a edição não deve ser confundida com o catálogo de 2025 ou com a tabela de 2027.",
+        "schoolYear": "9º ano"
+      },
+      "validation": {
+        "sizeBytes": 8642551,
+        "sha256": "88a8b0bce0ef3c58c2710440c2c73adc92e593076853530adcf17af5f4e433bb",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 11,
+        "repaired": false,
+        "firstPageText": "Matemática\n9\na\nMatemáticaca\ntiáti\ntemátictic\ntemátitic\ntemátitititic\nmá\nate\nMa\ntica\ntic\nte\ntictictitica\ntit ctic\nmá\ntem c\nmá\nte\ncacaca\ntica\ntic\nát c\nmá cti\ntem ca\nát ctic\nte\nca\ntem\nMa\nct ctitict c\nem ca\ntictica\náticti\ntemá\ntem\nMa\nti\nem tic\nm cti\nmática\ntictititic\ntemát cticactic\nm ctic\nMatemática\nMatemática\nMatemática\nM\na\nMatemática\nMatemática\nMatemática\nMatemática\nMatemática\nMatemática\nMatemática"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    },
+    {
+      "id": "catalogo-2025-20-anos",
+      "title": "Catálogo Aprender Editora — 20 anos",
+      "kind": "catalog",
+      "collectionSlug": null,
+      "sourceUrl": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+      "sourcePage": "https://www.opovo.com.br/noticias/especialpublicitario/aprendereditora/2025/11/07/aprender-editora-duas-decadas-formando-leitores-professores-e-futuros.html",
+      "localUrl": "/documents/catalogo-2025-20-anos.pdf",
+      "edition": "Catálogo institucional de 2025",
+      "originalRecord": {
+        "id": "catalogo-2025-20-anos",
+        "title": "Catálogo Aprender Editora — 20 anos",
+        "url": "https://www.opovo.com.br/_midias/pdf/2025/11/07/revista_aprender_editora_2025___20_anos-37805690.pdf",
+        "format": "PDF",
+        "sizeBytes": 70269887,
+        "pageCount": 64,
+        "edition": "Catálogo institucional de 2025",
+        "year": 2025,
+        "kind": "catalog",
+        "sourcePage": "https://www.opovo.com.br/noticias/especialpublicitario/aprendereditora/2025/11/07/aprender-editora-duas-decadas-formando-leitores-professores-e-futuros.html",
+        "verifiedAt": "2026-10-14",
+        "notes": "Documento de 70,3 MB. Arquivo fornecido pelo usuário validado localmente; URL pública conferida por resposta parcial HTTP 206, assinatura PDF e tamanho total de 70.269.887 bytes. O download só ocorre ao abrir o link."
+      },
+      "validation": {
+        "sizeBytes": 70269887,
+        "sha256": "2a94ece2a278d96b1ae66fa625e55d5123794ca103f0ea536f1c318518873849",
+        "signature": "%PDF-",
+        "trailer": "%%EOF",
+        "parser": "PyMuPDF 1.28.2",
+        "parse": "all pages loaded; first and last pages rasterized",
+        "pageCount": 64,
+        "repaired": false,
+        "firstPageText": "Princípios e Valores\nMissão\nPromover as aprendizagens através do acesso a materiais didáticos semiestruturados que impulsionam a educação \nde crianças e estudantes, aperfeiçoam as práticas pedagógicas, promovem a cultura e valorizam a formação contí-\nnua de educadores como estratégias capazes de garantir direitos, reduzir desigualdades e construir uma sociedade \nmais justa, democrática e inclusiva"
+      },
+      "binaryChanged": false,
+      "action": "same-origin PDF; load only after explicit action"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "alcides-leite",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-1.jpg",
+      "localUrl": "/images/testimonials/original-alcides-leite.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 81590,
+      "sha256": "093893b99feaca2cb3570ad87bb82b85e05ca663f2e9ce39eaf05fc2807ee322",
+      "binaryChanged": false
+    },
+    {
+      "id": "cicera-rejane",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-3.jpg",
+      "localUrl": "/images/testimonials/original-cicera-rejane.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 210042,
+      "sha256": "63d59e5f0f22da0f76a0d9e83e3f1d3ac19094f994581f8b9d88704316673d90",
+      "binaryChanged": false
+    },
+    {
+      "id": "germana-santos",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-4.jpg",
+      "localUrl": "/images/testimonials/original-germana-santos.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 89489,
+      "sha256": "3d991ce3eec8bbdbcc54bdc25ba53ad1e2d98bbe312a0a008f204bdaf653b217",
+      "binaryChanged": false
+    },
+    {
+      "id": "herbert-lima",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-5.jpg",
+      "localUrl": "/images/testimonials/original-herbert-lima.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 193795,
+      "sha256": "11958115f104e5f5a7d4c71af9cdce30e3317245a9da25af202c06dbb372f627",
+      "binaryChanged": false
+    },
+    {
+      "id": "jose-leandro",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-6.jpg",
+      "localUrl": "/images/testimonials/original-jose-leandro.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 207469,
+      "sha256": "7f691e334b3cae566bb26d62abe5f40895347cef5fb43703a167bd970c48ae89",
+      "binaryChanged": false
+    },
+    {
+      "id": "jose-marcelo",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-7.jpg",
+      "localUrl": "/images/testimonials/original-jose-marcelo.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 199472,
+      "sha256": "64e29a7cfc199287d9053140f63b38dee988253d81629b6c3979ecf619377428",
+      "binaryChanged": false
+    },
+    {
+      "id": "julio-cesar",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-8.jpg",
+      "localUrl": "/images/testimonials/original-julio-cesar.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 219424,
+      "sha256": "c0637db084b6fb765802e6f14b51e56692dc4967c9cd422082b8b3cd19d41d26",
+      "binaryChanged": false
+    },
+    {
+      "id": "lucinete-alves",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-9.jpg",
+      "localUrl": "/images/testimonials/original-lucinete-alves.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 153180,
+      "sha256": "5b650a9eb33f734616b857071a9cfbd67850b6f9c80e40eb3981de972f1c77e9",
+      "binaryChanged": false
+    },
+    {
+      "id": "vilma-rodrigues",
+      "sourceUrl": "https://www.aprendereditora.com.br/v2/midia/banner/frase-10.jpg",
+      "localUrl": "/images/testimonials/original-vilma-rodrigues.jpg",
+      "format": "JPEG",
+      "width": 1200,
+      "height": 368,
+      "sizeBytes": 112395,
+      "sha256": "ac0328ac5b18a01fbb123472d7113d2c4d8d5c5e21ed76fdf7be0c7811aefd9d",
+      "binaryChanged": false
+    }
+  ]
+}

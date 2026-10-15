@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "commit": "2a4a4b3520274721c2b036d0a288bc5196d754c4",
+  "initialWorktree": "Clean before this refinement round",
+  "routes": 39,
+  "solutions": 23,
+  "prices": 152,
+  "samples": 27,
+  "institutionalPdfs": 1,
+  "catalogues": 1,
+  "testimonials": 9,
+  "formationPhotos": 9,
+  "videos": 3,
+  "plan": [
+    "Localizar recursos e preservar fontes e edições",
+    "Refinar home, materiais e interações",
+    "Rastrear páginas e validar fluxos, acesso e desempenho"
+  ],
+  "audits": [
+    "docs/auditoria-aprender.md",
+    "docs/relatorio-correcao-aprender.md"
+  ],
+  "secondAudit": "Segunda_Auditoria_Aprender_Editora_2026-10-14.md não encontrada; briefing atual adotado como exigência."
+}

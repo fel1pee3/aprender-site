@@ -26,7 +26,7 @@ export function pageMetadata({
   title,
   description,
   path,
-  image = "/images/hero.webp",
+  image = "/images/social/aprender-share.jpg",
   type = "website",
 }: {
   title: string;
@@ -36,6 +36,9 @@ export function pageMetadata({
   type?: "website" | "article";
 }): Metadata {
   const socialImage = absoluteUrl(image);
+  const imageAlt = image === "/images/social/aprender-share.jpg"
+    ? "Aprender Editora: materiais e formação para aprender, com educadoras em formação e livros de Lendo e Escrevendo"
+    : title;
   const dimensions = (
     imageDimensions as Record<string, { width: number; height: number }>
   )[image];
@@ -50,14 +53,14 @@ export function pageMetadata({
       url: absoluteUrl(path),
       type,
       locale: "pt_BR",
-      siteName: "Aprender Editora · Proposta de redesign",
-      images: [{ url: socialImage, alt: title, ...dimensions }],
+      siteName: "Aprender Editora",
+      images: [{ url: socialImage, alt: imageAlt, ...dimensions }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [{ url: socialImage, alt: title }],
+      images: [{ url: socialImage, alt: imageAlt }],
     },
   };
 }

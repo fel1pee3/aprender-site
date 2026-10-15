@@ -6,6 +6,7 @@ import { institutionalIndicators } from "@/data/institutional";
 import { testimonials } from "@/data/archive";
 import content from "@/components/content.module.css";
 import { Icon } from "@/components/Icon";
+import { SectionMotion } from "@/components/SectionMotion";
 import {
   Button,
   ContactCTA,
@@ -42,59 +43,56 @@ export default function Home() {
   const featured = solutions.filter((x) => x.featured).slice(0, 4);
   return (
     <>
-      <section className={s.hero}>
+      <SectionMotion />
+      <section className={s.hero} aria-labelledby="home-title">
         <div className={`container ${s.heroGrid}`}>
           <div className={s.heroCopy}>
-            <Eyebrow>Compromisso com a Aprendizagem</Eyebrow>
-            <h1>
-              Aprendizagens
-              <br />
-              que transformam
-              <br />
-              <em>vidas.</em>
+            <Eyebrow>Alfabetização e educação básica</Eyebrow>
+            <h1 id="home-title">
+              Materiais e formação para <em>aprender.</em>
             </h1>
-            <p>
-              Ao lado de quem ensina.
-              <br />
-              Presente na vida de quem aprende.
-            </p>
             <p className={s.heroDescription}>
-              Alfabetização, materiais didáticos semiestruturados e formação
-              contínua, com acompanhamento pedagógico para as redes de ensino.
+              Livros para alfabetizar e ensinar. Formação de educadores e
+              acompanhamento pedagógico das redes, da Educação Infantil ao
+              Ensino Fundamental.
             </p>
             <div className={s.heroActions}>
-              <Button href="/solucoes">Conhecer nossas soluções</Button>
-              <Link href="/contato">
-                Conversar com a Aprender <Icon name="arrow" size={17} />
-              </Link>
+              <Button href="/solucoes">Explorar soluções</Button>
+              <Button href="/formacao" secondary>Conhecer a formação</Button>
             </div>
             <div className={s.heroNote}>
               <span className={s.noteLine} />
-              <span>Da Educação Infantil ao Ensino Fundamental.</span>
+              <span>Ao lado de quem ensina. Desde 2005.</span>
             </div>
           </div>
           <div className={s.heroVisual}>
-            <div className={s.photoFrame}>
+            <figure className={s.photoFrame}>
               <Image
                 src="/images/formacao-professores.webp"
                 alt="Educadoras estudam os livros e planejam atividades durante formação registrada no catálogo de 2025"
                 width={1279}
                 height={1340}
-                priority
-                sizes="(max-width: 767px) 90vw, 45vw"
+                preload
+                sizes="(max-width: 767px) 90vw, (max-width: 1100px) 44vw, 515px"
               />
-              <div className={s.photoLabel}>
+              <figcaption className={s.photoLabel}>
                 <span>Formação de educadores · acervo 2025</span>
-              </div>
-            </div>
-            <div className={s.since}>
-              <span>desde</span>
-              <strong>2005</strong>
-              <span>aprendendo juntos</span>
-            </div>
-            <span className={s.verticalText}>
-              FORMAÇÃO DE EDUCADORES · CATÁLOGO 2025
-            </span>
+              </figcaption>
+            </figure>
+            <Link href="/solucoes/lendo-e-escrevendo" className={s.materialNote}>
+              <Image
+                src="/images/materials/primary-lendo-kit-3.webp"
+                alt="Livros da criança, do professor e da família da coleção Lendo e Escrevendo"
+                width={695}
+                height={610}
+                sizes="(max-width:767px) 140px, 180px"
+              />
+              <span className={s.materialCopy}>
+                <span>Educação Infantil</span>
+                <strong>Lendo e Escrevendo</strong>
+                <span className={s.materialAction}>Conhecer os materiais <Icon name="arrow" size={17} /></span>
+              </span>
+            </Link>
             <div className={s.heroDecoration} aria-hidden="true" />
           </div>
         </div>
@@ -105,7 +103,7 @@ export default function Home() {
             <span>Uma história construída</span>
             <strong>com muitas pessoas.</strong>
             <a href="/a-editora/trajetoria#indicadores">
-              Dados divulgados pela editora · 2025{" "}
+              Indicadores acumulados · catálogo 2025{" "}
               <Icon name="arrow" size={12} />
             </a>
           </div>
@@ -117,7 +115,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className={s.approach}>
+      <section className={s.approach} data-reveal>
         <div className="container">
           <SectionHeading
             eyebrow="Educação se faz em conjunto"
@@ -200,7 +198,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={s.formation}>
+      <section className={s.formation} data-reveal>
         <div className={`container ${s.formationGrid}`}>
           <figure>
             <Image
@@ -267,14 +265,14 @@ export default function Home() {
                 </p>
                 <p>{item.paragraphs[0]}</p>
                 <TextLink href={`/acervo#${item.id}`}>
-                  Ler relato e consultar original
+                  Ler depoimento completo
                 </TextLink>
               </article>
             ))}
           </div>
         </div>
       </section>
-      <section className={s.journal}>
+      <section className={s.journal} data-reveal>
         <div className="container">
           <SectionHeading
             eyebrow="Aprender em ação"

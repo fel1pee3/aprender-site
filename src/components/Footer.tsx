@@ -19,9 +19,9 @@ export function Footer() {
             </Link>
             <p>Compromisso com a Aprendizagem.</p>
             <span>
-              Conhecimento que aproxima.
+              Materiais didáticos e alfabetização.
               <br />
-              Educação que transforma.
+              Formação e acompanhamento pedagógico.
             </span>
           </div>
           <div>
@@ -45,7 +45,7 @@ export function Footer() {
                 rel="noopener noreferrer"
               >
                 {social.name} <Icon name="external" size={13} />
-                <span className="sr-only"> (nova aba)</span>
+                <span> (nova aba)</span>
               </a>
             ))}
             <Link href="/contato">Fale com a Aprender</Link>
@@ -62,9 +62,8 @@ export function Footer() {
         <div className={s.bottom}>
           <p>© {new Date().getFullYear()} · Aprender Editora</p>
           <p>
-            Proposta independente de redesign por <strong>Felipe Maia</strong>
+            Projeto de apresentação · <strong>Felipe Maia</strong>
           </p>
-          <span>Demonstração para apresentação</span>
         </div>
       </div>
     </footer>

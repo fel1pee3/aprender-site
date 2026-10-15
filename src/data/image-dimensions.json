@@ -1286,5 +1286,45 @@
   "/images/samples/vida-e-matematica-9-ano-p8.webp": {
     "width": 930,
     "height": 1248
+  },
+  "/images/social/aprender-share.jpg": {
+    "width": 1200,
+    "height": 630
+  },
+  "/images/testimonials/original-alcides-leite.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-cicera-rejane.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-germana-santos.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-herbert-lima.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-jose-leandro.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-jose-marcelo.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-julio-cesar.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-lucinete-alves.jpg": {
+    "width": 1200,
+    "height": 368
+  },
+  "/images/testimonials/original-vilma-rodrigues.jpg": {
+    "width": 1200,
+    "height": 368
   }
 }

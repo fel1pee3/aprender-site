@@ -18,7 +18,9 @@ npm run build
 npm run start
 ```
 
-Não é necessário configurar banco de dados, contas ou chaves. Fotografias, capas, prévias, fontes e cópias otimizadas dos vídeos são locais. PDFs, plataformas e canais institucionais mantêm seus destinos externos.
+Não é necessário configurar banco de dados, contas ou chaves. Fotografias, capas, prévias, fontes, vídeos e os 29 PDFs são locais. Plataformas e redes sociais usam seus endereços externos.
+
+Os documentos estáticos somam 371,7 MB; o catálogo tem 70,3 MB. Esse volume ultrapassa o upload de fontes de 100 MB da CLI Vercel Hobby. Confira o fluxo de publicação por Git e o plano antes de publicar; detalhes e inventário em [docs/refinement/document-hosting.md](docs/refinement/document-hosting.md). Não há fallback de arquivos para o servidor anterior.
 
 ## Conteúdo e rotas
 
@@ -97,6 +99,7 @@ $env:PLAYWRIGHT_BASE_URL='http://127.0.0.1:3100'
 $env:QA_BASE_URL='http://127.0.0.1:3100'
 npm run test:e2e
 npm run check:migration
+npm run check:refinement
 npm run measure:performance
 node scripts/capture-final.mjs
 ```
@@ -106,6 +109,8 @@ A auditoria compara o inventário das fontes com o HTML servido e os arquivos, i
 ## URLs e demonstração
 
 A origem pública da proposta é `https://aprender-site.vercel.app`, configurável por `NEXT_PUBLIC_SITE_URL`. Produção rejeita sobrescritas locais ou inválidas. Desenvolvimento admite origem local explícita. Open Graph, Twitter, canonical e sitemap usam a mesma resolução centralizada.
+
+Após uma troca de domínio, refaça o build com `NEXT_PUBLIC_SITE_URL` definido para a origem HTTPS publicada. Os scripts de auditoria aceitam essa mesma variável (ou `QA_PUBLIC_ORIGIN`) e distinguem a futura origem institucional do servidor anterior.
 
 O rodapé identifica a proposta independente. `noindex,nofollow` e `robots.txt` preservam a política de demonstração sem indexação. Executar o projeto não o publica.
 

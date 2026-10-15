@@ -1,9 +1,10 @@
 import { chromium } from "@playwright/test";
 import { mkdirSync } from "node:fs";
 const base = process.env.QA_BASE_URL || "http://127.0.0.1:3100";
+const output = process.env.QA_CAPTURE_DIR || ".qa/final";
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const page = await browser.newPage();
-mkdirSync(".qa/final", { recursive: true });
+mkdirSync(output, { recursive: true });
 try {
   for (const width of [390, 1440]) {
     await page.setViewportSize({ width, height: 1000 });
@@ -34,11 +35,11 @@ try {
       });
       const slug = route === "/" ? "home" : route.slice(1).replaceAll("/", "-");
       await page.screenshot({
-        path: `.qa/final/${slug}-${width}.png`,
+        path: `${output}/${slug}-${width}.png`,
         fullPage: true,
       });
       await page.screenshot({
-        path: `.qa/final/${slug}-${width}-viewport.png`,
+        path: `${output}/${slug}-${width}-viewport.png`,
       });
       console.log(`${route} @ ${width}`);
     }
