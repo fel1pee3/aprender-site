@@ -286,27 +286,16 @@ for (const width of [360, 390, 768, 1024, 1440]) {
         ),
         `${route} em ${width}px`,
       ).toBe(true);
-      await page
-        .locator("img")
-        .evaluateAll((images) =>
-          images.forEach(
-            (image) => ((image as HTMLImageElement).loading = "eager"),
-          ),
-        );
-      await page.evaluate(async () => {
-        await Promise.all(
-          Array.from(document.images).map((image) =>
-            image.decode().catch(() => undefined),
-          ),
-        );
+      // Probe lazy assets without mutating React-owned attributes before hydration.
+      const broken = await page.evaluate(async () => {
+        const results = await Promise.all(Array.from(document.images).map(async (image) => {
+          const probe = new Image();
+          probe.src = image.currentSrc || image.src;
+          await probe.decode().catch(() => undefined);
+          return probe.naturalWidth ? null : image.getAttribute("src");
+        }));
+        return results.filter(Boolean);
       });
-      const broken = await page
-        .locator("img")
-        .evaluateAll((images) =>
-          images
-            .filter((image) => (image as HTMLImageElement).naturalWidth === 0)
-            .map((image) => image.getAttribute("src")),
-        );
       expect(broken, `${route} em ${width}px`).toEqual([]);
       expect(
         await page.locator("video").evaluateAll((videos) =>

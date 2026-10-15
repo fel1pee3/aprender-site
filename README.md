@@ -18,7 +18,7 @@ npm run build
 npm run start
 ```
 
-Não é necessário configurar banco de dados, contas ou chaves. Fotografias, capas, prévias, fontes, vídeos e os 29 PDFs são locais. Plataformas e redes sociais usam seus endereços externos.
+Não é necessário configurar banco de dados, contas ou chaves. Fotografias, capas, prévias, fontes, vídeos e os 29 PDFs são locais. Plataformas e redes sociais usam seus endereços externos. O VLibras acessa o serviço oficial somente quando acionado.
 
 Os documentos estáticos somam 371,7 MB; o catálogo tem 70,3 MB. Esse volume ultrapassa o upload de fontes de 100 MB da CLI Vercel Hobby. Confira o fluxo de publicação por Git e o plano antes de publicar; detalhes e inventário em [docs/refinement/document-hosting.md](docs/refinement/document-hosting.md). Não há fallback de arquivos para o servidor anterior.
 
@@ -58,7 +58,7 @@ Rastreabilidade: [matriz por informação e recurso](docs/matriz-migracao-conteu
 
 ## Arquitetura
 
-Next.js App Router, TypeScript e CSS Modules. As páginas de conteúdo são pré-renderizadas; o catálogo e a tabela de preços são renderizados no servidor por requisição, com filtros e resultados no HTML inicial. Os dados são centralizados em `src/data`, com componentes de interação no cliente. O projeto usa `next start`, com otimização de imagens; não depende de exportação estática.
+Next.js App Router, TypeScript e CSS Modules. As páginas são renderizadas no servidor por requisição para entregar o idioma e as preferências salvas já no HTML inicial; o catálogo e a tabela também incluem os filtros e resultados. Os dados são centralizados em `src/data`, com componentes de interação no cliente. O projeto usa `next start`, com otimização de imagens; não depende de exportação estática. Os caminhos em português são preservados; `/en` e `/es` oferecem as páginas equivalentes. Não há novas variáveis obrigatórias para idiomas ou preferências.
 
 ```text
 src/app/                   páginas, metadados e estilos
@@ -100,11 +100,15 @@ $env:QA_BASE_URL='http://127.0.0.1:3100'
 npm run test:e2e
 npm run check:migration
 npm run check:refinement
+npm run check:i18n
+npm run check:cache
 npm run measure:performance
 node scripts/capture-final.mjs
 ```
 
 A auditoria compara o inventário das fontes com o HTML servido e os arquivos, incluindo URLs de PDFs, dados por edição, destinos e metadados. A conferência binária utiliza os PDFs de pesquisa preservados em `.tools/samples`; esse cache não é necessário para executar o site. Para refazer os downloads de pesquisa, `scripts/recover-resources.py` utiliza a auditoria fornecida e as bibliotecas Python descritas abaixo. As medições de desempenho simulam rede e CPU no navegador local; não equivalem a dados de usuários reais. Resultados e condições constam do relatório de correção.
+
+A [política de cache e atualização dos recursos](docs/cache-policy.md) descreve os prazos, o versionamento por conteúdo e a manutenção em cada publicação. `npm run check:cache` inspeciona respostas HTTP reais; usa `QA_BASE_URL` (padrão `http://localhost:3101`) e permite escolher o relatório com `CACHE_REPORT_OUTPUT`.
 
 ## URLs e demonstração
 

@@ -1,188 +1,132 @@
-import Link from "next/link";
-import Image from "next/image";
+"use client";
+import { useT } from "@/i18n/client";
+import Link from "@/i18n/Link";
+import Image from "@/components/AssetImage";
 import type { CSSProperties, ReactNode } from "react";
 import type { Solution } from "@/data/solutions";
 import { Icon } from "./Icon";
 import styles from "./ui.module.css";
-
-export function Button({
-  href,
-  children,
-  secondary = false,
-  external = false,
-}: {
-  href: string;
-  children: ReactNode;
-  secondary?: boolean;
-  external?: boolean;
+export function Button({ href, children, secondary = false, external = false, }: {
+    href: string;
+    children: ReactNode;
+    secondary?: boolean;
+    external?: boolean;
 }) {
-  return (
-    <Link
-      href={href}
-      className={`${styles.button} ${secondary ? styles.secondary : ""}`}
-      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-    >
-      {children}
-      <Icon name={external ? "external" : "arrow"} size={19} />
-      {external && <span className="sr-only"> (abre em nova aba)</span>}
-    </Link>
-  );
+    const t = useT();
+    return (<Link href={t.href(href)} className={`${styles.button} ${secondary ? styles.secondary : ""}`} {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+      {t(children)}
+      <Icon name={external ? "external" : "arrow"} size={19}/>
+      {external && <span className="sr-only">{t(" (abre em nova aba)")}</span>}
+    </Link>);
 }
-export function TextLink({
-  href,
-  children,
-}: {
-  href: string;
-  children: ReactNode;
+export function TextLink({ href, children, }: {
+    href: string;
+    children: ReactNode;
 }) {
-  const external = /^https?:/.test(href);
-  const asset = /\.(?:pdf|jpe?g|png|webp|mp4|vtt)(?:[?#]|$)/i.test(href);
-  if (external || asset)
-    return (
-      <a href={href} className={styles.textLink}>
-        {children}
-        <Icon name={external ? "external" : "arrow"} size={19} />
-      </a>
-    );
-  return (
-    <Link href={href} className={styles.textLink}>
-      {children}
-      <Icon name={/^https?:/.test(href) ? "external" : "arrow"} size={19} />
-    </Link>
-  );
+    const t = useT();
+    const external = /^https?:/.test(href);
+    const asset = /\.(?:pdf|jpe?g|png|webp|mp4|vtt)(?:[?#]|$)/i.test(href);
+    if (external || asset)
+        return (<a href={t.href(href)} className={styles.textLink}>
+        {t(children)}
+        <Icon name={external ? "external" : "arrow"} size={19}/>
+      </a>);
+    return (<Link href={t.href(href)} className={styles.textLink}>
+      {t(children)}
+      <Icon name={/^https?:/.test(href) ? "external" : "arrow"} size={19}/>
+    </Link>);
 }
-export function Eyebrow({
-  children,
-  light = false,
-}: {
-  children: ReactNode;
-  light?: boolean;
+export function Eyebrow({ children, light = false, }: {
+    children: ReactNode;
+    light?: boolean;
 }) {
-  return (
-    <p className={`${styles.eyebrow} ${light ? styles.light : ""}`}>
+    const t = useT();
+    return (<p className={`${styles.eyebrow} ${light ? styles.light : ""}`}>
       <span />
-      {children}
-    </p>
-  );
+      {t(children)}
+    </p>);
 }
-export function SectionHeading({
-  eyebrow,
-  title,
-  description,
-  children,
-}: {
-  eyebrow: string;
-  title: ReactNode;
-  description?: string;
-  children?: ReactNode;
+export function SectionHeading({ eyebrow, title, description, children, }: {
+    eyebrow: string;
+    title: ReactNode;
+    description?: string;
+    children?: ReactNode;
 }) {
-  return (
-    <div className={styles.sectionHeading}>
+    const t = useT();
+    return (<div className={styles.sectionHeading}>
       <div>
-        <Eyebrow>{eyebrow}</Eyebrow>
-        <h2>{title}</h2>
-        {description && <p className={styles.description}>{description}</p>}
+        <Eyebrow>{t(eyebrow)}</Eyebrow>
+        <h2>{t(title)}</h2>
+        {description && <p className={styles.description}>{t(description)}</p>}
       </div>
-      {children}
-    </div>
-  );
+      {t(children)}
+    </div>);
 }
-export function ProductCard({ solution }: { solution: Solution }) {
-  return (
-    <Link
-      className={styles.productCard}
-      href={`/solucoes/${solution.slug}`}
-      style={{ "--card-color": solution.accent } as CSSProperties}
-    >
+export function ProductCard({ solution }: {
+    solution: Solution;
+}) {
+    const t = useT();
+    return (<Link className={styles.productCard} href={t.href(`/solucoes/${solution.slug}`)} style={{ "--card-color": solution.accent } as CSSProperties}>
       <div className={styles.cover}>
-        {solution.image ? (
-          <Image
-            src={solution.image}
-            alt={`Materiais da coleção ${solution.name}`}
-            width={320}
-            height={380}
-            sizes="(max-width: 600px) 78vw, (max-width: 1000px) 40vw, 280px"
-          />
-        ) : (
-          <div className={styles.textCover}>
-            <Icon name="book" size={38} />
-            <strong>{solution.name}</strong>
-            <span>Materiais de estudantes e professores</span>
-          </div>
-        )}
+        {solution.image ? (<Image src={solution.image} alt={t("Materiais da coleção {0}", [solution.name])} width={320} height={380} sizes="(max-width: 600px) 78vw, (max-width: 1000px) 40vw, 280px"/>) : (<div className={styles.textCover}>
+            <Icon name="book" size={38}/>
+            <strong>{t(solution.name)}</strong>
+            <span>{t("Materiais de estudantes e professores")}</span>
+          </div>)}
         <span className={styles.roundArrow}>
-          <Icon name="arrow" size={21} />
+          <Icon name="arrow" size={21}/>
         </span>
       </div>
       <div className={styles.cardCopy}>
-        <span className={styles.stage}>{solution.stage}</span>
-        <h3>{solution.name}</h3>
-        <p>{solution.subtitle || solution.description}</p>
+        <span className={styles.stage}>{t(solution.stage)}</span>
+        <h3>{t(solution.name)}</h3>
+        <p>{t(solution.subtitle || solution.description)}</p>
       </div>
-    </Link>
-  );
+    </Link>);
 }
-export function Breadcrumb({
-  items,
-}: {
-  items: { label: string; href?: string }[];
+export function Breadcrumb({ items, }: {
+    items: {
+        label: string;
+        href?: string;
+    }[];
 }) {
-  return (
-    <nav aria-label="Caminho de navegação" className={styles.breadcrumb}>
-      <Link href="/">Início</Link>
-      {items.map((item, i) => (
-        <span key={i}>
-          <Icon name="chevron" size={12} />
-          {item.href ? (
-            <Link href={item.href}>{item.label}</Link>
-          ) : (
-            <span aria-current="page">{item.label}</span>
-          )}
-        </span>
-      ))}
-    </nav>
-  );
+    const t = useT();
+    return (<nav aria-label={t("Caminho de navegação")} className={styles.breadcrumb}>
+      <Link href={t.href("/")}>{t("In\u00EDcio")}</Link>
+      {items.map((item, i) => (<span key={i}>
+          <Icon name="chevron" size={12}/>
+          {item.href ? (<Link href={t.href(item.href)}>{t(item.label)}</Link>) : (<span aria-current="page">{t(item.label)}</span>)}
+        </span>))}
+    </nav>);
 }
-export function PageIntro({
-  eyebrow,
-  title,
-  description,
-  breadcrumb,
-}: {
-  eyebrow: string;
-  title: ReactNode;
-  description: string;
-  breadcrumb?: string;
+export function PageIntro({ eyebrow, title, description, breadcrumb, }: {
+    eyebrow: string;
+    title: ReactNode;
+    description: string;
+    breadcrumb?: string;
 }) {
-  return (
-    <section className={styles.pageIntro}>
+    const t = useT();
+    return (<section className={styles.pageIntro}>
       <div className="container">
-        <Breadcrumb items={[{ label: breadcrumb || eyebrow }]} />
-        <Eyebrow>{eyebrow}</Eyebrow>
-        <h1>{title}</h1>
-        <p>{description}</p>
+        <Breadcrumb items={t.data([{ label: breadcrumb || eyebrow }])}/>
+        <Eyebrow>{t(eyebrow)}</Eyebrow>
+        <h1>{t(title)}</h1>
+        <p>{t(description)}</p>
       </div>
-    </section>
-  );
+    </section>);
 }
 export function ContactCTA() {
-  return (
-    <section className={styles.cta}>
+    const t = useT();
+    return (<section className={styles.cta}>
       <div className="container">
         <div>
-          <Eyebrow light>Vamos construir juntos</Eyebrow>
-          <h2>
-            Cada rede tem uma realidade.
-            <br />
-            <em>Vamos conhecer a sua?</em>
+          <Eyebrow light>{t("Vamos construir juntos")}</Eyebrow>
+          <h2>{t("Cada rede tem uma realidade. ")}<br />
+            <em>{t("Vamos conhecer a sua?")}</em>
           </h2>
-          <p>
-            Conheça os materiais, a formação e o acompanhamento adequados à sua
-            rede de ensino.
-          </p>
+          <p>{t("Conhe\u00E7a os materiais, a forma\u00E7\u00E3o e o acompanhamento adequados \u00E0 sua rede de ensino. ")}</p>
         </div>
-        <Button href="/contato">Conversar com a Aprender</Button>
+        <Button href={t.href("/contato")}>{t("Conversar com a Aprender")}</Button>
       </div>
-    </section>
-  );
+    </section>);
 }

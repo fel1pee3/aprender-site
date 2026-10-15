@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-15T03:23:17.306Z",
-  "base": "http://127.0.0.1:3100",
+  "checkedAt": "2026-10-15T15:56:39.769Z",
+  "base": "http://127.0.0.1:3101",
   "mode": "production-html",
   "checks": [
     {
@@ -2120,6 +2120,21 @@
     },
     {
       "id": "unique-ids-/acervo",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "route-/acessibilidade",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "metadata-/acessibilidade",
+      "pass": true,
+      "detail": "{\"canonical\":\"https://aprender-site.vercel.app/acessibilidade\",\"og\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"twitter\":\"https://aprender-site.vercel.app/images/social/aprender-share.jpg\",\"robots\":\"noindex, nofollow\"}"
+    },
+    {
+      "id": "unique-ids-/acessibilidade",
       "pass": true,
       "detail": ""
     },
@@ -21599,6 +21614,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/-/solucoes/lendo-e-escrevendo",
       "pass": true,
       "detail": "/solucoes/lendo-e-escrevendo"
@@ -21734,6 +21754,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/a-editora-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/a-editora-/a-editora/trajetoria",
       "pass": true,
       "detail": "/a-editora/trajetoria"
@@ -21804,6 +21829,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/a-editora/edgar-linhares-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/a-editora/edgar-linhares-/a-editora/trajetoria",
       "pass": true,
       "detail": "/a-editora/trajetoria"
@@ -21872,6 +21902,11 @@
       "id": "internal-link-/a-editora/paic-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/a-editora/paic-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/a-editora/paic-/a-editora/trajetoria",
@@ -21974,6 +22009,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/a-editora/trajetoria-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/a-editora/trajetoria-/a-editora/trajetoria",
       "pass": true,
       "detail": "/a-editora/trajetoria"
@@ -22044,6 +22084,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/acervo-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/acervo-#depoimentos",
       "pass": true,
       "detail": "#depoimentos"
@@ -22080,6 +22125,66 @@
     },
     {
       "id": "internal-link-/acervo-/recursos/tabela-precos",
+      "pass": true,
+      "detail": "/recursos/tabela-precos"
+    },
+    {
+      "id": "internal-link-/acessibilidade-#conteudo",
+      "pass": true,
+      "detail": "#conteudo"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/",
+      "pass": true,
+      "detail": "/"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/a-editora",
+      "pass": true,
+      "detail": "/a-editora"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/solucoes",
+      "pass": true,
+      "detail": "/solucoes"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/formacao",
+      "pass": true,
+      "detail": "/formacao"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/em-acao",
+      "pass": true,
+      "detail": "/em-acao"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/acervo",
+      "pass": true,
+      "detail": "/acervo"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/recursos",
+      "pass": true,
+      "detail": "/recursos"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/plataformas",
+      "pass": true,
+      "detail": "/plataformas"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/contato",
+      "pass": true,
+      "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
+      "id": "internal-link-/acessibilidade-/recursos/tabela-precos",
       "pass": true,
       "detail": "/recursos/tabela-precos"
     },
@@ -22132,6 +22237,11 @@
       "id": "internal-link-/contato-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/contato-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/contato-/recursos/tabela-precos",
@@ -22187,6 +22297,11 @@
       "id": "internal-link-/em-acao-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/em-acao-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/em-acao-/em-acao/vinte-anos-compromisso-aprendizagem",
@@ -22259,6 +22374,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/em-acao/acompanhamento-palhano-2010-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/em-acao/acompanhamento-palhano-2010-/recursos/tabela-precos",
       "pass": true,
       "detail": "/recursos/tabela-precos"
@@ -22312,6 +22432,11 @@
       "id": "internal-link-/em-acao/brincando-com-as-fichas-novo-oriente-2011-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/em-acao/brincando-com-as-fichas-novo-oriente-2011-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/em-acao/brincando-com-as-fichas-novo-oriente-2011-/recursos/tabela-precos",
@@ -22369,6 +22494,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/em-acao/vinte-anos-compromisso-aprendizagem-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/em-acao/vinte-anos-compromisso-aprendizagem-/recursos/tabela-precos",
       "pass": true,
       "detail": "/recursos/tabela-precos"
@@ -22422,6 +22552,11 @@
       "id": "internal-link-/formacao-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/formacao-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/formacao-#proposta",
@@ -22519,6 +22654,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/plataformas-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/plataformas-/recursos/tabela-precos",
       "pass": true,
       "detail": "/recursos/tabela-precos"
@@ -22572,6 +22712,11 @@
       "id": "internal-link-/recursos-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/recursos-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/recursos-/recursos/tabela-precos",
@@ -22719,6 +22864,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/recursos/tabela-precos-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/recursos/tabela-precos-/recursos/tabela-precos",
       "pass": true,
       "detail": "/recursos/tabela-precos"
@@ -22772,6 +22922,11 @@
       "id": "internal-link-/solucoes-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes-/solucoes/brincando-e-aprendendo",
@@ -22949,6 +23104,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/a-cor-da-gente-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/a-cor-da-gente-/contato?solucao=a-cor-da-gente",
       "pass": true,
       "detail": "/contato?solucao=a-cor-da-gente"
@@ -23054,6 +23214,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/acerta-brasil-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/acerta-brasil-/contato?solucao=acerta-brasil",
       "pass": true,
       "detail": "/contato?solucao=acerta-brasil"
@@ -23142,6 +23307,11 @@
       "id": "internal-link-/solucoes/amma-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/amma-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/amma-/contato?solucao=amma",
@@ -23237,6 +23407,11 @@
       "id": "internal-link-/solucoes/avancando-juntos-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/avancando-juntos-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/avancando-juntos-/contato?solucao=avancando-juntos",
@@ -23342,6 +23517,11 @@
       "id": "internal-link-/solucoes/brincando-e-aprendendo-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/brincando-e-aprendendo-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/brincando-e-aprendendo-/contato?solucao=brincando-e-aprendendo",
@@ -23459,6 +23639,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/cataventos-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/cataventos-/contato?solucao=cataventos",
       "pass": true,
       "detail": "/contato?solucao=cataventos"
@@ -23552,6 +23737,11 @@
       "id": "internal-link-/solucoes/educacao-financeira-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/educacao-financeira-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/educacao-financeira-/contato?solucao=educacao-financeira",
@@ -23657,6 +23847,11 @@
       "id": "internal-link-/solucoes/escrever-comunicar-e-ser-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/escrever-comunicar-e-ser-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/escrever-comunicar-e-ser-/contato?solucao=escrever-comunicar-e-ser",
@@ -23769,6 +23964,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/fluir-das-emocoes-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/fluir-das-emocoes-/contato?solucao=fluir-das-emocoes",
       "pass": true,
       "detail": "/contato?solucao=fluir-das-emocoes"
@@ -23869,6 +24069,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/ideb-nota-10-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/ideb-nota-10-/contato?solucao=ideb-nota-10",
       "pass": true,
       "detail": "/contato?solucao=ideb-nota-10"
@@ -23952,6 +24157,11 @@
       "id": "internal-link-/solucoes/ingles-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/ingles-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/ingles-/contato?solucao=ingles",
@@ -24044,6 +24254,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/lendo-e-escrevendo-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/lendo-e-escrevendo-/contato?solucao=lendo-e-escrevendo",
       "pass": true,
       "detail": "/contato?solucao=lendo-e-escrevendo"
@@ -24132,6 +24347,11 @@
       "id": "internal-link-/solucoes/ler-ouvir-e-contar-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/ler-ouvir-e-contar-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/ler-ouvir-e-contar-/contato?solucao=ler-ouvir-e-contar",
@@ -24229,6 +24449,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/miudezas-e-descobertas-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/miudezas-e-descobertas-/contato?solucao=miudezas-e-descobertas",
       "pass": true,
       "detail": "/contato?solucao=miudezas-e-descobertas"
@@ -24322,6 +24547,11 @@
       "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/novo-lendo-voce-fica-sabendo-/contato?solucao=novo-lendo-voce-fica-sabendo",
@@ -24434,6 +24664,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/projeto-tema-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/projeto-tema-/contato?solucao=projeto-tema",
       "pass": true,
       "detail": "/contato?solucao=projeto-tema"
@@ -24544,6 +24779,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/sou-da-paz-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/sou-da-paz-/contato?solucao=sou-da-paz",
       "pass": true,
       "detail": "/contato?solucao=sou-da-paz"
@@ -24639,6 +24879,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/superativar-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/superativar-/contato?solucao=superativar",
       "pass": true,
       "detail": "/contato?solucao=superativar"
@@ -24732,6 +24977,11 @@
       "id": "internal-link-/solucoes/transito-legal-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/transito-legal-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/transito-legal-/contato?solucao=transito-legal",
@@ -24839,6 +25089,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/uni-duni-te-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/uni-duni-te-/contato?solucao=uni-duni-te",
       "pass": true,
       "detail": "/contato?solucao=uni-duni-te"
@@ -24934,6 +25189,11 @@
       "detail": "/contato"
     },
     {
+      "id": "internal-link-/solucoes/vida-e-ciencias-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
+    },
+    {
       "id": "internal-link-/solucoes/vida-e-ciencias-/contato?solucao=vida-e-ciencias",
       "pass": true,
       "detail": "/contato?solucao=vida-e-ciencias"
@@ -25027,6 +25287,11 @@
       "id": "internal-link-/solucoes/vida-e-linguagem-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-linguagem-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/vida-e-linguagem-/contato?solucao=vida-e-linguagem",
@@ -25137,6 +25402,11 @@
       "id": "internal-link-/solucoes/vida-e-matematica-/contato",
       "pass": true,
       "detail": "/contato"
+    },
+    {
+      "id": "internal-link-/solucoes/vida-e-matematica-/acessibilidade",
+      "pass": true,
+      "detail": "/acessibilidade"
     },
     {
       "id": "internal-link-/solucoes/vida-e-matematica-/contato?solucao=vida-e-matematica",
@@ -25373,8 +25643,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "home-title"
       ],
@@ -25389,6 +25665,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25429,6 +25706,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25447,8 +25725,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "equipe",
         "missao",
@@ -25474,6 +25758,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25500,6 +25785,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25518,8 +25804,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/archive/edgar-linhares.webp",
       "twitter": "https://aprender-site.vercel.app/images/archive/edgar-linhares.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "referencias"
       ],
@@ -25534,6 +25826,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25560,6 +25853,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25578,27 +25872,33 @@
       "openGraph": "https://aprender-site.vercel.app/images/archive/mapas-paic-2007-2018.webp",
       "twitter": "https://aprender-site.vercel.app/images/archive/mapas-paic-2007-2018.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "participacao",
         "atendimentos",
         "atendimentos-catalogo",
         "mapas",
         "mapas-spaece-2007-2018",
-        "_R_sbalubsnnb_",
+        "_R_sbalubsnpb_",
         "banner-alfabetizacao-2007-2018",
-        "_R_sjalubsnnb_",
+        "_R_sjalubsnpb_",
         "mapas-catalogo-2007-2013",
-        "_R_sralubsnnb_",
+        "_R_sralubsnpb_",
         "mapas-catalogo-2014-2023",
-        "_R_t3alubsnnb_",
+        "_R_t3alubsnpb_",
         "indicadores",
         "ideb",
         "ranking-2017",
         "ioeb",
         "ioeb-original-2019",
-        "_R_5elubsnnb_",
+        "_R_5elubsnpb_",
         "documentos",
         "paic"
       ],
@@ -25613,6 +25913,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25643,6 +25944,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25661,8 +25963,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/history.webp",
       "twitter": "https://aprender-site.vercel.app/images/history.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "sobral-2000",
         "equipe-edgar",
@@ -25695,6 +26003,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25719,6 +26028,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25737,29 +26047,35 @@
       "openGraph": "https://aprender-site.vercel.app/images/formacao-professores.webp",
       "twitter": "https://aprender-site.vercel.app/images/formacao-professores.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "depoimentos",
         "testimonials-title",
         "alcides-leite",
-        "_R_a7dbsnnb_",
+        "_R_c7dbsnpb_",
         "cicera-rejane",
-        "_R_abdbsnnb_",
+        "_R_cbdbsnpb_",
         "germana-santos",
-        "_R_afdbsnnb_",
+        "_R_cfdbsnpb_",
         "herbert-lima",
-        "_R_ajdbsnnb_",
+        "_R_cjdbsnpb_",
         "jose-leandro",
-        "_R_andbsnnb_",
+        "_R_cndbsnpb_",
         "jose-marcelo",
-        "_R_ardbsnnb_",
+        "_R_crdbsnpb_",
         "julio-cesar",
-        "_R_avdbsnnb_",
+        "_R_cvdbsnpb_",
         "lucinete-alves",
-        "_R_b3dbsnnb_",
+        "_R_d3dbsnpb_",
         "vilma-rodrigues",
-        "_R_b7dbsnnb_",
+        "_R_d7dbsnpb_",
         "formacoes",
         "gallery-title",
         "pacajus-roda",
@@ -25794,6 +26110,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25827,6 +26144,75 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
+        "/plataformas",
+        "https://www.instagram.com/aprendereditora",
+        "https://www.facebook.com/AprenderEditora",
+        "https://www.youtube.com/aprendereditora",
+        "https://twitter.com/aprendereditora",
+        "/contato",
+        "tel:+558531941300",
+        "/contato"
+      ]
+    },
+    {
+      "route": "/acessibilidade",
+      "status": 200,
+      "title": "Acessibilidade | Aprender Editora",
+      "canonical": "https://aprender-site.vercel.app/acessibilidade",
+      "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
+        "mobile-menu",
+        "mobile-menu-title",
+        "vlibras-dock-mount",
+        "conteudo",
+        "reading-title",
+        "keyboard-title",
+        "language-title",
+        "libras-title",
+        "media-title",
+        "limits-title",
+        "contact-title"
+      ],
+      "links": [
+        "#conteudo",
+        "/",
+        "/a-editora",
+        "/solucoes",
+        "/formacao",
+        "/em-acao",
+        "/acervo",
+        "/recursos",
+        "/plataformas",
+        "/contato",
+        "/acessibilidade",
+        "/",
+        "/a-editora",
+        "/solucoes",
+        "/formacao",
+        "/em-acao",
+        "/acervo",
+        "/recursos",
+        "/plataformas",
+        "/contato",
+        "/",
+        "https://vlibras.gov.br/doc/widget/installation/webpageintegration.html",
+        "/contato",
+        "/",
+        "/a-editora",
+        "/solucoes",
+        "/formacao",
+        "/em-acao",
+        "/acervo",
+        "/recursos",
+        "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25845,9 +26231,23 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
-        "conteudo"
+        "vlibras-dock-mount",
+        "conteudo",
+        "B:0",
+        "S:0",
+        "contact-name",
+        "contact-institution",
+        "contact-email",
+        "contact-city",
+        "contact-solution",
+        "contact-message"
       ],
       "links": [
         "#conteudo",
@@ -25860,6 +26260,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25884,6 +26285,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25902,8 +26304,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo"
       ],
       "links": [
@@ -25917,6 +26325,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25939,6 +26348,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -25957,8 +26367,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/palhano-2010.webp",
       "twitter": "https://aprender-site.vercel.app/images/palhano-2010.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo"
       ],
       "links": [
@@ -25972,6 +26388,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -25993,6 +26410,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26011,8 +26429,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/novo-oriente-2011.webp",
       "twitter": "https://aprender-site.vercel.app/images/novo-oriente-2011.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo"
       ],
       "links": [
@@ -26026,6 +26450,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26047,6 +26472,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26065,8 +26491,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/formacao-professores.webp",
       "twitter": "https://aprender-site.vercel.app/images/formacao-professores.webp",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo"
       ],
       "links": [
@@ -26080,6 +26512,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26102,6 +26535,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26120,8 +26554,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "proposta",
         "eixos",
@@ -26143,6 +26583,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26174,6 +26615,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26192,8 +26634,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo"
       ],
       "links": [
@@ -26207,6 +26655,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26229,6 +26678,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26247,8 +26697,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "brincando-e-aprendendo",
         "brincando-e-aprendendo-vol-01",
@@ -26300,6 +26756,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26366,6 +26823,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26384,13 +26842,19 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "price-search",
         "price-collection",
         "price-audience",
-        "_R_34lubsnnb_"
+        "_R_34lubsnpb_"
       ],
       "links": [
         "#conteudo",
@@ -26403,6 +26867,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26423,6 +26888,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26445,8 +26911,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "catalog-search",
         "catalog-stage",
@@ -26463,6 +26935,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26506,6 +26979,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26524,11 +26998,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "cor-2025-1",
@@ -26564,6 +27044,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26597,6 +27078,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26615,11 +27097,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "acbr-matematica-5-ano",
         "acbr-portugues-5-ano",
@@ -26645,6 +27133,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26677,6 +27166,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26695,11 +27185,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-amma-1",
@@ -26717,6 +27213,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26748,6 +27245,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26766,11 +27264,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-avancando-portugues-aluno",
@@ -26807,6 +27311,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26840,6 +27345,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26858,11 +27364,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "brincando-e-aprendendo-vol-01",
         "brincando-e-aprendendo-vol-02",
@@ -26932,6 +27444,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -26971,6 +27484,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -26989,11 +27503,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-cataventos-1",
@@ -27011,6 +27531,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27042,6 +27563,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27060,11 +27582,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-financeira-2025-1",
@@ -27090,6 +27618,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27123,6 +27652,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27141,11 +27671,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "ecs-1-ano",
         "ecs-2-ano",
@@ -27183,6 +27719,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27222,6 +27759,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27240,11 +27778,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-fluir-2025-1",
@@ -27272,6 +27816,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27304,6 +27849,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27322,11 +27868,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-ideb-gestao",
@@ -27347,6 +27899,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27376,6 +27929,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27394,8 +27948,14 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "edicoes",
         "tabela-2027",
@@ -27420,6 +27980,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27449,6 +28010,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27467,11 +28029,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "educacao-infantil-laranja",
         "educacao-infantil-verde-vol-02",
@@ -27499,6 +28067,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27532,6 +28101,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27550,11 +28120,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-ler-1-1",
@@ -27587,6 +28163,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27618,6 +28195,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27636,11 +28214,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-miudezas-caderno",
@@ -27662,6 +28246,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27693,6 +28278,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27711,11 +28297,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "nlvfs-1-ano-vol-01",
         "nlvfs-2-ano-vol-01",
@@ -27747,6 +28339,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27783,6 +28376,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27801,11 +28395,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "livro-tema-1",
         "livro-tema-2",
@@ -27838,6 +28438,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27875,6 +28476,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27893,11 +28495,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-sou-da-paz-6",
@@ -27917,6 +28525,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -27948,6 +28557,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -27966,11 +28576,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-superativar-3-linguagens",
@@ -27992,6 +28608,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -28023,6 +28640,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -28041,11 +28659,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-transito-2025-iniciais",
@@ -28069,6 +28693,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -28102,6 +28727,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -28120,11 +28746,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-uni-duni-1",
@@ -28142,6 +28774,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -28173,6 +28806,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -28191,11 +28825,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "edicoes",
         "catalogo-2025",
         "catalogo-2025-vida-e-ciencias-6-aluno",
@@ -28227,6 +28867,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -28258,6 +28899,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -28276,11 +28918,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "vida-e-linguagem-6-ano",
         "vida-e-linguagem-7-ano",
@@ -28334,6 +28982,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -28372,6 +29021,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -28390,11 +29040,17 @@
       "openGraph": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "twitter": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
       "ids": [
+        "_R_qlb_-dialog",
+        "_R_qlb_-title",
+        "_R_qlb_-description",
+        "_R_1alb_",
+        "vlibras-loading-status",
         "mobile-menu",
         "mobile-menu-title",
+        "vlibras-dock-mount",
         "conteudo",
         "galeria",
-        "_R_2n4lubsnnb_",
+        "_R_2n4lubsnpb_",
         "amostras",
         "vida-e-matematica-6-ano",
         "vida-e-matematica-7-ano",
@@ -28448,6 +29104,7 @@
         "/recursos",
         "/plataformas",
         "/contato",
+        "/acessibilidade",
         "/",
         "/a-editora",
         "/solucoes",
@@ -28486,6 +29143,7 @@
         "/acervo",
         "/recursos",
         "/recursos/tabela-precos",
+        "/acessibilidade",
         "/plataformas",
         "https://www.instagram.com/aprendereditora",
         "https://www.facebook.com/AprenderEditora",
@@ -36026,11 +36684,11 @@
   ],
   "limitations": [],
   "summary": {
-    "total": 5072,
-    "passed": 5072,
+    "total": 5126,
+    "passed": 5126,
     "failed": 0,
     "assets": 317,
-    "pages": 39,
+    "pages": 40,
     "sourcePages": 31
   }
 }

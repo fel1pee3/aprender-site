@@ -1,6 +1,6 @@
 .footer {
   padding: 65px 0 0;
-  background: #edf0e7;
+  background: var(--surface-muted);
   border-top: 1px solid var(--line);
 }
 .main {
@@ -11,7 +11,7 @@
 }
 .main h2 {
   font-family: var(--sans);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 800;
   margin: 0 0 20px;
 }
@@ -20,18 +20,19 @@
   align-items: center;
   gap: 8px;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 0.75rem;
   min-height: 34px;
   color: var(--muted);
   width: fit-content;
+  transition: color var(--motion-control) var(--ease-out);
 }
+@media (hover: hover) and (pointer: fine) {
 .main a:hover {
   color: var(--green);
-  text-decoration: underline;
+}
 }
 .main a:focus-visible {
   color: var(--green);
-  text-decoration: underline;
 }
 .brand > a {
   margin-bottom: 17px;
@@ -41,19 +42,30 @@
   height: auto;
   max-height: 64px;
   object-position: left;
+  background: var(--brand-surface);
+  border-radius: 4px;
+  padding: 4px;
 }
+
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .main { grid-template-columns: repeat(2,minmax(0,1fr)); }
+@media (max-width: 767px) {
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .main { grid-template-columns: minmax(0,1fr); }
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .brand,
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .address { grid-column: auto; }
+}
+@media (forced-colors: active) { .brand img { background: #fff; forced-color-adjust: none; } }
 .brand p {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 700;
   margin: 0 0 13px;
 }
 .brand span {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.8;
 }
 .address p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.9;
 }
@@ -66,8 +78,8 @@
   justify-content: space-between;
   gap: 20px;
   border-top: 1px solid var(--line);
-  padding: 22px 0;
-  font-size: 10px;
+  padding: 22px 0 calc(80px + env(safe-area-inset-bottom, 0px));
+  font-size: 0.625rem;
   color: var(--muted);
   align-items: center;
 }

@@ -1,0 +1,53 @@
+.launcher {
+  position:fixed;
+  z-index:60;
+  right:max(16px,env(safe-area-inset-right,0px));
+  bottom:max(16px,env(safe-area-inset-bottom,0px));
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  min-width:48px;
+  min-height:48px;
+  max-width:calc(100vw - 32px);
+  padding:10px 14px;
+  border:1px solid var(--control-border);
+  border-radius:999px;
+  background:var(--surface);
+  color:var(--link-strong);
+  font:600 .8125rem/1.4 var(--sans);
+  box-shadow:0 3px 14px var(--shadow-panel);
+  cursor:pointer;
+  transition:background-color var(--motion-control) var(--ease-out);
+}
+.launcher[aria-expanded="true"] { background:var(--surface-soft); }
+.panel {
+  position:fixed;
+  inset:auto max(16px,env(safe-area-inset-right,0px)) calc(76px + env(safe-area-inset-bottom,0px)) auto;
+  margin:0;
+  width:22rem;
+  max-width:calc(100vw - 32px);
+  max-height:calc(100dvh - 100px - env(safe-area-inset-bottom,0px));
+  overflow-y:auto;
+  padding:20px;
+  border:1px solid var(--control-border);
+  border-radius:12px;
+  background:var(--surface);
+  color:var(--ink);
+  box-shadow:0 8px 32px var(--shadow-panel);
+}
+.top { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:16px; }
+.top h2 { margin:0; padding-top:8px; font:700 1.0625rem/1.4 var(--sans); }
+.close { display:inline-flex; flex-shrink:0; align-items:center; justify-content:center; width:44px; min-height:44px; padding:0; border:1px solid transparent; border-radius:5px; background:transparent; color:var(--ink); cursor:pointer; transition:background-color var(--motion-control) var(--ease-out); }
+.group + .group { border-top:1px solid var(--line); margin-top:16px; padding-top:16px; }
+.group { min-width:0; }
+.launcher:active,.close:active { background:var(--hover-surface); }
+@media (hover:hover) and (pointer:fine) { .launcher:hover,.close:hover { background:var(--hover-surface); } }
+@media (max-width:600px) {
+  .launcher { width:48px; height:48px; padding:10px; }
+  .launcher span { display:none; }
+  .panel { padding:16px; }
+}
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .launcher { width:48px; height:48px; padding:10px; }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .launcher span { display:none; }
+@media (forced-colors:active) { .launcher,.panel { border-color:ButtonText; } }

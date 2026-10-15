@@ -1,0 +1,230 @@
+{
+  "checkedAt": "2026-10-15T19:18:31.384Z",
+  "status": "passed",
+  "origin": "http://127.0.0.1:3102",
+  "method": "Synthetic 64x64 PNG and hidden layout probe only; two production builds, same Edge browser/context/CDP/cache/cookies/port; normal page.goto; no request interception, force reload, cache purge or storage clearing. Browser cache remains enabled. Fixed-URL validation uses explicit If-None-Match requests.",
+  "builds": {
+    "A": {
+      "version": "A",
+      "state": {
+        "lang": "en",
+        "theme": "dark",
+        "textSize": "200"
+      },
+      "status": 200,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "source": "/images/cache-review-fixture.png?v=cde1b18339577577"
+    },
+    "B": {
+      "version": "B",
+      "state": {
+        "lang": "en",
+        "theme": "dark",
+        "textSize": "200"
+      },
+      "status": 200,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "source": "/images/cache-review-fixture.png?v=6885f91f0048d62e"
+    }
+  },
+  "images": {
+    "originalA": {
+      "url": "http://127.0.0.1:3102/images/cache-review-fixture.png?v=cde1b18339577577",
+      "status": 200,
+      "etag": "W/\"10b-1a141001125\"",
+      "cacheControl": "public, max-age=0",
+      "contentType": "image/png",
+      "bodySha256": "cde1b183395775778e6474bc0e9c4033d64fd723a1a340f45b748615a9ca44c3",
+      "bytes": 267,
+      "cdp": [
+        {
+          "requestId": "2920.40",
+          "url": "http://127.0.0.1:3102/images/cache-review-fixture.png?v=cde1b18339577577",
+          "type": "Fetch",
+          "wireStatus": 200,
+          "status": 200,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "optimizedA": {
+      "url": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Fcache-review-fixture.png%3Fv%3Dcde1b18339577577&w=64&q=75",
+      "status": 200,
+      "etag": "sCxvKbUBfvrtuMdxvfDiAuQal7J0mKqlXWt5Yv0iMA0",
+      "cacheControl": "public, max-age=14400, must-revalidate",
+      "contentType": "image/png",
+      "bodySha256": "b02c6f29b5017efaedb8c771bdf0e202e41a97b27498aaa55d6b7962fd22300d",
+      "bytes": 120,
+      "cdp": [
+        {
+          "requestId": "2920.41",
+          "url": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Fcache-review-fixture.png%3Fv%3Dcde1b18339577577&w=64&q=75",
+          "type": "Fetch",
+          "wireStatus": 200,
+          "status": 200,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "repeatedA": {
+      "url": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Fcache-review-fixture.png%3Fv%3Dcde1b18339577577&w=64&q=75",
+      "status": 200,
+      "etag": "sCxvKbUBfvrtuMdxvfDiAuQal7J0mKqlXWt5Yv0iMA0",
+      "cacheControl": "public, max-age=14400, must-revalidate",
+      "contentType": "image/png",
+      "bodySha256": "b02c6f29b5017efaedb8c771bdf0e202e41a97b27498aaa55d6b7962fd22300d",
+      "bytes": 120,
+      "cdp": [
+        {
+          "requestId": "2920.42",
+          "url": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Fcache-review-fixture.png%3Fv%3Dcde1b18339577577&w=64&q=75",
+          "type": "Fetch",
+          "status": 200,
+          "fromDiskCache": true,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "fixedA": {
+      "url": "http://127.0.0.1:3102/images/cache-review-fixture.png",
+      "status": 200,
+      "etag": "W/\"10b-1a141001125\"",
+      "cacheControl": "public, max-age=0",
+      "contentType": "image/png",
+      "bodySha256": "cde1b183395775778e6474bc0e9c4033d64fd723a1a340f45b748615a9ca44c3",
+      "bytes": 267,
+      "cdp": [
+        {
+          "requestId": "2920.43",
+          "url": "http://127.0.0.1:3102/images/cache-review-fixture.png",
+          "type": "Fetch",
+          "wireStatus": 200,
+          "status": 200,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "originalB": {
+      "url": "http://127.0.0.1:3102/images/cache-review-fixture.png?v=6885f91f0048d62e",
+      "status": 200,
+      "etag": "W/\"10c-1a141004a2d\"",
+      "cacheControl": "public, max-age=0",
+      "contentType": "image/png",
+      "bodySha256": "6885f91f0048d62e52359f0b7b23f2bf11dccb2e2a64cbfa8ce8d7a537f5d936",
+      "bytes": 268,
+      "cdp": [
+        {
+          "requestId": "2920.81",
+          "url": "http://127.0.0.1:3102/images/cache-review-fixture.png?v=6885f91f0048d62e",
+          "type": "Fetch",
+          "wireStatus": 200,
+          "status": 200,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "optimizedB": {
+      "url": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Fcache-review-fixture.png%3Fv%3D6885f91f0048d62e&w=64&q=75",
+      "status": 200,
+      "etag": "qsODcBQvDkywaF9DSRW-JTPYF-8dd7VSBRFIif2Y5D8",
+      "cacheControl": "public, max-age=14400, must-revalidate",
+      "contentType": "image/png",
+      "bodySha256": "aac38370142f0e4cb0685f434915be2533d817ef1d77b55205114889fd98e43f",
+      "bytes": 120,
+      "cdp": [
+        {
+          "requestId": "2920.82",
+          "url": "http://127.0.0.1:3102/_next/image?url=%2Fimages%2Fcache-review-fixture.png%3Fv%3D6885f91f0048d62e&w=64&q=75",
+          "type": "Fetch",
+          "wireStatus": 200,
+          "status": 200,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "fixedB": {
+      "url": "http://127.0.0.1:3102/images/cache-review-fixture.png",
+      "status": 200,
+      "etag": "W/\"10c-1a141004a2d\"",
+      "cacheControl": "public, max-age=0",
+      "contentType": "image/png",
+      "bodySha256": "6885f91f0048d62e52359f0b7b23f2bf11dccb2e2a64cbfa8ce8d7a537f5d936",
+      "bytes": 268,
+      "cdp": [
+        {
+          "requestId": "2920.83",
+          "url": "http://127.0.0.1:3102/images/cache-review-fixture.png",
+          "type": "Fetch",
+          "wireStatus": 200,
+          "status": 200,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    },
+    "fixedBNotModified": {
+      "url": "http://127.0.0.1:3102/images/cache-review-fixture.png",
+      "status": 304,
+      "etag": "W/\"10c-1a141004a2d\"",
+      "cacheControl": "public, max-age=0",
+      "contentType": null,
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "cdp": [
+        {
+          "requestId": "2920.84",
+          "url": "http://127.0.0.1:3102/images/cache-review-fixture.png",
+          "type": "Fetch",
+          "wireStatus": 304,
+          "status": 304,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false
+        }
+      ]
+    }
+  },
+  "preservedPreferences": {
+    "theme": "dark",
+    "contrast": "normal",
+    "textSize": "200",
+    "spacing": "standard",
+    "motion": "system"
+  },
+  "preservedLocale": "en",
+  "cookiesUnchanged": true,
+  "restoration": {
+    "exactBytes": {
+      "src/app/layout.tsx": {
+        "restored": true,
+        "sha256": "945462caa6f5e13581cff7402f704e3faf2f818d330e1fd137aa22c247031e4a"
+      },
+      "src/data/asset-versions.json": {
+        "restored": true,
+        "sha256": "a7f16882990786d51cecee13a321d072b2027492da8ffe4336ee1787bbb8840b"
+      },
+      "next-env.d.ts": {
+        "restored": true,
+        "sha256": "0f70629890b72a0a82e91972cc032c04b658b26c265373cb711cf576bfbf8fcc"
+      },
+      "tsconfig.json": {
+        "restored": true,
+        "sha256": "7d73bdd29c56b31e78a0e1bf17862719c224f120400f53fd019ffd65e4499b50"
+      }
+    },
+    "syntheticImageRemoved": true,
+    "ownedProcessesStopped": true
+  }
+}

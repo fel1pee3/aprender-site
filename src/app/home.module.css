@@ -2,7 +2,7 @@
   position: relative;
   padding: 54px 0 52px;
   overflow: clip;
-  background: radial-gradient(ellipse at 90% 16%, #e7eddd 0, transparent 48%);
+  background: radial-gradient(ellipse at 90% 16%, var(--hero-tint) 0, transparent 48%);
 }
 .heroGrid {
   display: grid;
@@ -16,7 +16,7 @@
 }
 .heroCopy h1 {
   font-family: var(--serif);
-  font-size: clamp(44px, 4.5vw, 65px);
+  font-size: clamp(2.75rem, calc(4.5vw * var(--type-scale)), 4.0625rem);
   font-weight: 500;
   letter-spacing: -2.4px;
   line-height: 1.12;
@@ -43,7 +43,7 @@
   transform: rotate(-3deg);
 }
 .heroDescription {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.85;
   color: var(--muted);
   max-width: 480px;
@@ -56,7 +56,7 @@
   gap: 12px;
 }
 .heroActions > a {
-  font-size: 13px;
+  font-size: 0.8125rem;
   padding-inline: 18px;
   gap: 12px;
 }
@@ -65,13 +65,13 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--muted);
 }
 .noteLine {
   width: 30px;
   height: 1px;
-  background: #79946f;
+  background: var(--line-strong);
 }
 .heroVisual {
   position: relative;
@@ -84,7 +84,7 @@
   overflow: hidden;
   position: relative;
   aspect-ratio: 1.12;
-  background: #d8e0d3;
+  background: var(--placeholder-surface);
 }
 .photoFrame > img {
   width: 100%;
@@ -108,8 +108,8 @@
   padding: 6px 10px;
   background: #123e2bed;
   border-radius: 3px;
-  color: white;
-  font-size: 11px;
+  color: var(--inverse-text);
+  font-size: 0.6875rem;
   line-height: 1.6;
   font-weight: 600;
 }
@@ -122,18 +122,17 @@
   gap: 15px;
   align-items: center;
   padding: 15px 21px 15px 10px;
-  background: #fffdf7;
-  border: 1px solid #dedfcf;
+  background: var(--surface-warm);
+  border: 1px solid var(--line);
   border-radius: 5px;
-  box-shadow: 0 9px 24px #17352a0d;
+  box-shadow: 0 9px 24px var(--shadow-card);
   text-decoration: none;
-  transition: box-shadow var(--motion-control) var(--ease-out), border-color var(--motion-control) var(--ease-out);
+  transition: border-color var(--motion-control) var(--ease-out);
 }
 .materialNote > img {
   width: 43%;
   max-width: 180px;
   height: auto;
-  mix-blend-mode: multiply;
 }
 .materialCopy {
   min-width: 0;
@@ -142,13 +141,13 @@
 }
 .materialCopy > span:first-child {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: .08em;
 }
 .materialCopy strong {
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.3;
 }
@@ -157,20 +156,24 @@
   align-items: center;
   gap: 8px;
   color: var(--deep);
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 700;
   min-height: 35px;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: .2em;
+  transition: color var(--motion-control) var(--ease-out), text-decoration-color var(--motion-emphasis) var(--ease-out);
 }
-.materialAction svg {
-  transition: transform var(--motion-control) var(--ease-out);
+@media (hover: hover) and (pointer: fine) {
+.materialNote:hover {
+  border-color: var(--control-border);
 }
-.materialNote:is(:hover,:focus-visible) {
-  border-color: #9eaf99;
-  box-shadow: 0 12px 30px #17352a18;
+.materialNote:hover .materialAction { color: var(--link); text-decoration-color: currentColor; }
 }
-.materialNote:is(:hover,:focus-visible) .materialAction svg {
-  transform: translateX(4px);
+.materialNote:focus-visible {
+  border-color: var(--control-border);
 }
+.materialNote:focus-visible .materialAction { color: var(--link); text-decoration-color: currentColor; }
 .heroDecoration {
   position: absolute;
   z-index: -1;
@@ -178,49 +181,49 @@
   bottom: 22px;
   left: -16px;
   right: -16px;
-  border: 1px solid #c3ceb9;
+  border: 1px solid var(--line);
   border-radius: 118px 7px 7px 7px;
   transform: rotate(3deg);
 }
 @media (max-width: 1100px) and (min-width: 768px) {
   .heroGrid { gap: 35px; }
-  .heroCopy h1 { font-size: clamp(40px, 5vw, 54px); letter-spacing: -1.8px; }
+  .heroCopy h1 { font-size: clamp(2.5rem, calc(5vw * var(--type-scale)), 3.375rem); letter-spacing: -1.8px; }
   .heroActions { gap: 10px; }
   .heroVisual { padding-bottom: 98px; }
   .materialNote { left: 14px; right: 0; padding-right: 14px; gap: 10px; }
-  .materialCopy strong { font-size: 17px; }
-  .materialAction { font-size: 10px; gap: 5px; }
+  .materialCopy strong { font-size: 1.0625rem; }
+  .materialAction { font-size: 0.625rem; gap: 5px; }
 }
 @media (max-width: 767px) {
   .hero { padding: 32px 0 35px; }
   .heroGrid { grid-template-columns: 1fr; gap: 30px; }
-  .heroCopy h1 { font-size: clamp(41px, 7.3vw, 57px); letter-spacing: -1.8px; max-width: 600px; margin: 18px 0 22px; }
-  .heroDescription { max-width: 550px; font-size: 16px; line-height: 1.8; margin-bottom: 23px; }
+  .heroCopy h1 { font-size: clamp(2.5625rem, calc(7.3vw * var(--type-scale)), 3.5625rem); letter-spacing: -1.8px; max-width: 600px; margin: 18px 0 22px; }
+  .heroDescription { max-width: 550px; font-size: 1rem; line-height: 1.8; margin-bottom: 23px; }
   .heroActions { align-items: stretch; gap: 10px; }
-  .heroActions > a { min-height: 49px; font-size: 12px; padding-inline: 13px; gap: 10px; }
-  .heroNote { margin-top: 20px; font-size: 11px; }
+  .heroActions > a { min-height: 49px; font-size: 0.75rem; padding-inline: 13px; gap: 10px; }
+  .heroNote { margin-top: 20px; font-size: 0.6875rem; }
   .heroVisual { max-width: 540px; width: 100%; margin-inline: auto; padding-bottom: 83px; }
   .photoFrame { aspect-ratio: 1.36; border-top-left-radius: 74px; }
   .photoFrame > img { object-position: center 57%; }
-  .photoLabel { top: 13px; right: 13px; font-size: 10px; }
+  .photoLabel { top: 13px; right: 13px; font-size: 0.625rem; }
   .materialNote { left: 25px; right: 7px; gap: 13px; padding: 11px 15px 11px 8px; }
   .materialNote > img { max-width: 140px; width: 42%; }
   .materialCopy { gap: 4px; }
-  .materialCopy strong { font-size: 19px; }
-  .materialCopy > span:first-child { font-size: 9px; }
-  .materialAction { font-size: 10px; gap: 7px; min-height: 27px; }
+  .materialCopy strong { font-size: 1.1875rem; }
+  .materialCopy > span:first-child { font-size: 0.5625rem; }
+  .materialAction { font-size: 0.625rem; gap: 7px; min-height: 27px; }
   .heroDecoration { left: -7px; right: 0; top: 17px; border-top-left-radius: 80px; }
 }
 @media (max-width: 380px) {
-  .materialCopy strong { font-size: 17px; }
+  .materialCopy strong { font-size: 1.0625rem; }
   .materialNote { left: 14px; right: 0; }
 }
 @media (max-width: 600px) {
-  .heroActions > a { flex: 1 1 100%; justify-content: space-between; font-size: 13px; padding-inline: 17px; }
+  .heroActions > a { flex: 1 1 100%; justify-content: space-between; font-size: 0.8125rem; padding-inline: 17px; }
 }
 .evidence {
   border-block: 1px solid var(--line);
-  background: #edf0e5;
+  background: var(--surface-muted);
 }
 .evidenceGrid {
   display: grid;
@@ -230,35 +233,35 @@
   align-items: center;
 }
 .evidenceGrid > div:not(:first-child) {
-  border-left: 1px solid #cad3c1;
+  border-left: 1px solid var(--line);
   padding-left: 32px;
 }
 .evidenceGrid > div > strong {
   display: block;
   font-family: var(--serif);
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 500;
   letter-spacing: -0.8px;
   line-height: 1.3;
-  white-space: nowrap;
+  white-space: normal;
 }
 .evidenceGrid > div > span {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.7;
   margin-top: 6px;
   max-width: 170px;
 }
 .evidenceTitle > span {
-  font-size: 11px !important;
+  font-size: 0.6875rem !important;
   max-width: none !important;
 }
 .evidenceTitle{grid-column:1/-1;display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px}
-.evidenceTitle a{margin-left:auto;font-size:11px;min-height:44px}
+.evidenceTitle a{margin-left:auto;font-size:0.6875rem;min-height:44px}
 .evidenceGrid > div:nth-child(2){border-left:0;padding-left:0}
 .evidenceTitle > strong {
-  font-size: 17px !important;
+  font-size: 1.0625rem !important;
   letter-spacing: 0 !important;
   font-family: var(--sans) !important;
 }
@@ -266,7 +269,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  font-size: 8px;
+  font-size: 0.5rem;
   color: var(--muted);
   margin-top: 11px;
   text-decoration: none;
@@ -291,25 +294,25 @@
 }
 .pillarTop span {
   font-family: var(--serif);
-  font-size: 15px;
-  color: #526359;
+  font-size: 0.9375rem;
+  color: var(--muted);
 }
 .pillars h3 {
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: -0.4px;
   margin: 0 0 13px;
   font-weight: 700;
 }
 .pillars p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.85;
   color: var(--muted);
   margin: 0;
 }
 .solutions {
   padding: 75px 0 65px;
-  background: #eef2e9;
-  border-block: 1px solid #e2e7dc;
+  background: var(--surface-muted);
+  border-block: 1px solid var(--line);
 }
 .stageLinks {
   display: grid;
@@ -322,22 +325,26 @@
   align-items: center;
   gap: 17px;
   text-decoration: none;
-  background: #f9faf5;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 5px;
   padding: 24px 18px;
-  transition: background-color var(--motion-control) var(--ease-out), border-color var(--motion-control) var(--ease-out);
+  transition: border-color var(--motion-control) var(--ease-out);
 }
-.stageLinks > a:is(:hover,:focus-visible) {
-  background: #e1ecd9;
-  border-color: #aabca0;
+@media (hover: hover) and (pointer: fine) {
+.stageLinks > a:hover {
+  border-color: var(--control-border);
 }
-.stageLinks > a > svg { transition: transform var(--motion-control) var(--ease-out); }
-.stageLinks > a:is(:hover,:focus-visible) > svg { transform: translateX(4px); }
+.stageLinks > a:hover strong { color: var(--link); text-decoration-color: currentColor; }
+}
+.stageLinks > a:focus-visible {
+  border-color: var(--control-border);
+}
+.stageLinks > a:focus-visible strong { color: var(--link); text-decoration-color: currentColor; }
 .stageNumber {
   font-family: var(--serif);
-  font-size: 21px;
-  color: #46673f;
+  font-size: 1.3125rem;
+  color: var(--deep);
 }
 .stageLinks > a > svg {
   margin-left: auto;
@@ -347,11 +354,15 @@
   display: block;
 }
 .stageLinks strong {
-  font-size: 13px;
+  font-size: 0.8125rem;
   margin-bottom: 5px;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: .2em;
+  transition: color var(--motion-control) var(--ease-out), text-decoration-color var(--motion-emphasis) var(--ease-out);
 }
 .stageLinks div > span {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: var(--muted);
 }
 .collectionsHeading {
@@ -362,12 +373,12 @@
   margin-bottom: 23px;
 }
 .collectionsHeading h3 {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
   margin: 0;
 }
 .collectionsHeading > span {
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--muted);
 }
 .productGrid {
@@ -396,7 +407,7 @@
   border-radius: 6px 6px 100px 6px;
 }
 .formationGrid figcaption {
-  font-size: 9px;
+  font-size: 0.5625rem;
   color: var(--muted);
   margin-top: 12px;
 }
@@ -409,14 +420,14 @@
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: #f0cd74;
-  color: var(--deep);
+  background: var(--warm);
+  color: var(--accent-text);
   border: 8px solid var(--paper);
 }
 .formationGrid h2 {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(30px, 3.2vw, 44px);
+  font-size: clamp(1.875rem, calc(3.2vw * var(--type-scale)), 2.75rem);
   line-height: 1.23;
   letter-spacing: -1.4px;
   margin: 0 0 25px;
@@ -426,7 +437,7 @@
   font-weight: 400;
 }
 .formationGrid p {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.85;
   color: var(--muted);
 }
@@ -434,7 +445,7 @@
   padding: 0;
   margin: 26px 0;
   list-style: none;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .formationGrid li {
   display: flex;
@@ -456,55 +467,84 @@
 }
 .articleCard {
   text-decoration: none;
+  border-radius: 7px;
 }
 .articleImage {
   overflow: hidden;
   border-radius: 7px;
   aspect-ratio: 1.6;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+  transition: outline-color var(--motion-emphasis) var(--ease-out);
+}
+
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .heroGrid,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .formationGrid { grid-template-columns: minmax(0,1fr); }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .heroVisual { width: 100%; max-width: 600px; padding-bottom: 0; margin-inline: auto; }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .materialNote { position: relative; inset: auto; margin-top: 16px; }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .heroDecoration { display: none; }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .evidenceGrid,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .productGrid,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .pillars,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .stageLinks { grid-template-columns: repeat(2,minmax(0,1fr)); }
+@media (max-width: 767px) {
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .evidenceGrid,
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .productGrid,
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .pillars,
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .stageLinks { grid-template-columns: minmax(0,1fr); }
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .evidenceGrid > div { border-left: 0; padding-left: 0; }
 }
 .articleImage img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform var(--motion-panel) var(--ease-out);
 }
-.articleCard:is(:hover,:focus-visible) .articleImage img {
-  transform: scale(1.025);
-}
-.readArticle svg { transition: transform var(--motion-control) var(--ease-out); }
-.articleCard:is(:hover,:focus-visible) .readArticle svg { transform: translateX(4px); }
 .articleMeta {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
   margin: 22px 0 13px;
-  font-size: 9px;
+  font-size: 0.5625rem;
   color: var(--muted);
 }
 .articleMeta > span:first-child {
   text-transform: uppercase;
-  font-size: 9px;
+  font-size: 0.5625rem;
   font-weight: 800;
   letter-spacing: 1.2px;
   color: var(--deep);
 }
 .articleCard h3 {
-  font-size: 23px;
+  font-size: 1.4375rem;
   font-weight: 500;
   line-height: 1.35;
   font-family: var(--serif);
   margin: 0 0 19px;
   letter-spacing: -0.4px;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
+  transition: color var(--motion-control) var(--ease-out), text-decoration-color var(--motion-emphasis) var(--ease-out);
 }
 .readArticle {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 700;
   display: flex;
   align-items: center;
   gap: 12px;
   color: var(--deep);
   min-height: 35px;
+  transition: color var(--motion-control) var(--ease-out);
+}
+.articleCard:focus-visible .articleImage { outline-color: var(--control-border); }
+.articleCard:focus-visible h3 { color: var(--link); text-decoration-color: currentColor; }
+.articleCard:focus-visible .readArticle { color: var(--link); }
+@media (hover: hover) and (pointer: fine) {
+  .articleCard:hover .articleImage { outline-color: var(--control-border); }
+  .articleCard:hover h3 { color: var(--link); text-decoration-color: currentColor; }
+  .articleCard:hover .readArticle { color: var(--link); }
 }
 
 @media (max-width: 1100px) {
@@ -515,7 +555,7 @@
     padding-left: 20px;
   }
   .evidenceGrid > div > strong {
-    font-size: 22px;
+    font-size: 1.375rem;
     white-space: normal;
   }
   .pillars {
@@ -550,7 +590,7 @@
     margin-top: 0 !important;
   }
   .evidenceTitle a {
-    font-size: 9px;
+    font-size: 0.5625rem;
   }
   .evidenceGrid > div:nth-child(2) {
     border: 0;
@@ -558,11 +598,11 @@
   }
   .evidenceGrid > div:nth-child(4){border-left:0;padding-left:0}
   .evidenceGrid > div > strong {
-    font-size: 23px;
+    font-size: 1.4375rem;
     white-space: normal;
   }
   .evidenceGrid > div > span {
-    font-size: 11px;
+    font-size: 0.6875rem;
   }
   .approach,
   .solutions,
@@ -576,10 +616,10 @@
     margin-top: 28px;
   }
   .pillars h3 {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .pillars p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .pillarTop {
     padding-bottom: 15px;
@@ -594,13 +634,13 @@
     padding: 20px;
   }
   .stageLinks strong {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .stageLinks div > span {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   .stageLinks .stageNumber {
-    font-size: 24px;
+    font-size: 1.5rem;
     margin-right: 10px;
   }
   .collectionsHeading > span {
@@ -619,13 +659,13 @@
     aspect-ratio: 1.35;
   }
   .formationGrid h2 {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
   .formationGrid p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .formationGrid ul {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
   .articleGrid {
     grid-template-columns: 1fr;
@@ -635,16 +675,16 @@
     aspect-ratio: 1.75;
   }
   .articleCard h3 {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
   .articleMeta {
-    font-size: 11px;
+    font-size: 0.6875rem;
   }
   .articleMeta > span:first-child {
-    font-size: 10px;
+    font-size: 0.625rem;
   }
   .readArticle {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 380px) {
@@ -655,9 +695,9 @@
     gap: 25px 17px;
   }
   .pillars h3 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .pillars p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
 }

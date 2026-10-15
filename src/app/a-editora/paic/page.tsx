@@ -1,4 +1,5 @@
-import Image from "next/image";
+import { getTranslator } from "@/i18n/server";
+import Image from "@/components/AssetImage";
 import imageDimensions from "@/data/image-dimensions.json";
 import { pageMetadata } from "@/lib/metadata";
 import { paic } from "@/data/institutional";
@@ -8,69 +9,53 @@ import { ReadingNav } from "@/components/ReadingNav";
 import { ResourceLinks } from "@/components/ResourceLinks";
 import { ImageDialog } from "@/components/ImageDialog";
 import s from "@/components/content.module.css";
-export const metadata = pageMetadata({
-  title: "PAIC e resultados",
-  description:
-    "Participação da Aprender no PAIC, atendimentos de 2008 a 2018, mapas SPAECE-Alfa e séries históricas de IDEB e IOEB contextualizadas.",
-  path: "/a-editora/paic",
-  image: "/images/archive/mapas-paic-2007-2018.webp",
-});
-const number = (n: number) => n.toLocaleString("pt-BR");
-const dimensions = imageDimensions as Record<
-  string,
-  { width: number; height: number }
->;
-const decimal = (n: number) =>
-  n.toLocaleString("pt-BR", { minimumFractionDigits: 1 });
-function AttendanceTable({
-  rows,
-  caption,
-}: {
-  rows: typeof paic.statistics;
-  caption: string;
+export async function generateMetadata() {
+    const t = await getTranslator();
+    return pageMetadata({
+        title: t("PAIC e resultados"),
+        description: t("Participação da Aprender no PAIC, atendimentos de 2008 a 2018, mapas SPAECE-Alfa e séries históricas de IDEB e IOEB contextualizadas."),
+        path: "/a-editora/paic",
+        image: "/images/archive/mapas-paic-2007-2018.webp"
+    }, t.locale);
+}
+const dimensions = imageDimensions as Record<string, {
+    width: number;
+    height: number;
+}>;
+async function AttendanceTable({ rows, caption, }: {
+    rows: typeof paic.statistics;
+    caption: string;
 }) {
-  return (
-    <div
-      className={s.tableScroll}
-      tabIndex={0}
-      role="region"
-      aria-label={caption}
-    >
+    const t = await getTranslator();
+    return (<div className={s.tableScroll} tabIndex={0} role="region" aria-label={caption}>
       <table className={s.table}>
-        <caption>{caption}</caption>
+        <caption>{t(caption)}</caption>
         <thead>
           <tr>
-            <th scope="col">Ano</th>
-            <th scope="col">Municípios</th>
-            <th scope="col">Estudantes</th>
-            <th scope="col">Educadores</th>
+            <th scope="col">{t("Ano")}</th>
+            <th scope="col">{t("Munic\u00EDpios")}</th>
+            <th scope="col">{t("Estudantes")}</th>
+            <th scope="col">{t("Educadores")}</th>
           </tr>
         </thead>
         <tbody>
-          {rows.map((row) => (
-            <tr key={row.year}>
-              <th scope="row">{row.year}</th>
-              <td>{number(row.municipalities)}</td>
-              <td>{number(row.students)}</td>
-              <td>{number(row.teachers)}</td>
-            </tr>
-          ))}
+          {rows.map((row) => (<tr key={row.year}>
+              <th scope="row">{t(row.year)}</th>
+              <td>{t.number(row.municipalities)}</td>
+              <td>{t.number(row.students)}</td>
+              <td>{t.number(row.teachers)}</td>
+            </tr>))}
         </tbody>
       </table>
-    </div>
-  );
+    </div>);
 }
-export default function PaicPage() {
-  return (
-    <>
-      <PageIntro
-        eyebrow="PAIC e resultados"
-        title="Uma política pública. Muitas contribuições."
-        description="Documentos, mapas e indicadores ajudam a compreender a experiência cearense de alfabetização e a participação da Aprender nesse trabalho coletivo."
-      />
+export default async function PaicPage() {
+    const t = await getTranslator();
+    return (<>
+      <PageIntro eyebrow={t("PAIC e resultados")} title={t("Uma política pública. Muitas contribuições.")} description={t("Documentos, mapas e indicadores ajudam a compreender a experiência cearense de alfabetização e a participação da Aprender nesse trabalho coletivo.")}/>
       <div className="container">
-        <ReadingNav current="/a-editora/paic" />
-        <nav className={s.index} aria-label="Nesta página">
+        <ReadingNav current="/a-editora/paic"/>
+        <nav className={s.index} aria-label={t("Nesta página")}>
           {[
             ["participacao", "Participação"],
             ["atendimentos", "Atendimentos"],
@@ -78,158 +63,102 @@ export default function PaicPage() {
             ["ideb", "IDEB"],
             ["ioeb", "IOEB"],
             ["documentos", "Documentos"],
-          ].map(([id, label]) => (
-            <a key={id} href={`#${id}`}>
-              {label}
-            </a>
-          ))}
+        ].map(([id, label]) => (<a key={id} href={t.href(`#${id}`)}>
+              {t(label)}
+            </a>))}
         </nav>
       </div>
       <section id="participacao" className={s.section}>
         <div className="container">
           <div className={s.prose}>
-            <h2 className={s.heading}>Materiais, formação e acompanhamento.</h2>
-            {paic.paragraphs.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
-            <p>
-              Entre 2008 e 2013, a Aprender participou do eixo de alfabetização
-              do PAIC com o Projeto Lendo Você Fica Sabendo. O catálogo de 2025
-              informa alcance superior a 60% dos estudantes e professores de 2º
-              ano dos municípios cearenses nesse contexto.
-            </p>
-            <p className={s.notice}>{paic.notes[2]}</p>
+            <h2 className={s.heading}>{t("Materiais, forma\u00E7\u00E3o e acompanhamento.")}</h2>
+            {paic.paragraphs.map((p) => (<p key={p}>{t(p)}</p>))}
+            <p>{t("Entre 2008 e 2013, a Aprender participou do eixo de alfabetiza\u00E7\u00E3o do PAIC com o Projeto Lendo Voc\u00EA Fica Sabendo. O cat\u00E1logo de 2025 informa alcance superior a 60% dos estudantes e professores de 2\u00BA ano dos munic\u00EDpios cearenses nesse contexto. ")}</p>
+            <p className={s.notice}>{t(paic.notes[2])}</p>
           </div>
         </div>
       </section>
       <section id="atendimentos" className={`${s.section} ${s.soft}`}>
         <div className="container">
-          <h2 className={s.heading}>Atendimentos registrados pela editora.</h2>
-          <AttendanceTable
-            rows={paic.statistics}
-            caption="Atendimentos da Aprender · série histórica de 2008 a 2018"
-          />
-          <p className={s.note}>{paic.notes[0]}</p>
-          <p className={s.notice}>{paic.notes[1]}</p>
+          <h2 className={s.heading}>{t("Atendimentos registrados pela editora.")}</h2>
+          <AttendanceTable rows={paic.statistics} caption={t("Atendimentos da Aprender · série histórica de 2008 a 2018")}/>
+          <p className={s.note}>{t(paic.notes[0])}</p>
+          <p className={s.notice}>{t(paic.notes[1])}</p>
           <details id="atendimentos-catalogo" className={s.accordion}>
-            <summary>Consultar a série do catálogo de 2025 · 2008–2013</summary>
+            <summary>{t("Consultar a s\u00E9rie do cat\u00E1logo de 2025 \u00B7 2008\u20132013")}</summary>
             <div>
-              <AttendanceTable
-                rows={paic.catalogueStatistics}
-                caption="Catálogo 2025, página 7 · versão com 5.325 educadores em 2012"
-              />
+              <AttendanceTable rows={paic.catalogueStatistics} caption={t("Catálogo 2025, página 7 · versão com 5.325 educadores em 2012")}/>
             </div>
           </details>
         </div>
       </section>
       <section id="mapas" className={s.section}>
         <div className="container">
-          <h2 className={s.heading}>Mapas de proficiência em alfabetização.</h2>
+          <h2 className={s.heading}>{t("Mapas de profici\u00EAncia em alfabetiza\u00E7\u00E3o.")}</h2>
           <div className={s.prose}>
-            <p>{paic.notes[4]}</p>
-            <p>
-              Os mapas são registros estaduais do SPAECE-Alfa. As cores
-              representam níveis de proficiência, e não a presença da editora em
-              cada município. Abra a imagem para consultar o detalhe disponível.
-            </p>
+            <p>{t(paic.notes[4])}</p>
+            <p>{t("Os mapas s\u00E3o registros estaduais do SPAECE-Alfa. As cores representam n\u00EDveis de profici\u00EAncia, e n\u00E3o a presen\u00E7a da editora em cada munic\u00EDpio. Abra a imagem para consultar o detalhe dispon\u00EDvel. ")}</p>
           </div>
           <div className={s.figures}>
             {paic.figures
-              .filter((f) => f.id !== "ioeb-original-2019")
-              .map((fig) => (
-                <figure id={fig.id} key={fig.id}>
-                  <Image
-                      src={fig.image}
-                      alt={fig.alt}
-                      width={dimensions[fig.image].width}
-                      height={dimensions[fig.image].height}
-                      sizes="(max-width:767px) 90vw, 1100px"
-                  />
+            .filter((f) => f.id !== "ioeb-original-2019")
+            .map((fig) => (<figure id={fig.id} key={fig.id}>
+                  <Image src={fig.image} alt={t(fig.alt)} width={dimensions[fig.image].width} height={dimensions[fig.image].height} sizes="(max-width:767px) 90vw, 1100px"/>
                   <figcaption>
-                    {fig.caption}{" "}
-                    <ImageDialog
-                      src={fig.image}
-                      alt={fig.alt}
-                      caption={fig.caption}
-                      buttonLabel="Ampliar imagem"
-                    />
+                    {t(fig.caption)}{t(" ")}
+                    <ImageDialog src={fig.image} alt={t(fig.alt)} caption={t(fig.caption)} buttonLabel={t("Ampliar imagem")}/>
                   </figcaption>
-                </figure>
-              ))}
+                </figure>))}
           </div>
-          <p className={s.note}>{paic.historicalHighlights[3]}</p>
+          <p className={s.note}>{t(paic.historicalHighlights[3])}</p>
         </div>
       </section>
       <section id="indicadores" className={`${s.section} ${s.soft}`}>
         <div className="container">
           <div id="ideb">
-            <h2 className={s.heading}>IDEB do Ceará · 2005–2023.</h2>
-            <p className={s.note}>{paic.notes[3]}</p>
-            <div
-              className={s.tableScroll}
-              tabIndex={0}
-              role="region"
-              aria-label="Série de IDEB"
-            >
+            <h2 className={s.heading}>{t("IDEB do Cear\u00E1 \u00B7 2005\u20132023.")}</h2>
+            <p className={s.note}>{t(paic.notes[3])}</p>
+            <div className={s.tableScroll} tabIndex={0} role="region" aria-label={t("Série de IDEB")}>
               <table className={s.table}>
-                <caption>
-                  Resultados estaduais publicados no catálogo de 2025, página 9.
-                  Não representam resultados exclusivos dos materiais da
-                  Aprender.
-                </caption>
+                <caption>{t("Resultados estaduais publicados no cat\u00E1logo de 2025, p\u00E1gina 9. N\u00E3o representam resultados exclusivos dos materiais da Aprender. ")}</caption>
                 <thead>
                   <tr>
-                    <th scope="col">Ano</th>
-                    <th scope="col">Anos iniciais</th>
-                    <th scope="col">Anos finais</th>
+                    <th scope="col">{t("Ano")}</th>
+                    <th scope="col">{t("Anos iniciais")}</th>
+                    <th scope="col">{t("Anos finais")}</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {paic.ideb.map((row) => (
-                    <tr key={row.year}>
-                      <th scope="row">{row.year}</th>
-                      <td>{decimal(row.earlyYears)}</td>
-                      <td>{decimal(row.finalYears)}</td>
-                    </tr>
-                  ))}
+                  {paic.ideb.map((row) => (<tr key={row.year}>
+                      <th scope="row">{t(row.year)}</th>
+                      <td>{t.number(row.earlyYears, { minimumFractionDigits: 1 })}</td>
+                      <td>{t.number(row.finalYears, { minimumFractionDigits: 1 })}</td>
+                    </tr>))}
                 </tbody>
               </table>
             </div>
             <div className={s.prose}>
-              {paic.historicalHighlights.slice(0, 2).map((p) => (
-                <p key={p}>{p}</p>
-              ))}
+              {paic.historicalHighlights.slice(0, 2).map((p) => (<p key={p}>{t(p)}</p>))}
             </div>
             <details id="ranking-2017" className={s.accordion}>
-              <summary>
-                Cinco primeiros municípios no quadro histórico de 2017
-              </summary>
+              <summary>{t("Cinco primeiros munic\u00EDpios no quadro hist\u00F3rico de 2017 ")}</summary>
               <div>
-                <div
-                  className={s.tableScroll}
-                  tabIndex={0}
-                  role="region"
-                  aria-label="Ranking histórico de IDEB 2017"
-                >
+                <div className={s.tableScroll} tabIndex={0} role="region" aria-label={t("Ranking histórico de IDEB 2017")}>
                   <table className={s.table}>
-                    <caption>
-                      IDEB dos anos iniciais · quadro histórico de 2017
-                    </caption>
+                    <caption>{t("IDEB dos anos iniciais \u00B7 quadro hist\u00F3rico de 2017 ")}</caption>
                     <thead>
                       <tr>
-                        <th scope="col">Posição</th>
-                        <th scope="col">Município</th>
-                        <th scope="col">IDEB</th>
+                        <th scope="col">{t("Posi\u00E7\u00E3o")}</th>
+                        <th scope="col">{t("Munic\u00EDpio")}</th>
+                        <th scope="col">{t("IDEB")}</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {paic.ranking2017.map((row) => (
-                        <tr key={row.position}>
-                          <th scope="row">{row.position}ª</th>
-                          <td>{row.municipality}</td>
-                          <td>{decimal(row.value)}</td>
-                        </tr>
-                      ))}
+                      {paic.ranking2017.map((row) => (<tr key={row.position}>
+                          <th scope="row">{t("{0}ª", [t.number(row.position)])}</th>
+                          <td>{t(row.municipality)}</td>
+                          <td>{t.number(row.value, { minimumFractionDigits: 1 })}</td>
+                        </tr>))}
                     </tbody>
                   </table>
                 </div>
@@ -240,71 +169,48 @@ export default function PaicPage() {
       </section>
       <section id="ioeb" className={s.section}>
         <div className="container">
-          <h2 className={s.heading}>Oportunidades educacionais · IOEB 2019.</h2>
-          <p className={s.paragraph}>{paic.historicalHighlights[2]}</p>
-          <p className={s.paragraph}>{paic.ioebContext}</p>
-          <div
-            className={s.tableScroll}
-            tabIndex={0}
-            role="region"
-            aria-label="Municípios cearenses no IOEB 2019"
-          >
+          <h2 className={s.heading}>{t("Oportunidades educacionais \u00B7 IOEB 2019.")}</h2>
+          <p className={s.paragraph}>{t(paic.historicalHighlights[2])}</p>
+          <p className={s.paragraph}>{t(paic.ioebContext)}</p>
+          <div className={s.tableScroll} tabIndex={0} role="region" aria-label={t("Municípios cearenses no IOEB 2019")}>
             <table className={s.table}>
-              <caption>
-                Dezenove municípios cearenses apresentados no quadro histórico
-                da editora. Valores de 2019.
-              </caption>
+              <caption>{t("Dezenove munic\u00EDpios cearenses apresentados no quadro hist\u00F3rico da editora. Valores de 2019. ")}</caption>
               <thead>
                 <tr>
-                  <th scope="col">Município</th>
-                  <th scope="col">IOEB</th>
+                  <th scope="col">{t("Munic\u00EDpio")}</th>
+                  <th scope="col">{t("IOEB")}</th>
                 </tr>
               </thead>
               <tbody>
-                {paic.ioeb2019.map((row) => (
-                  <tr key={row.municipality}>
-                    <th scope="row">{row.municipality}</th>
-                    <td>{decimal(row.value)}</td>
-                  </tr>
-                ))}
+                {paic.ioeb2019.map((row) => (<tr key={row.municipality}>
+                    <th scope="row">{t(row.municipality)}</th>
+                    <td>{t.number(row.value, { minimumFractionDigits: 1 })}</td>
+                  </tr>))}
               </tbody>
             </table>
           </div>
           <div className={s.source}>
             <div id="ioeb-original-2019">
-              <ImageDialog
-                src={paic.figures[1].image}
-                alt={paic.figures[1].alt}
-                caption={paic.figures[1].caption}
-                buttonLabel="Ampliar quadro do IOEB 2019"
-              />
+              <ImageDialog src={paic.figures[1].image} alt={t(paic.figures[1].alt)} caption={t(paic.figures[1].caption)} buttonLabel={t("Ampliar quadro do IOEB 2019")}/>
             </div>
           </div>
         </div>
       </section>
       <section id="documentos" className={`${s.section} ${s.soft}`}>
         <div className="container">
-          <h2 className={s.heading}>Documentos e referências.</h2>
-          <ResourceLinks
-            items={documentResources.filter(
-              (item) => item.kind === "institutional",
-            )}
-          />
+          <h2 className={s.heading}>{t("Documentos e refer\u00EAncias.")}</h2>
+          <ResourceLinks items={t.data(documentResources.filter((item) => item.kind === "institutional"))}/>
           <div className={s.prose}>
             <ul>
-              {paic.references.map((ref) => (
-                <li key={ref.url}>
+              {paic.references.map((ref) => (<li key={ref.url}>
                   <p>
-                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
-                      {ref.title} (site externo, nova aba)
-                    </a>
+                    <a href={t.href(ref.url)} target="_blank" rel="noopener noreferrer">
+                      {t(ref.title)}<span className="sr-only">{t(" (abre em nova aba)")}</span></a>
                   </p>
-                </li>
-              ))}
+                </li>))}
             </ul>
           </div>
         </div>
       </section>
-    </>
-  );
+    </>);
 }

@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/generate-asset-versions.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/generate-asset-versions.mjs",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "test:e2e": "playwright test",
     "check:migration": "node scripts/check-migration.mjs",
     "check:refinement": "node scripts/check-refinement.mjs",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:cache": "node scripts/check-cache-http.mjs",
     "measure:performance": "node scripts/measure-performance.mjs"
   },
   "dependencies": {

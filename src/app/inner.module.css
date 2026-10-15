@@ -3,11 +3,11 @@
 }
 .whiteSection {
   padding: 76px 0;
-  background: #fff;
+  background: var(--surface);
 }
 .softSection {
   padding: 70px 0;
-  background: #edf1e6;
+  background: var(--surface-muted);
 }
 .split {
   display: grid;
@@ -18,14 +18,14 @@
 .editorialTitle {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(32px, 3.6vw, 46px);
+  font-size: clamp(2rem, calc(3.6vw * var(--type-scale)), 2.875rem);
   line-height: 1.25;
   letter-spacing: -1.4px;
   margin: 0 0 25px;
 }
 .copy {
   color: var(--muted);
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.9;
 }
 .copy p:last-child {
@@ -42,14 +42,14 @@
   border-radius: 8px 90px 8px 8px;
 }
 .figure figcaption {
-  font-size: 11px;
+  font-size: 0.6875rem;
   line-height: 1.7;
   color: var(--muted);
   margin: 12px 0 0;
 }
 .quote {
   font-family: var(--serif);
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 1.55;
   padding: 24px 0 0;
   border-top: 1px solid var(--line);
@@ -62,7 +62,7 @@
   gap: 30px;
 }
 .milestone {
-  border-top: 1px solid #aec3a5;
+  border-top: 1px solid var(--line);
   padding-top: 28px;
   position: relative;
 }
@@ -77,23 +77,23 @@
 }
 .milestone > span {
   font-family: var(--serif);
-  font-size: 31px;
+  font-size: 1.9375rem;
   color: var(--green);
 }
 .milestone h3 {
   font-family: var(--sans);
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.6;
   margin: 17px 0 12px;
 }
 .milestone p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.8;
   color: var(--muted);
 }
 .sourceNote {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.8;
   margin-top: 35px;
   max-width: 850px;
@@ -113,11 +113,11 @@
 .value h3 {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: 25px;
+  font-size: 1.5625rem;
   margin: 0 0 10px;
 }
 .value p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.8;
 }
@@ -128,11 +128,11 @@
   margin-top: 30px;
 }
 .callout h3 {
-  font-size: 19px;
+  font-size: 1.1875rem;
   margin: 0 0 12px;
 }
 .callout p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--muted);
   margin: 0;
   line-height: 1.85;
@@ -148,18 +148,18 @@
 }
 .processNumber {
   font-family: var(--serif);
-  font-size: 36px;
+  font-size: 2.25rem;
   color: var(--green);
 }
 .process h3 {
   font-family: var(--serif);
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 500;
   line-height: 1.3;
   margin: 18px 0;
 }
 .process p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.85;
 }
@@ -190,13 +190,13 @@
 }
 .platform h2 {
   font-family: var(--serif);
-  font-size: 34px;
+  font-size: 2.125rem;
   font-weight: 500;
   line-height: 1.2;
   margin: 0 0 21px;
 }
 .platform p {
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.9;
   color: var(--muted);
 }
@@ -210,7 +210,7 @@
   align-items: flex-start;
   gap: 13px;
   margin-bottom: 16px;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
 }
 .checkList svg {
@@ -218,7 +218,7 @@
   margin-top: 6px;
 }
 .notice {
-  font-size: 13px !important;
+  font-size: 0.8125rem !important;
   color: var(--muted);
   margin-top: 24px;
 }
@@ -229,6 +229,7 @@
 }
 .articleCard {
   text-decoration: none;
+  border-radius: 7px;
 }
 .articleCard img {
   width: 100%;
@@ -236,12 +237,15 @@
   object-fit: cover;
   border-radius: 7px;
   object-position: center 35%;
+  outline: 1px solid transparent;
+  outline-offset: -1px;
+  transition: outline-color var(--motion-emphasis) var(--ease-out);
 }
 .articleMeta {
   display: flex;
   flex-wrap: wrap;
   gap: 8px 16px;
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--muted);
   margin: 22px 0 14px;
 }
@@ -253,13 +257,18 @@
 }
 .articleCard h2 {
   font-family: var(--serif);
-  font-size: 27px;
+  font-size: 1.6875rem;
   line-height: 1.35;
   font-weight: 500;
   margin: 0 0 18px;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
+  transition: color var(--motion-control) var(--ease-out), text-decoration-color var(--motion-emphasis) var(--ease-out);
 }
 .articleCard > p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.8;
 }
@@ -267,12 +276,18 @@
   display: inline-flex;
   gap: 12px;
   align-items: center;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
   min-height: 44px;
+  transition: color var(--motion-control) var(--ease-out);
 }
-.articleCard:hover .readMore {
-  text-decoration: underline;
+.articleCard:focus-visible img { outline-color: var(--control-border); }
+.articleCard:focus-visible h2 { color: var(--link); text-decoration-color: currentColor; }
+.articleCard:focus-visible .readMore { color: var(--link); }
+@media (hover: hover) and (pointer: fine) {
+  .articleCard:hover img { outline-color: var(--control-border); }
+  .articleCard:hover h2 { color: var(--link); text-decoration-color: currentColor; }
+  .articleCard:hover .readMore { color: var(--link); }
 }
 .articleHeader {
   padding: 28px 0 54px;
@@ -281,7 +296,7 @@
 .articleHeader h1 {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: clamp(36px, 5vw, 60px);
+  font-size: clamp(2.25rem, calc(5vw * var(--type-scale)), 3.75rem);
   max-width: 960px;
   letter-spacing: -2px;
   line-height: 1.2;
@@ -289,7 +304,7 @@
 }
 .articleHeader p {
   max-width: 700px;
-  font-size: 19px;
+  font-size: 1.1875rem;
   color: var(--muted);
 }
 .articleBody {
@@ -308,13 +323,13 @@
   border-radius: 7px;
 }
 .articleBody figcaption {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--muted);
   line-height: 1.8;
   margin-top: 14px;
 }
 .articleBody > p {
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.95;
   color: var(--muted);
 }
@@ -323,12 +338,12 @@
   padding: 25px 0;
   margin: 35px 0;
   line-height: 1.8;
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--muted);
 }
 .articleSource > strong {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 1px;
   color: var(--ink);
   text-transform: uppercase;
@@ -348,6 +363,7 @@
   border-radius: 10px;
   min-height: 480px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 50px;
@@ -360,24 +376,38 @@
   filter: drop-shadow(7px 17px 12px #23381930);
 }
 .edition {
-  position: absolute;
-  bottom: 18px;
-  left: 24px;
-  color: var(--muted);
-  font-size: 10px;
+  align-self: stretch;
+  margin-top: 16px;
+  line-height: 1.6;
+  color: var(--artwork-muted);
+  font-size: 0.625rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
+
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .split,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .solutionGrid,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .solutionInfo,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .supportGrid,
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .contactGrid { grid-template-columns: minmax(0,1fr); gap: 32px; }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .solutionArtwork { order: 2; }
+:global(html:is([data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .catalogueNote { flex-direction: column; align-items: flex-start; }
+@media (max-width: 767px) {
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .timeline,
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .values,
+  :global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .products { grid-template-columns: minmax(0,1fr); }
+}
+.solutionArtwork > div { color: var(--artwork-ink); }
 .solutionCopy h1 {
   font-family: var(--serif);
-  font-size: clamp(36px, 4vw, 55px);
+  font-size: clamp(2.25rem, calc(4vw * var(--type-scale)), 3.4375rem);
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: -1.8px;
   margin: 0 0 22px;
 }
 .solutionCopy > p {
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: var(--muted);
   line-height: 1.9;
 }
@@ -387,7 +417,7 @@
   margin: 25px 0;
 }
 .audience strong {
-  font-size: 10px;
+  font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   display: block;
@@ -395,7 +425,7 @@
   margin-bottom: 7px;
 }
 .audience p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: var(--muted);
   line-height: 1.7;
 }
@@ -412,7 +442,7 @@
 }
 .solutionInfo h2 {
   font-family: var(--serif);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.3;
   margin: 0 0 30px;
@@ -429,12 +459,12 @@
   align-items: flex-start;
   gap: 15px;
   color: var(--muted);
-  font-size: 17px;
+  font-size: 1.0625rem;
   line-height: 1.8;
 }
 .detailList li > span {
   font-family: var(--serif);
-  font-size: 19px;
+  font-size: 1.1875rem;
   color: var(--green);
   min-width: 24px;
 }
@@ -445,13 +475,13 @@
 }
 .supportGrid h2 {
   font-family: var(--serif);
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 500;
   line-height: 1.3;
   margin: 0 0 24px;
 }
 .supportGrid p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--muted);
   line-height: 1.9;
 }
@@ -463,7 +493,7 @@
 }
 .contactAside h2 {
   font-family: var(--serif);
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 1.3;
   font-weight: 500;
   margin: 0 0 28px;
@@ -480,21 +510,21 @@
   color: var(--green);
 }
 .contactDetail h3 {
-  font-size: 12px;
+  font-size: 0.75rem;
   letter-spacing: 0.8px;
   margin: 0 0 7px;
   text-transform: uppercase;
 }
 .contactDetail p,
 .contactDetail a {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.9;
   margin: 0;
   color: var(--muted);
   overflow-wrap: anywhere;
 }
 .contactAside > p {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.9;
   color: var(--muted);
 }
@@ -506,11 +536,11 @@
   padding: 30px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: var(--surface);
   margin-bottom: 44px;
 }
 .catalogueNote p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.8;
   margin: 0;
   color: var(--muted);
@@ -521,15 +551,15 @@
   text-align: center;
 }
 .notFound > span {
-  font-size: 90px;
+  font-size: 5.625rem;
   font-family: var(--serif);
-  color: #96af84;
+  color: var(--muted);
   line-height: 1;
 }
 .notFound h1 {
   font-family: var(--serif);
   font-weight: 500;
-  font-size: 45px;
+  font-size: 2.8125rem;
   line-height: 1.3;
   letter-spacing: -1px;
 }
@@ -599,29 +629,29 @@
     height: 350px;
   }
   .copy {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .timeline {
     gap: 30px 24px;
   }
   .milestone > span {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
   .milestone h3 {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .milestone p {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
   .values {
     grid-template-columns: 1fr 1fr;
     gap: 22px;
   }
   .value h3 {
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
   .value p {
-    font-size: 15px;
+    font-size: 0.9375rem;
   }
   .process {
     grid-template-columns: 1fr;
@@ -632,10 +662,10 @@
   }
   .process h3 {
     margin: 10px 0;
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
   .processNumber {
-    font-size: 27px;
+    font-size: 1.6875rem;
   }
   .process p {
     margin-bottom: 0;
@@ -656,10 +686,10 @@
     grid-column: auto;
   }
   .platform h2 {
-    font-size: 31px;
+    font-size: 1.9375rem;
   }
   .platform p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .articleList {
     grid-template-columns: 1fr;
@@ -670,17 +700,17 @@
     aspect-ratio: 1.5;
   }
   .articleHeader h1 {
-    font-size: 39px;
+    font-size: 2.4375rem;
     letter-spacing: -1px;
   }
   .articleHeader p {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
   .articleBody {
     padding: 35px 0 50px;
   }
   .articleBody > p {
-    font-size: 17px;
+    font-size: 1.0625rem;
   }
   .articleBody figure img {
     max-height: 420px;
@@ -699,20 +729,20 @@
     height: 300px;
   }
   .solutionCopy h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .solutionCopy > p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .detailList li {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .solutionInfo h2 {
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 20px;
   }
   .supportGrid h2 {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .contactAside {
     order: 2;
@@ -727,7 +757,7 @@
     padding: 70px 0;
   }
   .notFound h1 {
-    font-size: 34px;
+    font-size: 2.125rem;
   }
 }
 @media (max-width: 380px) {
@@ -737,10 +767,10 @@
     grid-template-columns: 1fr;
   }
   .platform h2 {
-    font-size: 29px;
+    font-size: 1.8125rem;
   }
   .solutionCopy h1 {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
   .solutionArtwork {
     min-height: 300px;
@@ -752,6 +782,6 @@
     padding: 22px;
   }
   .articleHeader h1 {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 }

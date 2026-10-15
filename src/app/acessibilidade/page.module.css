@@ -1,0 +1,4 @@
+.content { padding-block: 3rem 5rem; max-width: 55rem; }
+.content section { margin-bottom: 2.75rem; }
+.content h2 { font: 600 1.5rem/1.4 var(--serif); margin-block: 0 1rem; }
+.content p { color: var(--muted); font-size: 1rem; line-height: 1.8; margin-block: 1em; overflow-wrap: anywhere; }

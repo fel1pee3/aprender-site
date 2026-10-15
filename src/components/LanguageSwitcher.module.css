@@ -1,0 +1,4 @@
+.switcher { display:grid; align-items:center; gap:8px; min-width:0; font-size:.9375rem; }
+.switcher label { font-weight:600; }
+.switcher select { min-height:44px; max-width:100%; min-width:0; border:1px solid var(--control-border); border-radius:5px; background:var(--surface); color:var(--ink); font:inherit; padding:.45em 1.7em .45em .6em; }
+.switcher button { min-height:44px; border:1px solid var(--control-border); border-radius:5px; background:var(--surface); color:var(--link); font:inherit; padding:.45em .6em; cursor:pointer; }

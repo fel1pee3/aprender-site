@@ -1,7 +1,10 @@
 import { chromium } from "@playwright/test";
 import { mkdirSync, writeFileSync } from "node:fs";
+import path from "node:path";
 
 const base = process.env.QA_BASE_URL || "http://127.0.0.1:3100";
+const output = process.env.PERFORMANCE_OUTPUT || "docs/migration/performance.json";
+const locales = (process.env.PERFORMANCE_LOCALES || "pt").split(",").filter(locale => ["pt", "en", "es"].includes(locale));
 const browser = await chromium.launch({ channel: "msedge", headless: true });
 const measurements = [];
 try {
@@ -9,13 +12,15 @@ try {
     { width: 390, height: 844 },
     { width: 1440, height: 1000 },
   ]) {
-    for (const route of [
+    for (const baseRoute of [
       "/",
       "/solucoes",
       "/solucoes/lendo-e-escrevendo",
       "/recursos/tabela-precos",
       "/acervo",
     ]) {
+     for (const locale of locales) {
+      const route = locale === "pt" ? baseRoute : `/${locale}${baseRoute === "/" ? "" : baseRoute}`;
       const context = await browser.newContext({ viewport });
       const page = await context.newPage();
       const session = await context.newCDPSession(page);
@@ -68,6 +73,7 @@ try {
       });
       const entry = {
         route,
+        locale,
         viewport,
         ...result,
         pdfOrVideoAutomaticallyRequested: downloads.filter((url) =>
@@ -76,18 +82,20 @@ try {
         originalPriceImageAutomaticallyRequested: downloads.some((url) =>
           url.includes("/images/resources/tabela-precos-2027.jpg"),
         ),
+        vlibrasAutomaticallyRequested: downloads.some(url => /vlibras|traducao2/.test(url)),
       };
       measurements.push(entry);
       console.log(JSON.stringify(entry));
       await context.close();
+     }
     }
   }
 } finally {
   await browser.close();
 }
-mkdirSync("docs/migration", { recursive: true });
+mkdirSync(path.dirname(output), { recursive: true });
 writeFileSync(
-  "docs/migration/performance.json",
+  output,
   JSON.stringify(
     {
       checkedAt: new Date().toISOString(),

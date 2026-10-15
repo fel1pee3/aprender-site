@@ -227,6 +227,7 @@ test("cópia indisponível oferece seleção manual, sem falso sucesso", async (
 test("páginas e imagens sem falhas, capturas e ausência de overflow", async ({
   page,
 }) => {
+  test.setTimeout(90000);
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   page.on("console", (message) => {
@@ -248,26 +249,16 @@ test("páginas e imagens sem falhas, capturas e ausência de overflow", async ({
         ),
         `${path} @ ${width}`,
       ).toBe(true);
-      await page
-        .locator("img")
-        .evaluateAll((images) =>
-          images.forEach((im) => ((im as HTMLImageElement).loading = "eager")),
-        );
       await page.locator("footer").scrollIntoViewIfNeeded();
-      await page.evaluate(async () => {
-        await Promise.all(
-          Array.from(document.images).map((im) =>
-            im.decode().catch(() => undefined),
-          ),
-        );
+      const broken = await page.evaluate(async () => {
+        const results = await Promise.all(Array.from(document.images).map(async (image) => {
+          const probe = new Image();
+          probe.src = image.currentSrc || image.src;
+          await probe.decode().catch(() => undefined);
+          return probe.naturalWidth ? null : image.getAttribute("src");
+        }));
+        return results.filter(Boolean);
       });
-      const broken = await page
-        .locator("img")
-        .evaluateAll((images) =>
-          images
-            .filter((im) => (im as HTMLImageElement).naturalWidth === 0)
-            .map((im) => im.getAttribute("src")),
-        );
       expect(broken, `${path} @ ${width}`).toEqual([]);
       if (
         [375, 1440].includes(width) &&

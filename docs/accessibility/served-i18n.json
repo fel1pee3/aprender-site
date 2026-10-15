@@ -1,0 +1,4091 @@
+{
+  "generatedAt": "2026-10-15T19:16:20.155Z",
+  "environment": "http://127.0.0.1:3101",
+  "method": "120 local HTTP requests; inert DOMParser extraction without page scripts; HTML language, metadata and canonical checks; Portuguese sentence comparison against controlled dictionaries (at least 40 characters and 6 words, sentence-ending punctuation), excluding intentionally preserved titles. This does not constitute specialist human linguistic review.",
+  "routes": 40,
+  "requested": 120,
+  "issues": [],
+  "possiblePortugueseSentenceLeaks": [],
+  "pages": [
+    {
+      "route": "/",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Materiais e formação para aprender."
+      ],
+      "title": "Aprender Editora · Compromisso com a Aprendizagem",
+      "description": "Materiais didáticos, alfabetização, formação contínua e acompanhamento pedagógico. Proposta independente de redesign por Felipe Maia.",
+      "canonical": "https://aprender-site.vercel.app",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 87115,
+      "contentCharacters": 4139
+    },
+    {
+      "route": "/en",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Materials and training to help you learn."
+      ],
+      "title": "Aprender Editora · Committed to Learning",
+      "description": "Learning materials, literacy, continuing teacher development and educational support. Independent redesign proposal by Felipe Maia.",
+      "canonical": "https://aprender-site.vercel.app/en",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 112962,
+      "contentCharacters": 4251
+    },
+    {
+      "route": "/es",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Materiales y formación para aprender."
+      ],
+      "title": "Aprender Editora · Compromiso con el Aprendizaje",
+      "description": "Materiales didácticos, alfabetización, formación continua y acompañamiento pedagógico. Propuesta independiente de rediseño de Felipe Maia.",
+      "canonical": "https://aprender-site.vercel.app/es",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 115309,
+      "contentCharacters": 4422
+    },
+    {
+      "route": "/a-editora",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Compromisso com a aprendizagem. Desde 2005."
+      ],
+      "title": "A editora | Aprender Editora",
+      "description": "Missão, sete valores e equipe da Aprender Editora. Materiais, formação e acompanhamento da aprendizagem desde 2005.",
+      "canonical": "https://aprender-site.vercel.app/a-editora",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 52942,
+      "contentCharacters": 5660
+    },
+    {
+      "route": "/en/a-editora",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Committed to learning. Since 2005."
+      ],
+      "title": "The publisher | Aprender Editora",
+      "description": "Aprender Editora's mission, seven values and team. Materials, professional development and learning support since 2005.",
+      "canonical": "https://aprender-site.vercel.app/en/a-editora",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 78284,
+      "contentCharacters": 5634
+    },
+    {
+      "route": "/es/a-editora",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Compromiso con el aprendizaje. Desde 2005."
+      ],
+      "title": "La editorial | Aprender Editora",
+      "description": "Misión, siete valores y equipo de Aprender Editora. Materiales, formación y acompañamiento del aprendizaje desde 2005.",
+      "canonical": "https://aprender-site.vercel.app/es/a-editora",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 80714,
+      "contentCharacters": 6095
+    },
+    {
+      "route": "/a-editora/trajetoria",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Uma história construída com a educação pública."
+      ],
+      "title": "Trajetória e indicadores | Aprender Editora",
+      "description": "Da experiência de alfabetização em Sobral à Aprender Editora: história, participação no PAIC e indicadores com suas fontes e períodos.",
+      "canonical": "https://aprender-site.vercel.app/a-editora/trajetoria",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/trajetoria"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/trajetoria"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/trajetoria"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/trajetoria"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 52642,
+      "contentCharacters": 5390
+    },
+    {
+      "route": "/en/a-editora/trajetoria",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "A history built alongside public education."
+      ],
+      "title": "History and indicators | Aprender Editora",
+      "description": "From literacy work in Sobral to Aprender Editora: history, participation in PAIC and indicators with their sources and periods.",
+      "canonical": "https://aprender-site.vercel.app/en/a-editora/trajetoria",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/trajetoria"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/trajetoria"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/trajetoria"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/trajetoria"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 77402,
+      "contentCharacters": 5387
+    },
+    {
+      "route": "/es/a-editora/trajetoria",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Una historia construida junto a la educación pública."
+      ],
+      "title": "Trayectoria e indicadores | Aprender Editora",
+      "description": "De la experiencia de alfabetización en Sobral a Aprender Editora: historia, participación en el PAIC e indicadores con sus fuentes y períodos.",
+      "canonical": "https://aprender-site.vercel.app/es/a-editora/trajetoria",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/trajetoria"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/trajetoria"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/trajetoria"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/trajetoria"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 79774,
+      "contentCharacters": 5730
+    },
+    {
+      "route": "/a-editora/edgar-linhares",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Professor Edgar Linhares Lima"
+      ],
+      "title": "Professor Edgar Linhares | Aprender Editora",
+      "description": "A trajetória de Edgar Linhares Lima, sua contribuição à alfabetização em Sobral e referências sobre a experiência educacional.",
+      "canonical": "https://aprender-site.vercel.app/a-editora/edgar-linhares",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/edgar-linhares"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/edgar-linhares"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/edgar-linhares"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/edgar-linhares"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 39762,
+      "contentCharacters": 1920
+    },
+    {
+      "route": "/en/a-editora/edgar-linhares",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Professor Edgar Linhares Lima"
+      ],
+      "title": "Professor Edgar Linhares | Aprender Editora",
+      "description": "The life and work of Edgar Linhares Lima, his contribution to literacy in Sobral and references on the educational experience.",
+      "canonical": "https://aprender-site.vercel.app/en/a-editora/edgar-linhares",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/edgar-linhares"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/edgar-linhares"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/edgar-linhares"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/edgar-linhares"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 64814,
+      "contentCharacters": 1898
+    },
+    {
+      "route": "/es/a-editora/edgar-linhares",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Profesor Edgar Linhares Lima"
+      ],
+      "title": "Profesor Edgar Linhares | Aprender Editora",
+      "description": "La trayectoria de Edgar Linhares Lima, su contribución a la alfabetización en Sobral y referencias sobre la experiencia educativa.",
+      "canonical": "https://aprender-site.vercel.app/es/a-editora/edgar-linhares",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/edgar-linhares"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/edgar-linhares"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/edgar-linhares"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/edgar-linhares"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 66587,
+      "contentCharacters": 2066
+    },
+    {
+      "route": "/a-editora/paic",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Uma política pública. Muitas contribuições."
+      ],
+      "title": "PAIC e resultados | Aprender Editora",
+      "description": "Participação da Aprender no PAIC, atendimentos de 2008 a 2018, mapas SPAECE-Alfa e séries históricas de IDEB e IOEB contextualizadas.",
+      "canonical": "https://aprender-site.vercel.app/a-editora/paic",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/paic"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/paic"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/paic"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/paic"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 80999,
+      "contentCharacters": 6872
+    },
+    {
+      "route": "/en/a-editora/paic",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "One public policy. Many contributions."
+      ],
+      "title": "PAIC and results | Aprender Editora",
+      "description": "Aprender's participation in PAIC, services from 2008 to 2018, SPAECE-Alfa maps and historical IDEB and IOEB series in context.",
+      "canonical": "https://aprender-site.vercel.app/en/a-editora/paic",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/paic"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/paic"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/paic"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/paic"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 105606,
+      "contentCharacters": 6872
+    },
+    {
+      "route": "/es/a-editora/paic",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Una política pública. Muchas contribuciones."
+      ],
+      "title": "PAIC y resultados | Aprender Editora",
+      "description": "Participación de Aprender en el PAIC, atención de 2008 a 2018, mapas SPAECE-Alfa y series históricas del IDEB y el IOEB contextualizadas.",
+      "canonical": "https://aprender-site.vercel.app/es/a-editora/paic",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/a-editora/paic"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/a-editora/paic"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/a-editora/paic"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/a-editora/paic"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 108200,
+      "contentCharacters": 7256
+    },
+    {
+      "route": "/solucoes",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Cada descoberta merece um bom começo."
+      ],
+      "title": "Soluções educacionais | Aprender Editora",
+      "description": "Explore as coleções da Aprender por etapa de ensino e objetivo pedagógico. Educação Infantil, Ensino Fundamental, leitura, cidadania e formação.",
+      "canonical": "https://aprender-site.vercel.app/solucoes",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 78225,
+      "contentCharacters": 2776
+    },
+    {
+      "route": "/en/solucoes",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Every discovery deserves a good beginning."
+      ],
+      "title": "Educational solutions | Aprender Editora",
+      "description": "Explore Aprender's collections by education stage and teaching objective. Early childhood education, Grades 1–9, reading, citizenship and professional development.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 104141,
+      "contentCharacters": 3014
+    },
+    {
+      "route": "/es/solucoes",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Cada descubrimiento merece un buen comienzo."
+      ],
+      "title": "Soluciones educativas | Aprender Editora",
+      "description": "Explore las colecciones de Aprender por etapa educativa y objetivo pedagógico. Educación Infantil, Enseñanza Fundamental, lectura, ciudadanía y formación.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 105479,
+      "contentCharacters": 3020
+    },
+    {
+      "route": "/formacao",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Quem ensina também precisa de espaço para aprender."
+      ],
+      "title": "Formação e acompanhamento | Aprender Editora",
+      "description": "Formação contínua, encontros entre educadores e acompanhamento pedagógico conectados aos materiais didáticos da Aprender Editora.",
+      "canonical": "https://aprender-site.vercel.app/formacao",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/formacao"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/formacao"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/formacao"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/formacao"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 65862,
+      "contentCharacters": 5378
+    },
+    {
+      "route": "/en/formacao",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Educators also need space to learn."
+      ],
+      "title": "Professional development and support | Aprender Editora",
+      "description": "Ongoing professional development, educator meetings and teaching support connected to Aprender Editora's learning materials.",
+      "canonical": "https://aprender-site.vercel.app/en/formacao",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/formacao"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/formacao"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/formacao"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/formacao"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 91490,
+      "contentCharacters": 5456
+    },
+    {
+      "route": "/es/formacao",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Quien enseña también necesita espacio para aprender."
+      ],
+      "title": "Formación y acompañamiento | Aprender Editora",
+      "description": "Formación continua, encuentros entre educadores y acompañamiento pedagógico vinculados a los materiales didácticos de Aprender Editora.",
+      "canonical": "https://aprender-site.vercel.app/es/formacao",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/formacao"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/formacao"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/formacao"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/formacao"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 93964,
+      "contentCharacters": 5791
+    },
+    {
+      "route": "/plataformas",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Tecnologia que aproxima o olhar da aprendizagem."
+      ],
+      "title": "Plataformas digitais | Aprender Editora",
+      "description": "Conheça Aprender Formar e Aprender Avaliar: recursos digitais de apoio à formação dos educadores e à análise da aprendizagem.",
+      "canonical": "https://aprender-site.vercel.app/plataformas",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/plataformas"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/plataformas"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/plataformas"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/plataformas"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 39849,
+      "contentCharacters": 1393
+    },
+    {
+      "route": "/en/plataformas",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Technology that connects a learning perspective."
+      ],
+      "title": "Digital platforms | Aprender Editora",
+      "description": "Discover Aprender Formar and Aprender Avaliar: digital resources supporting educator development and the analysis of learning.",
+      "canonical": "https://aprender-site.vercel.app/en/plataformas",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/plataformas"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/plataformas"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/plataformas"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/plataformas"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 65417,
+      "contentCharacters": 1384
+    },
+    {
+      "route": "/es/plataformas",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Tecnología que conecta la mirada del aprendizaje."
+      ],
+      "title": "Plataformas digitales | Aprender Editora",
+      "description": "Conozca Aprender Formar y Aprender Avaliar: recursos digitales de apoyo a la formación de educadores y al análisis del aprendizaje.",
+      "canonical": "https://aprender-site.vercel.app/es/plataformas",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/plataformas"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/plataformas"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/plataformas"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/plataformas"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 67057,
+      "contentCharacters": 1507
+    },
+    {
+      "route": "/em-acao",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Materiais e formação na prática."
+      ],
+      "title": "Aprender em ação | Aprender Editora",
+      "description": "Histórias, registros e memórias documentadas da trajetória da Aprender Editora na formação de educadores e na aprendizagem.",
+      "canonical": "https://aprender-site.vercel.app/em-acao",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 39972,
+      "contentCharacters": 1098
+    },
+    {
+      "route": "/en/em-acao",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Materials and professional development in practice."
+      ],
+      "title": "Aprender in action | Aprender Editora",
+      "description": "Documented stories, records and memories from Aprender Editora's work in educator development and learning.",
+      "canonical": "https://aprender-site.vercel.app/en/em-acao",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 65528,
+      "contentCharacters": 1096
+    },
+    {
+      "route": "/es/em-acao",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Materiales y formación en la práctica."
+      ],
+      "title": "Aprender en acción | Aprender Editora",
+      "description": "Historias, registros y memorias documentadas de la trayectoria de Aprender Editora en la formación de educadores y el aprendizaje.",
+      "canonical": "https://aprender-site.vercel.app/es/em-acao",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 67126,
+      "contentCharacters": 1153
+    },
+    {
+      "route": "/contato",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Toda parceria começa com uma boa conversa."
+      ],
+      "title": "Vamos conversar | Aprender Editora",
+      "description": "Converse com a Aprender Editora sobre materiais, formação e acompanhamento para sua rede. Prepare sua mensagem ou use os canais institucionais.",
+      "canonical": "https://aprender-site.vercel.app/contato",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/contato"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/contato"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/contato"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/contato"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 40752,
+      "contentCharacters": 636
+    },
+    {
+      "route": "/en/contato",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Every partnership starts with a good conversation."
+      ],
+      "title": "Let's talk | Aprender Editora",
+      "description": "Talk to Aprender Editora about materials, professional development and support for your school system. Prepare a message or use the institutional contact channels.",
+      "canonical": "https://aprender-site.vercel.app/en/contato",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/contato"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/contato"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/contato"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/contato"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 66374,
+      "contentCharacters": 691
+    },
+    {
+      "route": "/es/contato",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Toda colaboración empieza con una buena conversación."
+      ],
+      "title": "Conversemos | Aprender Editora",
+      "description": "Contacte con Aprender Editora para hablar de materiales, formación y acompañamiento para su red educativa. Prepare su mensaje o utilice los canales institucionales.",
+      "canonical": "https://aprender-site.vercel.app/es/contato",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/contato"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/contato"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/contato"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/contato"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 67862,
+      "contentCharacters": 731
+    },
+    {
+      "route": "/acervo",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Educadores, práticas e histórias."
+      ],
+      "title": "Acervo de formações, depoimentos e vídeos | Aprender Editora",
+      "description": "Relatos de educadores e gestores, registros de formação e vídeos históricos da Aprender Editora, com contexto de cada período.",
+      "canonical": "https://aprender-site.vercel.app/acervo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/acervo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/acervo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/acervo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/acervo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 128592,
+      "contentCharacters": 12329
+    },
+    {
+      "route": "/en/acervo",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Educators, practices and stories."
+      ],
+      "title": "Professional development, testimonials and video archive | Aprender Editora",
+      "description": "Accounts from educators and school leaders, professional development records and historical videos from Aprender Editora, with context for each period.",
+      "canonical": "https://aprender-site.vercel.app/en/acervo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/acervo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/acervo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/acervo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/acervo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 156663,
+      "contentCharacters": 13419
+    },
+    {
+      "route": "/es/acervo",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Educadores, prácticas e historias."
+      ],
+      "title": "Archivo de formación, testimonios y vídeos | Aprender Editora",
+      "description": "Relatos de educadores y gestores, registros de formación y vídeos históricos de Aprender Editora, con el contexto de cada período.",
+      "canonical": "https://aprender-site.vercel.app/es/acervo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/acervo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/acervo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/acervo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/acervo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 158741,
+      "contentCharacters": 13521
+    },
+    {
+      "route": "/recursos",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Conheça os materiais por dentro."
+      ],
+      "title": "Recursos, amostras e documentos | Aprender Editora",
+      "description": "Amostras dos livros, catálogo 2025, documento histórico do PAIC e tabela de preços 2027 da Aprender Editora.",
+      "canonical": "https://aprender-site.vercel.app/recursos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/recursos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/recursos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/recursos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/recursos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 114386,
+      "contentCharacters": 7219
+    },
+    {
+      "route": "/en/recursos",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Take a closer look at the materials."
+      ],
+      "title": "Resources, samples and documents | Aprender Editora",
+      "description": "Book samples, the 2025 catalogue, a historical PAIC document and Aprender Editora's 2027 price list.",
+      "canonical": "https://aprender-site.vercel.app/en/recursos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/recursos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/recursos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/recursos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/recursos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 138989,
+      "contentCharacters": 6888
+    },
+    {
+      "route": "/es/recursos",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Conozca los materiales por dentro."
+      ],
+      "title": "Recursos, muestras y documentos | Aprender Editora",
+      "description": "Muestras de libros, catálogo de 2025, documento histórico del PAIC y tabla de precios de 2027 de Aprender Editora.",
+      "canonical": "https://aprender-site.vercel.app/es/recursos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/recursos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/recursos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/recursos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/recursos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 142677,
+      "contentCharacters": 7831
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Materiais e preços de capa."
+      ],
+      "title": "Tabela de preços publicada · 2027 | Aprender Editora",
+      "description": "Consulte materiais, destinatários, anos e preços de capa da tabela 2027 publicada pela Aprender Editora, com filtros por coleção, ano e destinatário.",
+      "canonical": "https://aprender-site.vercel.app/recursos/tabela-precos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/recursos/tabela-precos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/recursos/tabela-precos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/recursos/tabela-precos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/recursos/tabela-precos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 66369,
+      "contentCharacters": 18025
+    },
+    {
+      "route": "/en/recursos/tabela-precos",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Materials and list prices."
+      ],
+      "title": "Published price list · 2027 | Aprender Editora",
+      "description": "Browse materials, intended users, school years and list prices from Aprender Editora's published 2027 price list, with filters for collection, year and user.",
+      "canonical": "https://aprender-site.vercel.app/en/recursos/tabela-precos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/recursos/tabela-precos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/recursos/tabela-precos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/recursos/tabela-precos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/recursos/tabela-precos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 91498,
+      "contentCharacters": 18704
+    },
+    {
+      "route": "/es/recursos/tabela-precos",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Materiales y precios de venta al público."
+      ],
+      "title": "Tabla de precios publicada · 2027 | Aprender Editora",
+      "description": "Consulte materiales, destinatarios, años escolares y precios de venta al público de la tabla de 2027 publicada por Aprender Editora, con filtros por colección, año y destinatario.",
+      "canonical": "https://aprender-site.vercel.app/es/recursos/tabela-precos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/recursos/tabela-precos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/recursos/tabela-precos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/recursos/tabela-precos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/recursos/tabela-precos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 94996,
+      "contentCharacters": 20059
+    },
+    {
+      "route": "/acessibilidade",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Acessibilidade"
+      ],
+      "title": "Acessibilidade | Aprender Editora",
+      "description": "Recursos de leitura, navegação por teclado, idiomas e tradução automática para Libras disponíveis neste site.",
+      "canonical": "https://aprender-site.vercel.app/acessibilidade",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/acessibilidade"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/acessibilidade"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/acessibilidade"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/acessibilidade"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 38822,
+      "contentCharacters": 3674
+    },
+    {
+      "route": "/en/acessibilidade",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Accessibility"
+      ],
+      "title": "Accessibility | Aprender Editora",
+      "description": "Reading features, keyboard navigation, languages and automatic Brazilian Sign Language translation available on this site.",
+      "canonical": "https://aprender-site.vercel.app/en/acessibilidade",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/acessibilidade"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/acessibilidade"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/acessibilidade"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/acessibilidade"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 64095,
+      "contentCharacters": 3577
+    },
+    {
+      "route": "/es/acessibilidade",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Accesibilidad"
+      ],
+      "title": "Accesibilidad | Aprender Editora",
+      "description": "Recursos de lectura, navegación por teclado, idiomas y traducción automática a la lengua de señas brasileña disponibles en este sitio.",
+      "canonical": "https://aprender-site.vercel.app/es/acessibilidade",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/acessibilidade"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/acessibilidade"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/acessibilidade"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/acessibilidade"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 66436,
+      "contentCharacters": 3949
+    },
+    {
+      "route": "/solucoes/brincando-e-aprendendo",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Brincando e Aprendendo"
+      ],
+      "title": "Brincando e Aprendendo | Aprender Editora",
+      "description": "Interações e brincadeiras dão sentido a uma rotina de descobertas. A coleção reúne propostas articuladas aos campos de experiências e aos direitos de aprendizagem da Educação Infantil.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 206930,
+      "contentCharacters": 18705
+    },
+    {
+      "route": "/en/solucoes/brincando-e-aprendendo",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Brincando e Aprendendo"
+      ],
+      "title": "Brincando e Aprendendo | Aprender Editora",
+      "description": "Interaction and play give meaning to a daily routine of discovery. The collection brings together activities linked to the fields of experience and learning rights in Brazilian early childhood education.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/brincando-e-aprendendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 229839,
+      "contentCharacters": 18313
+    },
+    {
+      "route": "/es/solucoes/brincando-e-aprendendo",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Brincando e Aprendendo"
+      ],
+      "title": "Brincando e Aprendendo | Aprender Editora",
+      "description": "Las interacciones y el juego dan sentido a una rutina de descubrimientos. La colección reúne propuestas articuladas con los campos de experiencia y los derechos de aprendizaje de la Educación Infantil brasileña.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/brincando-e-aprendendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/brincando-e-aprendendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/brincando-e-aprendendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 235328,
+      "contentCharacters": 19669
+    },
+    {
+      "route": "/solucoes/miudezas-e-descobertas",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Miudezas e Descobertas"
+      ],
+      "title": "Miudezas e Descobertas | Aprender Editora",
+      "description": "Vivências ligadas ao cotidiano dos bebês, em espaços internos, externos e em contato com a natureza. As propostas acolhem a curiosidade e as primeiras relações com o outro e com o mundo.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 88041,
+      "contentCharacters": 4444
+    },
+    {
+      "route": "/en/solucoes/miudezas-e-descobertas",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Miudezas e Descobertas"
+      ],
+      "title": "Miudezas e Descobertas | Aprender Editora",
+      "description": "Experiences connected with babies' everyday lives, indoors, outdoors and in nature. Activities welcome their curiosity and first relationships with others and the world.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/miudezas-e-descobertas",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 112477,
+      "contentCharacters": 4433
+    },
+    {
+      "route": "/es/solucoes/miudezas-e-descobertas",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Miudezas e Descobertas"
+      ],
+      "title": "Miudezas e Descobertas | Aprender Editora",
+      "description": "Vivencias relacionadas con la vida cotidiana de los bebés, en espacios interiores, exteriores y en contacto con la naturaleza. Las propuestas acogen su curiosidad y sus primeras relaciones con los demás y con el mundo.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/miudezas-e-descobertas",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/miudezas-e-descobertas"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/miudezas-e-descobertas"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 115288,
+      "contentCharacters": 4793
+    },
+    {
+      "route": "/solucoes/cataventos",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Cataventos"
+      ],
+      "title": "Cataventos | Aprender Editora",
+      "description": "Literatura, narrativas, música e brincadeiras se encontram em experiências sensoriais, motoras e artísticas. Um repertório para organizar espaços que convidam as crianças a descobrir e aprender.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/cataventos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/cataventos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/cataventos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/cataventos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/cataventos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 85504,
+      "contentCharacters": 4295
+    },
+    {
+      "route": "/en/solucoes/cataventos",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Cataventos"
+      ],
+      "title": "Cataventos | Aprender Editora",
+      "description": "Literature, storytelling, music and play meet in sensory, motor and artistic experiences. A repertoire for creating spaces that invite children to discover and learn.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/cataventos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/cataventos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/cataventos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/cataventos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/cataventos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 109959,
+      "contentCharacters": 4289
+    },
+    {
+      "route": "/es/solucoes/cataventos",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Cataventos"
+      ],
+      "title": "Cataventos | Aprender Editora",
+      "description": "La literatura, las narraciones, la música y el juego se encuentran en experiencias sensoriales, motrices y artísticas. Un repertorio para organizar espacios que inviten a los niños a descubrir y aprender.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/cataventos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/cataventos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/cataventos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/cataventos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/cataventos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 112448,
+      "contentCharacters": 4504
+    },
+    {
+      "route": "/solucoes/uni-duni-te",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Uni Duni Tê"
+      ],
+      "title": "Uni Duni Tê | Aprender Editora",
+      "description": "Atividades e experiências partem das situações sociais vividas pelas crianças. As interações entre professores e crianças, e entre as próprias crianças, orientam a proposta de desenvolvimento integral.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/uni-duni-te",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/uni-duni-te"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/uni-duni-te"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/uni-duni-te"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/uni-duni-te"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 88802,
+      "contentCharacters": 4511
+    },
+    {
+      "route": "/en/solucoes/uni-duni-te",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Uni Duni Tê"
+      ],
+      "title": "Uni Duni Tê | Aprender Editora",
+      "description": "Activities and experiences begin with social situations in children's lives. Interactions between teachers and children, and among children themselves, guide the approach to all-round development.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/uni-duni-te",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/uni-duni-te"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/uni-duni-te"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/uni-duni-te"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/uni-duni-te"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 113383,
+      "contentCharacters": 4486
+    },
+    {
+      "route": "/es/solucoes/uni-duni-te",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Uni Duni Tê"
+      ],
+      "title": "Uni Duni Tê | Aprender Editora",
+      "description": "Las actividades y experiencias parten de las situaciones sociales que viven los niños. Las interacciones entre docentes y niños, y entre los propios niños, orientan la propuesta de desarrollo integral.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/uni-duni-te",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/uni-duni-te"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/uni-duni-te"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/uni-duni-te"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/uni-duni-te"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 115647,
+      "contentCharacters": 4730
+    },
+    {
+      "route": "/solucoes/novo-lendo-voce-fica-sabendo",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Novo Lendo Você Fica Sabendo"
+      ],
+      "title": "Novo Lendo Você Fica Sabendo | Aprender Editora",
+      "description": "Uma proposta de alfabetização e letramento que aproxima a aprendizagem da escrita de seus usos sociais. Gêneros orais e escritos sustentam atividades planejadas para compreender o sistema de escrita alfabética.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 122781,
+      "contentCharacters": 9550
+    },
+    {
+      "route": "/en/solucoes/novo-lendo-voce-fica-sabendo",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Novo Lendo Você Fica Sabendo"
+      ],
+      "title": "Novo Lendo Você Fica Sabendo | Aprender Editora",
+      "description": "An initial literacy programme connecting learning to write with writing's social uses. Spoken and written genres underpin activities planned to develop understanding of the alphabetic writing system.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/novo-lendo-voce-fica-sabendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 146544,
+      "contentCharacters": 9330
+    },
+    {
+      "route": "/es/solucoes/novo-lendo-voce-fica-sabendo",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Novo Lendo Você Fica Sabendo"
+      ],
+      "title": "Novo Lendo Você Fica Sabendo | Aprender Editora",
+      "description": "Una propuesta de alfabetización que acerca el aprendizaje de la escritura a sus usos sociales. Los géneros orales y escritos sustentan actividades planificadas para comprender el sistema de escritura alfabética.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/novo-lendo-voce-fica-sabendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/novo-lendo-voce-fica-sabendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/novo-lendo-voce-fica-sabendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 150949,
+      "contentCharacters": 10375
+    },
+    {
+      "route": "/solucoes/amma",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "AMMA"
+      ],
+      "title": "AMMA | Aprender Editora",
+      "description": "Noções matemáticas conectadas às vivências dos estudantes. O projeto propõe atividades contextualizadas e interdisciplinares para desenvolver o letramento matemático no início do Ensino Fundamental.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/amma",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/amma"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/amma"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/amma"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/amma"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 88981,
+      "contentCharacters": 5271
+    },
+    {
+      "route": "/en/solucoes/amma",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "AMMA"
+      ],
+      "title": "AMMA | Aprender Editora",
+      "description": "Mathematical ideas connected with students' experiences. The project offers contextualised, interdisciplinary activities to develop mathematical literacy in the first years of Brazilian elementary education.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/amma",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/amma"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/amma"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/amma"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/amma"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 113712,
+      "contentCharacters": 5273
+    },
+    {
+      "route": "/es/solucoes/amma",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "AMMA"
+      ],
+      "title": "AMMA | Aprender Editora",
+      "description": "Nociones matemáticas conectadas con las vivencias del alumnado. El proyecto propone actividades contextualizadas e interdisciplinares para desarrollar la alfabetización matemática al inicio de la enseñanza fundamental brasileña.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/amma",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/amma"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/amma"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/amma"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/amma"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 116691,
+      "contentCharacters": 5700
+    },
+    {
+      "route": "/solucoes/projeto-tema",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Projeto TEMA"
+      ],
+      "title": "Projeto TEMA | Aprender Editora",
+      "description": "Uma proposta para estudantes que ainda precisam consolidar a alfabetização. Atividades de leitura e escrita partem de situações comunicativas e dos interesses de quem está aprendendo.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/projeto-tema",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/projeto-tema"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/projeto-tema"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/projeto-tema"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/projeto-tema"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 136189,
+      "contentCharacters": 10407
+    },
+    {
+      "route": "/en/solucoes/projeto-tema",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Projeto TEMA"
+      ],
+      "title": "Projeto TEMA | Aprender Editora",
+      "description": "A programme for students who still need to consolidate initial literacy. Reading and writing activities begin with communication situations and learners' interests.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/projeto-tema",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/projeto-tema"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/projeto-tema"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/projeto-tema"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/projeto-tema"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 160532,
+      "contentCharacters": 10395
+    },
+    {
+      "route": "/es/solucoes/projeto-tema",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Projeto TEMA"
+      ],
+      "title": "Projeto TEMA | Aprender Editora",
+      "description": "Una propuesta para estudiantes que aún necesitan consolidar la alfabetización. Las actividades de lectura y escritura parten de situaciones comunicativas y de los intereses de quienes están aprendiendo.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/projeto-tema",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/projeto-tema"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/projeto-tema"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/projeto-tema"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/projeto-tema"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 164469,
+      "contentCharacters": 11175
+    },
+    {
+      "route": "/solucoes/escrever-comunicar-e-ser",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Escrever, Comunicar e Ser"
+      ],
+      "title": "Escrever, Comunicar e Ser | Aprender Editora",
+      "description": "Produção textual, oralidade e leitura em práticas comunicativas. A coleção acompanha o processo de planejar, produzir, revisar e editar textos, com temas próximos ao universo dos estudantes.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 140083,
+      "contentCharacters": 9671
+    },
+    {
+      "route": "/en/solucoes/escrever-comunicar-e-ser",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Escrever, Comunicar e Ser"
+      ],
+      "title": "Escrever, Comunicar e Ser | Aprender Editora",
+      "description": "Writing, speaking and reading through communication practices. The collection follows the process of planning, drafting, revising and editing texts, with themes close to students' lives.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/escrever-comunicar-e-ser",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 163775,
+      "contentCharacters": 9466
+    },
+    {
+      "route": "/es/solucoes/escrever-comunicar-e-ser",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Escrever, Comunicar e Ser"
+      ],
+      "title": "Escrever, Comunicar e Ser | Aprender Editora",
+      "description": "Producción textual, oralidad y lectura en prácticas comunicativas. La colección acompaña el proceso de planificar, elaborar, revisar y editar textos con temas cercanos a la vida del alumnado.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/escrever-comunicar-e-ser",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/escrever-comunicar-e-ser"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/escrever-comunicar-e-ser"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 167993,
+      "contentCharacters": 10310
+    },
+    {
+      "route": "/solucoes/superativar",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Superativar"
+      ],
+      "title": "Superativar | Aprender Editora",
+      "description": "Linguagens e Matemática em atividades que aproximam compreensão leitora e resolução de problemas. A proposta convida os estudantes a refletir sobre seu próprio percurso de aprendizagem.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/superativar",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/superativar"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/superativar"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/superativar"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/superativar"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 102352,
+      "contentCharacters": 6896
+    },
+    {
+      "route": "/en/solucoes/superativar",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Superativar"
+      ],
+      "title": "Superativar | Aprender Editora",
+      "description": "Languages and Mathematics activities connecting reading comprehension and problem solving. The programme invites students to reflect on their own learning journey.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/superativar",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/superativar"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/superativar"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/superativar"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/superativar"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 126250,
+      "contentCharacters": 6642
+    },
+    {
+      "route": "/es/solucoes/superativar",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Superativar"
+      ],
+      "title": "Superativar | Aprender Editora",
+      "description": "Lenguajes y Matemáticas en actividades que acercan la comprensión lectora y la resolución de problemas. La propuesta invita al alumnado a reflexionar sobre su propio proceso de aprendizaje.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/superativar",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/superativar"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/superativar"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/superativar"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/superativar"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 129932,
+      "contentCharacters": 7372
+    },
+    {
+      "route": "/solucoes/vida-e-linguagem",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Vida & Linguagem"
+      ],
+      "title": "Vida & Linguagem | Aprender Editora",
+      "description": "Atividades complementares de Língua Portuguesa que aproximam os estudantes dos gêneros orais e escritos. A proposta articula práticas de linguagem, planejamento pedagógico e avaliações processuais.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 177715,
+      "contentCharacters": 14347
+    },
+    {
+      "route": "/en/solucoes/vida-e-linguagem",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Vida & Linguagem"
+      ],
+      "title": "Vida & Linguagem | Aprender Editora",
+      "description": "Supplementary Portuguese Language activities introducing students to spoken and written genres. The programme connects language practices, lesson planning and ongoing assessment.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/vida-e-linguagem",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 200993,
+      "contentCharacters": 14183
+    },
+    {
+      "route": "/es/solucoes/vida-e-linguagem",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Vida & Linguagem"
+      ],
+      "title": "Vida & Linguagem | Aprender Editora",
+      "description": "Actividades complementarias de Lengua Portuguesa que acercan al alumnado a los géneros orales y escritos. La propuesta articula las prácticas lingüísticas, la planificación pedagógica y la evaluación continua.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/vida-e-linguagem",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-linguagem"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-linguagem"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 205794,
+      "contentCharacters": 15199
+    },
+    {
+      "route": "/solucoes/vida-e-matematica",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Vida & Matemática"
+      ],
+      "title": "Vida & Matemática | Aprender Editora",
+      "description": "Números, álgebra, geometria, grandezas e medidas, probabilidade e estatística em uma proposta complementar. As atividades articulam representação, linguagem simbólica e argumentação.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/vida-e-matematica",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-matematica"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 177632,
+      "contentCharacters": 13908
+    },
+    {
+      "route": "/en/solucoes/vida-e-matematica",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Vida & Matemática"
+      ],
+      "title": "Vida & Matemática | Aprender Editora",
+      "description": "Numbers, algebra, geometry, quantities and measurement, probability and statistics in a supplementary programme. Activities connect representation, symbolic language and reasoning.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/vida-e-matematica",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-matematica"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 200822,
+      "contentCharacters": 13647
+    },
+    {
+      "route": "/es/solucoes/vida-e-matematica",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Vida & Matemática"
+      ],
+      "title": "Vida & Matemática | Aprender Editora",
+      "description": "Números, álgebra, geometría, magnitudes y medidas, probabilidad y estadística en una propuesta complementaria. Las actividades articulan la representación, el lenguaje simbólico y la argumentación.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/vida-e-matematica",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-matematica"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-matematica"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 205580,
+      "contentCharacters": 14700
+    },
+    {
+      "route": "/solucoes/vida-e-ciencias",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Vida & Ciências"
+      ],
+      "title": "Vida & Ciências | Aprender Editora",
+      "description": "Letramento científico por meio de atividades sobre matéria e energia, vida e evolução, Terra e Universo. A coleção valoriza a experimentação e a leitura do mundo natural, social e tecnológico.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 115883,
+      "contentCharacters": 8305
+    },
+    {
+      "route": "/en/solucoes/vida-e-ciencias",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Vida & Ciências"
+      ],
+      "title": "Vida & Ciências | Aprender Editora",
+      "description": "Scientific literacy through activities on matter and energy, life and evolution, Earth and the Universe. The collection values experimentation and understanding the natural, social and technological world.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/vida-e-ciencias",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 140003,
+      "contentCharacters": 8233
+    },
+    {
+      "route": "/es/solucoes/vida-e-ciencias",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Vida & Ciências"
+      ],
+      "title": "Vida & Ciências | Aprender Editora",
+      "description": "Alfabetización científica mediante actividades sobre materia y energía, vida y evolución, Tierra y Universo. La colección valora la experimentación y la comprensión del mundo natural, social y tecnológico.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/vida-e-ciencias",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/vida-e-ciencias"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/vida-e-ciencias"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 143322,
+      "contentCharacters": 8836
+    },
+    {
+      "route": "/solucoes/avancando-juntos",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Avançando Juntos"
+      ],
+      "title": "Avançando Juntos | Aprender Editora",
+      "description": "Atividades de Língua Portuguesa e Matemática organizadas por microhabilidades. A proposta permite acompanhar o progresso dos estudantes e trabalhar necessidades específicas no 9º ano.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/avancando-juntos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/avancando-juntos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/avancando-juntos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/avancando-juntos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/avancando-juntos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 101709,
+      "contentCharacters": 7915
+    },
+    {
+      "route": "/en/solucoes/avancando-juntos",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Avançando Juntos"
+      ],
+      "title": "Avançando Juntos | Aprender Editora",
+      "description": "Portuguese Language and Mathematics activities organised by specific skills. The programme helps monitor students' progress and address particular learning needs in Year 9.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/avancando-juntos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/avancando-juntos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/avancando-juntos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/avancando-juntos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/avancando-juntos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 125498,
+      "contentCharacters": 7584
+    },
+    {
+      "route": "/es/solucoes/avancando-juntos",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Avançando Juntos"
+      ],
+      "title": "Avançando Juntos | Aprender Editora",
+      "description": "Actividades de Lengua Portuguesa y Matemáticas organizadas por microhabilidades. La propuesta permite seguir el progreso del alumnado y trabajar necesidades específicas en 9.º.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/avancando-juntos",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/avancando-juntos"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/avancando-juntos"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/avancando-juntos"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/avancando-juntos"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 128898,
+      "contentCharacters": 8266
+    },
+    {
+      "route": "/solucoes/sou-da-paz",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Sou da Paz"
+      ],
+      "title": "Sou da Paz | Aprender Editora",
+      "description": "Uma proposta de ensino religioso e cultura de paz baseada no diálogo, na empatia e no respeito às diferenças. As atividades convidam à mediação de conflitos e à convivência cooperativa.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/sou-da-paz",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/sou-da-paz"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/sou-da-paz"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/sou-da-paz"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/sou-da-paz"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 83725,
+      "contentCharacters": 4697
+    },
+    {
+      "route": "/en/solucoes/sou-da-paz",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Sou da Paz"
+      ],
+      "title": "Sou da Paz | Aprender Editora",
+      "description": "A religious education and culture of peace programme based on dialogue, empathy and respect for differences. Activities encourage conflict mediation and cooperative coexistence.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/sou-da-paz",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/sou-da-paz"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/sou-da-paz"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/sou-da-paz"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/sou-da-paz"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 108172,
+      "contentCharacters": 4653
+    },
+    {
+      "route": "/es/solucoes/sou-da-paz",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Sou da Paz"
+      ],
+      "title": "Sou da Paz | Aprender Editora",
+      "description": "Una propuesta de enseñanza religiosa y cultura de paz basada en el diálogo, la empatía y el respeto a las diferencias. Las actividades invitan a la mediación de conflictos y a la convivencia cooperativa.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/sou-da-paz",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/sou-da-paz"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/sou-da-paz"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/sou-da-paz"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/sou-da-paz"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 110956,
+      "contentCharacters": 5036
+    },
+    {
+      "route": "/solucoes/educacao-financeira",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Educação Financeira"
+      ],
+      "title": "Educação Financeira | Aprender Editora",
+      "description": "Planejamento, análise e tomada de decisões em situações financeiras. Atividades que atravessam diferentes áreas do conhecimento incentivam escolhas conscientes, éticas e sustentáveis.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/educacao-financeira",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/educacao-financeira"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/educacao-financeira"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/educacao-financeira"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/educacao-financeira"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 89548,
+      "contentCharacters": 6102
+    },
+    {
+      "route": "/en/solucoes/educacao-financeira",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Educação Financeira"
+      ],
+      "title": "Educação Financeira | Aprender Editora",
+      "description": "Planning, analysis and decision-making in financial situations. Activities spanning different subject areas encourage informed, ethical and sustainable choices.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/educacao-financeira",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/educacao-financeira"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/educacao-financeira"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/educacao-financeira"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/educacao-financeira"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 113743,
+      "contentCharacters": 5983
+    },
+    {
+      "route": "/es/solucoes/educacao-financeira",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Educação Financeira"
+      ],
+      "title": "Educação Financeira | Aprender Editora",
+      "description": "Planificación, análisis y toma de decisiones en situaciones financieras. Las actividades que atraviesan distintas áreas del conocimiento fomentan decisiones conscientes, éticas y sostenibles.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/educacao-financeira",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/educacao-financeira"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/educacao-financeira"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/educacao-financeira"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/educacao-financeira"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 116738,
+      "contentCharacters": 6480
+    },
+    {
+      "route": "/solucoes/a-cor-da-gente",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "A Cor da Gente"
+      ],
+      "title": "A Cor da Gente | Aprender Editora",
+      "description": "Textos literários e atividades valorizam as culturas afro-brasileiras e indígenas. A coleção abre espaço para ampliar repertórios, reconhecer presenças e construir práticas educacionais inclusivas.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 118232,
+      "contentCharacters": 11171
+    },
+    {
+      "route": "/en/solucoes/a-cor-da-gente",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "A Cor da Gente"
+      ],
+      "title": "A Cor da Gente | Aprender Editora",
+      "description": "Literary texts and activities value Afro-Brazilian and Indigenous cultures. The collection creates opportunities to broaden knowledge, recognise these cultures' presence and build inclusive educational practices.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/a-cor-da-gente",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 142337,
+      "contentCharacters": 11138
+    },
+    {
+      "route": "/es/solucoes/a-cor-da-gente",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "A Cor da Gente"
+      ],
+      "title": "A Cor da Gente | Aprender Editora",
+      "description": "Los textos literarios y las actividades valoran las culturas afrobrasileñas e indígenas. La colección ofrece un espacio para ampliar conocimientos, reconocer estas presencias y construir prácticas educativas inclusivas.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/a-cor-da-gente",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/a-cor-da-gente"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/a-cor-da-gente"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 146603,
+      "contentCharacters": 11957
+    },
+    {
+      "route": "/solucoes/transito-legal",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Trânsito Legal"
+      ],
+      "title": "Trânsito Legal | Aprender Editora",
+      "description": "Histórias em quadrinhos, jogos e atividades práticas aproximam cidadania e segurança no trânsito. A proposta convida a refletir sobre direitos, deveres e responsabilidade compartilhada.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/transito-legal",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/transito-legal"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/transito-legal"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/transito-legal"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/transito-legal"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 94073,
+      "contentCharacters": 6876
+    },
+    {
+      "route": "/en/solucoes/transito-legal",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Trânsito Legal"
+      ],
+      "title": "Trânsito Legal | Aprender Editora",
+      "description": "Comics, games and hands-on activities connect citizenship with road safety. The programme invites reflection on rights, duties and shared responsibility.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/transito-legal",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/transito-legal"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/transito-legal"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/transito-legal"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/transito-legal"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 118228,
+      "contentCharacters": 6774
+    },
+    {
+      "route": "/es/solucoes/transito-legal",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Trânsito Legal"
+      ],
+      "title": "Trânsito Legal | Aprender Editora",
+      "description": "Los cómics, juegos y actividades prácticas acercan la ciudadanía y la seguridad vial. La propuesta invita a reflexionar sobre los derechos, los deberes y la responsabilidad compartida.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/transito-legal",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/transito-legal"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/transito-legal"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/transito-legal"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/transito-legal"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 121615,
+      "contentCharacters": 7356
+    },
+    {
+      "route": "/solucoes/ler-ouvir-e-contar",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Ler, Ouvir e Contar"
+      ],
+      "title": "Ler, Ouvir e Contar | Aprender Editora",
+      "description": "Um acervo de literatura infantil para ampliar o repertório cultural e aproximar crianças dos livros. As interações com as histórias fortalecem a oralidade, a leitura e a escrita.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 126118,
+      "contentCharacters": 6444
+    },
+    {
+      "route": "/en/solucoes/ler-ouvir-e-contar",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Ler, Ouvir e Contar"
+      ],
+      "title": "Ler, Ouvir e Contar | Aprender Editora",
+      "description": "A children's literature collection to broaden cultural knowledge and bring children closer to books. Interacting with stories strengthens speaking, reading and writing.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/ler-ouvir-e-contar",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 150600,
+      "contentCharacters": 6432
+    },
+    {
+      "route": "/es/solucoes/ler-ouvir-e-contar",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Ler, Ouvir e Contar"
+      ],
+      "title": "Ler, Ouvir e Contar | Aprender Editora",
+      "description": "Un acervo de literatura infantil para ampliar el bagaje cultural y acercar a los niños a los libros. La interacción con las historias fortalece la oralidad, la lectura y la escritura.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/ler-ouvir-e-contar",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ler-ouvir-e-contar"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ler-ouvir-e-contar"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 152980,
+      "contentCharacters": 6654
+    },
+    {
+      "route": "/solucoes/ideb-nota-10",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "IDEB Nota 10"
+      ],
+      "title": "IDEB Nota 10 | Aprender Editora",
+      "description": "Materiais para fortalecer a gestão escolar por meio da leitura pedagógica das avaliações. O trabalho articula liderança, planejamento e análise de aprendizagens em Língua Portuguesa e Matemática.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/ideb-nota-10",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ideb-nota-10"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 111460,
+      "contentCharacters": 5443
+    },
+    {
+      "route": "/en/solucoes/ideb-nota-10",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "IDEB Nota 10"
+      ],
+      "title": "IDEB Nota 10 | Aprender Editora",
+      "description": "Materials to strengthen school management through an educational interpretation of assessments. The programme connects leadership, planning and analysis of learning in Portuguese Language and Mathematics.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/ideb-nota-10",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ideb-nota-10"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 136108,
+      "contentCharacters": 5434
+    },
+    {
+      "route": "/es/solucoes/ideb-nota-10",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "IDEB Nota 10"
+      ],
+      "title": "IDEB Nota 10 | Aprender Editora",
+      "description": "Materiales para fortalecer la gestión escolar mediante la lectura pedagógica de las evaluaciones. El trabajo articula el liderazgo, la planificación y el análisis del aprendizaje en Lengua Portuguesa y Matemáticas.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/ideb-nota-10",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ideb-nota-10"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ideb-nota-10"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 138532,
+      "contentCharacters": 5737
+    },
+    {
+      "route": "/solucoes/fluir-das-emocoes",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Fluir das Emoções"
+      ],
+      "title": "Fluir das Emoções | Aprender Editora",
+      "description": "Programa de desenvolvimento socioemocional para profissionais da educação e áreas afins. Em três níveis, propõe reflexão, autoconhecimento e desenvolvimento de habilidades intra e interpessoais.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 99032,
+      "contentCharacters": 6862
+    },
+    {
+      "route": "/en/solucoes/fluir-das-emocoes",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Fluir das Emoções"
+      ],
+      "title": "Fluir das Emoções | Aprender Editora",
+      "description": "A social and emotional development programme for education professionals and related fields. Its three levels encourage reflection, self-awareness, and the development of intrapersonal and interpersonal skills.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/fluir-das-emocoes",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 123280,
+      "contentCharacters": 6787
+    },
+    {
+      "route": "/es/solucoes/fluir-das-emocoes",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Fluir das Emoções"
+      ],
+      "title": "Fluir das Emoções | Aprender Editora",
+      "description": "Programa de desarrollo socioemocional para profesionales de la educación y áreas afines. En tres niveles propone la reflexión, el autoconocimiento y el desarrollo de habilidades intrapersonales e interpersonales.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/fluir-das-emocoes",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/fluir-das-emocoes"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/fluir-das-emocoes"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 125809,
+      "contentCharacters": 7191
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Lendo e Escrevendo"
+      ],
+      "title": "Lendo e Escrevendo | Aprender Editora",
+      "description": "Uma coleção própria de Educação Infantil, com propostas de participação, interação e diferentes linguagens para crianças de 3, 4 e 5 anos. ",
+      "canonical": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 120268,
+      "contentCharacters": 8274
+    },
+    {
+      "route": "/en/solucoes/lendo-e-escrevendo",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Lendo e Escrevendo"
+      ],
+      "title": "Lendo e Escrevendo | Aprender Editora",
+      "description": "A distinct early childhood collection, offering participation, interaction and different forms of expression for children aged 3, 4 and 5. ",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/lendo-e-escrevendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 144541,
+      "contentCharacters": 8283
+    },
+    {
+      "route": "/es/solucoes/lendo-e-escrevendo",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Lendo e Escrevendo"
+      ],
+      "title": "Lendo e Escrevendo | Aprender Editora",
+      "description": "Una colección propia de Educación Infantil con propuestas de participación, interacción y distintos lenguajes para niños de 3, 4 y 5 años. ",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/lendo-e-escrevendo",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/lendo-e-escrevendo"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 147931,
+      "contentCharacters": 8910
+    },
+    {
+      "route": "/solucoes/acerta-brasil",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "ACerta Brasil"
+      ],
+      "title": "ACerta Brasil | Aprender Editora",
+      "description": "Materiais de Língua Portuguesa e Matemática para o 5º ano, com atividades, suplementos e provas relacionados às avaliações externas. ",
+      "canonical": "https://aprender-site.vercel.app/solucoes/acerta-brasil",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/acerta-brasil"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/acerta-brasil"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/acerta-brasil"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/acerta-brasil"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 113121,
+      "contentCharacters": 7396
+    },
+    {
+      "route": "/en/solucoes/acerta-brasil",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "ACerta Brasil"
+      ],
+      "title": "ACerta Brasil | Aprender Editora",
+      "description": "Portuguese Language and Mathematics materials for Year 5, with activities, supplements and tests related to external assessments. ",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/acerta-brasil",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/acerta-brasil"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/acerta-brasil"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/acerta-brasil"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/acerta-brasil"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 137358,
+      "contentCharacters": 7309
+    },
+    {
+      "route": "/es/solucoes/acerta-brasil",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "ACerta Brasil"
+      ],
+      "title": "ACerta Brasil | Aprender Editora",
+      "description": "Materiales de Lengua Portuguesa y Matemáticas para 5.º, con actividades, suplementos y pruebas relacionados con las evaluaciones externas. ",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/acerta-brasil",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/acerta-brasil"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/acerta-brasil"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/acerta-brasil"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/acerta-brasil"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 140911,
+      "contentCharacters": 8027
+    },
+    {
+      "route": "/solucoes/ingles",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Inglês"
+      ],
+      "title": "Inglês | Aprender Editora",
+      "description": "Materiais de Inglês relacionados na tabela de 2027: My Learning Companion para estudantes e My Teaching Companion para professores, em quatro níveis correspondentes ao 6º, 7º, 8º e 9º anos.",
+      "canonical": "https://aprender-site.vercel.app/solucoes/ingles",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ingles"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ingles"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ingles"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ingles"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 62849,
+      "contentCharacters": 3771
+    },
+    {
+      "route": "/en/solucoes/ingles",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "English"
+      ],
+      "title": "English | Aprender Editora",
+      "description": "English materials listed in the 2027 price list: My Learning Companion for students and My Teaching Companion for teachers, in four levels corresponding to Years 6, 7, 8 and 9.",
+      "canonical": "https://aprender-site.vercel.app/en/solucoes/ingles",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ingles"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ingles"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ingles"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ingles"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 87472,
+      "contentCharacters": 3787
+    },
+    {
+      "route": "/es/solucoes/ingles",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Inglés"
+      ],
+      "title": "Inglés | Aprender Editora",
+      "description": "Materiales de inglés incluidos en la tabla de 2027: My Learning Companion para estudiantes y My Teaching Companion para docentes, en cuatro niveles correspondientes a 6.º, 7.º, 8.º y 9.º.",
+      "canonical": "https://aprender-site.vercel.app/es/solucoes/ingles",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/solucoes/ingles"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/solucoes/ingles"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/solucoes/ingles"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/solucoes/ingles"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 89698,
+      "contentCharacters": 3994
+    },
+    {
+      "route": "/em-acao/vinte-anos-compromisso-aprendizagem",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Vinte anos de histórias que continuam a ensinar"
+      ],
+      "title": "Vinte anos de histórias que continuam a ensinar | Aprender Editora",
+      "description": "O catálogo comemorativo de 2025 aproxima a memória da alfabetização das propostas pedagógicas da Aprender.",
+      "canonical": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 38541,
+      "contentCharacters": 1689
+    },
+    {
+      "route": "/en/em-acao/vinte-anos-compromisso-aprendizagem",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Twenty years of stories that continue to teach"
+      ],
+      "title": "Twenty years of stories that continue to teach | Aprender Editora",
+      "description": "The 2025 anniversary catalogue connects the memory of literacy teaching with Aprender's pedagogical proposals.",
+      "canonical": "https://aprender-site.vercel.app/en/em-acao/vinte-anos-compromisso-aprendizagem",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 63678,
+      "contentCharacters": 1684
+    },
+    {
+      "route": "/es/em-acao/vinte-anos-compromisso-aprendizagem",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Veinte años de historias que siguen enseñando"
+      ],
+      "title": "Veinte años de historias que siguen enseñando | Aprender Editora",
+      "description": "El catálogo conmemorativo de 2025 acerca la memoria de la alfabetización a las propuestas pedagógicas de Aprender.",
+      "canonical": "https://aprender-site.vercel.app/es/em-acao/vinte-anos-compromisso-aprendizagem",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/vinte-anos-compromisso-aprendizagem"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/vinte-anos-compromisso-aprendizagem"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 65307,
+      "contentCharacters": 1797
+    },
+    {
+      "route": "/em-acao/acompanhamento-palhano-2010",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Acompanhamento pedagógico perto de quem aprende"
+      ],
+      "title": "Acompanhamento pedagógico perto de quem aprende | Aprender Editora",
+      "description": "Um registro de Palhano, no Ceará, integra a memória do projeto Lendo Você Fica Sabendo.",
+      "canonical": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 36389,
+      "contentCharacters": 1300
+    },
+    {
+      "route": "/en/em-acao/acompanhamento-palhano-2010",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Pedagogical support close to learners"
+      ],
+      "title": "Pedagogical support close to learners | Aprender Editora",
+      "description": "A record from Palhano, Ceará, forms part of the memory of the Lendo Você Fica Sabendo project.",
+      "canonical": "https://aprender-site.vercel.app/en/em-acao/acompanhamento-palhano-2010",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 61463,
+      "contentCharacters": 1292
+    },
+    {
+      "route": "/es/em-acao/acompanhamento-palhano-2010",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Acompañamiento pedagógico cerca de quienes aprenden"
+      ],
+      "title": "Acompañamiento pedagógico cerca de quienes aprenden | Aprender Editora",
+      "description": "Un registro de Palhano, Ceará, forma parte de la memoria del proyecto Lendo Você Fica Sabendo.",
+      "canonical": "https://aprender-site.vercel.app/es/em-acao/acompanhamento-palhano-2010",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/acompanhamento-palhano-2010"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/acompanhamento-palhano-2010"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 63197,
+      "contentCharacters": 1377
+    },
+    {
+      "route": "/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "locale": "pt",
+      "status": 200,
+      "lang": "pt-BR",
+      "h1": [
+        "Leitura e brincadeira em uma memória de sala de aula"
+      ],
+      "title": "Leitura e brincadeira em uma memória de sala de aula | Aprender Editora",
+      "description": "Em Novo Oriente, estudantes do 2º ano participam de uma atividade do projeto Lendo Você Fica Sabendo.",
+      "canonical": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 36503,
+      "contentCharacters": 1203
+    },
+    {
+      "route": "/en/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "locale": "en",
+      "status": 200,
+      "lang": "en",
+      "h1": [
+        "Reading and play in a classroom memory"
+      ],
+      "title": "Reading and play in a classroom memory | Aprender Editora",
+      "description": "In Novo Oriente, Year 2 students take part in an activity from the Lendo Você Fica Sabendo project.",
+      "canonical": "https://aprender-site.vercel.app/en/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 61468,
+      "contentCharacters": 1186
+    },
+    {
+      "route": "/es/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "locale": "es",
+      "status": 200,
+      "lang": "es",
+      "h1": [
+        "Lectura y juego en una memoria del aula"
+      ],
+      "title": "Lectura y juego en una memoria del aula | Aprender Editora",
+      "description": "En Novo Oriente, estudiantes de 2.º año participan en una actividad del proyecto Lendo Você Fica Sabendo.",
+      "canonical": "https://aprender-site.vercel.app/es/em-acao/brincando-com-as-fichas-novo-oriente-2011",
+      "robots": "noindex, nofollow",
+      "alternates": [
+        {
+          "language": "pt-BR",
+          "href": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "en",
+          "href": "https://aprender-site.vercel.app/en/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "es",
+          "href": "https://aprender-site.vercel.app/es/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        },
+        {
+          "language": "x-default",
+          "href": "https://aprender-site.vercel.app/em-acao/brincando-com-as-fichas-novo-oriente-2011"
+        }
+      ],
+      "dependencies": [],
+      "htmlBytes": 63049,
+      "contentCharacters": 1243
+    }
+  ]
+}

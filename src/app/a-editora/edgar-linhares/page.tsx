@@ -1,70 +1,53 @@
-import Image from "next/image";
+import { getTranslator } from "@/i18n/server";
+import Image from "@/components/AssetImage";
 import { pageMetadata } from "@/lib/metadata";
 import { edgar } from "@/data/institutional";
 import { PageIntro, TextLink } from "@/components/ui";
 import { ReadingNav } from "@/components/ReadingNav";
 import s from "@/components/content.module.css";
-export const metadata = pageMetadata({
-  title: "Professor Edgar Linhares",
-  description:
-    "A trajetória de Edgar Linhares Lima, sua contribuição à alfabetização em Sobral e referências sobre a experiência educacional.",
-  path: "/a-editora/edgar-linhares",
-  image: edgar.image,
-});
-export default function EdgarPage() {
-  return (
-    <>
-      <PageIntro
-        eyebrow="Memória institucional"
-        title={edgar.title}
-        description="Educador, especialista em leitura e participante da construção de políticas públicas de alfabetização no Ceará."
-      />
+export async function generateMetadata() {
+    const t = await getTranslator();
+    return pageMetadata({
+        title: t("Professor Edgar Linhares"),
+        description: t("A trajetória de Edgar Linhares Lima, sua contribuição à alfabetização em Sobral e referências sobre a experiência educacional."),
+        path: "/a-editora/edgar-linhares",
+        image: edgar.image
+    }, t.locale);
+}
+export default async function EdgarPage() {
+    const t = await getTranslator();
+    return (<>
+      <PageIntro eyebrow={t("Memória institucional")} title={t(edgar.title)} description={t("Educador, especialista em leitura e participante da construção de políticas públicas de alfabetização no Ceará.")}/>
       <div className="container">
-        <ReadingNav current="/a-editora/edgar-linhares" />
+        <ReadingNav current="/a-editora/edgar-linhares"/>
       </div>
       <section className={s.section}>
         <div className={`container ${s.twoColumns}`}>
           <div className={s.prose}>
-            <h2 className={s.heading}>Uma vida dedicada à educação.</h2>
-            {edgar.paragraphs.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
+            <h2 className={s.heading}>{t("Uma vida dedicada \u00E0 educa\u00E7\u00E3o.")}</h2>
+            {edgar.paragraphs.map((p) => (<p key={p}>{t(p)}</p>))}
           </div>
           <figure className={s.photo}>
-            <Image
-              src={edgar.image}
-              width={275}
-              height={370}
-              alt="Retrato do professor Edgar Linhares Lima no acervo institucional da Aprender"
-              style={{ height: "auto", maxWidth: 275, objectFit: "contain" }}
-            />
-            <figcaption>
-              Retrato da apresentação institucional de Edgar Linhares.
-            </figcaption>
+            <Image src={edgar.image} width={275} height={370} alt={t("Retrato do professor Edgar Linhares Lima no acervo institucional da Aprender")} style={{ height: "auto", maxWidth: 275, objectFit: "contain" }}/>
+            <figcaption>{t("Retrato da apresenta\u00E7\u00E3o institucional de Edgar Linhares. ")}</figcaption>
           </figure>
         </div>
       </section>
       <section id="referencias" className={`${s.section} ${s.soft}`}>
         <div className="container">
-          <h2 className={s.heading}>Referências e leituras.</h2>
+          <h2 className={s.heading}>{t("Refer\u00EAncias e leituras.")}</h2>
           <div className={s.prose}>
             <ul>
-              {edgar.references.map((ref) => (
-                <li key={ref.url}>
+              {edgar.references.map((ref) => (<li key={ref.url}>
                   <p>
-                    <a href={ref.url} target="_blank" rel="noopener noreferrer">
-                      {ref.title} (site externo, nova aba)
-                    </a>
+                    <a href={t.href(ref.url)} target="_blank" rel="noopener noreferrer">
+                      {t(ref.title)}<span className="sr-only">{t(" (abre em nova aba)")}</span></a>
                   </p>
-                </li>
-              ))}
+                </li>))}
             </ul>
-            <TextLink href="/a-editora/trajetoria">
-              A trajetória da Aprender
-            </TextLink>
+            <TextLink href={t.href("/a-editora/trajetoria")}>{t("A trajet\u00F3ria da Aprender ")}</TextLink>
           </div>
         </div>
       </section>
-    </>
-  );
+    </>);
 }

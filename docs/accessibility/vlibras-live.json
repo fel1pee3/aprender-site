@@ -1,0 +1,232 @@
+{
+  "checkedAt": "2026-10-15T20:07:56.300Z",
+  "environment": "http://127.0.0.1:3101",
+  "translations": [
+    {
+      "text": "{\"text\":\"Materiais e formação para aprender.\"}",
+      "status": 200,
+      "gloss": "MATERIAL FORMAÇÃO APRENDER [PONTO]"
+    },
+    {
+      "text": "{\"text\":\"Lendo e Escrevendo\"}",
+      "status": 200,
+      "gloss": "LER ESCREVER&PAPEL"
+    },
+    {
+      "text": "{\"text\":\"Livros da criança e da família de Lendo e Escrevendo 1\"}",
+      "status": 200,
+      "gloss": "LIVRO CRIANÇA FAMÍLIA LENDA ESCREVER&PAPEL 1"
+    },
+    {
+      "text": "{\"text\":\"Livros da criança e da família de Lendo e Escrevendo 1\"}",
+      "status": 200,
+      "gloss": "LIVRO CRIANÇA FAMÍLIA LENDA ESCREVER&PAPEL 1"
+    },
+    {
+      "text": "{\"text\":\"Livros da criança e da família de Lendo e Escrevendo 1\"}",
+      "status": 200,
+      "gloss": "LIVRO CRIANÇA FAMÍLIA LENDA ESCREVER&PAPEL 1"
+    }
+  ],
+  "bounds": [
+    {
+      "size": {
+        "width": 360,
+        "height": 560
+      },
+      "viewport": 360,
+      "content": 360,
+      "panel": {
+        "x": 92,
+        "y": 93.5,
+        "width": 260,
+        "height": 373,
+        "top": 93.5,
+        "right": 352,
+        "bottom": 466.5,
+        "left": 92
+      },
+      "dock": {
+        "x": 0,
+        "y": 77,
+        "width": 0,
+        "height": 0,
+        "top": 77,
+        "right": 0,
+        "bottom": 77,
+        "left": 0
+      },
+      "baseline": {
+        "body": {
+          "width": 360,
+          "height": 12803.0625
+        },
+        "main": {
+          "width": 360,
+          "height": 11800.421875
+        },
+        "header": {
+          "width": 360,
+          "height": 77
+        },
+        "document": {
+          "width": 360,
+          "height": 12803
+        }
+      },
+      "afterClose": {
+        "body": {
+          "width": 360,
+          "height": 12803.0625
+        },
+        "main": {
+          "width": 360,
+          "height": 11800.421875
+        },
+        "header": {
+          "width": 360,
+          "height": 77
+        },
+        "document": {
+          "width": 360,
+          "height": 12803
+        }
+      },
+      "unchangedThroughCloseAndReopen": true
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "viewport": 390,
+      "content": 390,
+      "panel": {
+        "x": 122,
+        "y": 235.5,
+        "width": 260,
+        "height": 373,
+        "top": 235.5,
+        "right": 382,
+        "bottom": 608.5,
+        "left": 122
+      },
+      "dock": {
+        "x": 0,
+        "y": -1280,
+        "width": 0,
+        "height": 0,
+        "top": -1280,
+        "right": 0,
+        "bottom": -1280,
+        "left": 0
+      },
+      "baseline": {
+        "body": {
+          "width": 390,
+          "height": 11752.09375
+        },
+        "main": {
+          "width": 390,
+          "height": 10749.453125
+        },
+        "header": {
+          "width": 390,
+          "height": 77
+        },
+        "document": {
+          "width": 390,
+          "height": 11752
+        }
+      },
+      "afterClose": {
+        "body": {
+          "width": 390,
+          "height": 11752.09375
+        },
+        "main": {
+          "width": 390,
+          "height": 10749.453125
+        },
+        "header": {
+          "width": 390,
+          "height": 77
+        },
+        "document": {
+          "width": 390,
+          "height": 11752
+        }
+      },
+      "unchangedThroughCloseAndReopen": true
+    },
+    {
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "viewport": 1440,
+      "content": 1440,
+      "panel": {
+        "x": 1132,
+        "y": 283.5,
+        "width": 300,
+        "height": 433,
+        "top": 283.5,
+        "right": 1432,
+        "bottom": 716.5,
+        "left": 1132
+      },
+      "dock": {
+        "x": 0,
+        "y": -1303,
+        "width": 0,
+        "height": 0,
+        "top": -1303,
+        "right": 0,
+        "bottom": -1303,
+        "left": 0
+      },
+      "baseline": {
+        "body": {
+          "width": 1440,
+          "height": 8461.703125
+        },
+        "main": {
+          "width": 1440,
+          "height": 7828.3125
+        },
+        "header": {
+          "width": 1440,
+          "height": 85
+        },
+        "document": {
+          "width": 1440,
+          "height": 8462
+        }
+      },
+      "afterClose": {
+        "body": {
+          "width": 1440,
+          "height": 8461.703125
+        },
+        "main": {
+          "width": 1440,
+          "height": 7828.3125
+        },
+        "header": {
+          "width": 1440,
+          "height": 85
+        },
+        "document": {
+          "width": 1440,
+          "height": 8462
+        }
+      },
+      "unchangedThroughCloseAndReopen": true
+    }
+  ],
+  "requests": 311,
+  "duplicateBootstrapOrApplication": false,
+  "retainedOpenStateTested": true,
+  "linguisticHumanReview": false
+}

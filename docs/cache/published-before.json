@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15T19:11:15.804Z",
+  "base": "https://aprender-site.vercel.app",
+  "method": {
+    "runtime": "Node v22.21.1 fetch; no browser cache or cookie jar",
+    "requests": "Real GETs followed by HEAD and conditional GET for selected files when a validator is present. Only the home HTML is consumed to discover generated JS/CSS/font URLs; other bodies are canceled after headers. A single selected PDF also receives Range: bytes=0-63, with its body canceled after headers.",
+    "interpretation": "Observed response headers only; missing headers are omitted. No HIT, 304 or Range support is assumed. This is HTTP evidence, not a browser transfer/performance comparison or proof of production CDN behavior for an unpublished checkout.",
+    "publication": "Read-only observation of the existing public deployment. Its version can differ from the current checkout; these results do not validate unpublished local changes. No deployment or purge is performed.",
+    "documentSelection": "Only the first PDF URL declared in src/data/resources.ts is requested; no complete PDF body or other PDFs are downloaded."
+  },
+  "selections": [
+    {
+      "id": "home",
+      "type": "html",
+      "url": "/"
+    },
+    {
+      "id": "collection",
+      "type": "html",
+      "url": "/solucoes/lendo-e-escrevendo"
+    },
+    {
+      "id": "prices",
+      "type": "html",
+      "url": "/recursos/tabela-precos"
+    },
+    {
+      "id": "english",
+      "type": "html",
+      "url": "/en"
+    },
+    {
+      "id": "spanish",
+      "type": "html",
+      "url": "/es"
+    },
+    {
+      "id": "social-image",
+      "type": "image",
+      "url": "/images/social/aprender-share.jpg"
+    },
+    {
+      "id": "price-image",
+      "type": "image",
+      "url": "/images/resources/tabela-precos-2027.jpg"
+    },
+    {
+      "id": "first-document",
+      "type": "pdf",
+      "url": "/documents/acbr-matematica-5-ano.pdf"
+    },
+    {
+      "id": "generated-javascript",
+      "type": "javascript",
+      "url": "/_next/static/immutable/chunks/3douyljdx_-l2.js"
+    },
+    {
+      "id": "generated-stylesheet",
+      "type": "stylesheet",
+      "url": "/_next/static/immutable/chunks/3zu_jnv3wo7_3.css"
+    }
+  ],
+  "requests": [
+    {
+      "resource": "home",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "W/\"ded98c500603e5020f21bdc3c297ffa6\"",
+        "age": "46236",
+        "x-vercel-cache": "HIT",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body": "Home HTML consumed for asset discovery"
+    },
+    {
+      "resource": "collection",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/solucoes/lendo-e-escrevendo",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "W/\"a89a086d90a9fcc5e6919abedab319c0\"",
+        "age": "18958",
+        "x-vercel-cache": "HIT",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "prices",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/recursos/tabela-precos",
+      "status": 200,
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "age": "0",
+        "x-vercel-cache": "MISS",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "english",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/en",
+      "status": 404,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "W/\"c798e648c6096a6fc29ceb91e1c4264a\"",
+        "last-modified": "Thu, 15 Oct 2026 14:03:03 GMT",
+        "age": "18492",
+        "x-vercel-cache": "HIT",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "spanish",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/es",
+      "status": 404,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "W/\"c798e648c6096a6fc29ceb91e1c4264a\"",
+        "last-modified": "Thu, 15 Oct 2026 14:03:03 GMT",
+        "age": "18492",
+        "x-vercel-cache": "HIT",
+        "content-type": "text/html; charset=utf-8"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "social-image",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"fa4dec4989d6b9202f39bcccb758e3b2\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:16 GMT",
+        "age": "0",
+        "x-vercel-cache": "MISS",
+        "content-type": "image/jpeg"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "social-image",
+      "method": "HEAD",
+      "url": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"fa4dec4989d6b9202f39bcccb758e3b2\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:16 GMT",
+        "age": "0",
+        "x-vercel-cache": "HIT",
+        "content-type": "image/jpeg"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "social-image",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/images/social/aprender-share.jpg",
+      "requestHeaders": {
+        "If-None-Match": "\"fa4dec4989d6b9202f39bcccb758e3b2\""
+      },
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"fa4dec4989d6b9202f39bcccb758e3b2\"",
+        "x-vercel-cache": "HIT"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "price-image",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/images/resources/tabela-precos-2027.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"8cb1743f5184711117545665c6f4bbef\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:16 GMT",
+        "age": "0",
+        "x-vercel-cache": "MISS",
+        "content-type": "image/jpeg"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "price-image",
+      "method": "HEAD",
+      "url": "https://aprender-site.vercel.app/images/resources/tabela-precos-2027.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"8cb1743f5184711117545665c6f4bbef\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:16 GMT",
+        "age": "0",
+        "x-vercel-cache": "HIT",
+        "content-type": "image/jpeg"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "price-image",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/images/resources/tabela-precos-2027.jpg",
+      "requestHeaders": {
+        "If-None-Match": "\"8cb1743f5184711117545665c6f4bbef\""
+      },
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"8cb1743f5184711117545665c6f4bbef\"",
+        "x-vercel-cache": "HIT"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "first-document",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/documents/acbr-matematica-5-ano.pdf",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"75e5114589e5aa8e412fbc8cddc77b19\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:17 GMT",
+        "age": "0",
+        "x-vercel-cache": "MISS",
+        "content-type": "application/pdf"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "first-document",
+      "method": "HEAD",
+      "url": "https://aprender-site.vercel.app/documents/acbr-matematica-5-ano.pdf",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"75e5114589e5aa8e412fbc8cddc77b19\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:18 GMT",
+        "age": "0",
+        "x-vercel-cache": "HIT",
+        "content-type": "application/pdf"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "first-document",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/documents/acbr-matematica-5-ano.pdf",
+      "requestHeaders": {
+        "If-None-Match": "\"75e5114589e5aa8e412fbc8cddc77b19\""
+      },
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"75e5114589e5aa8e412fbc8cddc77b19\"",
+        "x-vercel-cache": "HIT"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "first-document",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/documents/acbr-matematica-5-ano.pdf",
+      "requestHeaders": {
+        "Range": "bytes=0-63"
+      },
+      "status": 206,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "etag": "\"75e5114589e5aa8e412fbc8cddc77b19\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:18 GMT",
+        "age": "0",
+        "x-vercel-cache": "HIT",
+        "content-type": "application/pdf",
+        "content-range": "bytes 0-63/5784887"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-javascript",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/_next/static/immutable/chunks/3douyljdx_-l2.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable",
+        "etag": "W/\"_next/static/immutable/chunks/3douyljdx_-l2.js\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:18 GMT",
+        "age": "0",
+        "x-vercel-cache": "MISS",
+        "content-type": "application/javascript; charset=utf-8"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-javascript",
+      "method": "HEAD",
+      "url": "https://aprender-site.vercel.app/_next/static/immutable/chunks/3douyljdx_-l2.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable",
+        "etag": "W/\"_next/static/immutable/chunks/3douyljdx_-l2.js\"",
+        "last-modified": "Thu, 15 Oct 2026 19:11:18 GMT",
+        "age": "0",
+        "x-vercel-cache": "HIT",
+        "content-type": "application/javascript; charset=utf-8"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-javascript",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/_next/static/immutable/chunks/3douyljdx_-l2.js",
+      "requestHeaders": {
+        "If-None-Match": "W/\"_next/static/immutable/chunks/3douyljdx_-l2.js\""
+      },
+      "status": 304,
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable",
+        "etag": "\"_next/static/immutable/chunks/3douyljdx_-l2.js\"",
+        "x-vercel-cache": "HIT"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-stylesheet",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/_next/static/immutable/chunks/3zu_jnv3wo7_3.css",
+      "status": 200,
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable",
+        "etag": "W/\"_next/static/immutable/chunks/3zu_jnv3wo7_3.css\"",
+        "last-modified": "Thu, 15 Oct 2026 06:20:38 GMT",
+        "age": "46240",
+        "x-vercel-cache": "HIT",
+        "content-type": "text/css; charset=utf-8"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-stylesheet",
+      "method": "HEAD",
+      "url": "https://aprender-site.vercel.app/_next/static/immutable/chunks/3zu_jnv3wo7_3.css",
+      "status": 200,
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable",
+        "etag": "W/\"_next/static/immutable/chunks/3zu_jnv3wo7_3.css\"",
+        "last-modified": "Thu, 15 Oct 2026 06:20:38 GMT",
+        "age": "46240",
+        "x-vercel-cache": "HIT",
+        "content-type": "text/css; charset=utf-8"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-stylesheet",
+      "method": "GET",
+      "url": "https://aprender-site.vercel.app/_next/static/immutable/chunks/3zu_jnv3wo7_3.css",
+      "requestHeaders": {
+        "If-None-Match": "W/\"_next/static/immutable/chunks/3zu_jnv3wo7_3.css\""
+      },
+      "status": 304,
+      "headers": {
+        "cache-control": "public,max-age=31536000,immutable",
+        "etag": "\"_next/static/immutable/chunks/3zu_jnv3wo7_3.css\"",
+        "x-vercel-cache": "HIT"
+      },
+      "body": "No response body"
+    }
+  ],
+  "skipped": [
+    {
+      "resource": "generated-font",
+      "reason": "No matching /_next/static/ URL was present in the fetched home HTML"
+    }
+  ],
+  "finishedAt": "2026-10-15T19:11:21.507Z",
+  "summary": {
+    "resources": 10,
+    "requests": 21,
+    "networkErrors": 0,
+    "httpErrors": 2,
+    "conditionalResponses": [
+      {
+        "resource": "social-image",
+        "status": 304
+      },
+      {
+        "resource": "price-image",
+        "status": 304
+      },
+      {
+        "resource": "first-document",
+        "status": 304
+      },
+      {
+        "resource": "generated-javascript",
+        "status": 304
+      },
+      {
+        "resource": "generated-stylesheet",
+        "status": 304
+      }
+    ]
+  }
+}

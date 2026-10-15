@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-10-15T16:04:20.668Z",
+  "baseline": "docs/refinement/performance.json",
+  "baselineCheckedAt": "2026-10-15T03:26:52.153Z",
+  "after": "docs/accessibility/performance-after.json",
+  "method": "Microsoft Edge headless, fresh context, browser cache disabled, local production server, 150 ms simulated latency, 1.6 Mbps download, 0.75 Mbps upload and 4× CPU slowdown. One navigation per route and viewport; lab snapshot, not Lighthouse or field data. LCP observed until 1.5 seconds after network idle.",
+  "comparison": [
+    {
+      "route": "/",
+      "width": 390,
+      "lcpBefore": 1164,
+      "lcpAfter": 1500,
+      "clsBefore": 0.07090607606657746,
+      "clsAfter": 0.05898883869049984,
+      "transferBefore": 429852,
+      "transferAfter": 417442
+    },
+    {
+      "route": "/solucoes",
+      "width": 390,
+      "lcpBefore": 840,
+      "lcpAfter": 1052,
+      "clsBefore": 0.00012593452009682552,
+      "clsAfter": 0.00006425230617184975,
+      "transferBefore": 498858,
+      "transferAfter": 486320
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "width": 390,
+      "lcpBefore": 1084,
+      "lcpAfter": 1240,
+      "clsBefore": 0.017893151571208257,
+      "clsAfter": 0.014070298522423731,
+      "transferBefore": 464290,
+      "transferAfter": 428492
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "width": 390,
+      "lcpBefore": 888,
+      "lcpAfter": 1060,
+      "clsBefore": 0.014869447997818948,
+      "clsAfter": 0.00951844096755478,
+      "transferBefore": 388181,
+      "transferAfter": 395029
+    },
+    {
+      "route": "/acervo",
+      "width": 390,
+      "lcpBefore": 928,
+      "lcpAfter": 1136,
+      "clsBefore": 0.00022858905283245764,
+      "clsAfter": 0.00008127916730738994,
+      "transferBefore": 652856,
+      "transferAfter": 659778
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "lcpBefore": 1072,
+      "lcpAfter": 1204,
+      "clsBefore": 0.018800300247757525,
+      "clsAfter": 0.01879890774197049,
+      "transferBefore": 572085,
+      "transferAfter": 513298
+    },
+    {
+      "route": "/solucoes",
+      "width": 1440,
+      "lcpBefore": 892,
+      "lcpAfter": 948,
+      "clsBefore": 0.00040061306423611114,
+      "clsAfter": 0.0003992205584490741,
+      "transferBefore": 714377,
+      "transferAfter": 631980
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "width": 1440,
+      "lcpBefore": 964,
+      "lcpAfter": 1124,
+      "clsBefore": 0.00032685697579089507,
+      "clsAfter": 0.000325464470003858,
+      "transferBefore": 535554,
+      "transferAfter": 479446
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "width": 1440,
+      "lcpBefore": 900,
+      "lcpAfter": 956,
+      "clsBefore": 0.0034681599934895833,
+      "clsAfter": 0.003336798773871528,
+      "transferBefore": 461503,
+      "transferAfter": 411056
+    },
+    {
+      "route": "/acervo",
+      "width": 1440,
+      "lcpBefore": 940,
+      "lcpAfter": 1036,
+      "clsBefore": 0.03275449552559559,
+      "clsAfter": 0.030861407116548514,
+      "transferBefore": 726147,
+      "transferAfter": 680523
+    }
+  ],
+  "locales": {
+    "pt": {
+      "count": 10,
+      "lcpMin": 948,
+      "lcpMax": 1500,
+      "clsMax": 0.05898883869049984
+    },
+    "en": {
+      "count": 10,
+      "lcpMin": 908,
+      "lcpMax": 1312,
+      "clsMax": 0.030531016122323493
+    },
+    "es": {
+      "count": 10,
+      "lcpMin": 920,
+      "lcpMax": 1360,
+      "clsMax": 0.041213074182581015
+    }
+  },
+  "automaticHeavyResources": []
+}

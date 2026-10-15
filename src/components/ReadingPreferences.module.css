@@ -1,0 +1,20 @@
+.trigger,.actions button,.close { min-height: 44px; border: 1px solid var(--control-border); background: var(--surface); color: var(--ink); font: inherit; border-radius: 5px; cursor: pointer; padding: .5em .8em; transition: background-color var(--motion-control) var(--ease-out); }
+.trigger { width:100%; text-align:left; font-size:.9375rem; font-weight:600; }
+.dialog { color: var(--ink); background: var(--surface); width: min(40rem,calc(100vw - 24px)); max-width: none; max-height: calc(100dvh - 24px); overflow: auto; padding: clamp(16px,3vw,32px); border: 1px solid var(--control-border); border-radius: 10px; margin: auto; }
+.dialog::backdrop { background: var(--overlay); }
+.top { display: flex; gap: 16px; justify-content: space-between; align-items: flex-start; }
+.top h2 { font: 600 1.5rem/1.3 var(--sans); margin: 0; }
+.close { min-width: 44px; flex-shrink: 0; padding: 0; font-size: 1.75rem; line-height: 1; }
+.dialog p { font-size: .9375rem; line-height: 1.65; margin-block: 1em; }
+.dialog fieldset { min-width: 0; margin: 1.4em 0; padding: 0; border: 0; }
+.dialog legend { font-size: 1rem; font-weight: 700; margin-bottom: .5em; }
+.options { display: flex; flex-wrap: wrap; gap: 8px; }
+.options label { display: inline-flex; align-items: center; gap: .45em; min-height: 44px; padding: .35em .65em; border: 1px solid var(--control-border); border-radius: 5px; cursor: pointer; font-size: .9375rem; overflow-wrap: anywhere; }
+.options label:has(input:checked) { background: var(--surface-soft); border-color: var(--action); }
+.options input { accent-color: var(--action); inline-size: 1.1em; block-size: 1.1em; flex-shrink: 0; }
+.options label:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; font-size: .9375rem; }
+.actions a { color: var(--link); text-underline-offset: .2em; }
+.status { min-height: 1.65em; }
+@media (hover:hover) and (pointer:fine) { .trigger:not(:disabled):hover,.actions button:not(:disabled):hover,.close:not(:disabled):hover { background: var(--hover-surface); } }
+@media (forced-colors:active) { .options label:has(input:checked) { outline: 2px solid Highlight; } }

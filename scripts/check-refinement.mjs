@@ -89,7 +89,7 @@ const baseline = json(baselinePath);
 const before = baseline.content;
 const routes = publicRoutes(data);
 report.baselineCommit = baseline.gitCommit;
-check('public-route-count', routes.length === 39, routes.join(', '));
+check('public-route-count', routes.length === 40 && routes.includes('/acessibilidade'), routes.join(', '));
 const counts = {
   solutions: current.solutions.length, prices: current.prices.length,
   samples: current.resources.filter(row => row.kind === 'sample').length,

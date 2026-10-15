@@ -5,18 +5,18 @@
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: clamp(24px, 4vw, 48px);
-  background: #fff;
+  background: var(--surface);
 }
 .eyebrow {
   color: var(--green);
-  font-size: 10px;
+  font-size: 0.625rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 .formHeading h2 {
   font-family: var(--serif);
-  font-size: clamp(28px, 3vw, 35px);
+  font-size: clamp(1.75rem, calc(3vw * var(--type-scale)), 2.1875rem);
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.025em;
@@ -24,13 +24,13 @@
   margin: 14px 0;
 }
 .formHeading > p {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.7;
   color: var(--muted);
   margin: 0;
 }
 .requiredNote {
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--muted);
   margin: 28px 0 20px;
 }
@@ -51,7 +51,7 @@
 .field label {
   display: block;
   margin-bottom: 8px;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   line-height: 1.5;
   color: var(--ink);
@@ -60,7 +60,7 @@
   color: var(--green);
 }
 .optional {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 400;
   color: var(--muted);
 }
@@ -72,10 +72,10 @@
   min-width: 0;
   padding: 13px 14px;
   min-height: 50px;
-  background: #fff;
-  border: 1px solid #809584;
+  background: var(--surface);
+  border: 1px solid var(--control-border);
   border-radius: 4px;
-  font: 15px/1.5 var(--sans);
+  font: 0.9375rem/1.5 var(--sans);
   color: var(--ink);
 }
 .field select {
@@ -88,23 +88,23 @@
 }
 .field input::placeholder,
 .field textarea::placeholder {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: var(--muted);
   opacity: 1;
 }
 .field [aria-invalid="true"] {
-  border-color: #a43b2d;
-  background: #fffaf8;
+  border-color: var(--error);
+  background: var(--error-surface);
 }
 .error {
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.6;
   margin: 8px 0 0;
-  color: #a02e21;
+  color: var(--error);
 }
 .errorSummary {
-  color: #a02e21;
-  font-size: 12px;
+  color: var(--error);
+  font-size: 0.75rem;
   line-height: 1.6;
   margin: 20px 0 0;
 }
@@ -121,18 +121,25 @@
   border: 0;
   border-radius: 4px;
   background: var(--green);
-  color: #fff;
-  font: 600 13px/1.4 var(--sans);
+  color: var(--action-text);
+  font: 600 0.8125rem/1.4 var(--sans);
   text-decoration: none;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background-color var(--motion-control) var(--ease-out);
 }
-.primaryButton:hover {
-  background: var(--deep);
+.primaryButton:not(:disabled):active { background: var(--action-active); }
+@media (hover: hover) and (pointer: fine) {
+.primaryButton:not(:disabled):hover {
+  background: var(--action-hover);
 }
+}
+
+:global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .fields { grid-template-columns: minmax(0,1fr); }
+:global(html:is([data-text-size="125"],[data-text-size="150"],[data-text-size="175"],[data-text-size="200"])) .fullWidth { grid-column: auto; }
+.primaryButton,.copyButton { max-width: 100%; overflow-wrap: anywhere; }
 .submitArea > p {
   margin: 16px 0 0;
-  font-size: 11px;
+  font-size: 0.6875rem;
   color: var(--muted);
   line-height: 1.7;
   max-width: 430px;
@@ -141,7 +148,7 @@
   margin-top: 24px;
   padding: clamp(24px, 4vw, 40px);
   background: var(--soft);
-  border: 1px solid #b4cab6;
+  border: 1px solid var(--line);
   border-radius: 8px;
   scroll-margin-top: 120px;
 }
@@ -152,24 +159,24 @@
   width: 36px;
   height: 36px;
   background: var(--green);
-  color: #fff;
+  color: var(--action-text);
   border-radius: 50%;
   margin-bottom: 18px;
 }
 .result h3 {
-  font: 500 27px/1.25 var(--serif);
+  font: 500 1.6875rem/1.25 var(--serif);
   color: var(--ink);
   margin: 0 0 12px;
 }
 .result > p {
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.7;
   color: var(--muted);
   margin: 0 0 22px;
 }
 .result > label {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--ink);
   font-weight: 700;
   margin: 0 0 10px;
@@ -181,10 +188,10 @@
   resize: vertical;
   min-height: 230px;
   padding: 18px;
-  border: 1px solid #809584;
+  border: 1px solid var(--control-border);
   border-radius: 4px;
-  background: #fff;
-  font: 13px/1.7 var(--sans);
+  background: var(--surface);
+  font: 0.8125rem/1.7 var(--sans);
   color: var(--ink);
 }
 .resultActions {
@@ -204,19 +211,22 @@
   gap: 10px;
   min-height: 48px;
   padding: 12px 15px;
-  border: 1px solid #668b6f;
+  border: 1px solid var(--control-border);
   border-radius: 4px;
   color: var(--deep);
   background: transparent;
-  font: 600 12px var(--sans);
+  font: 600 0.75rem var(--sans);
   cursor: pointer;
+  transition: background-color var(--motion-control) var(--ease-out), border-color var(--motion-control) var(--ease-out);
 }
-.copyButton:hover {
-  background: #d5e6d5;
+@media (hover: hover) and (pointer: fine) {
+.copyButton:not(:disabled):hover {
+  background: var(--hover-surface);
+}
 }
 .result .resultHint {
   margin: 20px 0 0;
-  font-size: 11px;
+  font-size: 0.6875rem;
   overflow-wrap: anywhere;
 }
 .resultHint a {
@@ -225,7 +235,7 @@
 }
 .result .copyStatus {
   color: var(--deep);
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   margin: 15px 0 0;
 }
@@ -244,7 +254,7 @@
   .field select,
   .field textarea,
   .result textarea {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .resultActions {
     flex-direction: column;

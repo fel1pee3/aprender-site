@@ -1,6 +1,13 @@
 import type { CSSProperties } from "react";
 
 const paths: Record<string, React.ReactNode> = {
+  accessibility: (
+    <>
+      <circle cx="12" cy="12" r="10" />
+      <circle cx="12" cy="6.5" r="1" />
+      <path d="m6.5 10 5.5 1 5.5-1M12 11v4m0-1-3 4m3-4 3 4" />
+    </>
+  ),
   arrow: (
     <>
       <path d="M4 12h15m-6-6 6 6-6 6" />

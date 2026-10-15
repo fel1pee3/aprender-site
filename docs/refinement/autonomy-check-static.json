@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-15T03:26:05.455Z",
-  "base": "http://localhost:3100",
+  "checkedAt": "2026-10-15T16:01:37.030Z",
+  "base": "http://127.0.0.1:3101",
   "mode": "static",
   "checks": [
     {
@@ -16,7 +16,7 @@
     {
       "id": "public-route-count",
       "pass": true,
-      "detail": "/, /a-editora, /a-editora/edgar-linhares, /a-editora/paic, /a-editora/trajetoria, /acervo, /contato, /em-acao, /em-acao/acompanhamento-palhano-2010, /em-acao/brincando-com-as-fichas-novo-oriente-2011, /em-acao/vinte-anos-compromisso-aprendizagem, /formacao, /plataformas, /recursos, /recursos/tabela-precos, /solucoes, /solucoes/a-cor-da-gente, /solucoes/acerta-brasil, /solucoes/amma, /solucoes/avancando-juntos, /solucoes/brincando-e-aprendendo, /solucoes/cataventos, /solucoes/educacao-financeira, /solucoes/escrever-comunicar-e-ser, /solucoes/fluir-das-emocoes, /solucoes/ideb-nota-10, /solucoes/ingles, /solucoes/lendo-e-escrevendo, /solucoes/ler-ouvir-e-contar, /solucoes/miudezas-e-descobertas, /solucoes/novo-lendo-voce-fica-sabendo, /solucoes/projeto-tema, /solucoes/sou-da-paz, /solucoes/superativar, /solucoes/transito-legal, /solucoes/uni-duni-te, /solucoes/vida-e-ciencias, /solucoes/vida-e-linguagem, /solucoes/vida-e-matematica"
+      "detail": "/, /a-editora, /a-editora/edgar-linhares, /a-editora/paic, /a-editora/trajetoria, /acervo, /acessibilidade, /contato, /em-acao, /em-acao/acompanhamento-palhano-2010, /em-acao/brincando-com-as-fichas-novo-oriente-2011, /em-acao/vinte-anos-compromisso-aprendizagem, /formacao, /plataformas, /recursos, /recursos/tabela-precos, /solucoes, /solucoes/a-cor-da-gente, /solucoes/acerta-brasil, /solucoes/amma, /solucoes/avancando-juntos, /solucoes/brincando-e-aprendendo, /solucoes/cataventos, /solucoes/educacao-financeira, /solucoes/escrever-comunicar-e-ser, /solucoes/fluir-das-emocoes, /solucoes/ideb-nota-10, /solucoes/ingles, /solucoes/lendo-e-escrevendo, /solucoes/ler-ouvir-e-contar, /solucoes/miudezas-e-descobertas, /solucoes/novo-lendo-voce-fica-sabendo, /solucoes/projeto-tema, /solucoes/sou-da-paz, /solucoes/superativar, /solucoes/transito-legal, /solucoes/uni-duni-te, /solucoes/vida-e-ciencias, /solucoes/vida-e-linguagem, /solucoes/vida-e-matematica"
     },
     {
       "id": "preserved-count-solutions",
@@ -10524,6 +10524,11 @@
       "detail": "Local image sources plus config inspected; server-side optimizer targets are also decoded from rendered URLs."
     },
     {
+      "id": "css-source-src\\app\\acessibilidade\\page.module.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "css-source-src\\app\\globals.css",
       "pass": true,
       "detail": ""
@@ -10569,7 +10574,22 @@
       "detail": ""
     },
     {
+      "id": "css-source-src\\components\\LanguageSwitcher.module.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "css-source-src\\components\\ReadingPreferences.module.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
       "id": "css-source-src\\components\\ui.module.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "id": "css-source-src\\components\\VLibras.module.css",
       "pass": true,
       "detail": ""
     },
@@ -10923,11 +10943,11 @@
     "catalogueIndicators": 4
   },
   "summary": {
-    "total": 2144,
-    "passed": 2144,
+    "total": 2148,
+    "passed": 2148,
     "failed": 0,
     "pages": 0,
-    "expectedPages": 39,
+    "expectedPages": 40,
     "localAssets": 346,
     "requests": 0,
     "editorialChanges": 29

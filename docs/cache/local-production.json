@@ -1,0 +1,538 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15T19:17:35.771Z",
+  "base": "http://127.0.0.1:3101",
+  "method": {
+    "runtime": "Node v22.21.1 fetch; no browser cache or cookie jar",
+    "requests": "Real GETs followed by HEAD and conditional GET for selected files when a validator is present. Home HTML and its HTTP Link preloads discover generated JS/CSS/font URLs; other bodies are canceled after headers. A single selected PDF also receives Range: bytes=0-63, with its body canceled after headers.",
+    "conditionals": "Conditional GETs use fetch cache: no-cache with an explicit Cache-Control: max-age=0 request header, recorded with the validator. Node/Undici's default fetch mode otherwise adds Pragma: no-cache and Cache-Control: no-cache to requests carrying validators; those reload headers can make a server correctly return 200 instead of 304. This script requests validation without those reload headers; response status remains an observation, not an assertion.",
+    "interpretation": "Observed response headers only; missing headers are omitted. No HIT, 304 or Range support is assumed. This is HTTP evidence, not a browser transfer/performance comparison or proof of production CDN behavior for an unpublished checkout.",
+    "publication": "Local server: the report cannot establish final Vercel CDN headers. Run against a production build, not next dev.",
+    "documentSelection": "Only the first PDF URL declared in src/data/resources.ts is requested; no complete PDF body or other PDFs are downloaded."
+  },
+  "selections": [
+    {
+      "id": "home",
+      "type": "html",
+      "url": "/"
+    },
+    {
+      "id": "collection",
+      "type": "html",
+      "url": "/solucoes/lendo-e-escrevendo"
+    },
+    {
+      "id": "prices",
+      "type": "html",
+      "url": "/recursos/tabela-precos"
+    },
+    {
+      "id": "english",
+      "type": "html",
+      "url": "/en"
+    },
+    {
+      "id": "spanish",
+      "type": "html",
+      "url": "/es"
+    },
+    {
+      "id": "social-image",
+      "type": "image",
+      "url": "/images/social/aprender-share.jpg"
+    },
+    {
+      "id": "price-image",
+      "type": "image",
+      "url": "/images/resources/tabela-precos-2027.jpg"
+    },
+    {
+      "id": "social-image-versioned",
+      "type": "image",
+      "url": "/images/social/aprender-share.jpg?v=a024d44617d0681f"
+    },
+    {
+      "id": "first-document",
+      "type": "pdf",
+      "url": "/documents/acbr-matematica-5-ano.pdf"
+    },
+    {
+      "id": "generated-javascript",
+      "type": "javascript",
+      "url": "/_next/static/chunks/05zoy7dptlos4.js"
+    },
+    {
+      "id": "generated-stylesheet",
+      "type": "stylesheet",
+      "url": "/_next/static/chunks/3loq_ded4qie8.css"
+    },
+    {
+      "id": "generated-font",
+      "type": "font",
+      "url": "/_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf"
+    }
+  ],
+  "requests": [
+    {
+      "resource": "home",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/",
+      "status": 200,
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "content-type": "text/html; charset=utf-8",
+        "link": "</_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/media/manrope_latin_variable.p.3rjk17h6oms_8.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+      },
+      "body": "Home HTML consumed for asset discovery"
+    },
+    {
+      "resource": "collection",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/solucoes/lendo-e-escrevendo",
+      "status": 200,
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "content-type": "text/html; charset=utf-8",
+        "link": "</_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/media/manrope_latin_variable.p.3rjk17h6oms_8.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "prices",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/recursos/tabela-precos",
+      "status": 200,
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "content-type": "text/html; charset=utf-8",
+        "link": "</_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/media/manrope_latin_variable.p.3rjk17h6oms_8.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "english",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/en",
+      "status": 200,
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "content-type": "text/html; charset=utf-8",
+        "link": "</_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/media/manrope_latin_variable.p.3rjk17h6oms_8.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "spanish",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/es",
+      "status": 200,
+      "headers": {
+        "cache-control": "private, no-cache, no-store, max-age=0, must-revalidate",
+        "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch, Accept-Encoding",
+        "content-type": "text/html; charset=utf-8",
+        "link": "</_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\", </_next/static/media/manrope_latin_variable.p.3rjk17h6oms_8.ttf>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/ttf\""
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "social-image",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/images/social/aprender-share.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"16f6e-1a13d7d6b2e\"",
+        "last-modified": "Thu, 15 Oct 2026 02:56:32 GMT",
+        "content-type": "image/jpeg",
+        "accept-ranges": "bytes",
+        "content-length": "94062"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "social-image",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/images/social/aprender-share.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"16f6e-1a13d7d6b2e\"",
+        "last-modified": "Thu, 15 Oct 2026 02:56:32 GMT",
+        "content-type": "image/jpeg",
+        "accept-ranges": "bytes",
+        "content-length": "94062"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "social-image",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/images/social/aprender-share.jpg",
+      "requestHeaders": {
+        "If-None-Match": "W/\"16f6e-1a13d7d6b2e\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"16f6e-1a13d7d6b2e\"",
+        "last-modified": "Thu, 15 Oct 2026 02:56:32 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "price-image",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/images/resources/tabela-precos-2027.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"17b93d-1a13b1cccd5\"",
+        "last-modified": "Wed, 14 Oct 2026 15:51:45 GMT",
+        "content-type": "image/jpeg",
+        "accept-ranges": "bytes",
+        "content-length": "1554749"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "price-image",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/images/resources/tabela-precos-2027.jpg",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"17b93d-1a13b1cccd5\"",
+        "last-modified": "Wed, 14 Oct 2026 15:51:45 GMT",
+        "content-type": "image/jpeg",
+        "accept-ranges": "bytes",
+        "content-length": "1554749"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "price-image",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/images/resources/tabela-precos-2027.jpg",
+      "requestHeaders": {
+        "If-None-Match": "W/\"17b93d-1a13b1cccd5\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"17b93d-1a13b1cccd5\"",
+        "last-modified": "Wed, 14 Oct 2026 15:51:45 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "social-image-versioned",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/images/social/aprender-share.jpg?v=a024d44617d0681f",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"16f6e-1a13d7d6b2e\"",
+        "last-modified": "Thu, 15 Oct 2026 02:56:32 GMT",
+        "content-type": "image/jpeg",
+        "accept-ranges": "bytes",
+        "content-length": "94062"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "social-image-versioned",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/images/social/aprender-share.jpg?v=a024d44617d0681f",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"16f6e-1a13d7d6b2e\"",
+        "last-modified": "Thu, 15 Oct 2026 02:56:32 GMT",
+        "content-type": "image/jpeg",
+        "accept-ranges": "bytes",
+        "content-length": "94062"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "social-image-versioned",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/images/social/aprender-share.jpg?v=a024d44617d0681f",
+      "requestHeaders": {
+        "If-None-Match": "W/\"16f6e-1a13d7d6b2e\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"16f6e-1a13d7d6b2e\"",
+        "last-modified": "Thu, 15 Oct 2026 02:56:32 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "first-document",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/documents/acbr-matematica-5-ano.pdf",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"584537-1a13d7a11d9\"",
+        "last-modified": "Thu, 15 Oct 2026 02:52:52 GMT",
+        "content-type": "application/pdf",
+        "accept-ranges": "bytes",
+        "content-length": "5784887"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "first-document",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/documents/acbr-matematica-5-ano.pdf",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"584537-1a13d7a11d9\"",
+        "last-modified": "Thu, 15 Oct 2026 02:52:52 GMT",
+        "content-type": "application/pdf",
+        "accept-ranges": "bytes",
+        "content-length": "5784887"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "first-document",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/documents/acbr-matematica-5-ano.pdf",
+      "requestHeaders": {
+        "If-None-Match": "W/\"584537-1a13d7a11d9\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"584537-1a13d7a11d9\"",
+        "last-modified": "Thu, 15 Oct 2026 02:52:52 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "first-document",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/documents/acbr-matematica-5-ano.pdf",
+      "requestHeaders": {
+        "Range": "bytes=0-63"
+      },
+      "status": 206,
+      "headers": {
+        "cache-control": "public, max-age=0",
+        "etag": "W/\"584537-1a13d7a11d9\"",
+        "last-modified": "Thu, 15 Oct 2026 02:52:52 GMT",
+        "content-type": "application/pdf",
+        "content-range": "bytes 0-63/5784887",
+        "accept-ranges": "bytes",
+        "content-length": "64"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-javascript",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/_next/static/chunks/05zoy7dptlos4.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"858a-1a140fd8af9\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript; charset=UTF-8",
+        "accept-ranges": "bytes"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-javascript",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/_next/static/chunks/05zoy7dptlos4.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"858a-1a140fd8af9\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "vary": "Accept-Encoding",
+        "content-type": "application/javascript; charset=UTF-8",
+        "accept-ranges": "bytes",
+        "content-length": "34186"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-javascript",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/_next/static/chunks/05zoy7dptlos4.js",
+      "requestHeaders": {
+        "If-None-Match": "W/\"858a-1a140fd8af9\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"858a-1a140fd8af9\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-stylesheet",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/_next/static/chunks/3loq_ded4qie8.css",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"5fa4-1a140fd8ae5\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css; charset=UTF-8",
+        "accept-ranges": "bytes"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-stylesheet",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/_next/static/chunks/3loq_ded4qie8.css",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"5fa4-1a140fd8ae5\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "vary": "Accept-Encoding",
+        "content-type": "text/css; charset=UTF-8",
+        "accept-ranges": "bytes",
+        "content-length": "24484"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-stylesheet",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/_next/static/chunks/3loq_ded4qie8.css",
+      "requestHeaders": {
+        "If-None-Match": "W/\"5fa4-1a140fd8ae5\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"5fa4-1a140fd8ae5\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-font",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"33ce4-1a140fd8acb\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "vary": "Accept-Encoding",
+        "content-type": "font/ttf",
+        "accept-ranges": "bytes"
+      },
+      "body": "Canceled after response headers"
+    },
+    {
+      "resource": "generated-font",
+      "method": "HEAD",
+      "url": "http://127.0.0.1:3101/_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"33ce4-1a140fd8acb\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "vary": "Accept-Encoding",
+        "content-type": "font/ttf",
+        "accept-ranges": "bytes",
+        "content-length": "212196"
+      },
+      "body": "No response body"
+    },
+    {
+      "resource": "generated-font",
+      "method": "GET",
+      "url": "http://127.0.0.1:3101/_next/static/media/lora_latin_variable.p.3485w8-p3mse9.ttf",
+      "requestHeaders": {
+        "If-None-Match": "W/\"33ce4-1a140fd8acb\"",
+        "Cache-Control": "max-age=0"
+      },
+      "fetchCache": "no-cache",
+      "status": 304,
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable",
+        "etag": "W/\"33ce4-1a140fd8acb\"",
+        "last-modified": "Thu, 15 Oct 2026 19:15:20 GMT",
+        "accept-ranges": "bytes"
+      },
+      "body": "No response body"
+    }
+  ],
+  "skipped": [],
+  "finishedAt": "2026-10-15T19:17:35.992Z",
+  "summary": {
+    "resources": 12,
+    "requests": 27,
+    "networkErrors": 0,
+    "httpErrors": 0,
+    "conditionalResponses": [
+      {
+        "resource": "social-image",
+        "status": 304
+      },
+      {
+        "resource": "price-image",
+        "status": 304
+      },
+      {
+        "resource": "social-image-versioned",
+        "status": 304
+      },
+      {
+        "resource": "first-document",
+        "status": 304
+      },
+      {
+        "resource": "generated-javascript",
+        "status": 304
+      },
+      {
+        "resource": "generated-stylesheet",
+        "status": 304
+      },
+      {
+        "resource": "generated-font",
+        "status": 304
+      }
+    ]
+  }
+}

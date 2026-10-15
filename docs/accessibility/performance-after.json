@@ -1,0 +1,576 @@
+{
+  "checkedAt": "2026-10-15T16:04:20.668Z",
+  "method": "Microsoft Edge headless, fresh context, browser cache disabled, local production server, 150 ms simulated latency, 1.6 Mbps download, 0.75 Mbps upload and 4× CPU slowdown. One navigation per route and viewport; lab snapshot, not Lighthouse or field data. LCP observed until 1.5 seconds after network idle.",
+  "measurements": [
+    {
+      "route": "/",
+      "locale": "pt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1500,
+      "cls": 0.05898883869049984,
+      "fcp": 1384,
+      "ttfb": 27.100000000558794,
+      "domContentLoaded": 1477.5,
+      "load": 2566.2999999998137,
+      "transferBytes": 417442,
+      "requests": 23,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en",
+      "locale": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1284,
+      "cls": 0.0009438174460237433,
+      "fcp": 1268,
+      "ttfb": 27,
+      "domContentLoaded": 1291.4000000003725,
+      "load": 2524.9000000003725,
+      "transferBytes": 434574,
+      "requests": 20,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es",
+      "locale": "es",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1360,
+      "cls": 0.0005353809913385731,
+      "fcp": 1344,
+      "ttfb": 37.799999999813735,
+      "domContentLoaded": 1372.8999999994412,
+      "load": 2638.2999999998137,
+      "transferBytes": 434672,
+      "requests": 20,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes",
+      "locale": "pt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1052,
+      "cls": 0.00006425230617184975,
+      "fcp": 1052,
+      "ttfb": 20.600000000558794,
+      "domContentLoaded": 1052.4000000003725,
+      "load": 2806.9000000003725,
+      "transferBytes": 486320,
+      "requests": 23,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/solucoes",
+      "locale": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1024,
+      "cls": 0.00006425230617184975,
+      "fcp": 1024,
+      "ttfb": 26.200000000186265,
+      "domContentLoaded": 1038.2000000001863,
+      "load": 2838.300000000745,
+      "transferBytes": 497366,
+      "requests": 22,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/solucoes",
+      "locale": "es",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 980,
+      "cls": 0.03633098733225289,
+      "fcp": 980,
+      "ttfb": 19.800000000745058,
+      "domContentLoaded": 990.6000000005588,
+      "load": 2894.4000000003725,
+      "transferBytes": 497154,
+      "requests": 22,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "locale": "pt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1240,
+      "cls": 0.014070298522423731,
+      "fcp": 1220,
+      "ttfb": 26.09999999962747,
+      "domContentLoaded": 1151.8999999994412,
+      "load": 2510,
+      "transferBytes": 428492,
+      "requests": 24,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/solucoes/lendo-e-escrevendo",
+      "locale": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1140,
+      "cls": 0.0002477665439429621,
+      "fcp": 1124,
+      "ttfb": 30,
+      "domContentLoaded": 1142.2999999998137,
+      "load": 2655.4000000003725,
+      "transferBytes": 461689,
+      "requests": 31,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/solucoes/lendo-e-escrevendo",
+      "locale": "es",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1192,
+      "cls": 0.00023344712110793004,
+      "fcp": 1172,
+      "ttfb": 82.40000000037253,
+      "domContentLoaded": 1196.5,
+      "load": 2623.9000000003725,
+      "transferBytes": 443791,
+      "requests": 20,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "locale": "pt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1060,
+      "cls": 0.00951844096755478,
+      "fcp": 1060,
+      "ttfb": 33.799999999813735,
+      "domContentLoaded": 1070.1000000005588,
+      "load": 2425.100000000559,
+      "transferBytes": 395029,
+      "requests": 18,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/recursos/tabela-precos",
+      "locale": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1312,
+      "cls": 0.006707324788100573,
+      "fcp": 1312,
+      "ttfb": 43.80000000074506,
+      "domContentLoaded": 1340.5,
+      "load": 2536.7000000001863,
+      "transferBytes": 406476,
+      "requests": 16,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/recursos/tabela-precos",
+      "locale": "es",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1156,
+      "cls": 0.013024925143363633,
+      "fcp": 1156,
+      "ttfb": 35.799999999813735,
+      "domContentLoaded": 1164,
+      "load": 2472.2000000001863,
+      "transferBytes": 406395,
+      "requests": 16,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/acervo",
+      "locale": "pt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1136,
+      "cls": 0.00008127916730738994,
+      "fcp": 1136,
+      "ttfb": 23.299999999813735,
+      "domContentLoaded": 1167.7999999998137,
+      "load": 3663.9000000003725,
+      "transferBytes": 659778,
+      "requests": 22,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/acervo",
+      "locale": "en",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1112,
+      "cls": 0.01111714222642124,
+      "fcp": 1112,
+      "ttfb": 25.399999999441206,
+      "domContentLoaded": 1142.5999999996275,
+      "load": 3716.399999999441,
+      "transferBytes": 678240,
+      "requests": 21,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/acervo",
+      "locale": "es",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "lcp": 1104,
+      "cls": 0.00011214862087554187,
+      "fcp": 1104,
+      "ttfb": 21.09999999962747,
+      "domContentLoaded": 1146.5999999996275,
+      "load": 3699,
+      "transferBytes": 678232,
+      "requests": 21,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/",
+      "locale": "pt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1204,
+      "cls": 0.01879890774197049,
+      "fcp": 1188,
+      "ttfb": 17.799999999813735,
+      "domContentLoaded": 1202.5,
+      "load": 2857.4000000003725,
+      "transferBytes": 513298,
+      "requests": 39,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en",
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1224,
+      "cls": 0.0007882380205319253,
+      "fcp": 1208,
+      "ttfb": 29.5,
+      "domContentLoaded": 1229.2000000001863,
+      "load": 2913.7000000001863,
+      "transferBytes": 528123,
+      "requests": 30,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es",
+      "locale": "es",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1056,
+      "cls": 0.0038064596745997297,
+      "fcp": 988,
+      "ttfb": 19.799999999813735,
+      "domContentLoaded": 987.3999999994412,
+      "load": 2905.5999999996275,
+      "transferBytes": 528226,
+      "requests": 30,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes",
+      "locale": "pt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 948,
+      "cls": 0.0003992205584490741,
+      "fcp": 948,
+      "ttfb": 20.59999999962747,
+      "domContentLoaded": 934.7000000001863,
+      "load": 3471.7999999998137,
+      "transferBytes": 631980,
+      "requests": 53,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/solucoes",
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 912,
+      "cls": 0.0004214171006944444,
+      "fcp": 912,
+      "ttfb": 17.90000000037253,
+      "domContentLoaded": 911.3000000007451,
+      "load": 3536.9000000003725,
+      "transferBytes": 638479,
+      "requests": 41,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/solucoes",
+      "locale": "es",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 920,
+      "cls": 0.0005031512225115741,
+      "fcp": 920,
+      "ttfb": 28.09999999962747,
+      "domContentLoaded": 912.8999999994412,
+      "load": 3544.2000000001863,
+      "transferBytes": 638356,
+      "requests": 41,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/solucoes/lendo-e-escrevendo",
+      "locale": "pt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1124,
+      "cls": 0.000325464470003858,
+      "fcp": 1108,
+      "ttfb": 21.299999999813735,
+      "domContentLoaded": 1112,
+      "load": 2724.7999999998137,
+      "transferBytes": 479446,
+      "requests": 50,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/solucoes/lendo-e-escrevendo",
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1036,
+      "cls": 0.0003669504273967978,
+      "fcp": 1020,
+      "ttfb": 22,
+      "domContentLoaded": 1025.2000000001863,
+      "load": 2732.800000000745,
+      "transferBytes": 492460,
+      "requests": 40,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/solucoes/lendo-e-escrevendo",
+      "locale": "es",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 996,
+      "cls": 0.00041728327244888123,
+      "fcp": 980,
+      "ttfb": 22.90000000037253,
+      "domContentLoaded": 994.7000000001863,
+      "load": 2753,
+      "transferBytes": 492538,
+      "requests": 40,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/recursos/tabela-precos",
+      "locale": "pt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 956,
+      "cls": 0.003336798773871528,
+      "fcp": 956,
+      "ttfb": 30.100000000558794,
+      "domContentLoaded": 960.9000000003725,
+      "load": 2369.4000000003725,
+      "transferBytes": 411056,
+      "requests": 34,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/recursos/tabela-precos",
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 908,
+      "cls": 0.002023705866307388,
+      "fcp": 908,
+      "ttfb": 25.200000000186265,
+      "domContentLoaded": 905.7000000001863,
+      "load": 2408.4000000003725,
+      "transferBytes": 419424,
+      "requests": 24,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/recursos/tabela-precos",
+      "locale": "es",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 956,
+      "cls": 0.0028297834608289932,
+      "fcp": 956,
+      "ttfb": 30.90000000037253,
+      "domContentLoaded": 943.8000000007451,
+      "load": 2379.9000000003725,
+      "transferBytes": 419348,
+      "requests": 24,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/acervo",
+      "locale": "pt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 1036,
+      "cls": 0.030861407116548514,
+      "fcp": 1036,
+      "ttfb": 16.299999999813735,
+      "domContentLoaded": 1051.2000000001863,
+      "load": 3743,
+      "transferBytes": 680523,
+      "requests": 40,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/en/acervo",
+      "locale": "en",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 992,
+      "cls": 0.030531016122323493,
+      "fcp": 992,
+      "ttfb": 22.199999999254942,
+      "domContentLoaded": 1019.8999999994412,
+      "load": 3807.0999999996275,
+      "transferBytes": 696302,
+      "requests": 32,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    },
+    {
+      "route": "/es/acervo",
+      "locale": "es",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "lcp": 968,
+      "cls": 0.041213074182581015,
+      "fcp": 968,
+      "ttfb": 20.200000000186265,
+      "domContentLoaded": 999.1000000005588,
+      "load": 3816.100000000559,
+      "transferBytes": 696295,
+      "requests": 32,
+      "pdfOrVideoAutomaticallyRequested": [],
+      "originalPriceImageAutomaticallyRequested": false,
+      "vlibrasAutomaticallyRequested": false
+    }
+  ]
+}

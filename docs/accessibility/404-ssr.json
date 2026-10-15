@@ -1,0 +1,119 @@
+{
+  "generatedAt": "2026-10-15T15:58:41.670Z",
+  "environment": "http://127.0.0.1:3101",
+  "method": "Raw HTTP response bodies plus Microsoft Edge headless, JavaScript enabled and disabled. No client scripts are needed to receive the localized error heading and document language.",
+  "reference": "node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/loading.md#status-codes",
+  "checks": [
+    {
+      "route": "/nao-existe",
+      "status": 404,
+      "expectedLang": "pt-BR",
+      "lang": "pt-BR",
+      "h1": "Vamos encontrar outro caminho?",
+      "errorShell": false
+    },
+    {
+      "route": "/solucoes/nao-existe",
+      "status": 404,
+      "expectedLang": "pt-BR",
+      "lang": "pt-BR",
+      "h1": "Vamos encontrar outro caminho?",
+      "errorShell": false
+    },
+    {
+      "route": "/em-acao/nao-existe",
+      "status": 404,
+      "expectedLang": "pt-BR",
+      "lang": "pt-BR",
+      "h1": "Vamos encontrar outro caminho?",
+      "errorShell": false
+    },
+    {
+      "route": "/en/nao-existe",
+      "status": 404,
+      "expectedLang": "en",
+      "lang": "en",
+      "h1": "Let&#x27;s find another way.",
+      "errorShell": false
+    },
+    {
+      "route": "/en/solucoes/nao-existe",
+      "status": 404,
+      "expectedLang": "en",
+      "lang": "en",
+      "h1": "Let&#x27;s find another way.",
+      "errorShell": false
+    },
+    {
+      "route": "/es/nao-existe",
+      "status": 404,
+      "expectedLang": "es",
+      "lang": "es",
+      "h1": "Busquemos otra opción.",
+      "errorShell": false
+    },
+    {
+      "route": "/es/em-acao/nao-existe",
+      "status": 404,
+      "expectedLang": "es",
+      "lang": "es",
+      "h1": "Busquemos otra opción.",
+      "errorShell": false
+    }
+  ],
+  "browserChecks": [
+    {
+      "javaScriptEnabled": false,
+      "route": "/es/solucoes/nao-existe?q=sample",
+      "url": "http://127.0.0.1:3101/es/solucoes/nao-existe?q=sample",
+      "status": 404,
+      "lang": "es",
+      "h1": "Busquemos otra opción.",
+      "errors": [],
+      "accessibilityFooterLink": "Accesibilidad",
+      "footerInternalLinks": [
+        "/es",
+        "/es/a-editora",
+        "/es/solucoes",
+        "/es/formacao",
+        "/es/em-acao",
+        "/es/acervo",
+        "/es/recursos",
+        "/es/recursos/tabela-precos",
+        "/es/acessibilidade",
+        "/es/plataformas",
+        "/es/contato",
+        "/es/contato"
+      ],
+      "recoveryUrl": "http://127.0.0.1:3101/es/solucoes",
+      "recoveryLang": "es"
+    },
+    {
+      "javaScriptEnabled": true,
+      "route": "/es/solucoes/nao-existe?q=sample",
+      "url": "http://127.0.0.1:3101/es/solucoes/nao-existe?q=sample",
+      "status": 404,
+      "lang": "es",
+      "h1": "Busquemos otra opción.",
+      "errors": [],
+      "accessibilityFooterLink": "Accesibilidad",
+      "footerInternalLinks": [
+        "/es",
+        "/es/a-editora",
+        "/es/solucoes",
+        "/es/formacao",
+        "/es/em-acao",
+        "/es/acervo",
+        "/es/recursos",
+        "/es/recursos/tabela-precos",
+        "/es/acessibilidade",
+        "/es/plataformas",
+        "/es/contato",
+        "/es/contato"
+      ],
+      "recoveryUrl": "http://127.0.0.1:3101/es/solucoes",
+      "recoveryLang": "es"
+    }
+  ],
+  "failures": []
+}
